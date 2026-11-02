@@ -1,0 +1,266 @@
+{
+  "updated_at": "2026-11-02",
+  "note": "企业资料仅收录可由企业官网、官方公告或可信行业来源支持的公开信息。未列出的产品参数、价格、市场份额、渠道和财务数据均不推断；新闻聚合条目为待核实线索。",
+  "watchlist": [
+    {
+      "name": "大牧人",
+      "region": "中国",
+      "type": "养殖设备",
+      "website": "https://www.damuren.com/"
+    },
+    {
+      "name": "广兴",
+      "region": "中国",
+      "type": "养殖设备",
+      "website": "https://www.cnguangxing.com/"
+    },
+    {
+      "name": "小巨人",
+      "region": "中国",
+      "type": "养殖设备",
+      "website": "https://www.cdxjr.com/"
+    },
+    {
+      "name": "万华",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "中裕",
+      "region": "中国",
+      "type": "养殖设备",
+      "website": "https://www.kaleter.com/index.html"
+    },
+    {
+      "name": "金凤",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "石井",
+      "region": "中国",
+      "type": "孵化设备"
+    },
+    {
+      "name": "云峰",
+      "region": "中国",
+      "type": "孵化设备"
+    },
+    {
+      "name": "三缘",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "任氏",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "瑞格",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "百航",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "闽台",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "晟兴科技",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "四方新域",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "罗克环控",
+      "region": "中国",
+      "type": "环控设备"
+    },
+    {
+      "name": "耀升",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "科创信达",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "华丽",
+      "region": "中国",
+      "type": "养殖设备"
+    },
+    {
+      "name": "Petersime",
+      "region": "国际",
+      "type": "孵化设备",
+      "website": "https://www.petersime.com/"
+    },
+    {
+      "name": "Pas Reform",
+      "region": "国际",
+      "type": "孵化设备",
+      "website": "https://www.pasreform.com/en/"
+    },
+    {
+      "name": "Jamesway",
+      "region": "国际",
+      "type": "孵化设备",
+      "website": "https://jamesway.com/"
+    },
+    {
+      "name": "KL Products",
+      "region": "国际",
+      "type": "孵化设备"
+    },
+    {
+      "name": "HatchTech",
+      "region": "国际",
+      "type": "孵化设备",
+      "website": "https://hatchtech.com/"
+    },
+    {
+      "name": "Viscon",
+      "region": "国际",
+      "type": "孵化及自动化",
+      "website": "https://www.viscon.com/"
+    },
+    {
+      "name": "EmTech",
+      "region": "国际",
+      "type": "孵化设备"
+    },
+    {
+      "name": "Ceva Ecat-iD Campus",
+      "region": "国际",
+      "type": "孵化管理/技术"
+    },
+    {
+      "name": "Big Dutchman",
+      "region": "国际",
+      "type": "养殖设备",
+      "website": "https://www.bigdutchman.com/"
+    },
+    {
+      "name": "FACCO",
+      "region": "国际",
+      "type": "养殖设备",
+      "website": "https://www.facco.net/"
+    },
+    {
+      "name": "Roxell",
+      "region": "国际",
+      "type": "养殖设备",
+      "website": "https://www.roxell.com/"
+    },
+    {
+      "name": "Vencomatic Group",
+      "region": "国际",
+      "type": "养殖设备",
+      "website": "https://www.vencomaticgroup.com/"
+    },
+    {
+      "name": "Chore-Time",
+      "region": "国际",
+      "type": "养殖设备",
+      "website": "https://www.choretime.com/"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Petersime",
+      "region": "比利时 / 国际",
+      "type": "孵化设备与整场方案",
+      "website": "https://www.petersime.com/",
+      "products": "孵化设备、孵化场软件、环控、整场交钥匙方案、数据记录器",
+      "verified_facts": "官网展示孵化设备、孵化场软件、环控及整场方案；案例包括中国福建圣农项目（年入孵1.2亿枚）及山东益生项目（年入孵1.4亿枚）。",
+      "technology": "官网近期展示UniStreamer智能孵化机，强调雏鸡均匀度与可追溯；另有Eagle Trax孵化场追溯方案。",
+      "source_type": "企业官网",
+      "source_url": "https://www.petersime.com/",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "Pas Reform",
+      "region": "荷兰 / 国际",
+      "type": "孵化设备与整场方案",
+      "website": "https://www.pasreform.com/en/",
+      "products": "Smart系列入孵机/出雏机、SmartSense、孵化场方案及服务",
+      "verified_facts": "官网公开SmartSetPro容量系列；SmartSetPro单机容量由22,032枚至132,192枚（按型号）。2026年8月发布波兰ZWD Białobrzegi项目案例。",
+      "technology": "SmartPro系列、区域温度控制及孵化场数据方案；具体配置以项目规格为准。",
+      "source_type": "企业官网",
+      "source_url": "https://www.pasreform.com/en/solutions/2/incubation/12/smartsetprotm-setter",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "HatchTech",
+      "region": "荷兰 / 国际",
+      "type": "孵化设备与雏鸡早期护理",
+      "website": "https://hatchtech.com/",
+      "products": "setter、hatcher、HatchCare、SetCare",
+      "verified_facts": "官网2026-10-23披露挪威Norsk Kylling在此前扩建后新增6台SetCare设备；官网亦列出2027年IPPE参展信息。",
+      "technology": "HatchCare雏鸡早期护理；SetCare孵化设备。",
+      "source_type": "企业官网新闻",
+      "source_url": "https://hatchtech.com/articles/",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "广兴",
+      "region": "中国",
+      "type": "自动化养殖设备",
+      "website": "https://www.cnguangxing.com/",
+      "products": "蛋鸡、育雏育成、种鸡、肉鸡成套设备；自动集蛋、输料及喂料系统",
+      "verified_facts": "官网披露集团1988年成立、产品覆盖多类自动化养殖系统，并介绍研发制造及出口业务。",
+      "technology": "成套自动化养鸡设备；未从本轮公开页面核实具体型号参数。",
+      "source_type": "企业官网",
+      "source_url": "https://www.cnguangxing.com/",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "中裕",
+      "region": "中国",
+      "type": "家禽养殖设备及环控",
+      "website": "https://www.kaleter.com/index.html",
+      "products": "种禽、肉禽、蛋禽饲养系统；农牧环保、环控、农牧机器人及雏禽运输车",
+      "verified_facts": "官网披露研发制造、设备安装与售后服务业务；2026-10-23新闻包含金莱种鸡EPC中标、海外项目投产等企业动态，细节需逐条查看公告。",
+      "technology": "环控系统、NEF节能鸡舍及农牧机器人产品线。",
+      "source_type": "企业官网",
+      "source_url": "https://www.kaleter.com/index.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "小巨人",
+      "region": "中国",
+      "type": "养殖设备与EPC",
+      "website": "https://www.cdxjr.com/",
+      "products": "智慧养殖整体解决方案、环境控制系统及EPC交钥匙服务",
+      "verified_facts": "官网2026-09-01披露安徽百万只母鸡项目一期竣工、泰国40万只蛋鸡项目环控培训、江西200万只蛋鸡项目育雏设备交付。",
+      "technology": "ECS环境控制系统；项目交付与培训能力为公开报道重点。",
+      "source_type": "企业官网新闻",
+      "source_url": "https://www.cdxjr.com/News/index_6.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "晓鸣股份（产业技术观察）",
+      "region": "中国",
+      "type": "禽业客户 / 技术应用标杆",
+      "website": "https://www.xmqy.com.cn/",
+      "products": "蛋鸡种业、孵化与雏鸡供应；非设备制造商竞品，作为技术与客户侧观察对象",
+      "verified_facts": "2026-11-02发布卵内胚胎性别鉴定AI技术规模化商业应用消息，报道准确率98%以上，并披露2027年规划落地6000万羽数字孵化厅。",
+      "technology": "高光谱成像、AI模型解析与自动化分拣；新闻称孵化第13天无损检测。",
+      "source_type": "中国证券报 / 中证网报道",
+      "source_url": "https://www.cs.com.cn/ssgs/01/2026/11/02/detail_2026110210049167.html",
+      "checked": "2026-11-02"
+    }
+  ]
+}
