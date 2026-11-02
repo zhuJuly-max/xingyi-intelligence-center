@@ -42,21 +42,22 @@
       "deadline": "2026-11-11 14:00（印度时间）",
       "opening": "2026-11-12 14:00（印度时间）",
       "status": "公开招标中 · 待核对官方规格文件",
-      "verification": "招标编号、数量、截止日期由招标索引披露；应以 GeM 官方 Bid Document / Buyer Specification 为准。",
+      "verification": "招标编号、数量、截止日期及资格摘要来自招标索引；完整买方规格文件尚待官方GeM文件核验。",
       "opportunity": "产品方向高度相关，但数量仅1台，可能是教学/示范中心采购，不代表大型商业孵化场项目。先核对容量、技术规格、资格条件与交付要求，再判断是否值得参与。",
       "source_type": "GeM招标索引（二手页面，待官方文件核验）",
       "source_url": "https://bidplus.gem.gov.in/",
       "secondary_sources": [
         {
-          "label": "招标摘要与技术文件索引",
+          "label": "招标摘要及买方规格文件入口",
           "url": "https://tenders.infralens.in/gem/egg-setter-machine-8183320"
         },
         {
-          "label": "招标详情",
-          "url": "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58139385/8e0c72dad47c81d886d1e90d729b4c1f"
+          "label": "政府GeM采购入口",
+          "url": "https://bidplus.gem.gov.in/"
         }
       ],
-      "published_at": "2026-10-21"
+      "published_at": "2026-10-21",
+      "eligibility": "投标人近三年平均营业额₹1.5 lakh；同类供货经验3年；历史供货业绩至少为本次数量20%；EMD未要求；履约保函5%/2个月。"
     },
     {
       "id": "IN-CEAH-EGG-HATCHER-2026",
@@ -65,25 +66,31 @@
       "title": "采购 Egg Hatcher Machine（出雏机）",
       "tender_id": "GEM/2026/B/8189269",
       "reference": "GeM Bid",
-      "scope": "1台 Egg Hatcher Machine（Q3）；聚合页面披露预算约₹2.85 lakh。具体容量、规格、配套和验收标准须核对官方招标文件。",
+      "scope": "1台 Egg Hatcher Machine（Q3），含安装调试；买方参数摘要：标注孵化容量10,080枚种蛋，2台孵化推车（每台28个大型出雏盘），机体外尺寸95×87×86英寸，面板厚度44mm。可选参数字段含单盘容量90/180/200枚、出雏篮数量30/50/55/60等，需以官方Buyer Specification确定最终配置。",
       "deadline": "2026-11-06 17:00（印度时间）",
-      "opening": "2026-11-07（印度时间，聚合页面显示）",
+      "opening": "2026-11-07 17:00（印度时间）",
       "status": "公开招标中 · 临近截止",
-      "verification": "招标编号、数量、截止日期和预算来自招标聚合页面；官方GeM文件尚待核验。",
-      "opportunity": "与孵化设备品类相关，但仅1台且预算较低，可能为教学/示范用途。可作为印度政府采购渠道和规格研究样本，商业优先级低于大型孵化场项目。",
+      "verification": "招标聚合页面转录买方技术参数和资格要求；尚未独立取得官方GeM Buyer Specification，须以原始文件为准。",
+      "opportunity": "容量约10,080枚，包含安装调试，能用于评估兴仪出雏机适配性。须重点核对电压/频率、温湿度控制精度、自动翻蛋/出雏篮规格、保温结构、交付及售后要求。预算约₹285,000，需核算当地竞争价格与服务成本。",
       "source_type": "GeM招标索引（二手页面，待官方文件核验）",
       "source_url": "https://bidplus.gem.gov.in/",
       "secondary_sources": [
         {
-          "label": "招标详情与截止日期",
-          "url": "https://www.tendershark.com/details/karnataka-tender/cattle-and-dairy-development-division/2e92ce08-4c92-4a4c-8b7c-c75c21da59f3"
+          "label": "招标详情与买方参数摘要",
+          "url": "https://tenders.infralens.in/gem/egg-hatcher-machine-8189269"
         },
         {
-          "label": "招标规格文件索引",
+          "label": "招标文件索引",
           "url": "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58158896/a57fdb17e432ae2ae08913c195080b09"
+        },
+        {
+          "label": "政府GeM采购入口",
+          "url": "https://bidplus.gem.gov.in/"
         }
       ],
-      "published_at": "2026-10-22"
+      "published_at": "2026-10-22",
+      "investment": "₹285,000（招标估算值）",
+      "eligibility": "投标人近三年平均营业额₹1.4 lakh；OEM近三年平均营业额₹11 lakh；同类供货经验3年；历史供货业绩至少为本次数量10%；不要求EMD，履约保函5%/2个月。"
     },
     {
       "id": "NG-ONDO-LPRES-COMPLETE-HATCHERY-2026",
