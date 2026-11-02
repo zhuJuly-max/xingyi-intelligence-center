@@ -59,3 +59,19 @@
 .project-foot span{font-size:9px;color:#91a0aa}
 .project-foot a{font-size:10px;color:#1767a6;font-weight:700;white-space:nowrap}
 @media(max-width:700px){.customer-projects{padding:16px}.project-grid{grid-template-columns:1fr}.project-foot{align-items:flex-start;flex-direction:column}}
+
+
+/* Public procurement radar */
+.tender-watch{margin-top:22px;padding:24px 26px;background:#f7f9fb;border:1px solid #dce6ed;border-radius:8px}
+.tender-list{display:grid;grid-template-columns:1fr;gap:12px}
+.tender-card{background:#fff;border:1px solid #dfe8ee;border-radius:7px;padding:18px}
+.tender-card-head{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.tender-card h4{font-size:15px;color:#18364d;margin:11px 0 3px}
+.tender-authority{font-size:11px;color:#738695;margin:0 0 13px}
+.tender-card dl{display:grid;gap:7px;margin:0}
+.tender-card dl>div{display:grid;grid-template-columns:90px 1fr;gap:8px;font-size:10px;line-height:1.7}
+.tender-card dt{color:#8293a0}.tender-card dd{margin:0;color:#536b7d}
+.tender-verification{font-size:10px;color:#8b6b32;margin:10px 0}
+.tender-links{display:flex;flex-wrap:wrap;gap:15px;border-top:1px solid #edf1f4;padding-top:11px}
+.tender-links a{font-size:10px;color:#1767a6;font-weight:700}
+@media(max-width:700px){.tender-watch{padding:16px}.tender-card dl>div{grid-template-columns:76px 1fr}}
