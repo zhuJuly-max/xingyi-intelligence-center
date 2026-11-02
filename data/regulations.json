@@ -1,0 +1,98 @@
+{
+  "updated_at": "2026-11-02",
+  "scope_note": "公开法规情报样本，不构成法律意见。设备产品与活禽/种蛋等动物产品贸易规则分别归档。除法规明确覆盖范围外，不推断某一型号必然需要某项认证。",
+  "records": [
+    {
+      "id": "id-import-framework-2026-18",
+      "country": "印度尼西亚",
+      "topic": "进口管理框架",
+      "title": "贸易部条例 Permendag No.18/2026（修订进口政策与管理）",
+      "published_at": "2026-06-03",
+      "effective_date": "2026-06-04",
+      "status": "现行有效（来源页面标记）",
+      "product_scope": "一般进口管理程序；涉及进口许可申请/变更/延期、检验员报告、海关进口申报文件、实际进口报告及行政制裁等。不是孵化设备专属许可。",
+      "equipment_relevance": "设备出口印尼时，应由进口商结合具体HS编码、进口商资质和货物属性核查适用许可与单证；不能仅凭该条例判断某设备需不需要进口批准。",
+      "verification": "印尼法规数据库摘要已核实；具体条文及附件应由进口商/报关代理复核",
+      "source_url": "https://peraturan.bpk.go.id/Details/351566/permendag-no-18-tahun-2026",
+      "source_name": "印尼国家法律法规数据库 JDIH BPK"
+    },
+    {
+      "id": "id-agri-import-2026-11",
+      "country": "印度尼西亚",
+      "topic": "农业与畜牧产品进口",
+      "title": "贸易部条例 Permendag No.11/2026（修订农业与畜牧产品进口规则）",
+      "published_at": "2026-04-21",
+      "effective_date": "2026-05-08",
+      "status": "现行有效（来源页面标记）",
+      "product_scope": "修订农业及畜牧商品进口规则及附件，涉及受管制商品、入境、进口和动物/动物产品出境等条款。",
+      "equipment_relevance": "主要针对农业畜牧商品及动物产品；不能直接视为孵化机、环控设备或养殖机械的产品认证规则。设备是否落入其他进口管制，须按HS编码逐项核验。",
+      "verification": "印尼法规数据库摘要已核实；适用商品清单以法规附件和后续修订为准",
+      "source_url": "https://peraturan.bpk.go.id/Details/351302/permendag-no-11-tahun-2026",
+      "source_name": "印尼国家法律法规数据库 JDIH BPK"
+    },
+    {
+      "id": "id-sni-electrical-check",
+      "country": "印度尼西亚",
+      "topic": "电气安全与SNI",
+      "title": "电气/电子产品SNI强制范围与进口标识核查",
+      "published_at": "",
+      "effective_date": "按具体产品法规",
+      "status": "产品适用性待核",
+      "product_scope": "印尼电气与电子产品可能受不同主管部门的强制SNI、产品注册或标识要求约束。认证、测试、工厂审核和进口商注册要求依具体产品类别及技术法规而异。",
+      "equipment_relevance": "孵化机、出雏机、控制柜、风机、加热器等设备须先确定HS编码、额定电压、产品功能和适用技术法规，再确认是否属于强制SNI目录；当前未确认上述设备型号整体均需SNI。",
+      "verification": "合规机构说明作为流程参考；强制目录应以印尼主管部门当前官方清单核对",
+      "source_url": "https://www.kemendag.go.id/faq",
+      "source_name": "印尼贸易部FAQ（SNI/NPB查询指引）"
+    },
+    {
+      "id": "id-hs-insw-check",
+      "country": "印度尼西亚",
+      "topic": "HS编码与进口管制",
+      "title": "通过印尼INSW按HS编码核验强制SNI及进口条件",
+      "published_at": "",
+      "effective_date": "动态查询",
+      "status": "官方查询入口",
+      "product_scope": "印尼贸易部FAQ指引进口商通过INSW输入HS编码查询产品是否强制SNI，并可交叉核对工业部、能源矿产部及BSN相关法规目录。",
+      "equipment_relevance": "每个设备型号应建立独立归类档案：功能、材质、额定功率、用途、成套/零部件属性、建议HS编码、进口商确认编码及查询日期。不能用单一通用HS编码覆盖整套孵化场设备。",
+      "verification": "官方FAQ指引已核实；具体税率、许可和SNI要求须按最终HS编码实时查询",
+      "source_url": "https://www.kemendag.go.id/faq",
+      "source_name": "印尼贸易部官方FAQ"
+    },
+    {
+      "id": "eu-poultry-health-not-equipment",
+      "country": "欧盟",
+      "topic": "动物卫生准入（非设备认证）",
+      "title": "家禽与孵化蛋进口动物卫生规则",
+      "published_at": "",
+      "effective_date": "依欧盟现行法规及第三国清单",
+      "status": "官方主题页面",
+      "product_scope": "适用于活禽及孵化蛋等动物卫生贸易要求，涉及批准、证书和边境检查等。",
+      "equipment_relevance": "这是动物/孵化蛋贸易规则，不是孵化设备CE认证要求；设备出口应另行核对机械、电气、电磁兼容及其他适用法规。",
+      "verification": "欧盟委员会官方主题页",
+      "source_url": "https://food.ec.europa.eu/animals/live-animal-movements/poultry-and-hatching-eggs_en",
+      "source_name": "欧盟委员会"
+    },
+    {
+      "id": "uk-electrical-2016",
+      "country": "英国",
+      "topic": "电气安全",
+      "title": "Electrical Equipment (Safety) Regulations 2016",
+      "published_at": "",
+      "effective_date": "依法规及后续修订",
+      "status": "政府官方指南",
+      "product_scope": "适用于法规范围内的电气设备；需根据电压范围、产品用途和适用标准确定符合性评估、技术文件及标识义务。",
+      "equipment_relevance": "对带电孵化设备、控制柜、加热和驱动组件应按整机与部件分别评估适用性；具体标识/合格评定要求应在出口前复核最新英国政府指南。",
+      "verification": "英国政府官方指南；产品适用性待型号级评估",
+      "source_url": "https://www.gov.uk/government/publications/electrical-equipment-safety-regulations-2016",
+      "source_name": "英国政府 GOV.UK"
+    }
+  ],
+  "workflow": [
+    "确定设备功能、主要构成、额定电压/功率、用途及是否成套出货",
+    "由出口商与目的国进口商/报关代理确认HS编码及商品描述",
+    "在目的国官方系统核查进口许可、强制标准、认证和标识要求",
+    "按产品型号准备铭牌、说明书、线路图、BOM、测试报告和技术文件",
+    "核对关税、进口税费、原产地规则及最新生效日期",
+    "保存官方法规原文、查询截图/记录、进口商书面确认及核实日期"
+  ]
+}
