@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-11-02",
+  "timezone": "各展会当地时间",
+  "methodology": "优先采用主办方官网或政府/行业组织日历；企业参展页面仅用于交叉验证并标记为参展商信息；第三方目录信息不作为已确认日期。",
+  "items": [
+    {
+      "id": "eurotier-2026",
+      "name": "EuroTier 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-13",
+      "city": "汉诺威",
+      "country": "德国",
+      "venue": "Hanover Exhibition Grounds",
+      "category": "国际畜牧与养殖技术",
+      "organizer": "DLG",
+      "verification": "主办方官网确认",
+      "relevance": "禽舍环控、自动化、饲喂系统及畜牧数字化技术；适合竞品与技术趋势调研。",
+      "source_url": "https://www.eurotier.com/en/"
+    },
+    {
+      "id": "ovum-2026",
+      "name": "OVUM 2026 · 拉美家禽大会",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "危地马拉城",
+      "country": "危地马拉",
+      "venue": "Guatemala City（具体场馆待核）",
+      "category": "拉美家禽产业会议/展览",
+      "organizer": "主办方信息待进一步核实",
+      "verification": "参展商日程交叉确认；场馆待核",
+      "relevance": "拉美家禽产业链接触机会；建议重点核实当地孵化场、设备代理商与参会名单。",
+      "source_url": "https://dutch-poultry-tech.com/events/"
+    },
+    {
+      "id": "africa-poultry-show-2026",
+      "name": "Africa Poultry & Livestock Show 2026",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-14",
+      "city": "开罗",
+      "country": "埃及",
+      "venue": "Cairo International Exhibition Center",
+      "category": "家禽与畜牧设备技术展",
+      "organizer": "Pro Event（官网信息）",
+      "verification": "展会官网公布日期与场馆",
+      "relevance": "面向埃及、中东和非洲家禽生产商、设备采购商及渠道伙伴；重点关注孵化、禽舍设备与智能养殖。",
+      "source_url": "https://www.africapoultryshow.com/"
+    },
+    {
+      "id": "ippe-2027",
+      "name": "IPPE 2027 · International Production & Processing Expo",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-28",
+      "city": "亚特兰大",
+      "country": "美国",
+      "venue": "Georgia World Congress Center",
+      "category": "家禽、蛋品、肉类生产加工",
+      "organizer": "U.S. Poultry & Egg Association 等主办机构",
+      "verification": "行业组织日历与参展商日程确认",
+      "relevance": "全球家禽、蛋品和肉类产业链重要展会；适合国际竞品、集成商与采购商调研。",
+      "source_url": "https://internationalpoultryexpo.com/"
+    },
+    {
+      "id": "viv-asia-2027",
+      "name": "VIV Asia 2027",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-12",
+      "city": "曼谷",
+      "country": "泰国",
+      "venue": "Bangkok（具体场馆以主办方最新通知为准）",
+      "category": "畜牧与禽业全产业链",
+      "organizer": "VNU Asia Pacific",
+      "verification": "行业组织日历与参展商日程确认",
+      "relevance": "东南亚重点市场，适合开发养殖集团、孵化场、设备经销商和区域合作伙伴。",
+      "source_url": "https://www.viv.net/"
+    },
+    {
+      "id": "poultry-india-2026",
+      "name": "Poultry India Expo 2026",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-27",
+      "city": "海得拉巴",
+      "country": "印度",
+      "venue": "HITEX Exhibition Centre, Izzat Nagar",
+      "category": "国际家禽设备与技术展",
+      "organizer": "IPEMA",
+      "verification": "主办方官网及FAQ确认",
+      "relevance": "南亚核心禽业展会；覆盖孵化设备、禽舍设备、自动化、饲料与种禽产业链。",
+      "source_url": "https://www.poultryindia.co.in/"
+    }
+  ]
+}
