@@ -124,3 +124,49 @@ async function loadCustomerProjects(){
   }
 }
 loadCustomerProjects();
+
+
+async function loadTenderWatch(){
+  const status=document.getElementById("tenderWatchStatus");
+  const list=document.getElementById("tenderWatchList");
+  if(!status||!list)return;
+  try{
+    const response=await fetch("data/tender-watch.json",{cache:"no-store"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const archive=await response.json();
+    const items=Array.isArray(archive.items)?archive.items:[];
+    status.textContent="公开招标 "+items.length+" 条 · 更新 "+(archive.updated_at||"");
+    list.replaceChildren();
+    items.forEach(item=>{
+      const article=document.createElement("article");
+      article.className="tender-card";
+      const head=document.createElement("div");head.className="tender-card-head";
+      const country=document.createElement("span");country.className="project-country";country.textContent=item.country||"国家待核";
+      const stage=document.createElement("span");stage.className="project-stage";stage.textContent=item.status||"状态待核";
+      head.append(country,stage);
+      const title=document.createElement("h4");title.textContent=item.title||"招标项目";
+      const authority=document.createElement("p");authority.className="tender-authority";authority.textContent=item.authority||"采购机构待核";
+      const facts=document.createElement("dl");
+      [["招标编号",item.tender_id],["公告编号",item.reference],["采购范围",item.scope],["投标截止",item.deadline],["开标时间",item.opening],["工期 / 保证金",[item.period,item.emd].filter(Boolean).join(" · ")]].forEach(([label,value])=>{
+        if(!value)return;
+        const row=document.createElement("div");
+        const dt=document.createElement("dt");dt.textContent=label;
+        const dd=document.createElement("dd");dd.textContent=value;
+        row.append(dt,dd);facts.appendChild(row);
+      });
+      const assessment=document.createElement("p");assessment.className="project-assessment";assessment.textContent="兴仪视角："+(item.opportunity||"持续跟踪公告进展。");
+      const verify=document.createElement("p");verify.className="tender-verification";verify.textContent="核实状态："+(item.verification||"待核实");
+      const links=document.createElement("div");links.className="tender-links";
+      const primary=document.createElement("a");primary.href=item.source_url;primary.target="_blank";primary.rel="noopener noreferrer";primary.textContent="政府采购入口 ↗";links.appendChild(primary);
+      (item.secondary_sources||[]).forEach(source=>{const a=document.createElement("a");a.href=source.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=source.label+" ↗";links.appendChild(a);});
+      article.append(head,title,authority,facts,assessment,verify,links);
+      list.appendChild(article);
+    });
+    if(!items.length)list.textContent="当前没有已归档的公开招标记录。";
+  }catch(error){
+    status.textContent="招标档案暂不可用";
+    list.textContent="暂时无法读取招标档案，请稍后再试。";
+    console.error("Tender watch load failed:",error);
+  }
+}
+loadTenderWatch();
