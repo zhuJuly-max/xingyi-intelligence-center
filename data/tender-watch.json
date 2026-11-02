@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-02",
-  "scope_note": "仅收录可追溯的公开采购公告；开标不等于中标，设备采购范围以招标文件和BOQ为准。",
+  "scope_note": "仅收录可追溯的公开采购公告；开标不等于中标，设备采购范围与技术参数以官方招标文件为准。聚合平台信息均标注核实等级。",
   "items": [
     {
       "id": "IN-KALYANI-HATCHERY-TENDER-2026",
@@ -30,6 +30,83 @@
         }
       ],
       "published_at": "2026-10-09"
+    },
+    {
+      "id": "IN-CEAH-EGG-SETTER-2026",
+      "country": "印度 · 卡纳塔克邦（Bengaluru Rural）",
+      "authority": "Department of Animal Husbandry and Dairying / Cattle and Dairy Development Division / Centre of Excellence for Animal Husbandry",
+      "title": "采购 Egg Setter Machine（种蛋入孵机）",
+      "tender_id": "GEM/2026/B/8183320",
+      "reference": "GeM Bid",
+      "scope": "1台 Egg Setter Machine；交付地点 Centre of Excellence for Animal Husbandry Campus-2, Hessarghatta；交付期30天。具体容量、蛋盘规格、电气参数和验收条件须下载官方规格文件确认。",
+      "deadline": "2026-11-11 14:00（印度时间）",
+      "opening": "2026-11-12 14:00（印度时间）",
+      "status": "公开招标中 · 待核对官方规格文件",
+      "verification": "招标编号、数量、截止日期由招标索引披露；应以 GeM 官方 Bid Document / Buyer Specification 为准。",
+      "opportunity": "产品方向高度相关，但数量仅1台，可能是教学/示范中心采购，不代表大型商业孵化场项目。先核对容量、技术规格、资格条件与交付要求，再判断是否值得参与。",
+      "source_type": "GeM招标索引（二手页面，待官方文件核验）",
+      "source_url": "https://bidplus.gem.gov.in/",
+      "secondary_sources": [
+        {
+          "label": "招标摘要与技术文件索引",
+          "url": "https://tenders.infralens.in/gem/egg-setter-machine-8183320"
+        },
+        {
+          "label": "招标详情",
+          "url": "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58139385/8e0c72dad47c81d886d1e90d729b4c1f"
+        }
+      ],
+      "published_at": "2026-10-21"
+    },
+    {
+      "id": "IN-CEAH-EGG-HATCHER-2026",
+      "country": "印度 · 卡纳塔克邦（Bengaluru Rural）",
+      "authority": "Department of Animal Husbandry and Dairying / Cattle and Dairy Development Division / Centre of Excellence for Animal Husbandry",
+      "title": "采购 Egg Hatcher Machine（出雏机）",
+      "tender_id": "GEM/2026/B/8189269",
+      "reference": "GeM Bid",
+      "scope": "1台 Egg Hatcher Machine（Q3）；聚合页面披露预算约₹2.85 lakh。具体容量、规格、配套和验收标准须核对官方招标文件。",
+      "deadline": "2026-11-06 17:00（印度时间）",
+      "opening": "2026-11-07（印度时间，聚合页面显示）",
+      "status": "公开招标中 · 临近截止",
+      "verification": "招标编号、数量、截止日期和预算来自招标聚合页面；官方GeM文件尚待核验。",
+      "opportunity": "与孵化设备品类相关，但仅1台且预算较低，可能为教学/示范用途。可作为印度政府采购渠道和规格研究样本，商业优先级低于大型孵化场项目。",
+      "source_type": "GeM招标索引（二手页面，待官方文件核验）",
+      "source_url": "https://bidplus.gem.gov.in/",
+      "secondary_sources": [
+        {
+          "label": "招标详情与截止日期",
+          "url": "https://www.tendershark.com/details/karnataka-tender/cattle-and-dairy-development-division/2e92ce08-4c92-4a4c-8b7c-c75c21da59f3"
+        },
+        {
+          "label": "招标规格文件索引",
+          "url": "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58158896/a57fdb17e432ae2ae08913c195080b09"
+        }
+      ],
+      "published_at": "2026-10-22"
+    },
+    {
+      "id": "NG-ONDO-LPRES-COMPLETE-HATCHERY-2026",
+      "country": "尼日利亚 · Ondo州 Akure",
+      "authority": "Ondo State Ministry of Agriculture and Forestry / Animal Husbandry Services Department（L-PRES项目）",
+      "title": "Akure 饲料厂及完整孵化场建设招标",
+      "tender_id": "NG-ONDO L-PRES-508563-CW-RFB",
+      "reference": "World Bank Project P160865 · Credit IDA 70570",
+      "scope": "合同标题为 Establishment of Feedmill and Complete Hatchery Project in Akure；属于工程招标（Works），具体孵化设备是否单独采购、设备品牌与BOQ未核实。",
+      "deadline": "2026-10-22 12:00（尼日利亚当地时间）",
+      "opening": "未披露",
+      "status": "投标截止 · 授标结果待核实",
+      "verification": "招标通知编号和项目内容可由公开采购通知索引确认；未取得授标公告。",
+      "opportunity": "属于完整孵化场建设项目，项目级价值可能高，但本招标已截止，且工程总包不等于设备直接采购。应追踪承包商、后续设备包和项目实施进度。",
+      "source_type": "世界银行融资项目采购通知（二手索引）",
+      "source_url": "https://projects.worldbank.org/en/projects-operations",
+      "secondary_sources": [
+        {
+          "label": "采购通知摘要",
+          "url": "https://world.zhaobiao.cn/view_1_0_d6374b26d9977329b02487921e54f491.html"
+        }
+      ],
+      "published_at": "2026-09-29"
     }
   ]
 }
