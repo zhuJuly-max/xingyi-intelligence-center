@@ -105,7 +105,7 @@ def main() -> None:
         "new_items_count": len(new_items),
         "items": combined,
     }
-    DATA.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    DATA.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Watchlist: {len(WATCHLIST)} companies; new items: {len(new_items)}; archive: {len(combined)}")
 
 if __name__ == "__main__":
