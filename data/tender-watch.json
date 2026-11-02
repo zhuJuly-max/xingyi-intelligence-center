@@ -1,7 +1,39 @@
 {
   "updated_at": "2026-11-02",
-  "scope_note": "仅收录可追溯的公开采购公告；开标不等于中标，设备采购范围与技术参数以官方招标文件为准。聚合平台信息均标注核实等级。",
+  "scope_note": "仅收录可追溯的公开采购公告；开标不等于中标，设备采购范围与技术参数以官方招标文件为准。聚合平台信息均标注核实等级。注意：有些家禽设备采购实际为喂料器/饮水器等，并非孵化设备。",
   "items": [
+    {
+      "id": "ET-MOA-575040-GO-RFB-2026",
+      "country": "埃塞俄比亚",
+      "authority": "Federal Ministry of Agriculture / Second Resilient Landscape and Livelihood Project (RLLP-II)",
+      "title": "家禽设备及牧草加工设备供应",
+      "tender_id": "ET-MOA-575040-GO-RFB",
+      "reference": "World Bank Project P174385 · Notice OP00474866",
+      "scope": "已公开列明：94套7kg塑料圆形/管式喂料器、94套7升塑料饮水器、20套小型牧草加工设备。未列孵化机、出雏机或孵化场设备。",
+      "deadline": "2026-11-17 14:00（埃塞俄比亚时间）",
+      "opening": "2026-11-17 14:15（埃塞俄比亚时间）",
+      "status": "公开招标中 · 但非孵化设备采购",
+      "verification": "采购分项来自招标公告转录；公告日期2026-10-13，编号与截止时间交叉核对。正式投标前仍须取得官方招标文件。",
+      "opportunity": "对兴仪孵化设备业务直接相关性低。本招标主要是喂料器、饮水器及牧草加工设备，不应作为孵化机销售机会；可作为当地政府禽业扶持项目和渠道合作信号。",
+      "source_type": "世界银行融资项目采购通知（二手转录，需官方文件复核）",
+      "source_url": "https://projects.worldbank.org/en/projects-operations",
+      "secondary_sources": [
+        {
+          "label": "招标公告与分项清单",
+          "url": "https://tenders.qelal.et/tender-6ad324710a538a7686000001/"
+        },
+        {
+          "label": "World Bank Notice OP00474866",
+          "url": "https://tenqual.com/tenders/6addfddf-eaae-4f8e-a077-6de70e4a6a20/procurement-of-forage-and-poultry-processing-equipment-for-cooperatives-lot-1-forage-processing-"
+        },
+        {
+          "label": "采购公告镜像",
+          "url": "https://world.zhaobiao.cn/view_0_0_217279e6226f5311ce9e6f3f9b5a0d20.html"
+        }
+      ],
+      "published_at": "2026-10-13",
+      "eligibility": "可按分项报价；喂料器与饮水器合计94套；投标保证金喂料器分项ETB 450,000，牧草加工分项ETB 400,000；文件费ETB 300。"
+    },
     {
       "id": "IN-KALYANI-HATCHERY-TENDER-2026",
       "country": "印度 · 西孟加拉邦",
