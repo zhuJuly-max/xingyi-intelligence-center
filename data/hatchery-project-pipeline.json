@@ -77,13 +77,14 @@
       "contract_value": "USD 10.15 million",
       "awarded_supplier": "Agrifam Co., Ltd; local partner Quarit Agro Industry PLC",
       "equipment_scope": "全自动孵化系统及配套设备；设计、供应、安装、测试、调试；相关配套设施建设；提供五年备件",
-      "capacity": null,
+      "capacity": "年入孵能力约6,300万枚种蛋（埃塞俄比亚农业部官方社交账号发布；正式新闻稿未写明该数值）",
       "contract_duration": "预计12个月完成；合同生效后约一周内启动",
       "commercial_assessment": "高价值整线竞品项目。可作为非洲大型孵化场项目预算、交付范围、五年备件和本地合作模式的样本。容量、机型、产能、技术参数及项目现场尚未从公开公告确认；已签约，不是当前可投标项目。",
-      "verification": "埃塞俄比亚农业部官方新闻披露签约金额、供应商、范围和工期；AfDB曾发布采购公告。未取得完整合同和技术规格书。",
+      "verification": "农业部官网确认合同金额、供应商、范围、五年备件和12个月工期；农业部官方社交账号另披露年入孵能力约6,300万枚。该容量暂未见于官网新闻正文或采购公告PDF，按官方社交媒体补充数据标注。",
       "sources": [
         "https://www.moa.gov.et/ethiopia-signs-usd-10-million-contract-to-establish-modern-poultry-hatchery/",
-        "https://www.afdb.org/fr/documents/spn-ethiopia-plant-design-supply-installation-testing-fully-automated-hatchery-system-and-associated-equipment-and-construction-associated-facilities-e-pvdp"
+        "https://www.afdb.org/fr/documents/spn-ethiopia-plant-design-supply-installation-testing-fully-automated-hatchery-system-and-associated-equipment-and-construction-associated-facilities-e-pvdp",
+        "https://www.linkedin.com/posts/ministry-of-agriculture-ethiopia_agrifamco-africandevelopmentbank-afdb-activity-7472221550486822913-Kdy3"
       ],
       "last_checked": "2026-11-02"
     },
@@ -96,16 +97,17 @@
       "category": "孵化设备采购-已授标",
       "status": "已授标；合同履约状态待核",
       "published_or_awarded": "2025-09-05",
-      "contract_value": "USD 1,110,740 (来源摘要另列ETB金额，币种/换算字段需回查原始授标通知)",
+      "contract_value": "签约价USD 1,110,740；招标摘要另列评审价ETB 147,196,255.17，签约ETB金额转录为6,699,996但与美元金额明显不一致，待官方授标文件核实",
       "awarded_supplier": "NEW LAND INTERNATIONAL FZE (UAE)",
       "equipment_scope": "供应及安装孵化设备，包括多阶段孵化机（Multi-Stage Incubator）及单阶段出雏机（Single-Stage Hatcher），服务四个家禽扩繁中心",
       "capacity": null,
       "contract_duration": "5个月",
-      "commercial_assessment": "已授标的多场址孵化设备项目，适合研究多阶段入孵+单阶段出雏组合、跨站点交付和国际供应商竞争。容量、品牌、详细配置及现场投产情况未披露；不属于开放投标。",
-      "verification": "Tendercast转录世界银行采购授标公告；摘要中ETB金额字段与美元签约金额显示不一致，金额暂以美元签约价为参考并标注待核。需取得官方合同授标通知确认。",
+      "commercial_assessment": "已授标的多场址孵化设备项目，采购包括多阶段入孵机和单阶段出雏机，合同期5个月。投标摘要列出Algorithm Trading及Bencom Import & Export and Yunfeng Incubation Equipment被判Non Responsive；这为研究中国供应商投标资格、文件响应性和本地合作模式提供线索，但具体不响应原因未披露。",
+      "verification": "二手平台转录世界银行授标公告；明确记录NEW LAND INTERNATIONAL FZE中标、合同期5个月，Algorithm Trading及Bencom Import & Export and Yunfeng Incubation Equipment投标被判不响应。签约ETB金额存在明显转录/换算矛盾，不采用该ETB数值作为可信合同金额。",
       "sources": [
         "https://tendercast.org/opportunities/65f272be6030f9676362",
-        "https://projects.worldbank.org/en/projects-operations"
+        "https://projects.worldbank.org/en/projects-operations",
+        "https://freetender.net/tender/procurement-of-hatchery-for-fecha-kombolicha-hadera-and-bonga-poultary-multiplication-cent-op00469826"
       ],
       "last_checked": "2026-11-02"
     }
