@@ -1,7 +1,7 @@
 {
   "title": "Commercial Hatchery Project Pipeline",
   "updated_at": "2026-11-02",
-  "note": "项目线索池与采购招标雷达分开管理。仅记录公开可追溯信息；过期项目不代表仍可投标；项目建设或合作意向不等同于已确认设备采购。",
+  "note": "项目线索池与采购招标雷达分开管理。仅记录公开可追溯信息；过期项目不代表仍可投标；项目建设或合作意向不等同于已确认设备采购。项目金额、范围及供应商以公告原文为准。",
   "records": [
     {
       "id": "ET-BOA-HATCHING-MACHINE-AWARD-2026",
@@ -62,6 +62,50 @@
       "sources": [
         "https://tenqual.com/tenders/a53e0184-19fc-46e6-b141-5d6477a36252/supply-delivery-and-installation-of-equipment-for-agro-processing-feed-poultry-production-hatche",
         "https://projects.worldbank.org/en/projects-operations/procurement"
+      ],
+      "last_checked": "2026-11-02"
+    },
+    {
+      "id": "ET-EPVDP-AGRIFAM-FULLY-AUTOMATED-HATCHERY-2026",
+      "country": "Ethiopia",
+      "organization": "Federal Democratic Republic of Ethiopia Ministry of Agriculture / Ethiopia Poultry Value Chain Development Program (E-PVDP)",
+      "project": "Fully Automated Hatchery System and Associated Facilities",
+      "reference": "E-PVDP; AfDB procurement notice dated 2026-02-09",
+      "category": "大型整线项目-已签约",
+      "status": "2026-06-15签约；履约中，建设进度待核",
+      "published_or_awarded": "2026-06-15",
+      "contract_value": "USD 10.15 million",
+      "awarded_supplier": "Agrifam Co., Ltd; local partner Quarit Agro Industry PLC",
+      "equipment_scope": "全自动孵化系统及配套设备；设计、供应、安装、测试、调试；相关配套设施建设；提供五年备件",
+      "capacity": null,
+      "contract_duration": "预计12个月完成；合同生效后约一周内启动",
+      "commercial_assessment": "高价值整线竞品项目。可作为非洲大型孵化场项目预算、交付范围、五年备件和本地合作模式的样本。容量、机型、产能、技术参数及项目现场尚未从公开公告确认；已签约，不是当前可投标项目。",
+      "verification": "埃塞俄比亚农业部官方新闻披露签约金额、供应商、范围和工期；AfDB曾发布采购公告。未取得完整合同和技术规格书。",
+      "sources": [
+        "https://www.moa.gov.et/ethiopia-signs-usd-10-million-contract-to-establish-modern-poultry-hatchery/",
+        "https://www.afdb.org/fr/documents/spn-ethiopia-plant-design-supply-installation-testing-fully-automated-hatchery-system-and-associated-equipment-and-construction-associated-facilities-e-pvdp"
+      ],
+      "last_checked": "2026-11-02"
+    },
+    {
+      "id": "ET-P178566-NEW-LAND-MULTI-CENTER-HATCHERY-2025",
+      "country": "Ethiopia",
+      "organization": "Food Systems Resilience Program for Eastern and Southern Africa",
+      "project": "Procurement of Hatchery for Fecha, Kombolicha, Hadera and Bonga Poultry Multiplication Centers",
+      "reference": "ET-MOA-448846-GO-RFB; World Bank Project P178566",
+      "category": "孵化设备采购-已授标",
+      "status": "已授标；合同履约状态待核",
+      "published_or_awarded": "2025-09-05",
+      "contract_value": "USD 1,110,740 (来源摘要另列ETB金额，币种/换算字段需回查原始授标通知)",
+      "awarded_supplier": "NEW LAND INTERNATIONAL FZE (UAE)",
+      "equipment_scope": "供应及安装孵化设备，包括多阶段孵化机（Multi-Stage Incubator）及单阶段出雏机（Single-Stage Hatcher），服务四个家禽扩繁中心",
+      "capacity": null,
+      "contract_duration": "5个月",
+      "commercial_assessment": "已授标的多场址孵化设备项目，适合研究多阶段入孵+单阶段出雏组合、跨站点交付和国际供应商竞争。容量、品牌、详细配置及现场投产情况未披露；不属于开放投标。",
+      "verification": "Tendercast转录世界银行采购授标公告；摘要中ETB金额字段与美元签约金额显示不一致，金额暂以美元签约价为参考并标注待核。需取得官方合同授标通知确认。",
+      "sources": [
+        "https://tendercast.org/opportunities/65f272be6030f9676362",
+        "https://projects.worldbank.org/en/projects-operations"
       ],
       "last_checked": "2026-11-02"
     }
