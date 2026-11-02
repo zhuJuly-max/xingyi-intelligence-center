@@ -1,0 +1,69 @@
+{
+  "title": "Commercial Hatchery Project Pipeline",
+  "updated_at": "2026-11-02",
+  "note": "项目线索池与采购招标雷达分开管理。仅记录公开可追溯信息；过期项目不代表仍可投标；项目建设或合作意向不等同于已确认设备采购。",
+  "records": [
+    {
+      "id": "ET-BOA-HATCHING-MACHINE-AWARD-2026",
+      "country": "Ethiopia",
+      "organization": "Food Systems Resilience Program for Eastern and Southern Africa (RFSRP)",
+      "project": "Procurement of #1 Hatching Machine with Installation",
+      "reference": "ET-SER-FSRP-BOA-519052-GO-RFB",
+      "category": "设备采购-已授标",
+      "status": "已授标；合同履约中/进度待核",
+      "published_or_awarded": "2026-03-15",
+      "contract_value": "ETB 41,977,998.98",
+      "awarded_supplier": "Algorithm Trading Plc",
+      "contract_duration": "8个月",
+      "equipment_scope": "1台出雏机及安装",
+      "capacity": null,
+      "buyer_or_project_id": "World Bank Project P178566; IDA-71560",
+      "commercial_assessment": "高价值已授标案例，可追踪中标供应商、设备规格、交付及验收；当前公开摘要未披露容量、品牌和详细技术参数，不能直接作为兴仪可投标机会。",
+      "verification": "二手采购公告镜像转录世界银行授标信息；应以世界银行官方采购公告及项目文件复核。",
+      "sources": [
+        "https://freetender.net/tender/procurement-of-1-hatching-machine-with-installation-op00467795",
+        "https://projects.worldbank.org/en/projects-operations"
+      ],
+      "last_checked": "2026-11-02"
+    },
+    {
+      "id": "TT-MAF-LARGE-SCALE-BREEDER-HATCHERY-PPP-2026",
+      "country": "Trinidad and Tobago",
+      "organization": "Ministry of Agriculture and Fisheries",
+      "project": "Public Private Partnership for the Development, Financing, Construction and Operation of a Large Scale Poultry Breeding and Hatchery Project (Hatching Eggs)",
+      "reference": "MAF/EOI/2026/1",
+      "category": "项目合作征集-已截止",
+      "status": "EOI截止；后续入围/授标/项目实施情况待核",
+      "published_or_awarded": "2026-07-28",
+      "deadline": "2026-09-25 16:00",
+      "equipment_scope": "大型种鸡及孵化场项目的开发、融资、建设和运营；是否拆分设备采购包未知",
+      "capacity": null,
+      "commercial_assessment": "大型孵化场建设与运营项目线索；关注后续PPP合作方、建设进度和独立设备采购包，不应视为当前开放设备招标。",
+      "verification": "采购平台公告摘要；原始EOI文件及后续遴选结果尚未取得。",
+      "sources": [
+        "https://procurett.oprtt.org/tenders/entry/2056/?sort%5B22%5D=asc"
+      ],
+      "last_checked": "2026-11-02"
+    },
+    {
+      "id": "UG-RWENTANGA-HATCHERY-EQUIPMENT-2026",
+      "country": "Uganda",
+      "organization": "Ministry of Gender, Labour and Social Development",
+      "project": "Rwentanga Farm Institute equipment procurement",
+      "reference": "World Bank Notice OP00473626",
+      "category": "设备采购-已截止",
+      "status": "投标截止2026-10-26；授标结果待核",
+      "published_or_awarded": "2026-10-07",
+      "deadline": "2026-10-26 11:00",
+      "equipment_scope": "Lot 1包含孵化设备及育雏单元相关设备；采购项目同时含其他农业加工/生产设备",
+      "capacity": null,
+      "commercial_assessment": "与孵化设备相关，但标包明细、容量、技术规格及是否包含整套孵化线尚未核实；跟踪授标公告和设备明细。",
+      "verification": "招标信息聚合页转录世界银行项目采购信息；招标已截止。",
+      "sources": [
+        "https://tenqual.com/tenders/a53e0184-19fc-46e6-b141-5d6477a36252/supply-delivery-and-installation-of-equipment-for-agro-processing-feed-poultry-production-hatche",
+        "https://projects.worldbank.org/en/projects-operations/procurement"
+      ],
+      "last_checked": "2026-11-02"
+    }
+  ]
+}
