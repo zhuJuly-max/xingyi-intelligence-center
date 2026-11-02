@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-11-02",
+  "scope_note": "仅收录可追溯的公开采购公告；开标不等于中标，设备采购范围以招标文件和BOQ为准。",
+  "items": [
+    {
+      "id": "IN-KALYANI-HATCHERY-TENDER-2026",
+      "country": "印度 · 西孟加拉邦",
+      "authority": "West Bengal Livestock Development Corporation Ltd. / Animal Resources Development Department",
+      "title": "Kalyani Duck Breeding Farm 孵化场附加设施建设",
+      "tender_id": "2026_ARD_1045618_1",
+      "reference": "WBARD/WBLDC/NIT-1092e/2026-27（2026-10-08）",
+      "scope": "孵化场附加设施开发；招标分类为Goods，二手招标摘要提及孵化场疫苗设备。具体设备清单须核对官方NIT及BOQ。",
+      "deadline": "2026-10-31 12:00（印度时间）",
+      "opening": "2026-11-02 12:00（印度时间）",
+      "period": "授标后90天",
+      "emd": "₹13,500",
+      "status": "投标已截止 · 开标结果待核实",
+      "verification": "公告信息已交叉核对；尚无可确认中标公告",
+      "opportunity": "真实采购程序线索，但当前尚不能确认是否包含兴仪可供的孵化设备，也未确认中标供应商。应先取得官方NIT/BOQ并追踪开标及授标公告。",
+      "source_type": "政府电子采购公告（二手索引核对）",
+      "source_url": "https://wbtenders.gov.in/",
+      "secondary_sources": [
+        {
+          "label": "招标详情与日期",
+          "url": "https://www.tendershark.com/details/west-bengal-tender/animal-resources-development-department/87bef654-2fcc-4280-89c5-20d4bc77ab0a"
+        },
+        {
+          "label": "公告及BOQ索引",
+          "url": "https://tenderlelo.com/tender/ep-208056366/"
+        }
+      ],
+      "published_at": "2026-10-09"
+    }
+  ]
+}
