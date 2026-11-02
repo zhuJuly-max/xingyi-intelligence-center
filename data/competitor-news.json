@@ -1,7 +1,738 @@
 {
-  "generated_at": null,
-  "collector": "尚未运行；第一阶段媒体检索线索，需核实后使用。",
+  "generated_at": "2026-11-02T05:53:47.590802+00:00",
+  "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 0,
-  "items": []
-}
+  "new_items_count": 73,
+  "items": [
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Familia Safir acquires 3 more chicken farms in Romania - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-07-01T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUDlFZnREVEZhMUZReU42SFAzQy00dE00cGRGX1hBSldPd2gzUWc4RnVxVEdaamlBTGZpRk92QVFvTmkzRTZtWl9wbFdQN2RSaTZpalJkSVBkcU1ndXAzQ3BnSEx0MmRfTnRfcUdZU1lwVkpyMkdJbGVuOVR4clg0OVZkeDBFaFpBM1pQenA0Zm1hZzJvVEkzR1k3X29felljYUxJQnh1U0piYmdIVTkyUjhILTVYbmdkT0JFYw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Pilgrim's Pride to invest $75M in Ellijay, Georgia, poultry facility - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-06-15T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVllMUVCM2RuWExic3JzLWdWaUN3ZTFqVjVEbVZDZDF0cDdzT3NVWnM4ZmxpUHE4WG5MVlVNYW1XcDlLZWRHTm50SnlNd2wyazEwMVBlWTNpbUd2dEZ1WjRZZ3FxWHd3SHRKX2xnMXV4U1I1MG1qMWRXQWo1V3lLdHpjSUt6eXdVbXM4bl9iQmdXdXhEcVQ2T2VaUFFZREozcVBYWmpvQW83S0JJUGFOZkVRd2VpaG52SU12ZDcxMDlFNGQxOU5pVGhZelBkS05qV0ZPTHIyTmlOUQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Petersime supports incubaFORUM ASIA 2026 as Premium-Platinum Sponsor - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2026-04-01T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWU83WHBydDJ4LUMyUE1yTWpuYU85QjJmZVpZckF6RXZiVk9aeEpBQXI2SnRlbHl3MElPYVBqTHZqWjZ3ZHlJejFaYkpseHlEMDc2d1hnSEQ0aGJrUld3YVluQlFPM182NjJWRUVzc2IxeWdXZXRNSnotbmRqalYwZlAzMi1FRHlSUHFHSVU2Z3hGNG5VeHc0?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTech Strengthens U.S. Hatchery Business with Appointment of Ben Green as National Sales Manager USA - AviNews",
+      "publisher": "AviNews",
+      "published_at": "2026-03-31T20:02:11+00:00",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4N2JtdXROUVV2NEVMSXMzaFJ6WHFUR0JUZGg1d2dzQTltajI4RXdiSFR2SVpYTnItR2xVNmU1OHRhT1hhZ1kwVXEtU25VaFMybU1LZldyaW12cl9wTTdOdFQtN0dXb1Nfc21kMU9GLXdJSlpBblE?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTech names Ben Green as US sales manager - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-03-18T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUm1sMEIzeFlsZWFOd2hmM3lFbC1PcDlKQlBXS1cxQVlwZndtQi1qM0pnZEZSNC1RaE1DNndtUE05d2phWW1mNkgwYThuRk1ja1VOa09fMjB4QXdxNVB4SFVKQWNJcDhRbkxMY3ZsNnUzTl9yQjVESklyWWlQeS0zTl85OWZYRFp4Q1JoZjlxY2IzUndWZHlmRU1FeVJiTUkzcHZxaElhbkZXd0U?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Perfecting Broiler Hatching Egg Quality & Care - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-02-17T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbkpwN1BMS3JWMzNxTUlUdldVWTlyelVNWE5OYkhXUlhlcExvSnM2OTBCbGIwUXhPanJHUjE5VTdwbGxsSlBDaWlfRUttc25BWFlaMEJ4VnZucjBVeG1aRGZlUG56VEFJNmROdkdweDYwTWdXMlZzT1pNa0JUR0tlWXFEcDVvS1Q4TzZob3BPVnQ5MFloX3gtaW5nVHBXRGpBQUpCOFc1N1hkSFpJQzRB?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Shandong Yisheng invests in high-tech broiler hatchery - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2025-10-14T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMDE3aUVfQm10Q2dmdUNaYmJSMmNmUW82RkJHc0ZHQk5CZy1DSWdvcU82WVktOWl5WFVJQWZaZ0puemliaEdteTBxMXYzQnEwNFZLdXJ2ck4xeXdDZFMwSk9Kd0lBZjZacU1aSDdxSk9neF9EanFyVzkwXy1qY1hWSHpvaTA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTech brings innovations in incubation to Indonesia - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2025-10-09T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWkRkTUFuQ1NlN0VOSW5Oa3JJNlpRRHhac2hVdTk1cXRvcC1yTjJ2Y0p2R3QxdENmbFdET2pBcnRiQlFlX0swZlptM3hFWjZnYTAzVWw2TG93Rm9IZ2ZPQkxFT1UtcVNIMkR6WXZ2NmZ0RFRnM1RNR1RyQWhyYzdJeFNnNVhYUQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Royal Pas Reform appoints Diana Roijmans as new CEO - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2025-10-01T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc3ZqWld3bGZyQ3pycnE1OGsydDExbVNiLWJYbWxwOF9oVjBQbENGR3laN19wekJBelhwalVPRjk2UmVCME1XLWtyS0l5c1ZYc0h4T1Z4VVhZelVFVFZWbUQwd3A3ZnZROGZPaGl0bXhaR3d0NWhtSzNTbGJkMDJXU05LdDI4cmRkQ1pYZzdvR29MVkFNcFpUNXE4UE02ZzF2YW1EcktBaHFzbGto?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Ulf Meyer to become Chief Development Officer of Big Dutchman - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2025-09-05T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaEJwU2tGcVhKcGhmRjVoZUxkaVhXSDk1Q1d1SmxWeGZsV2QzdU9xNzJkbDA4QUlFeXA0aHRYdE10WWprZmpsRFU1VWxHUVF4dzRyc19ENHhzSkFKTEFjRmN6TER0RXFDWWFyOHU4T2k3TUVaTTRxSHFpcW1EU0pnTXRyRENqb1BNU1U3MmhR?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Jagonya Ayam expands with a new smart hatchery - AviNews",
+      "publisher": "AviNews",
+      "published_at": "2025-08-26T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rdkZoN3ZxQzBKYmo1S3drM2xCOFNQYXpmaE1sdUJTUGNUR3NDRFlyRnlrQjBCZFRUeGVRQ1Q4NS11eTd6eFJDdktXSURucDRXcWFJc3gtX21wWk5yOE5qRGlCVGY3ZzZjYndFWnpGbU9NMjRpTXlYYTJ3?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Pas Reform North America pioneers Park 295 Landing as first tenant - Jacksonville Daily Record",
+      "publisher": "Jacksonville Daily Record",
+      "published_at": "2025-08-25T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORTJEdHRpMW1uNTBCd3JzYjE2c1FIdFQ0WjkxdnhuOG9NVm5tY1Y5TEVyV3lHQ2V4UWMxdV9rUzVWLU1ZR1pNMlh3OG9KWklhXzZYR29KeHdnZXp2WXh2NzBNanNoTG1xX0VaVm9obk0xMGZ5dnNlNUpxUC1SeFpaVDRzbUw0d3F3VmEzc0NNUHZFSW9xbG1KT1NsVGw2dEtrQ3A5YWNIR3VmeVZCSE5pdkZJTUVQdw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Berdikari Poultry becomes Jamesway’s agent for Indonesia - AviNews",
+      "publisher": "AviNews",
+      "published_at": "2025-06-27T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yd3ZUbzdmUTJnZ2VDSzd3YXJFbFhyVC1CRkh0Y1pndFdMUnZtMjUxLTNNVXVhQWw5Yk5nbWg2aldPMUNwdVdwMlJXeE9LWENGM044Z0k5MEpxeGY4QUp0S0F4Q1JrZDhwcGxQRC05Qm1XeS1ldl9OSU1Mdw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Driving hatchery excellence: Petersime introduces new Eagle Trax™ modules - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2025-03-25T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZNkRYQXNJU1NWVzlYdFA0OWtCLXRhcGc0ZDk4aHd4YW1LOWhkaGM3cEk0anEwcXhETjhrM0hJNHpYMmJjaldOai1uLVYtcGp0RFFzUFY4UFc0dm1KZkNURHZabW1Td3RHbk5qVmNXUFNVMmUwbU5r?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "IPPE: HatchTech launches SetCare, a revolutionary new hatchery solution - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2025-02-24T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2FWQ1VOY2hhalA1djRsQTkyMGJzZHRlTjczblJ4bGhoY0Y0Vk10TUlIVlRkWGFnVXE0aVlIbFpCODBUZGhOMVZZV25qb3NyZnZEU21UdFA1R2otc0R4dTVMS3BuSkNwcXRvQUV0YUZUU3FxandPbERiNlF0NUlHTS1MSkhGYlp6amZiS0Z1SXNkOEZ2a3hFekQxUVJlS3I2LWFzSklHdTdSSW5UelE?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Maximising the potential of poultry genetics - www.foodagribusiness.world",
+      "publisher": "www.foodagribusiness.world",
+      "published_at": "2025-01-20T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWxELWJDNTN1MS1rSFJTQTMxaW9MMVZEay1NVmZOMFgtLXZwb2wwZnVUVHB6WVF2SnU0M2lfanNJWW1tWUE4TkNsQzc0SUVyQUJHNFNEUmhkU3BTQ0NmeFhsTzZLWXE3cndrSWJwWDlxMXdQaW5oOXlRUTVaX1U2OWxueWxsSTlHV2JkeTVMUHFIdVVBTnVEQkVVYw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Two new Big Dutchman products win Innovation Awards - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2024-10-30T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnBuN0hUa2JwNUoyOUFKV2FHeDE5a2V4LXFMejZkRzQxQURIODhuRFg5Y1ZtR1RHbTlaSDQ4aE9BRVdQNzlObXlaNGQ0bHNENU1nV3FGSllWbDYtcVQ5bWZTTkhkVWdrUUhMXzhwb2NxNENyS1JLSlFxenBHU05yYUdEbjluMWNuMXpDSkZrdU9lZ3F1em40VU1mbw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "Optimal incubation takes 24 days - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2024-04-03T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9INF9hb29TRkFzYjBUemttY1ZvMXNxVF96YTczaEkyZXBPRE1LOXFZeWVmdHUzeVpyNFh0UDN6Y1BHbDB3b2Y5amxobE0zTmM1cXFBZmxFNDM4N1l1M1BiZHVEVjdwek0?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "IPPE: Big Dutchman launched NATURA Visio in Atlanta - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2024-03-25T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbDc0M05oRTNIeWM3eWdkVVJGVy14RWl3NDFWMDM1bzVLb09Ddm1Oc0pMdFJMd2JxN3NDcXNfWVRXZXlXQzAzMDFoWWVxbnVxTGV2d0FmSEt4ZzhZSl8wcDk3LVJoWEdoUXB6a3dOUGZtZXlkbGVMeTlpNmV2cVY3SVh1WWFyMU03UktqaDhsczdUVWJs?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman equips new house for pullet rearing in Ireland - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2023-12-14T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVC1BdFZKN25wWHhYaVZzeGI3WnJac1RXOVNNQ2VIWnFBU1FGQmw2dDB4ZW1NRjVlRTQ1MnliLVMydjQzWVFpMUZac25fUVRaZjRkOUdjSTZDRUtDWkg1V3dycjdUcXpNc1BtV3dXVHJ1NHBySnp6VjZFMGIzODBad3RFbUU3LWpua3ZSVnpVS0drSk1oemxfVDJ6YXNscWdVanB5YXdn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Steve VanderVeen: Big Dutchman started right here in Holland and Zeeland - The Holland Sentinel",
+      "publisher": "The Holland Sentinel",
+      "published_at": "2023-10-22T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZEstWGwzWnJja285dDFnSk9RWkRiWU5OQUFLTlpvZU5tRTktYVNjbHpjXzNBbDVFaG4ydkxXTHNqdzdJTGxTR0hDQ1JqaGZieXdNaS1KTVp0NUtjVGUwaF93Z0txVVFTS2s5QldsZkFTYmROMWtfVXcwd2RQZC1VTS1hSkhTbk8zYUMtaDBvNHR6R2hsZV9ET0lmZEt0OXJlc2VyR094XzFCWWVJZFJZSHRHNlB5Y05lYTF3eTN1Q2RmRi1DV1ZiZmlSdzRQZm5LN3B5d0FUSGJFa3VRTkFYeWs2MnEtU2xF?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic acquires Van Gent Laying nests - Feedstuffs",
+      "publisher": "Feedstuffs",
+      "published_at": "2023-08-13T00:40:51+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWEd4U0pqME5kRldYUEhlSE82amRCeG9PVWtnc3EyS3BoOUpVREtQYmh4MlplUl90b1hDY0tXQnliQWRSSUtqbEFwLVR3cXRZNlpyUXBHVHhFMUZOMEp4STlETG83VjdyN1MxT2h4T3dHaWtqb2RUUEEzRUt5aFNONDFoamFHV3pJTnVJMTBodw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Royal Pas Reform appoints Eric Stodel as new CEO - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2023-01-10T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb0tWdVRETjUyOTRDQ01lTnFFc3JGbVNrbTBSNlQteDdHV1NsaWpQaG5ySGtiUGd4cENNZlAtM3p6S3FFeFpmX2JuWFhVLTNsblRscFQ1aW5RQlBQWFVOSzVRc29ZX1k0SHBiRUVQdHZnb2ZMRDRmSXhrN1J4SjhERFJsa3hyeWlFQkc2QWlHUnRmSWE2d2tVOWtzVWJSTGVGSjFnZzhfMEFhX0tP?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Royal Pas Reform improving vaccination, animal welfare, nutrition - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-07-11T01:57:08+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNzAtVldrYUxIT0ppUkhzTnNHeWloQ0VQbHFzb3lBbmJGZVRBQ09UeXhmRFp3Y2VsNlN0VUhGWlBMWFdqOE1WMk5VN3pqTFB1dExXVFR1WXNWT1ZkbS1KUndUU0t4Q2JpV25rdVpHNE50YXFxZzJwdnR4REZLOXp3TVB3NXh3M1NTZDFROXFndUxObFVOSnNDSS1zSmpPRTRFclZ4UVd3?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic UK is now part of the Vencomatic Group - Poultry News",
+      "publisher": "Poultry News",
+      "published_at": "2022-06-15T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZkZUMExrNDV4RVJrZVdlYWkxcXQyeDBLZWRFMDdPQkpvd0tBWEd2WmF0VExyRHZEMThEdHg0MVcwYXFVa09sbDc2LVk5MVJ5X2p0OG15MmllYnE1cHRUcldsanBsemhzWWJRVWF6N09YTnRTQ09KaDl6MXQ3dmxTRlpzTEU1N25mLWFfekw2ZEp3dzlqejJkdFhrUjhJNU9tS212VENEc3hHTk5PYmpZSA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Thirsk's Vencomatic sold to Dutch group with hopes of future investment - Business Live",
+      "publisher": "Business Live",
+      "published_at": "2022-06-14T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdzRsd2xLRWZuZE9SWGdNN1p1bDczX1BzSkMyNEhhdTh1TEF0NFF5ZlNJVmFyVE9XWmhPa1N5WmJOSFBrd2tVSUtRNVJtcktaVl9CSFVsUjBZMVl1RWtlenNmdlp3cDd6dlF3SEtZWndUYVUzMkwwYVZtSUcxVXpaUVVjMTN6WDcwM0U3cGEzTlnSAZYBQVVfeXFMTlBtSzJFeU5SSEc4YTd2cWlNQzh0RjFvN2g1N2VhYmJ6NGZnZElmeVVVWVJOTHlmX0lUbk1lck5HNURLU0lkeWNHaTgyZVdtVUpWeTNySkJMZGFzRC1sdVdRUDZjdkJ5TVA4ZFIwM2pscWRPQUpudjB1Wm9TZTZSbXBCM3p5cC1XMllVRWJMSGJ0bW40d2RR?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Industry specialist Evaristo Macalino joins Royal Pas Reform in The Philippines - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-05-20T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbmRRbU94NDFDUTg0ZkZuU0dPZU13RVRhRHlPTVB6V2VoMDBYMjktelNySDlCc0RsQVlxZzUzcEk2TG9UcmNTSldSMFc4UDF4MWVKNHJKTHpHeUpyOUdjWjh6T0g0cmdsWGx4S0s2cU5jYzhsV0FJVGRtdUZhdk1UOGxOcnZkWTRRUlc1V3RiLXlXMUtpbm5hb3lzaTFPTUVxcUY3WG5WQlEyd2J0RXVKa1J0Nlp0eE5ZSUx2cUVQNUQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "IPPE: Big Dutchman debuts digital platform: BFN Fusion - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-05-09T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHdMVXYwcnBUOXBuSXRhOFZkR1AtcXF0Qm9sc3VFQlBZcU4wdjZpcEF5WWwyTjZFQmFMWVczeUJfam1jVHF4U3Z3VmktaDB2S2FRY0hXUERhall6cjFxQURDb3dSXzE4RHh3M201RWRiS0ZrNUtaQVRORTRWX0prNmx4cGNFMmsxcUdVTXpxZFRveWZrcU5F?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "IPPE: Big Dutchman launches Natura Nova True Aviary - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-05-02T20:21:11+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd2JaWmQ5SldNSENoR2VrQVBnemljYmc2R21jYkF4dzVsRjB1X2NmMmwyRWZTVE13aVZMNjR4LXZZN0dCNm1uVDA3dXk5WWotNXpub1pGd3BtS0ZjY3U2S0F0cDNyOFFLUkVicGxuc2JUSWNlTzJOSEY4WEo0WEV2NjJmRzlIdWhXS2tsbjZaU2RISHFy?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "New animal welfare barn with Big Dutchman equipment in Bavaria - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-04-14T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQVNGd3dNZUVBd1luSTBEcUZRYm8zS0doUnc4LUZsaU9sTjFBWTVfY3RSTkdNZEplS1JRX2FrLUJOTHA0cXhtcm9xNmx1Mjg5eFBBakhzRE8tallHY0NJU1Y3ejZOVnYzb183aWpvRFVfaGdzMktCOU9FYkpFN0xuR3dQb0hoSzljaG1uMUJtbVNnejViZFlJNnhpanZSM1JLOUh2MXlvel90QQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Pas Reform's embryonic development video closes on 2.5 million views - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-03-17T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT2hTMWdjSXRzV0dpOUo5VmQ5aWVCWHpQRno0a1V2VVV5SHZ1MVl6ZFlQM1hIdl8xMnZTclVKdnh0SUdPblpCb2R2TlZoeVRpQXd5X1JoYTVfVWVPTHR3MGd0cWlmNGUyOFBZekdXOENwMGRiaFhhMXVyM1YyVzNjVUhiN19pa1BjQ0JhSzlvckRBY3FzZkJYak1fb0otckhiYmN5SzdfT0RNYWdEMkZWZw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Poultry manure pellets: Big Dutchman cooperates with Ferm O Feed - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-03-16T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1NuVWl0VGQ0UHplOWY5aTJjNVI0OWJQZXBIWXFNY3Z2dFdFOVZqVnVQbU1SakVnYlpyQXRfUVg3NUJPcXphUllycTd6VWFPZEF0WUNpMGF3ZlRLSFpwRmE3SWs3VW9Lak8yUHBtQjItRWlUSXNVdlU4a2lXQkNyTmtPcUhIcmJiUWRCVFdydVg5cklCVkFaLVJYRXJyYkNfZGhsdXBOV1JBLWc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Celebrating 100 years of Petersime electric incubators - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-02-28T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUDVMZUtXdFFyV3Mtd1VodVhRcmlicHZ3UFFJbE5TckRxckY4OWg5VlJDWU9DOUEyZ2FRbzB0MEZOeWo2djVaSGd6SFRyQ09Mc0p2UmVBZmlRc3hLNWFBZGtaWGJiakVBTFpmaXNpdjJuaEdScXZoZjFzRkx0YjJxT1dYb080ZUt4eGd3a3g0cDFUdDBZaU85cEdLQjg2WnM?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Rising gas prices: Cutting costs with heat exchangers for poultry sheds - FarmingUK",
+      "publisher": "FarmingUK",
+      "published_at": "2021-12-14T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNnhxS0hzUEZBYWZPdmJlLXJZamxPaGRHWHZLbVRxbmh5X1gwTzlDSE5FYmY3QUNyQXBiZUxZRHJoTUV3M01iTnJLLWVaYXdpWHc4Vkd5RkJ1MXltdlRlejhNdmNhSW5ZaGUzQjROaVA2YTczdXNhWU0wY1c4TTE4SkxyTHR0bHNyZlNzUHNfd0NyWVhUN01yMmdFWmtlblJmTEtTZU9JbThzYnVvMnIyUnpR?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Royal Pas Reform launches Kyrgyzstan’s largest hatchery - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2021-12-03T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb2hrbk9BenI2WEoyQjhJS3lCcjF2Mlg1VnljMEFkOGhCc3hGbFFQVkxnUEU5eUxfb1E0NHdKOFN3ZHVUWGFuUUhzQk1nS3RyRGprMk5veTZPbF9scVQyQmxOR2FtTHhrcHFKVG80QTJjeTQtV2x4cjZJUVAybDd6ZTJJWkQxTi1yU1JJWldpTk9PWXBEWGJaNDMzOFBhVWc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Venkateshwara Hatcheries doubles production capacity with Petersime - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2021-07-15T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa19ES0pSQ1FiZ2tXSGwySlQ2ZTNPbkx2S0o0Yno3c3Q2S2JFdUZLaWNtdFZkN1RMWXBOLU1TZnQ3U2YwdXpTN0FaYkNhaDhCeFVnNXYxVGNjTnR3NXY1dXNIM3BxdjEteFgtSGRlNzRYd1pVMEh6WTVMRGRpQzBhZzdnMTlCQXJuUUdsbW5jcUtCU1pTSjNFNVcxaHdibmRmS3NuVzFuZ1VENmg1Y3o4Sw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Kasturi Poultry Farms chooses SmartPro™ from Royal Pas Reform for its new hatchery in Tamil Nadu - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2021-01-25T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbTVSalNHZTM2bVhOeklGeDhXajNKdmVzQnRGVXpfWjhFa29tdnQ2WUlRRHVlTXhabUVGNnpqaEZIbkprdUFlaGZhWk15Vmx0dWdDZ2UtS01rcmNMLVVxa1BMUDRmQUVlTEhIaEc4MXZ0R2ZpTnVneWFtQS1wYjdrSVo3TTlkWEdQbWVqR2w0ZTlNbHhMVnpLQzBVZ2pmV2RkZXp2eU84OWplWWE3b05wNGtFbzhuM1otNUpiZGh3Vm9rS0NPMEpUY05HRXFseEsybTlfci13?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "Bell & Evans expanding capacity at hatchery - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2020-10-26T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ0x0eTFsM1lEUDhUWEd2R04zZHNnMHQyend4TzhXRlFKaW5tVGtPdEI1bE0yVjc3WGFxWVJLWHd0ajNYLVpoTW5zUWdKLUFzeGZrSzhSQXJxOWliSzBUQ21VWl8zT182OWkxbjVwZ1pVTTRNaEZvdzdkV0J3a2pLTXZGVkdmSXlhTXlkLUtzS2ZVcWxEV3lQTmNVd1hMc3NpR21ISnZzWllmNUVUT2VIeA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Successful Dealer Training at Vencomatic Group - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-10-09T07:29:35+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQWFyUWhqS2pyWGRxTGNONlpSZHdRa3ZRWlV3bzlhUjNTbF9oeGZBRzJCa1o2V0NDYm1zVkNxSDM3OFZaNU9pSGVRTXpqZzZ3UjFGU1pfdk9qOUxPck5EOGp5QkhRMkFjajFvYndMc1VHREZWelo3NkdLTGU5WDRNT1RVMEUzWTZiT2UtY2Ywb3pDdkho?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "New Pas Reform - Academy - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-30T15:34:23+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yRDBvcHJRVnhub294NG9yMHF3NVFiRnVuRVZkLWhJY0RUeWpCX3JSYmNTNWJZa29oaWtIcUJMV2JFYWw3Y1ctLV9JLWlRNnd1N25ZV2NJc05QYUtHWlQ0MTY4eHFadWtGZTNoMmxOOEtRZnluanI4MG5R?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic Group Provides Support to a Local Poultry Farm in Rwanda - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-30T12:39:12+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdHEwNnhnZ2lTdW5jRFpadFpZZ19PbF90eVNFRjlQMW5ZQnRLclpFTlZvR3cxVXM3OTlVWHlJWmFUS1ZGSTZzdTl5b0RZRjlYSVRSZUd1RFJWR05IT1NzVlFtb0EtMVFGMUhEWk1nZWQtR3RBejJmUG9qQ0VPUHVPZV96QWZDZkdzM0UtZDdYa3ZLUWdYWXlXWGg3Z2lpdEhGd0I0ZlFmWXhmZXFDdXlXMg?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Petersime at Indonesia's Top Livestock Trade Fair - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-25T13:03:06+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQnowZHp4TUZHejhfemVHV3hiSmdlbTY2M01lRmp0dXBJTmFJdHJxWFViVzFHenlKNktmWTlra2l4cll1VzJjbHNtbmkySmplX05nQzd4YVhFU1BnaEkzd214S2VvME5UNDBlRlVDUUhlV2QySzhidk5zWGdQMEhUQmVMZ2Vha2hfZm16Um1XNUpXalU4dE4w?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman provides equipment for two broiler breeder houses in Belgium - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-18T14:35:02+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGpmal9RckJwN3VsT1o4SXZDM2praWQwN3FNUnFXY0syU1JjSmI4VDZNOEtsNzB1cDk0RjVBRVZqdG9OQXB6MnFrb2VoZjF1cmo1Z0prRFRjNnJ0cTlNR3RBb0FyWXlmYXBROTd5SGkzQWRmZ3FuYkd3dVlOaHlMclYtdVB5b041RkFKamxHZUhFQ1hSVXVYNkc5RGdqNERuSWVzeHlWX0k5c2MyOV9TRDhkc2NXUDlN?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Maple Lodge Farms expands hatchery with Jamesway Equipment - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-18T06:45:13+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUQ4S0xvMmdwZW9JWE5SbUdtYlhZdkg1M1lnejhPQ25yd0NtWmhLTXVfYUQzSHltY252ZnNSaEFnbDRZNmdXcHNtdXp6cWQtNEFGWTR3dnIyWWxwa05lcGtCOUgweTdSNTI3Wk85aG5MY041b0ZtbVBYSHEzVURodW1sbnprNndxU1pkSEVqdkJsMkZlQmdIRTU1X1dNMUszeEpKbw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Is chick yield still a valid reference? - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-17T06:41:35+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNanFoWHhQUUF1MUluanNzaEVrVVMzWFZaZnp0VjQxcWVwZDYxNUc4M29LTFNEeFRSU0JINkIwblMyeUw2RmpRVlJQU2hsal9Rd0VmalJDU0dzaHNYR0M1SFdlT1RGY0FUdnNsaHV6U0NCeEszdnVQNVM3NW1xNFEzTGZRQkU?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Webinar: Jamesway Incubator Company offering webinar series on embryo diagnosis - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-16T20:21:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaXhXNWNzY2tVMjJqMUM3M1dMSlVab1BHRW8tOXY3dXhUUmUwdjM1NWY3cHNWUEJNc1lUNUpQLW5vOE1aanRLeUtmb09qTWdYN1VHVDNCcDFFU19HR1FDYnotdVBwQm1ObU5UZXFjaXdpSGlrbFJ2QXNZYXNsRGFFU29uRE9mRUw0aXNOR1A2UlU5SzZaTktQZDhuem5aOFFoQklRMzdHZXlwb0V2RTc0T2FNdTcxLXRHcG8zN29uQQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "CAAP chooses the adaptability of Jamesway machines - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-16T20:19:36+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdE9ZSnIwM0xvNmpLYlhnc0lDY1JNeGZ0d0hwcU5SbTJmQUxNWmx3VTV5YjlEcV93dEVLSF9wN3hNX1VNOWhSU0QwQkk0NXN3NG43M0NfV0x4eDRRVUlPWjJVTWRxamZkNkFScXZnV0ZnNm9zYV9EeEZ5T3RGUHFLU1dKaXI4UExLMFIxYnloLWZXejkwVXhIRGh3?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Aviagen’s newest, largest hatchery to serve US and beyond - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2019-12-05T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSmFPbTRibzVNUy1LUndlZVUwaWhtTmthUlRvZmZFbXhrMW8waF9BcFZ6dHVDX2NoZnJQNjF0TEsxeHdnSVlnRmduellPc0RxSU9YNHZUcnRuUk1zeDRxc09VNnUzeG1MS0I5anJ2ckpYRFVCQ0p2NUEyRjJleHhUZVo3MGVBYkwtQWQ0RE83ODhfYzdRaDVib1pHME1SY1Nyd3BtOFVRVGdRRkhVc2UzRGRncFM4bzEtU2VGT2tYczlPWUZmMXZub1Fpb0JVMC1hVTZFWE0taEcyODg?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Ross Africa and Pas Reform team up for hatchery management school - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2019-06-23T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXJOSHlnYzRNZEZqSnFweFlxV2xCY2RJdUFjVEYxczNDb3hCbnhIVFJUWEN5ZUZKdE8ySWRVdzNSSk05US1HeldlLUpIb1RGSkJ1QVlvaVJ4TW1oejRVMmtTdnpQTlFQRHlTQW10ME50RzhXd205TVpLR2RqM0trTU53YVhpODMtaDkxWlViY0FUNzlrek55a21YbHFZZ0RVeF82VlIyek85ZG5QaGc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Okanagan hatchery opens with Jamesway equipment - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2019-06-18T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV216TUx5RnhpSmdoVkEtdkcxUXVUOXczNmE0LXZkMENfYmdFSEx4dk5pSUhCclpSVVNMNzdIT05YWFJ1U2g3eUhTdHUyWHNBUF9ZaWtDR0lud25iUkdYREphN1BmbjB1ZHZrVUpGbHBBbWNyQm5PWTJPYkZsTE1VSk5SWTZmUTM4SklYYTVkNUJiMHM0YUE?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Peace of mind with Petersime’s new Hatchery Alert System™ - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-08-31T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN1hEb0EwcDBkTC13cXhYTXlaZmNNbGhmRFpwcERNSVhZaG9fc2lkVXRpRjVEMko3aUJCWkN3TmpkSmFsZ0pQSXZxLWpkQ1MydHU0Yi1uN0haYTg0UWxUZG9rdmZKVmptaGU3MTMwUGxnd2VTYnNFUDBuR3NLeE53STJfWnBXSnNBd25ucDR3cWVKSGNSMTRQcnNmaFNxX0RX?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "Annyalla Chicks’ new hatchery opens its doors - foodagribusiness.world",
+      "publisher": "foodagribusiness.world",
+      "published_at": "2018-07-30T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUmU1Nl9fSHZLVk9zaDlGa1Zud0MxX3k1UTh2eU5XZGtEMW5hVzJpUk1jLU1HaTNPRUs2RFpLNWttT3FFNXZjc1lDbkNmX1dlQllCdmpQa3hkSmw5b1J0WGVsS084Z2I4UVpXZkotSHZ2a0ptcmd4bEdBblRtd0RUS3hhZ3VNNjVESVZIT2ExVk4?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Jamesway supplies Colombia’s Avidesa Mac Pollo with two new hatcheries - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-07-18T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS0dqZE5qQmZteXFsTEpRY3h4Z3E3NF92dWpMWXlfMVRkZjE0RGNkTW1sLTNXSkNZSVlXczZlQ1B1NDYzVF8ydU9YWGNUVzJmYUlXZFNvZHpUWjhiT0V1d2RYczRjUE40NUZ5QUJVdTFfQWE3cDV2bHlQX1dkeUd2b0VLVjdsMkMxQ3MyajFaMktoR183clV6aXp5NDlZVDE1ZXlnUlpCYlR5YXVHVE45aE8xRQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Our focus on innovation won’t change - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-07-10T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcktLcDFGNGRCR2E0VmluWXBicE4tRFhna3FDVjM3RnFoVG80Y0tSZnRNakhmQzladWl3cmJUc2VQSmxnMldlNGR1Y0dLYkk3dE9hN3hyZWx6VkozU1U3YlZBTEFWeHJzNElJUE5BUWZwMHBlVUlEZF9INXlPR2RXUFBsTjl5Zw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "CAAP expands broiler hatchery in Saudi Arabia - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2018-05-11T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOa0J1TGtsaFBLcEYxVHV4OTZmbXh1N3M4b2YwbzlWcmJRRFlqbGlVaGpRWHBhTVNhWHFEbGhwdnQ2bEVYVGh4QWgtZ0RGaW5lWGM2ekhrYnhDdVE4dGtJVkM0TFcwUXhkSmVTangzd0Q1dGRUTllaRmtJSUNFTFFUNkRnM2tlRXFKN3VSMmtHZmZuMXZMUUVXZUl0TGY5VngtOGhKYWhnYndQbDNKM1I2TVl6R2VCcHB5eklqQXBKeWh0WjgyRS1PakRfTEc3Zw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Fakieh Farms celebrates first hatch with Shaddad Expansion and Jamesway Machines - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-05-04T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTFdZWUpQWlVxY1lNeEZNTW1yUnkxclotSTJLZFA1OHBnNExkR3o2eHBodmlCQVEyYVdvS2Z2dHZPRWxiMmgzY1o3TlpEai1WbmFrQzh4dmluX0g2cHFtZS1SX056em4zMU5XRHZheHd4Y2JOYWVJempMUlBNSHRqUjctVFk4TGtFbkE5bDFwb0p2WEVscU5nVG1KQXZVaDltVnhWVlA0UjJQeHNHazRaLWxEcjRvREQ3cjBGd0t6aUtmUQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Petersime incubators ‘best fit’ for world class Allora hatchery - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-05-01T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcE5lbm0yQWV4aVJGRE1LUVh5S21MWXhhWnoyUi1RZXpUTlQ5VDYyTlVuVlhJZzR6bUxrSGpYUzFoaldxNnBMNFRBbnhzaFZCWXR3TlpjOWU5TVZfTkVpYXVfSXp4Y0lKSjhCaFMwYUhLdkNDRXVvR0NYYkd1RmhYdHBGYnB4aVhEYmNfbF9ud1FtTm5MSmcwMDdZOHRva2ZSZ1p6Y2psWEI?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Co-operation Vencomatic Group BV and COBOT Automation - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2017-10-26T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM0ZvRXJmNDJiaWV1eC1Uc2NpR0l0TUo4LU0zOXlIMklZajdaNmpaaDJWTEZOa0lXcXpMZmRtcGs3QjNmZGRXVlllNW1LV1Yyay1ESWM4R0RmdU0wdnV2Y1B3VDU5Mks3aEJiR0FZRWpFTVIzRlJzV283bjlEY1dyeGFCUHhUaGNack1iaEtDNUdmd2tCUEY1blhQSFI?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "Annyalla Chicks adopts ‘early feeding’ hatchery system - Farmers Weekly",
+      "publisher": "Farmers Weekly",
+      "published_at": "2017-10-25T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSG1XM29JSFp3SnFXQXU4Mm5OQUFUVjNYWXhKODV2VjBhTmR0SlJuQkx1OS1HWDQ2R0ZZZmc2RjJWTmZkWURtREU1SThFR0ROMUhoLVQ5V3duWl9oenM0UHhqQUZkZUZxbms2a3hrWGRrS0lpaGxWZUs0LVV0bTAyNTl6MUJrVzhqZGdodTdyUTZ0UTVLMk1Z?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Full house for Platinum Brooding Program at Jamesway's Canadian location - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2017-10-02T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY0pJQnNHLUNYdkUzVThOTGE5X3hJNWlkSXh0T2w0N0laLUh5VGlWaHU4LXZycnlkUDBjVGt4a3RiZ1YteHBJYU14WG15cnhVMFNXOERHcDNPMERldFlrT0xWU0NuSkJ2MmNFNGlTQnplSWQxbmdZUWRwNmdBZFA5dUN6bFVNd3YzcTFjNGpyR3E0aHNtanJ4MGNfMkNDaXBmeEZnanJXZEFpWFVNTVpKWEUwVjZFZw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "FACCO poultry",
+      "region": "INTL",
+      "title": "5 questions about cage-free hen health, welfare - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2017-08-13T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQTI1a2FMcV9IcUhSeVlsU3lqUTBFeHdQZ096a3dXY3VuTDk4YVNWdm5ibTJpSTNrY204S0FsRF9ZcDZEdkxISHpoZTJZU3NjTHl6MXlxQVUwcWd4a3VHTzZ6cFJTZW1Tc0czWWZRNmd1dnVaUHlIM3VGNEZiVXFQQWp0b3ZFWXRGdTlMSzBwTGVldVVTS3ZzdG1HWUROUFUydm9MTFZsZ0NYN2hKV2dQLTQwTXVRTkNwRHc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Prevention is better than cure: Vencomatic Group launches its revolutionary Q-Perch - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2017-07-26T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQckpmQVp3X25fcmozTVM4NUNtRG8yQkxiMzl0M2RTSTVSQ19INWk3UXhsMTJnYlVnVEhaZlBqWmtDcjI0M1VBQjlrc3FJMFc1clNmbEtJQ2ZSSVVleGdsWUNhQjBYLUg1OVY4YTNCQm9qbWNzSDZhdGN2TGd1NlVuSEhhNlJ3emh0d3VzM3JIOXRsbmF6REdUcC1TU1FsS21nX0ZsSzJMNTRxQkZFV0tDNHdpUGhOWkt3WXFxNEZDNFp6NWs?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Aviagen invests in Petersime equipment for new €12 million hatchery in Hungary - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2017-05-19T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLWVuRjN1cEZ6dUlCd3pPNEtCYXlFTkZGQUZoVnhjMTJYMXRSLVdaUTluSVZLUHV2b1RMNFV1SGM5VmhsUWhOZktxVE90SXFkN092QUdQaWdGQlF2ZnlDRXFVakIyZTZEcmRqVFpKcEtjVlRtZXRDR3dHdkxsOU5GVm1EOEgwNkxKd25nN204cDVFRVdsbGllOXF2LWdmU05xbENqTGFnWTEzRmFRbjB6NlJoc3UyT25TanRmSkxB?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "FACCO poultry",
+      "region": "INTL",
+      "title": "Pullet rearing is key to cage-free flock success - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2017-04-11T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSkhETmIxV3BhQUtSWGJoc0lNYlFNdjhsTVgzR2ZLdmU5U0VPellIZDVSWXVfUDh4cXpXVlJ0QkhXRHlmZG9mejNLMW0taGxCZE9sR1RfbEJ1YjVTakt4QUV0eXlmSVIyTXFtNVRGSEQxN0FRRmhtYTBtVVFVbWhBM2lZcGJwSU4xTWZsQVFuSFY2cGRmQ2VUUDFBNUFYcm1iblBlSGFqQVE4NkJNVXB3VlNQMGpBTjFEcjF5RQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "A New Petersime Hatchery for the Australian Layer Industry - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2017-03-29T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc01zeV85NEdpaUVYQ0tNSTB3Q24yVUFaTzVzN3g4c2pFSVo2YXRvVmgxN1ItcVNzOWRCeDlwZ3AxN29PMWhGWG9DajdQbHpMMUxNQTJaVE1YbnU3VHR3ZU41M3N4VDdnT004bHZFbGVOdzEwcW5pVzlnOFFXNGpHNEVaeWw3SlFMZ0NQTmNMbEQzSGtBbzlsZDRoblpJVWdxdEoybw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Cage-free floor systems trade density for freedom - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-07-06T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMEZJcEoyTGdKNC0tMTNwYkR6RDBTeGVxS0ZyZ21UVzl5RF9STlZyRlNoa1E0LWwyZlpsNmN4WXh1MkpRcEFoZmZTUkQ0WDBzZzFyU2IyTV91YlJJUFFfM2d2eC1oeUhNQnNxTUNWUUI1b0tCcGhHejNHTGVzazc5S1Y0M3Axd2ZiSkZYWGlKYnlqdGg2YVNjS2lyOVhCMTdzeEJ0WVVqQUlUOWtGSnZ0dzlqMWVoRFA4YjlBMkRoWDlwWmEz?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Cedrob to build hatchery in Kossobudy, Poland - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-03-16T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS1ppWW5zbzV5V0J6Q1E1bTFKdFFwZm1DU2dGc2kzNFdHb19Jemg0UDZiS0tmNFZETjFURk5EbkpiTlA1ZVJkMTNwTDNBY1V4Q0pmZDFyMEg5dkFjZGFrbmdNTHN3QWpQNUZnWFV1OE5vY2xyVy1xSENyYWFVQUFLMjE2blBzVy1HQmpaN1hTV0c5V2RNdmxmbmZLOEVCTy0xVEUyNXpXLUptVFpyR01oOFV4ZmR3WnpYSnRzSHBzZjNKVnJqMnpUblNSdw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman With Branch Office in Italy - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2016-01-27T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQazhXTUVpUXMxT3RPVkp4MlAycUdXSExMT2xGQ1l6ck9qRFYwOU1zTDI1cFBKeXVMRnQzbzNvNGVZN1NlNXB5Zkw2SEJXRXVwUzB5ZmNuanRWNWtsS0l4V2ZWZERmMVFYMnFtZ0d3S3JWUDNRUURXN19SNmRsNEFUME90SDR3dktZVDFLSA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Chore-Time poultry",
+      "region": "INTL",
+      "title": "SKOV Combi-Tunnel Ventilation Poultry - YouTube",
+      "publisher": "YouTube",
+      "published_at": "2015-06-29T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBKYlYzajZNNEFzUkd2VExQNktrdWQwM3JMQ01LTDA5VHpWenk1WVR1V2thOHRvdUlZSmVjdURTczFzbXVqSk1OeVBR?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "First Petersime Hatchery in Mauritania - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2015-04-01T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZGV0TnpfZ3BzMDVDNkFiSXZlQlJIZ2I2bnpjR0M4VW5jZF9tMHpmN3QwN0pBVnVXclJDajh1ZlpONjd5T1M1UHFQLXMxclppajVsU0hfcjRuR3c4eG9CTjZGOFdHRmVnQlF6empDRlpsSlRyc3JvWWNoa2tqbFJkaHgxSVBkQWpxZWc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTraveller chosen for Saudi Arabian hatchery transport - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2013-07-24T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZVdPTGZwVzJlNG90S3dCRS1CVV9TUENyWGJWNzdLSTVoYjRPUklKM0xBSkhnNkMtQXV1a1YzZ1NYN0UtQlFDWWFKdkZrSFhMTjUzSkV4WEpZV0RuLVphSUNWbERuako4M0lrZWtMR3VSVHpEODRfaE9Qd19BUXZuMVlEUlp6SDYxT2dkVlBsRUdTUE5NRXQ3UzlvSE5vLWZSYzZTQmpVWmZkeEZ3MWtjLVVkQlA2dWNoOXJNSlFSeXZmTzJBTm1OLU8wMA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Jamesway's Platinum 2.0 Now Uses ThinkWise Technology - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2013-02-05T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUWtrcVVKWm55MzEyWVFkb29WbXdRYlVyM0FxcVlOMng2YnJ5NXpqNC0yalVDWDJQQndWek03cjFkSnEwZDdOMXVKRzV1MUJyb0lyenl0ckV3RG1oRzBFZ2pRQXE5YVA3dHpHZG1XdFJrbE1MUG1PcjJQSUJhS3haRjI5WFdseElSQ28xbXFkLXNRcDVSVkhZempydw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Chore-Time poultry",
+      "region": "INTL",
+      "title": "Buffett's latest acquisition a gutsy bet - InvestmentNews",
+      "publisher": "InvestmentNews",
+      "published_at": "2012-06-20T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVnQtZGMyU2NsUTJ6b09rbjBVQjF0SV9LTzllQWRQcC05REJmYjZORFV0cmxpTFcyZk5ONTJieFo3QjFGM0FaeTE4NGJ1MnJQd25PejBxU3IwRWx2Uk9ONkdzTGhGWUQ4a0NDZmhrbFM2Qnc4cWZqWEZSZ3JwelNMb3lBWXpHWE1nUEFLdDZn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    }
+  ]
+}\n
