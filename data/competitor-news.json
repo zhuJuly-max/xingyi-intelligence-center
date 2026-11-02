@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T05:53:47.590802+00:00",
+  "generated_at": "2026-11-02T23:58:11.248014+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 73,
+  "new_items_count": 3,
   "items": [
     {
       "company": "Big Dutchman",
@@ -427,6 +427,16 @@
     {
       "company": "Big Dutchman",
       "region": "INTL",
+      "title": "Big Dutchman Celebrates 75 Years! - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-20T21:32:58+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaks1b2owZHVsWXlIT0ZrSVhjU1lXVVFzZjVFNnN6MFZuM19aa21oOXQ3S0ZNeVJfbGllNWxIeWtudE9VaXhpV1B3TjdpbERYeDVOclg1VF9kSEFQaU9KXzlIVl9yMFF5Nm9ES3VJVi0xR19yZEh2Qi0tanJ6bWFBRVNn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
       "title": "Big Dutchman provides equipment for two broiler breeder houses in Belgium - The Poultry Site",
       "publisher": "The Poultry Site",
       "published_at": "2020-09-18T14:35:02+00:00",
@@ -451,6 +461,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2020-09-17T06:41:35+00:00",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNanFoWHhQUUF1MUluanNzaEVrVVMzWFZaZnp0VjQxcWVwZDYxNUc4M29LTFNEeFRSU0JINkIwblMyeUw2RmpRVlJQU2hsal9Rd0VmalJDU0dzaHNYR0M1SFdlT1RGY0FUdnNsaHV6U0NCeEszdnVQNVM3NW1xNFEzTGZRQkU?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "New area sales manager for Pakistan at Petersime - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-16T21:19:52+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFpOTm9CZFZ4azV5ZGNiWFVfYUFkSnFWWFZ6WmFjTXhDaGRaNWVuUHdnM1h6YkJXMzhVeXh4OWlYYVMwQmJlQ09wd2NIZW5OUHl0Z20tQVlSN3BiRllNcThVaFFqVE1DV1ZMZFAwTGQzUFJhYmEyZ3pvOEZXZm5yZGtsUkVydi1GTTdFVlVMZ1RINVN3XzJj?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -541,6 +561,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2018-07-10T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcktLcDFGNGRCR2E0VmluWXBicE4tRFhna3FDVjM3RnFoVG80Y0tSZnRNakhmQzladWl3cmJUc2VQSmxnMldlNGR1Y0dLYkk3dE9hN3hyZWx6VkozU1U3YlZBTEFWeHJzNElJUE5BUWZwMHBlVUlEZF9INXlPR2RXUFBsTjl5Zw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Jamesway’s launches online parts website - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-06-01T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdFFWaTBucFkxdzc0MnJoTnJJMGJVY0o2V0dPYmY2Y25zb2hmTTY2a2x6OG5URGpyZFFfSTdNMktnMFh4TDY3SUhlZGNBVks5YWhUZFF3S0lMRFRYb0g4TWMzRE8zNFhuMmt6ajhtX1pSU2RGd1ktZHhFa1loTG9HQTZwVGNKWlRJMVB3?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
