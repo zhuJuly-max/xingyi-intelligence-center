@@ -38,3 +38,24 @@
 
 /* Source-verified competitor intelligence cards */
 .verified-briefs{max-width:1220px;margin:24px auto 0;padding:22px;background:#f5f8fa;border:1px solid #dce6ed;border-radius:8px}.verified-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.verified-card{background:#fff;border:1px solid #e0e8ed;border-radius:7px;padding:18px;display:flex;flex-direction:column;align-items:flex-start}.verified-label{font-size:10px;letter-spacing:.04em;color:#187b91;background:#eaf5f6;padding:4px 8px;border-radius:3px}.verified-card h4{font-size:14px;line-height:1.6;margin:12px 0 7px;color:#18364d}.verified-card p{font-size:11px;color:#687d8b;line-height:1.85;margin:0 0 14px;flex:1}.verified-card a{font-size:11px;color:#1767a6;font-weight:700;border-bottom:1px solid #b9d4e5;padding-bottom:2px}@media(max-width:900px){.verified-grid{grid-template-columns:1fr 1fr}.verified-briefs{margin-left:5%;margin-right:5%}}@media(max-width:560px){.verified-grid{grid-template-columns:1fr}.verified-briefs{padding:15px}}
+
+
+/* Public customer project intelligence */
+.customer-projects{margin-top:22px;padding:24px 26px;background:#f5f8fa;border:1px solid #dce6ed;border-radius:8px}
+.project-intro{margin:-5px 0 17px;color:#718493;font-size:11px;line-height:1.8}
+.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.project-card{min-width:0;background:#fff;border:1px solid #e0e8ed;border-radius:7px;padding:17px;display:flex;flex-direction:column}
+.project-card-top{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.project-country{font-size:10px;color:#176d91;font-weight:700}
+.project-stage{font-size:9px;color:#8b6b32;background:#fff6e8;padding:4px 7px;border-radius:3px}
+.project-card h4{font-size:15px;line-height:1.5;margin:12px 0 3px;color:#18364d}
+.project-name{font-size:11px;color:#61798b;margin:0 0 12px}
+.project-card dl{margin:0;display:grid;gap:7px}
+.project-card dl>div{display:grid;grid-template-columns:82px 1fr;gap:8px;font-size:10px;line-height:1.65}
+.project-card dt{color:#8293a0}
+.project-card dd{margin:0;color:#536b7d}
+.project-assessment{margin:13px 0 12px;padding:10px 11px;background:#f4f8fa;border-left:2px solid #6aa6bb;color:#5f7585;font-size:10px;line-height:1.75}
+.project-foot{margin-top:auto;padding-top:10px;border-top:1px solid #edf1f4;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.project-foot span{font-size:9px;color:#91a0aa}
+.project-foot a{font-size:10px;color:#1767a6;font-weight:700;white-space:nowrap}
+@media(max-width:700px){.customer-projects{padding:16px}.project-grid{grid-template-columns:1fr}.project-foot{align-items:flex-start;flex-direction:column}}
