@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-02",
-  "record_count": 10,
-  "note": "公开项目情报样本。竞品设备已确认项目仅用于竞争对标，不代表兴仪可开发客户或存在采购需求；招标状态、建设阶段和采购需求分别核实。",
+  "record_count": 12,
+  "note": "公开项目情报样本。竞品设备已确认项目仅用于竞争对标，不代表兴仪可开发客户或存在采购需求；招标状态、建设阶段和采购需求分别核实。 新增项目均按拟议/推进阶段管理，未披露设备采购的不得视为已确认采购机会。",
   "items": [
     {
       "id": "ID-BONE-HAT-2026",
@@ -162,6 +162,38 @@
       "published_at": "2026-02-07",
       "source_url": "https://ditjenpkh.pertanian.go.id/index.php/berita/hilirisasi-ayam-terintegrasi-masuki-tahap-pertama-kaltim-ambil-bagian",
       "opportunity_assessment": "DOC年产约1,000万羽的区域项目，适合跟踪孵化设备配置、工程进度和公开采购；暂未见设备招标证据。"
+    },
+    {
+      "id": "NG-FUNAAB-OLAGEN-2026",
+      "country": "尼日利亚",
+      "company": "Federal University of Agriculture, Abeokuta (FUNAAB) / Olagen Agritech Nigeria FZE",
+      "project": "7公顷商业孵化场与种鸡项目（拟议）",
+      "category": "商业孵化场、种鸡生产、产学研合作",
+      "capacity": "项目用地约7公顷；孵化产能、种鸡规模及设备清单未披露",
+      "investment": "未披露",
+      "stage": "2026-09-22工作访问；2026-10-20校方称正推进MoU最终确认，尚非已签署合同",
+      "competitor": "未披露",
+      "source_type": "尼日利亚联邦农业大学官方公告",
+      "verification": "官方确认正在推进合作备忘录；项目仍属拟议阶段，最终协议、融资、采购与施工时间均待确认",
+      "published_at": "2026-10-23",
+      "source_url": "https://funaab.edu.ng/funaab-chinese-investors-move-to-finalise-mou-on-7-hectare-commercial-hatchery-project/",
+      "opportunity_assessment": "值得列入尼日利亚早期项目观察池。跟踪MoU签署、项目公司/投资方披露、环评与建设审批；当前没有公开设备招标或确认采购需求。"
+    },
+    {
+      "id": "GH-AGRIUM-POULTRY-2026",
+      "country": "加纳",
+      "company": "Agrium Capital / Ghana 24-Hour Economy Programme / Petra Trust / Axis Pension Trust / Ghana EXIM Bank",
+      "project": "270百万美元垂直一体化家禽产业项目",
+      "category": "饲料、种鸡、孵化场、肉鸡养殖、屠宰加工、冷链与物流",
+      "capacity": "一期规划年产约20,000吨禽肉产品，后续目标约50,000吨；孵化场具体产能未披露",
+      "investment": "约2.7亿美元（项目整体规划金额）",
+      "stage": "2026-10-22签署补充协议；进入技术与投资方案推进阶段，地点、实施时间表及资本分配未披露",
+      "competitor": "未披露",
+      "source_type": "行业媒体报道（引用政府项目与合作方信息）",
+      "verification": "媒体报道项目补充协议签署；尚未见孵化设备采购公告，项目范围和执行进度仍需后续官方文件核实",
+      "published_at": "2026-10-26",
+      "source_url": "https://www.efeedlink.com/articles/ghana-advances-us-270-million-integrated-poultry-project-with-uk-based-agrium-capital-and-local-pension-funds",
+      "opportunity_assessment": "西非大型一体化项目，孵化场属于规划链条之一。建议关注设计顾问、工程总包、融资落地和分包采购；不可将2.7亿美元整体投资等同于孵化设备预算。"
     }
   ]
 }
