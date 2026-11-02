@@ -1,23 +1,23 @@
 {
   "updated_at": "2026-11-02",
-  "record_count": 9,
+  "record_count": 10,
   "note": "公开项目情报样本。竞品设备已确认项目仅用于竞争对标，不代表兴仪可开发客户或存在采购需求；招标状态、建设阶段和采购需求分别核实。",
   "items": [
     {
       "id": "ID-BONE-HAT-2026",
       "country": "印度尼西亚",
-      "company": "PT Berdikari / Hilirisasi Ayam Terintegrasi（Bone）",
+      "company": "PT Berdikari / Program Hilirisasi Ayam Terintegrasi Kabupaten Bone",
       "project": "Bone一体化禽业产业链项目",
-      "category": "种鸡场、孵化场、饲料厂、屠宰加工及冷链",
+      "category": "种鸡场、孵化场、饲料厂、屠宰加工、冷链与食品加工",
       "capacity": "孵化场约50万羽DOC/周；种鸡约16.8万只；饲料厂约1万吨/月",
       "investment": "约6,270亿印尼盾",
-      "stage": "2026-02-06已举行奠基；官方于2026-08-24披露项目推进情况",
+      "stage": "2026-02-06奠基；2026-08-24印尼农业部披露项目推进与产能规划",
       "competitor": "未披露",
       "source_type": "印尼农业部官方",
-      "verification": "官方来源已确认；设备招标/采购范围未确认",
+      "verification": "政府部门披露；具体设备供应商及采购批次未披露",
       "published_at": "2026-08-24",
       "source_url": "https://ditjenpkh.pertanian.go.id/berita/kementan-percepat-hilirisasi-ayam-di-bone-investasi-awal-bumn-rp627-miliar-siap-gerakkan-ekonomi-daerah",
-      "opportunity_assessment": "项目包含孵化场和饲料厂，属于值得持续跟踪的产业建设信号；尚无公开证据证明孵化设备采购向外部开放。"
+      "opportunity_assessment": "官方确认的大型一体化项目，孵化场和饲料厂均有明确规划产能；应跟踪后续工程包、设备招标及运营扩建，不推断当前仍有设备采购。"
     },
     {
       "id": "ID-JAI-2025",
@@ -146,6 +146,22 @@
       "published_at": "2026-10-21",
       "source_url": "https://peternakan.kaltimprov.go.id/artikel/dpkh-jalin-kerja-sama-dengan-cv-berline-farm-indonesia-dalam-pengelolaan-hatchery",
       "opportunity_assessment": "可跟踪其接管/运营的孵化场是否有设备更新、改造或扩产需求；目前没有证据表明存在新设备招标。"
+    },
+    {
+      "id": "ID-PASER-HAT-2026",
+      "country": "印度尼西亚",
+      "company": "印尼农业部一体化禽业下游计划 / Paser项目点",
+      "project": "东加里曼丹Paser种鸡蛋鸡场与孵化场",
+      "category": "父母代种鸡场、孵化场",
+      "capacity": "14栋鸡舍、每栋1万只；规划DOC年产约1,000万羽",
+      "investment": "未披露",
+      "stage": "2026-02-06首期奠基；2026年规划建设，实际工程进度待核实",
+      "competitor": "未披露",
+      "source_type": "印尼农业部官方",
+      "verification": "官方披露规划规模；设备供应商、招标与当前施工进度未披露",
+      "published_at": "2026-02-07",
+      "source_url": "https://ditjenpkh.pertanian.go.id/index.php/berita/hilirisasi-ayam-terintegrasi-masuki-tahap-pertama-kaltim-ambil-bagian",
+      "opportunity_assessment": "DOC年产约1,000万羽的区域项目，适合跟踪孵化设备配置、工程进度和公开采购；暂未见设备招标证据。"
     }
   ]
 }
