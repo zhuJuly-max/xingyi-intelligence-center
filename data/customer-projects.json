@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-02",
-  "record_count": 6,
-  "note": "公开项目情报样本。竞品设备已确认项目仅用于竞争对标，不代表兴仪可开发客户或存在采购需求；所有采购机会判断须另行核实。",
+  "record_count": 9,
+  "note": "公开项目情报样本。竞品设备已确认项目仅用于竞争对标，不代表兴仪可开发客户或存在采购需求；招标状态、建设阶段和采购需求分别核实。",
   "items": [
     {
       "id": "ID-BONE-HAT-2026",
@@ -98,6 +98,54 @@
       "published_at": "2026-10-19",
       "source_url": "https://www.efeedlink.com/articles/indonesias-state-owned-berdikari-to-build-rp177-billion-breeder-and-hatchery-project-in-new-capital-nusantara",
       "opportunity_assessment": "属于早期建设信号，可跟踪后续设计、招标及设备采购公告；现阶段不应视为已形成采购机会。"
+    },
+    {
+      "id": "IN-KALYANI-DUCK-2026",
+      "country": "印度",
+      "company": "West Bengal Livestock Development Corporation / Kalyani Duck Breeding Farm",
+      "project": "鸭育种场孵化设施扩建及设备采购招标",
+      "category": "鸭孵化场扩建、孵化相关设备",
+      "capacity": "未披露",
+      "investment": "招标金额以正式文件为准",
+      "stage": "招标公告列明投标截止2026-10-31；开标日期2026-11-02，结果待核实",
+      "competitor": "未披露",
+      "source_type": "政府采购公告聚合平台（待官方招标文件复核）",
+      "verification": "招标线索明确；当前开标/结果状态待核实",
+      "published_at": "2026-10-09",
+      "source_url": "https://www.tendershark.com/details/west-bengal-tender/animal-resources-development-department/87bef654-2fcc-4280-89c5-20d4bc77ab0a",
+      "opportunity_assessment": "与鸭孵化场设施和设备采购直接相关，优先核实官方NIT、BOQ、技术规格及投标结果；当前已过投标截止日，不应表述为仍可投标。"
+    },
+    {
+      "id": "NG-JIGAWA-SRINIVASA-2026",
+      "country": "尼日利亚",
+      "company": "Jigawa State Government / Srinivasa Farms Private Limited",
+      "project": "Jigawa州现代化禽类孵化场合资项目",
+      "category": "禽类孵化场、雏鸡供应及兽医技术支持",
+      "capacity": "未披露",
+      "investment": "约1,000万美元",
+      "stage": "2026-10-23签署合资协议；建设地点、产能和开工时间未披露",
+      "competitor": "未披露",
+      "source_type": "行业媒体报道",
+      "verification": "协议签署为媒体报道；具体项目参数待政府或企业公告核实",
+      "published_at": "2026-10-26",
+      "source_url": "https://www.efeedlink.com/articles/indias-srinivasa-farms-and-nigerias-jigawa-state-sign-us-10-million-poultry-hatchery-joint-venture",
+      "opportunity_assessment": "新国家市场的孵化场建设信号；先跟踪项目设计、产能和设备采购计划，暂不推断供应商或采购时间。"
+    },
+    {
+      "id": "ID-BERLINE-KALTIM-2026",
+      "country": "印度尼西亚",
+      "company": "CV Berline Farm Indonesia / East Kalimantan DPKH",
+      "project": "东加里曼丹省孵化场运营合作",
+      "category": "孵化场运营与雏禽供应",
+      "capacity": "未披露",
+      "investment": "未披露",
+      "stage": "2026-10-21签署孵化场管理合作协议",
+      "competitor": "未披露",
+      "source_type": "东加里曼丹省畜牧与兽医部门官方新闻",
+      "verification": "合作签署已由省级部门披露；孵化场具体地点、规模及设备采购状态未披露",
+      "published_at": "2026-10-21",
+      "source_url": "https://peternakan.kaltimprov.go.id/artikel/dpkh-jalin-kerja-sama-dengan-cv-berline-farm-indonesia-dalam-pengelolaan-hatchery",
+      "opportunity_assessment": "可跟踪其接管/运营的孵化场是否有设备更新、改造或扩产需求；目前没有证据表明存在新设备招标。"
     }
   ]
 }
