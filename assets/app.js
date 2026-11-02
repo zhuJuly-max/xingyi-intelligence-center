@@ -22,3 +22,44 @@ document.getElementById("year").textContent=new Date().getFullYear();
 document.getElementById("menuToggle").addEventListener("click",()=>document.getElementById("mainNav").classList.toggle("open"));
 document.querySelectorAll("#mainNav a").forEach(a=>a.addEventListener("click",()=>document.getElementById("mainNav").classList.remove("open")));
 document.getElementById("languageToggle").addEventListener("click",()=>alert("英文辅助内容与完整英文页面将在后续版本中完善。"));
+
+
+async function loadCompetitorNews(){
+  const status=document.getElementById("competitorNewsStatus");
+  const list=document.getElementById("competitorNewsList");
+  if(!status||!list)return;
+  try{
+    const response=await fetch("data/competitor-news.json",{cache:"no-store"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const archive=await response.json();
+    const items=Array.isArray(archive.items)?archive.items:[];
+    status.textContent="监测企业 "+(archive.watchlist_count||0)+" 家 · 新增 "+(archive.new_items_count||0)+" 条";
+    list.replaceChildren();
+    if(!items.length){
+      const empty=document.createElement("p");
+      empty.textContent="当前尚无采集记录。自动任务首次运行后，有新线索时将在此显示。";
+      list.appendChild(empty);
+      return;
+    }
+    items.slice(0,8).forEach(item=>{
+      const article=document.createElement("article");
+      article.className="competitor-news-item";
+      const heading=document.createElement("h4");
+      const link=document.createElement("a");
+      link.href=item.url;
+      link.target="_blank";
+      link.rel="noopener noreferrer";
+      link.textContent=item.title||"未命名资讯";
+      heading.appendChild(link);
+      const meta=document.createElement("p");
+      meta.textContent=[item.company,item.publisher,item.published_at,item.verification||"待核实"].filter(Boolean).join(" · ");
+      article.append(heading,meta);
+      list.appendChild(article);
+    });
+  }catch(error){
+    status.textContent="资讯档案暂不可用";
+    list.textContent="暂时无法读取公开资讯档案，请稍后再试。";
+    console.error("Competitor news load failed:",error);
+  }
+}
+loadCompetitorNews();
