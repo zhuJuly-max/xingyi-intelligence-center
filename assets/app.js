@@ -63,3 +63,64 @@ async function loadCompetitorNews(){
   }
 }
 loadCompetitorNews();
+
+
+async function loadCustomerProjects(){
+  const status=document.getElementById("customerProjectStatus");
+  const list=document.getElementById("customerProjectList");
+  if(!status||!list)return;
+  try{
+    const response=await fetch("data/customer-projects.json",{cache:"no-store"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const archive=await response.json();
+    const items=Array.isArray(archive.items)?archive.items:[];
+    status.textContent="公开项目样本 "+items.length+" 条 · 更新 "+(archive.updated_at||"");
+    list.replaceChildren();
+    items.forEach(item=>{
+      const article=document.createElement("article");
+      article.className="project-card";
+      const top=document.createElement("div");
+      top.className="project-card-top";
+      const country=document.createElement("span");
+      country.className="project-country";
+      country.textContent=item.country||"国家待核";
+      const stage=document.createElement("span");
+      stage.className="project-stage";
+      stage.textContent=item.verification||"待核实";
+      top.append(country,stage);
+      const title=document.createElement("h4");
+      title.textContent=item.company||"企业待核";
+      const project=document.createElement("p");
+      project.className="project-name";
+      project.textContent=item.project||"";
+      const facts=document.createElement("dl");
+      [[ "项目类型",item.category ],[ "产能 / 配置",item.capacity ],[ "投资",item.investment ],[ "项目阶段",item.stage ],[ "设备供应商",item.competitor||"未披露" ]].forEach(([label,value])=>{
+        if(!value)return;
+        const row=document.createElement("div");
+        const dt=document.createElement("dt");dt.textContent=label;
+        const dd=document.createElement("dd");dd.textContent=value;
+        row.append(dt,dd);facts.appendChild(row);
+      });
+      const assessment=document.createElement("p");
+      assessment.className="project-assessment";
+      assessment.textContent="兴仪视角："+(item.opportunity_assessment||"持续跟踪公开动态。");
+      const source=document.createElement("a");
+      source.href=item.source_url;
+      source.target="_blank";
+      source.rel="noopener noreferrer";
+      source.textContent="查看来源原文 ↗";
+      const foot=document.createElement("div");
+      foot.className="project-foot";
+      const meta=document.createElement("span");
+      meta.textContent=(item.source_type||"公开来源")+" · "+(item.published_at||"日期未注明");
+      foot.append(meta,source);
+      article.append(top,title,project,facts,assessment,foot);
+      list.appendChild(article);
+    });
+  }catch(error){
+    status.textContent="项目档案暂不可用";
+    list.textContent="暂时无法读取项目档案，请稍后再试。";
+    console.error("Customer projects load failed:",error);
+  }
+}
+loadCustomerProjects();
