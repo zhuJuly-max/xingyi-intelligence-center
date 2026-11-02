@@ -170,3 +170,36 @@ async function loadTenderWatch(){
   }
 }
 loadTenderWatch();
+
+async function loadHatcheryPipeline(){
+  const status=document.getElementById("hatcheryPipelineStatus");
+  const list=document.getElementById("hatcheryPipelineList");
+  if(!status||!list)return;
+  try{
+    const response=await fetch("data/hatchery-project-pipeline.json",{cache:"no-store"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const archive=await response.json();
+    const items=Array.isArray(archive.records)?archive.records:[];
+    status.textContent=items.length+" 条项目线索 · 更新 "+(archive.updated_at||"");
+    list.replaceChildren();
+    items.forEach(item=>{
+      const article=document.createElement("article");article.className="tender-card";
+      const head=document.createElement("div");head.className="tender-card-head";
+      const country=document.createElement("span");country.className="project-country";country.textContent=item.country||"国家待核";
+      const stage=document.createElement("span");stage.className="project-stage";stage.textContent=item.status||"状态待核";
+      head.append(country,stage);
+      const title=document.createElement("h4");title.textContent=item.project||"项目待核";
+      const authority=document.createElement("p");authority.className="tender-authority";authority.textContent=item.organization||"机构待核";
+      const facts=document.createElement("dl");
+      [["项目编号",item.reference],["项目类别",item.category],["采购/合作范围",item.equipment_scope],["截止日期",item.deadline],["合同金额",item.contract_value],["供应商",item.awarded_supplier],["设备容量",item.capacity||"尚未披露"]].forEach(([label,value])=>{
+        if(!value)return;const row=document.createElement("div");const dt=document.createElement("dt");dt.textContent=label;const dd=document.createElement("dd");dd.textContent=value;row.append(dt,dd);facts.appendChild(row);
+      });
+      const assessment=document.createElement("p");assessment.className="project-assessment";assessment.textContent="兴仪视角："+(item.commercial_assessment||"持续跟踪公开进展。");
+      const verify=document.createElement("p");verify.className="tender-verification";verify.textContent="核实口径："+(item.verification||"待核实")+" · 最后核实："+(item.last_checked||"未注明");
+      const links=document.createElement("div");links.className="tender-links";
+      (item.sources||[]).forEach((url,index)=>{const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=(index===0?"项目来源":"补充来源")+" ↗";links.appendChild(a);});
+      article.append(head,title,authority,facts,assessment,verify,links);list.appendChild(article);
+    });
+  }catch(error){status.textContent="项目池暂不可用";list.textContent="暂时无法读取项目池，请稍后再试。";console.error("Hatchery pipeline load failed:",error);}
+}
+loadHatcheryPipeline();
