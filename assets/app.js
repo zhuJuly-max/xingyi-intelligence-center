@@ -13,15 +13,64 @@ function renderCountries(query=""){
     chips.appendChild(button);
   });
 }
+const countrySnapshots = {
+  "印度尼西亚": {
+    date: "2026-11-02",
+    lines: ["肉鸡生产者价：Rp 23,017/kg", "商品鸡蛋生产者价：Rp 24,416/kg", "鸭蛋生产者价：Rp 2,326/kg"],
+    note: "农业部市场信息系统公开样本；当前仅有印尼盾原币报价，尚未接入汇率折算。",
+    url: "https://simponiternak-v1.pertanian.go.id/harga-daerah.php"
+  }
+};
 function renderDetail(){
-  detail.innerHTML=`<div><small>当前选择 · COUNTRY PROFILE</small><h3>${selected}</h3><p>正式数据接入后，将在此展示${selected}的禽肉、禽蛋、饲料、雏禽行情，以及当地货币 / USD / CNY 折算价格与历史趋势。</p></div><span class="detail-status">等待接入真实行情源</span>`;
+  detail.replaceChildren();
+  const snapshot=countrySnapshots[selected];
+  const copy=document.createElement("div");
+  const eyebrow=document.createElement("small");eyebrow.textContent="当前选择 · COUNTRY PROFILE";
+  const heading=document.createElement("h3");heading.textContent=selected;
+  const paragraph=document.createElement("p");
+  const status=document.createElement("span");status.className="detail-status";
+  copy.append(eyebrow,heading);
+  if(snapshot){
+    paragraph.textContent="真实价格样本（"+snapshot.date+"）";
+    const list=document.createElement("ul");
+    snapshot.lines.forEach(line=>{const li=document.createElement("li");li.textContent=line;list.appendChild(li);});
+    const note=document.createElement("p");note.textContent=snapshot.note;
+    const link=document.createElement("a");link.href=snapshot.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="查看官方数据源 ↗";
+    copy.append(paragraph,list,note,link);
+    status.textContent="已录入公开样本 · 非实时";
+  }else{
+    paragraph.textContent="该市场已列入监测范围，但本期尚无完成来源核验的价格样本。接入后将展示禽肉、禽蛋、饲料、雏禽及当地货币 / USD / CNY 折算价格。";
+    copy.appendChild(paragraph);
+    status.textContent="数据待接入 / 核验";
+  }
+  detail.append(copy,status);
 }
 search.addEventListener("input",e=>renderCountries(e.target.value));
 renderCountries();renderDetail();
 document.getElementById("year").textContent=new Date().getFullYear();
 document.getElementById("menuToggle").addEventListener("click",()=>document.getElementById("mainNav").classList.toggle("open"));
-document.querySelectorAll("#mainNav a").forEach(a=>a.addEventListener("click",()=>document.getElementById("mainNav").classList.remove("open")));
-document.getElementById("languageToggle").addEventListener("click",()=>alert("英文辅助内容与完整英文页面将在后续版本中完善。"));
+const navLinks=[...document.querySelectorAll("#mainNav a")];
+navLinks.forEach(a=>a.addEventListener("click",()=>document.getElementById("mainNav").classList.remove("open")));
+if("IntersectionObserver" in window){
+  const sections=navLinks.map(a=>document.querySelector(a.getAttribute("href"))).filter(Boolean);
+  const observer=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(!entry.isIntersecting)return;
+      navLinks.forEach(link=>{
+        const active=link.getAttribute("href")==="#"+entry.target.id;
+        link.classList.toggle("active",active);
+        if(active)link.setAttribute("aria-current","location");else link.removeAttribute("aria-current");
+      });
+    });
+  },{rootMargin:"-25% 0px -65% 0px"});
+  sections.forEach(section=>observer.observe(section));
+}
+const languageToggle=document.getElementById("languageToggle");
+languageToggle.addEventListener("click",()=>{
+  languageToggle.textContent="中文优先";
+  languageToggle.title="英文完整页面正在建设中";
+  languageToggle.setAttribute("aria-label","英文完整页面正在建设中，当前为中文版本");
+});
 
 
 async function loadCompetitorNews(){
