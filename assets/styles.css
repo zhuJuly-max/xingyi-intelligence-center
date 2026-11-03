@@ -111,3 +111,34 @@ body{background:#f7f9fb}
 @media(max-width:1280px){.hero,.section{margin-left:5.2%;margin-right:5.2%}}
 @media(max-width:900px){.hero{gap:28px;padding-top:54px}.hero h1{font-size:clamp(34px,6vw,46px)}.channel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.site-header{padding-left:4%;padding-right:4%;gap:14px}.site-header nav{gap:13px}}
 @media(max-width:640px){.site-header{height:auto;min-height:68px;flex-wrap:wrap;padding:12px 18px}.brand{max-width:calc(100% - 52px)}.brand-caption strong{font-size:13px}.brand-caption small{font-size:7px}.menu-toggle{display:block;margin-left:auto}.site-header nav{display:none;order:3;width:100%;margin:0;padding:10px 0 4px;flex-wrap:wrap}.site-header nav.open{display:flex}.header-actions{display:none}.hero{display:block;padding:42px 0 38px}.hero-visual{margin-top:30px;padding:17px}.hero-meta{flex-wrap:wrap;margin-top:24px}.section{padding:48px 0}.section-heading{align-items:flex-start;gap:12px;flex-direction:column}.section-heading h2{font-size:25px}.channel-grid{grid-template-columns:1fr;gap:10px}.channel-card{min-height:0}.channel-card p{min-height:0}.ticker{flex-wrap:wrap;gap:8px 12px}.ticker-time{margin-left:0}.market-layout{grid-template-columns:1fr}.browser-head,.country-detail{align-items:stretch;flex-direction:column}.browser-head input{width:100%}}
+
+/* XingYi brand-red identity system */
+:root{--navy:#292323;--blue:#c92720;--cyan:#ed5146;--teal:#d9362b;--ink:#292626;--muted:#746b68;--line:#eadfdd;--pale:#fff6f4;--brand-red:#df251f;--brand-deep:#a91e1a;--brand-soft:#fff0ee}
+body{background:#fff;color:#292626}
+a{color:#bd2923}
+.site-header{border-bottom-color:#f0dfdc}
+.site-header nav a:hover,.site-header nav a.active{color:#c92720}
+.contact-link{background:#c92720}
+.brand-mark{background:linear-gradient(135deg,#a91e1a,#ed5146)}
+.hero h1 em{color:#cf2c25}
+.btn-primary{background:#c92720;box-shadow:0 8px 20px #c9272026}
+.btn-primary:hover{background:#a91e1a}
+.text-link,.ticker-label,.ticker-time,.channel-icon,.card-arrow{color:#c32b25}
+.hero-visual{background:linear-gradient(145deg,#2c2525,#6e211f);box-shadow:0 22px 55px #6f211f24}
+.visual-top{color:#f2c9c5}.status{color:#ffaaa2}
+.ticker{background:#fff7f5;border-color:#f1e1de}
+.section-heading h2{color:#302626}
+.channel-card.featured{background:#fff5f3;border-color:#edc7c2}
+.channel-card:hover{border-color:#d98a83;box-shadow:0 12px 28px #7c252014}
+.market-section,.competitor-section{background:#fff8f7}
+.market-map-card,.country-browser,.metric-card,.signal-card{border-color:#eddfdc}
+.metric-card strong{color:#bd2923}
+.metric-card.accent{background:#8f211d;border-color:#8f211d}
+.outline-btn{border-color:#e2b8b3;color:#b52a24}
+.country-chip:hover,.country-chip.selected{background:#fff0ee;border-color:#dfaaa4;color:#a9211c}
+.detail-status,.demo-tag{background:#fff1e6;color:#9c5a2a}
+.signal-icon{background:#fff0ee;color:#c52d26}
+.signal-stage{color:#a62b26;background:#fff0ee}
+.disclaimer{border-left-color:#cf5149}
+.site-footer,footer{background:#2b2424;color:#e6d8d6}
+@media(max-width:640px){.site-header nav a{color:#5b4947}}
