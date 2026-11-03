@@ -217,7 +217,8 @@
           "尼日利亚",
           "埃塞俄比亚",
           "肯尼亚",
-          "南非"
+          "南非",
+          "加纳"
         ]
       }
     ],
@@ -954,6 +955,74 @@
             "title": "埃塞俄比亚农业部：签署USD10.15m现代化禽业孵化场合同",
             "url": "https://www.moa.gov.et/ethiopia-signs-usd-10-million-contract-to-establish-modern-poultry-hatchery/",
             "date": "2026-06-15"
+          }
+        ]
+      },
+      {
+        "name": "Ghana National Poultry Transformation Programme（加纳国家禽业转型计划）",
+        "country": "加纳",
+        "region": "非洲",
+        "business": "拟建设饲料、种禽孵化、肉鸡养殖、加工、冷链与分销一体化平台",
+        "profile_status": "已签署项目推进协议；仍处于技术与投资开发阶段",
+        "strategy": "由Agrium Capital与加纳机构资本及政府项目平台推进，目标扩大本地鸡肉供应并降低进口依赖。",
+        "financials": [
+          {
+            "period": "2026年10月项目推进协议",
+            "currency": "USD",
+            "investment": "计划融资规模约USD270 million",
+            "note": "媒体报道的项目计划规模；并非已全部到位或已支出投资额。"
+          }
+        ],
+        "operations": "合作方包括Agrium Capital、Petra Trust、Axis Pension Trust及Ghana EXIM Bank；平台拟覆盖禽业全产业链。",
+        "projects": [
+          {
+            "name": "National Poultry Transformation Programme",
+            "status": "2026-10签署推进性补充协议；技术、投资及商业开发继续进行，非全面开工",
+            "target": "一期规划年产约20,000吨加工肉鸡产品，后续目标可提升至50,000吨/年",
+            "investment": "计划融资规模约USD270 million",
+            "note": "媒体报道称项目仍需推进技术与投资工作；产能为规划目标，不是当前产量。"
+          }
+        ],
+        "equipment_watch": "规划涉及饲料厂、种禽场、孵化场、肉鸡养殖、屠宰加工和冷链设备；未披露设备供应商、采购批次或招标清单。",
+        "sources": [
+          {
+            "title": "Graphic Online：加纳获得2.7亿美元禽业转型计划推进资金安排",
+            "url": "https://www.graphic.com.gh/news/general-news/ghana-news-ghana-secures-270-million-to-transform-poultry-industry.html",
+            "date": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "name": "Olagen Agritech Nigeria FZE / FUNAAB（尼日利亚商业孵化场合作项目）",
+        "country": "尼日利亚",
+        "region": "非洲",
+        "business": "拟合作建设商业孵化场及种禽生产设施",
+        "profile_status": "合作磋商阶段；最终MoU尚待签署",
+        "strategy": "与联邦农业大学推进7公顷商业孵化场合作构想，拟发展种禽和孵化业务；目前不能视为已签约建设项目。",
+        "financials": [
+          {
+            "period": "2026年10月合作磋商",
+            "currency": "未披露",
+            "investment": "未披露",
+            "note": "校方公告未披露投资金额、资金结构或项目公司财务信息。"
+          }
+        ],
+        "operations": "合作方为Olagen Agritech Nigeria FZE与尼日利亚联邦农业大学（FUNAAB）；项目用地构想约7公顷。",
+        "projects": [
+          {
+            "name": "FUNAAB 7公顷商业孵化场合作项目",
+            "status": "2026-10-20校方公告称推进最终MoU；尚未签署最终协议",
+            "target": "拟包括种禽生产及商业孵化设施；设计产能未披露",
+            "investment": "未披露",
+            "note": "合作意向/谈判线索，不代表已开工、设备已采购或资金已落实。"
+          }
+        ],
+        "equipment_watch": "潜在需求包括种禽舍、孵化设备、环控、供料及生物安全设施；尚无公开招标或设备采购证据。",
+        "sources": [
+          {
+            "title": "FUNAAB：与中国投资方推进7公顷商业孵化场MoU",
+            "url": "https://funaab.edu.ng/funaab-chinese-investors-move-to-finalise-mou-on-7-hectare-commercial-hatchery-project/",
+            "date": "2026-10-20"
           }
         ]
       }
