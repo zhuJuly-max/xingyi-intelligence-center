@@ -92,3 +92,22 @@
 .event-card h3{margin:7px 0;color:var(--navy);font-size:17px}
 .event-card p{margin:0 0 12px;color:var(--muted);font-size:13px}
 @media(max-width:680px){.market-snapshot{grid-template-columns:1fr}.event-grid{grid-template-columns:1fr}.intel-note{padding:16px}}
+
+/* Visual refinement: editorial intelligence dashboard */
+:root{--surface:#fff;--surface-soft:#f4f8fb;--shadow-soft:0 14px 38px rgba(17,48,73,.08)}
+body{background:#f7f9fb}
+.site-header{box-shadow:0 3px 18px rgba(17,48,73,.035);backdrop-filter:blur(12px)}
+.brand-logo{max-height:44px;width:auto;object-fit:contain}
+.hero{padding-top:82px;padding-bottom:70px}
+.hero-visual{border:1px solid rgba(139,190,215,.22);box-shadow:0 24px 60px rgba(16,45,73,.16)}
+.channel-card{border-radius:12px;min-height:232px;padding:23px 20px;box-shadow:0 3px 12px rgba(19,55,80,.025)}
+.channel-card:hover{box-shadow:var(--shadow-soft)}
+.channel-card h3{letter-spacing:.01em}
+.section-heading h2{letter-spacing:-.04em}
+.btn,.contact-link,.outline-btn,.country-chip{transition:all .2s ease}
+.btn-primary:hover,.contact-link:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(23,103,166,.2)}
+.market-map-card,.country-browser,.metric-card,.signal-card{border-radius:12px;box-shadow:0 4px 16px rgba(18,48,72,.035)}
+.site-footer,footer{background:#102c46;color:#c5d6e2}
+@media(max-width:1280px){.hero,.section{margin-left:5.2%;margin-right:5.2%}}
+@media(max-width:900px){.hero{gap:28px;padding-top:54px}.hero h1{font-size:clamp(34px,6vw,46px)}.channel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.site-header{padding-left:4%;padding-right:4%;gap:14px}.site-header nav{gap:13px}}
+@media(max-width:640px){.site-header{height:auto;min-height:68px;flex-wrap:wrap;padding:12px 18px}.brand{max-width:calc(100% - 52px)}.brand-caption strong{font-size:13px}.brand-caption small{font-size:7px}.menu-toggle{display:block;margin-left:auto}.site-header nav{display:none;order:3;width:100%;margin:0;padding:10px 0 4px;flex-wrap:wrap}.site-header nav.open{display:flex}.header-actions{display:none}.hero{display:block;padding:42px 0 38px}.hero-visual{margin-top:30px;padding:17px}.hero-meta{flex-wrap:wrap;margin-top:24px}.section{padding:48px 0}.section-heading{align-items:flex-start;gap:12px;flex-direction:column}.section-heading h2{font-size:25px}.channel-grid{grid-template-columns:1fr;gap:10px}.channel-card{min-height:0}.channel-card p{min-height:0}.ticker{flex-wrap:wrap;gap:8px 12px}.ticker-time{margin-left:0}.market-layout{grid-template-columns:1fr}.browser-head,.country-detail{align-items:stretch;flex-direction:column}.browser-head input{width:100%}}
