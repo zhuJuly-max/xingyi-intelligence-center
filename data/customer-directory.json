@@ -229,7 +229,231 @@
       "新建/扩建孵化场和养殖场",
       "招标采购、设备配置与供应商",
       "项目阶段、来源链接及核实状态"
-    ]
+    ],
+    "companies": [
+      {
+        "name": "PT Malindo Feedmill Tbk",
+        "country": "印度尼西亚",
+        "region": "东南亚",
+        "business": "饲料、种禽孵化、肉鸡养殖及加工食品",
+        "profile_status": "已录入公开财务与投资线索",
+        "strategy": "2026年资本开支重点投向饲料厂建设、种禽繁育及肉鸡业务；推进运营效率、自动化与太阳能应用。",
+        "financials": [
+          {
+            "period": "FY2025",
+            "currency": "IDR",
+            "revenue": "Rp12.69 trillion",
+            "net_profit": "Rp393.59 billion",
+            "note": "媒体转述公司股东大会披露；净利润同比下降19.34%。"
+          }
+        ],
+        "operations": "覆盖饲料、DOC、肉鸡及加工食品业务。",
+        "projects": [
+          {
+            "name": "Lampung新饲料厂",
+            "status": "建设/投产节点待最新公告复核",
+            "target": "2026年第三季度",
+            "investment": "2026年资本开支总额规划Rp700–800 billion，非该单一项目投资额"
+          }
+        ],
+        "equipment_watch": "饲料厂生产线、种禽繁育与孵化、肉鸡养殖自动化；尚无具体设备采购公告证据。",
+        "sources": [
+          {
+            "title": "Malindo 2026股东大会与经营数据",
+            "url": "https://www.poultryindonesia.com/en/malindos-agm-approves-dividend-distribution-and-prepares-feedmill-expansion-in-lampung/",
+            "date": "2026-05-25"
+          }
+        ]
+      },
+      {
+        "name": "PT Widodo Makmur Unggas Tbk",
+        "country": "印度尼西亚",
+        "region": "东南亚",
+        "business": "一体化禽业：饲料、种禽、孵化、肉鸡/蛋鸡养殖及屠宰",
+        "profile_status": "企业官网经营资料已录入",
+        "strategy": "采用一体化模式，官网介绍其业务重点包括禽肉下游产品。",
+        "financials": [
+          {
+            "period": "官网当前业务介绍；非财务报告",
+            "currency": "未披露",
+            "note": "本条来源未提供可核验财务数据，需补充交易所年报。"
+          }
+        ],
+        "operations": "官网披露饲料产能合计约883,000吨/年；中爪哇孵化能力约4,000,000枚蛋/月；商业肉鸡养殖规模约6,800,000只；屠宰能力约12,000只/小时。",
+        "projects": [],
+        "equipment_watch": "孵化设备、饲料加工、自动化养殖与屠宰线；具体采购计划未披露。",
+        "sources": [
+          {
+            "title": "Widodo Makmur Perkasa禽业业务介绍",
+            "url": "https://www.widodomakmurperkasa.co.id/en/business-line/poultry"
+          }
+        ]
+      },
+      {
+        "name": "Leong Hup International Berhad",
+        "country": "马来西亚（集团总部；区域经营）",
+        "region": "东南亚",
+        "business": "跨国一体化禽业、饲料、种禽孵化、养殖、食品加工及零售",
+        "profile_status": "FY2025年报数据已录入",
+        "strategy": "Farm-to-Plate一体化经营，业务覆盖马来西亚、印尼、越南、新加坡及菲律宾。",
+        "financials": [
+          {
+            "period": "FY2025",
+            "currency": "MYR",
+            "revenue": "需从完整审计报表提取",
+            "note": "年报摘录披露饲料业务外部收入RM3,442 million；不可视为集团总营收。"
+          }
+        ],
+        "operations": "截至2025-12-31拥有16家饲料厂、289个禽场及孵化场；DOC销售量约561 million只；集团饲料产能约4,447,896吨/年。",
+        "projects": [
+          {
+            "name": "印尼Lampung饲料厂",
+            "investment": "约RM74.1 million",
+            "capacity": "新增最高300,000吨/年",
+            "target": "2026年第三季度目标完工",
+            "status": "年报披露建设中"
+          },
+          {
+            "name": "印尼Jombang及Kiarapedes种禽场",
+            "investment": "约RM20.6 million",
+            "capacity": "约123,000只种鸡及19,485只种鸭",
+            "target": "2026年第二季度目标完工",
+            "status": "年报披露建设中"
+          },
+          {
+            "name": "菲律宾Tarlac饲料厂二期",
+            "investment": "约RM57.8 million",
+            "capacity": "每月新增13,800吨",
+            "target": "2026年第三季度目标完工",
+            "status": "年报披露建设中"
+          },
+          {
+            "name": "越南Hai Duong孵化场",
+            "investment": "约RM21 million",
+            "capacity": "年孵化DOC约18.9 million只",
+            "target": "2026年第三季度目标完工",
+            "status": "年报披露建设中"
+          }
+        ],
+        "equipment_watch": "饲料加工整线、种禽场设备、孵化器及出雏设备、养殖自动化、食品加工线；尚未披露具体供应商/招标型号。",
+        "sources": [
+          {
+            "title": "Leong Hup International Annual Report 2025",
+            "url": "https://financialfilings.com/filings/leong-hup-international-berhad/annual-report/2026/46774587/",
+            "date": "2026"
+          }
+        ]
+      },
+      {
+        "name": "Cargill（泰国禽业业务）",
+        "country": "泰国",
+        "region": "东南亚",
+        "business": "禽肉加工、熟制禽肉出口、饲料及一体化供应链",
+        "profile_status": "2026年企业正式投资公告已录入",
+        "strategy": "未来两年投资超过1.3亿美元扩展亚洲禽业网络，提升加工产能、供应链韧性和自动化水平。",
+        "financials": [
+          {
+            "period": "2026年9月投资公告",
+            "currency": "USD",
+            "investment": "亚洲禽业扩张投资总额超过USD130 million",
+            "note": "该金额覆盖泰国与菲律宾，不是泰国单国金额。"
+          }
+        ],
+        "operations": "泰国是熟制禽肉出口枢纽，面向日本、欧洲、亚洲及北美市场。",
+        "projects": [
+          {
+            "name": "Saraburi自动化熟鸡肉生产线",
+            "target": "预计2028年完成",
+            "status": "企业公告披露建设计划"
+          },
+          {
+            "name": "Nakhon Ratchasima粮食筒仓",
+            "capacity": "30,000吨",
+            "target": "预计2027年初完成",
+            "status": "企业公告披露建设中"
+          }
+        ],
+        "equipment_watch": "自动化熟制禽肉加工线、粮食筒仓、数据处理与AI系统；公告未列设备供应商。",
+        "sources": [
+          {
+            "title": "Cargill 2026年9月亚洲禽业投资公告",
+            "url": "https://www.cargill.com/2026/cargill-invests-usd-130-million-over-two-years-to-expand-poultry-operations",
+            "date": "2026-09-28"
+          }
+        ]
+      },
+      {
+        "name": "Cargill（菲律宾禽业业务）",
+        "country": "菲律宾",
+        "region": "东南亚",
+        "business": "禽肉供应链、饲料、孵化、种禽及肉鸡养殖",
+        "profile_status": "2026年企业正式投资公告已录入",
+        "strategy": "扩展孵化场、种禽场及肉鸡养殖网络，强化本地餐饮与零售供应。",
+        "financials": [
+          {
+            "period": "2026年9月投资公告",
+            "currency": "USD",
+            "investment": "亚洲禽业扩张投资总额超过USD130 million",
+            "note": "泰国与菲律宾合计，未披露菲律宾单国分配额。"
+          }
+        ],
+        "operations": "以Tip-Top品牌服务本地市场。",
+        "projects": [
+          {
+            "name": "菲律宾新饲料厂",
+            "capacity": "190,000吨/年",
+            "target": "预计2027年末完成",
+            "status": "企业公告披露建设计划"
+          },
+          {
+            "name": "孵化场、种禽及肉鸡养殖网络扩张",
+            "status": "企业公告披露扩张计划；未公布单体产能"
+          }
+        ],
+        "equipment_watch": "饲料厂整线、孵化设备、种禽场与肉鸡场自动化设备；具体采购标未披露。",
+        "sources": [
+          {
+            "title": "Cargill 2026年9月亚洲禽业投资公告",
+            "url": "https://www.cargill.com/2026/cargill-invests-usd-130-million-over-two-years-to-expand-poultry-operations",
+            "date": "2026-09-28"
+          }
+        ]
+      },
+      {
+        "name": "CAB Cakaran Corporation / 印尼合资项目",
+        "country": "印度尼西亚（马来西亚集团参与）",
+        "region": "东南亚",
+        "business": "禽业加工及一体化业务投资",
+        "profile_status": "媒体项目线索，建设进展待企业公告复核",
+        "strategy": "与印尼Salim集团相关实体推进禽业合资，规划逐步覆盖繁育、加工与分销。",
+        "financials": [
+          {
+            "period": "2025年11月项目报道",
+            "currency": "USD",
+            "investment": "首阶段约USD10 million",
+            "note": "媒体报道的项目投资规划，非经审计财务数据。"
+          }
+        ],
+        "operations": "首阶段为食品加工设施，报道当时目标于2026年第二季度启动运营；当前实际投产状态需核实。",
+        "projects": [
+          {
+            "name": "印尼禽肉食品加工合资项目",
+            "investment": "首阶段约USD10 million",
+            "target": "报道目标2026年第二季度启动",
+            "status": "媒体线索，需核验是否按期投产"
+          }
+        ],
+        "equipment_watch": "禽肉加工、冷链与包装设备；暂无公开采购型号或中标供应商证据。",
+        "sources": [
+          {
+            "title": "CAB Cakaran印尼禽业合资项目报道",
+            "url": "https://www.klsescreener.com/v2/news/view/1613811/CAB_Cakaran_to_launch_Indonesian_poultry_venture_with_Salim_Group_after_eight_year_delay",
+            "date": "2025-11-03"
+          }
+        ]
+      }
+    ],
+    "company_record_note": "首批东南亚企业档案。企业披露、年报摘录与媒体线索分级记录；项目目标完工时间不代表已竣工，未披露设备供应商或采购意向时不作推断。"
   },
   "record_policy": [
     "区分企业事实、媒体线索和分析判断",
