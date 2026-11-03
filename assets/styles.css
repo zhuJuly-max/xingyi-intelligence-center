@@ -177,3 +177,38 @@ footer .footer-links{color:#e4cecb}
 footer .footer-links a:hover{color:#ffaaa3}
 footer .footer-bottom{border-color:#57413f;color:#c6b1ae}
 @media(max-width:900px){.site-header nav{background:#fff}.site-header nav a:hover,.site-header nav a.active{color:#c92720}}
+
+
+/* UX polish: consistent hierarchy, navigation, cards and mobile ergonomics */
+.brand-logo{display:block;width:166px;height:auto;max-height:48px;object-fit:contain}
+.brand-caption{border-left:1px solid #eadfdd;padding-left:13px}
+.site-header{min-height:76px;box-shadow:0 2px 14px rgba(54,30,28,.035)}
+.site-header nav a{padding:9px 0;position:relative;transition:color .18s ease}
+.site-header nav a.active:after{content:"";position:absolute;left:0;right:0;bottom:1px;height:2px;background:#c92720;border-radius:2px}
+button,a,input,select{ -webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #e9a29d;outline-offset:3px}
+.channel-card{display:flex;flex-direction:column}
+.channel-card .card-arrow{margin-top:auto;padding-top:15px}
+.channel-card h3{letter-spacing:.01em}
+.section{scroll-margin-top:90px}
+.contact-section{position:relative;overflow:hidden}
+.contact-section:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #ffffff18;border-radius:50%;right:8%;top:-220px;pointer-events:none}
+.btn,.contact-link,.outline-btn,.country-chip,.tabs button{transition:background .18s ease,color .18s ease,border-color .18s ease,transform .18s ease}
+.btn:focus-visible,.contact-link:focus-visible{outline-color:#f2aaa4}
+@media(max-width:900px){
+ .brand-logo{width:142px;max-height:42px}
+ .site-header nav{padding:18px 5%;border-top:1px solid #f2e3e1}
+ .site-header nav a{padding:7px 0}
+}
+@media(max-width:600px){
+ .brand{gap:8px}.brand-logo{width:116px;max-height:38px}.brand-caption{padding-left:9px}
+ .brand-caption strong{font-size:11px}.brand-caption small{font-size:6px;letter-spacing:.07em}
+ .site-header{min-height:64px}
+ .channel-grid{gap:10px}
+ .channel-card{padding:16px 13px;min-height:205px}
+ .channel-card h3{font-size:16px;margin-top:22px}
+ .contact-section{padding:34px 5%}
+ .contact-section h2{font-size:22px}
+ footer{padding-top:25px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
