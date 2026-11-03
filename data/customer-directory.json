@@ -1312,6 +1312,39 @@
             "date": "2026-02-06"
           }
         ]
+      },
+      {
+        "name": "Hubbard Brasil（巴西祖代种禽扩产）",
+        "country": "巴西",
+        "region": "南美",
+        "business": "肉鸡遗传育种、祖代种禽生产与父母代供应",
+        "profile_status": "已宣布BRL60m投资；项目实施进度待跟踪",
+        "strategy": "扩大巴西祖代种禽生产能力，支持Hubbard品系在巴西及区域市场的供应。",
+        "financials": [
+          {
+            "period": "2026-03企业公告",
+            "currency": "BRL",
+            "investment": "BRL60 million",
+            "note": "企业公告项目投资额，不是公司整体财务数据。"
+          }
+        ],
+        "operations": "项目位于巴西Goiás州Luziânia，涉及Hubbard do Brasil祖代种禽生产。",
+        "projects": [
+          {
+            "name": "Luziânia祖代种禽生产扩建",
+            "status": "2026-03-03企业公告投资计划；当前施工及投产节点待进一步确认",
+            "target": "公告未披露具体新增种禽数量或年产能",
+            "investment": "BRL60 million"
+          }
+        ],
+        "equipment_watch": "潜在需求包括祖代种禽舍、环控、自动喂料饮水和生物安全设施；企业公告未披露设备品牌、型号或采购合同。",
+        "sources": [
+          {
+            "title": "Hubbard官方新闻：投资BRL60m扩大巴西生产",
+            "url": "https://www.hubbardbreeders.com/hubbard-press-releases",
+            "date": "2026-03-03"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
