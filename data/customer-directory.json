@@ -1345,6 +1345,45 @@
             "date": "2026-03-03"
           }
         ]
+      },
+      {
+        "name": "JBS Paraguay / Pollos Amanecer（巴拉圭）",
+        "country": "巴拉圭",
+        "region": "南美",
+        "business": "肉鸡屠宰加工、品牌运营及一体化禽业供应链",
+        "profile_status": "已收购本地品牌并推进工厂扩建；项目分阶段实施",
+        "strategy": "以Pollos Amanecer本地品牌和Caaguazú加工设施为基础，逐步建设本地肉鸡供应链并拓展出口。",
+        "financials": [
+          {
+            "period": "2025-10投资公告",
+            "currency": "USD",
+            "investment": "未来两年计划投资约USD70 million",
+            "note": "JBS公布的巴拉圭投资计划金额；后续政府对当地禽业产业链投资另有更大口径表述，不直接合并。"
+          }
+        ],
+        "operations": "JBS收购Pollos Amanecer品牌及Caaguazú地区加工设施，项目位于巴拉圭主要农业产区。",
+        "projects": [
+          {
+            "name": "Caaguazú / Campo 9肉鸡加工设施扩建",
+            "status": "已完成品牌及工厂收购，扩建现代化分阶段推进；最新施工节点待核",
+            "target": "扩建后规划日屠宰能力100,000只；规划配套28个遗传材料养殖场、孵化场和饲料厂",
+            "investment": "约USD70m（2025年公告的未来两年投资计划）",
+            "note": "目标产能及配套设施为扩建规划，不代表当前已全部建成或投产。"
+          }
+        ],
+        "equipment_watch": "项目规划涉及孵化场、饲料厂、种禽养殖、禽舍环控及屠宰加工设备；政府现场报道提及养殖舍温度与饲喂自动化控制，但未明确设备品牌。",
+        "sources": [
+          {
+            "title": "UOL / Estadão：JBS计划投资USD70m发展巴拉圭肉鸡生产",
+            "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2025/10/02/jbs-investira-us-70-milhoes-na-producao-de-frango-no-paraguai.htm",
+            "date": "2025-10-02"
+          },
+          {
+            "title": "巴拉圭工业和贸易部：JBS相关禽业供应链与Campo 9项目现场访问",
+            "url": "https://www.mic.gov.py/inversion-avicola-impulsa-empleo-y-valor-agregado-en-campo-9/",
+            "date": "2026"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
