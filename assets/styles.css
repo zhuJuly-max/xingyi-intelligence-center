@@ -142,3 +142,38 @@ a{color:#bd2923}
 .disclaimer{border-left-color:#cf5149}
 .site-footer,footer{background:#2b2424;color:#e6d8d6}
 @media(max-width:640px){.site-header nav a{color:#5b4947}}
+
+
+/* XingYi brand system — logo red */
+:root{--navy:#2b2424;--blue:#c92720;--cyan:#d95b52;--ink:#292626;--muted:#746b68;--line:#eadfdd;--pale:#fff4f2;--white:#fff;--teal:#c92720}
+body{color:#292626;background:#fff}
+.site-header{border-bottom-color:#f0d9d6;background:#fff}
+.site-header nav a:hover,.site-header nav a.active{color:#c92720}
+.contact-link{background:#c92720;color:#fff}
+.contact-link:hover{background:#a91e1a}
+.eyebrow.dark{color:#c92720}
+.live-dot{background:#c92720;box-shadow:0 0 0 4px #fff0ee}
+.hero h1{color:#292323}
+.hero h1 em{color:#c92720}
+.btn-primary{background:#c92720;box-shadow:0 8px 20px #c9272026}
+.btn-primary:hover{background:#a91e1a}
+.text-link,.hero-meta b{color:#b92520}
+.hero-visual{background:linear-gradient(145deg,#2b2424,#762521);box-shadow:0 22px 55px #6c25201c}
+.status{color:#ffd0cb}
+.ticker{background:#fff7f6;border-color:#f0dedb;color:#746b68}
+.ticker-label,.ticker-time{color:#c92720}
+.section-heading h2{color:#292323}
+.channel-card{border-color:#eadfdd}
+.channel-card:hover{border-color:#e6aaa5;box-shadow:0 12px 28px #76252112}
+.channel-card.featured{background:#fff5f3;border-color:#efc4bf}
+.channel-icon,.card-arrow{color:#c92720}
+.channel-card h3{color:#a9231e}
+.market-section,.competitor-section{background:#fff7f6}
+.contact-section{background:linear-gradient(110deg,#2b2424,#762521)}
+.contact-section .eyebrow{color:#ffaaa3}
+.btn-light{color:#a9231e}
+footer{background:#2b2424;color:#f5e8e6;padding-left:max(calc((100% - 1220px)/2),5.2%);padding-right:max(calc((100% - 1220px)/2),5.2%)}
+footer .footer-links{color:#e4cecb}
+footer .footer-links a:hover{color:#ffaaa3}
+footer .footer-bottom{border-color:#57413f;color:#c6b1ae}
+@media(max-width:900px){.site-header nav{background:#fff}.site-header nav a:hover,.site-header nav a.active{color:#c92720}}
