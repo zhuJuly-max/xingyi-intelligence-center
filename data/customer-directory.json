@@ -207,7 +207,8 @@
           "巴西",
           "阿根廷",
           "智利",
-          "秘鲁"
+          "秘鲁",
+          "巴拉圭"
         ]
       },
       {
@@ -880,6 +881,79 @@
             "title": "Avesterra Volyn新建20栋禽舍项目",
             "url": "https://inventure.com.ua/en/news/avesterra-group-invests-euro15-million-in-20-new-poultry-houses-in-volyn",
             "date": "2026-03-05"
+          }
+        ]
+      },
+      {
+        "name": "Grupo Pluma Agroavícola（巴拉圭Yhú一体化禽业项目）",
+        "country": "巴拉圭",
+        "region": "南美",
+        "business": "种禽繁育、受精种蛋、雏鸡及饲料生产一体化项目",
+        "profile_status": "已宣布并启动土方/建设；尚未投产",
+        "strategy": "巴西集团向巴拉圭延伸种禽与雏鸡供应链，项目目标是本地化受精蛋和雏鸡供应，配套饲料生产。",
+        "financials": [
+          {
+            "period": "2026年项目公告",
+            "currency": "USD",
+            "investment": "约USD50 million",
+            "note": "巴拉圭工业和贸易部公告；项目投资口径。"
+          }
+        ],
+        "operations": "项目位于Caaguazú省Yhú，公告称购置约500公顷土地，计划创造约180个直接就业岗位。",
+        "projects": [
+          {
+            "name": "Yhú种禽繁育与孵化综合项目",
+            "status": "已启动场地施工；尚未投产",
+            "target": "公告规划受精蛋产能约600万枚/月；雏鸡供应目标与投产爬坡时间需持续核验",
+            "investment": "约USD50 million",
+            "note": "官方公告确认项目启动及受精蛋月产能；其他媒体报道的更细设备配置尚未作为已确认事实录入。"
+          }
+        ],
+        "equipment_watch": "种禽场、孵化设备、饲料厂生产线及场区自动化；目前未见公开设备品牌、型号或采购合同。",
+        "sources": [
+          {
+            "title": "巴拉圭工业和贸易部：巴西Pluma集团宣布投资USD50m建设禽业项目",
+            "url": "https://www.mic.gov.py/grupo-brasileno-anuncia-inversion-de-usd-50-millones-en-paraguay-para-impulsar-la-industria-avicola/",
+            "date": "2026-10"
+          },
+          {
+            "title": "Forbes Brasil：Pluma在巴拉圭禽业投资项目",
+            "url": "https://forbes.com.br/forbes-agro/2026/10/grupo-brasileiro-pluma-investe-us-50-milhoes-na-avicultura-do-paraguai/",
+            "date": "2026-10"
+          }
+        ]
+      },
+      {
+        "name": "Agrifam Co., Ltd / Quarit Agro Industry PLC（埃塞俄比亚自动化孵化场项目）",
+        "country": "埃塞俄比亚",
+        "region": "非洲",
+        "business": "自动化孵化系统供应与本地项目实施",
+        "profile_status": "已签署USD10.15m合同；建设与交付阶段待跟踪",
+        "strategy": "通过埃塞俄比亚家禽价值链发展计划建设全自动孵化设施，包含设备供应、安装、测试、调试及配套设施。",
+        "financials": [
+          {
+            "period": "2026年6月合同",
+            "currency": "USD",
+            "investment": "USD10.15 million",
+            "note": "埃塞俄比亚农业部公告的合同金额；不是Agrifam公司营收或财报。"
+          }
+        ],
+        "operations": "Agrifam作为合同供应方，与当地合作伙伴Quarit Agro Industry PLC实施项目；合同包含五年备件供应。",
+        "projects": [
+          {
+            "name": "埃塞俄比亚全自动孵化场系统",
+            "status": "2026-06-15签约；施工启动及资金落实情况待核",
+            "target": "合同生效后预计12个月完成，之后需调试验收",
+            "investment": "USD10.15 million",
+            "note": "农业部未在公告中披露孵化场设计产能；媒体所报年处理蛋量未经官方合同资料确认，不录为确定值。"
+          }
+        ],
+        "equipment_watch": "全自动孵化设备、配套设施、安装调试及备件服务；具体设备品牌、型号和数量未公开。",
+        "sources": [
+          {
+            "title": "埃塞俄比亚农业部：签署USD10.15m现代化禽业孵化场合同",
+            "url": "https://www.moa.gov.et/ethiopia-signs-usd-10-million-contract-to-establish-modern-poultry-hatchery/",
+            "date": "2026-06-15"
           }
         ]
       }
