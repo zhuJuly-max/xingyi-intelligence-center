@@ -1273,6 +1273,45 @@
             "date": "2026-09"
           }
         ]
+      },
+      {
+        "name": "GTF Alimentos / Canção（巴西）",
+        "country": "巴西",
+        "region": "南美",
+        "business": "肉鸡屠宰加工、分割品及调理食品生产与出口",
+        "profile_status": "已完成融资；2026年推进工厂现代化与自动化投资",
+        "strategy": "提高出口收入占比、增加分割及高附加值产品，推进屠宰和加工产能扩张。",
+        "financials": [
+          {
+            "period": "2026年2月",
+            "currency": "USD / BRL",
+            "investment": "完成USD60m国际融资；2026年投资计划约BRL200m",
+            "note": "融资额与年度投资计划分别列示；年度投资计划并非单一项目成本。"
+          }
+        ],
+        "operations": "总部位于巴拉那州Maringá；公司公开资料显示拥有饲料厂、孵化场、种禽场、肉鸡养殖场及屠宰加工厂。",
+        "projects": [
+          {
+            "name": "工厂现代化、自动化及产能扩张",
+            "status": "2026年计划执行中",
+            "target": "未来五年计划将日屠宰量提升至超过800,000只；为目标产能，非当前产量",
+            "investment": "2026年计划投资约BRL200m",
+            "note": "公司2026年2月公告还提及投资创新、包装、可持续发展及IQF产品。"
+          }
+        ],
+        "equipment_watch": "公开确认投资方向包括禽类加工厂现代化、自动化、包装及IQF速冻产品；具体设备供应商、型号和采购清单未披露。",
+        "sources": [
+          {
+            "title": "GTF官方：完成USD60m融资并推进扩张计划",
+            "url": "https://www.gtf.com.br/en/en/post/gtf-a-poultry-producer-raises-us-60-million-and-prepares-a-new-phase-of-expansion",
+            "date": "2026-02-16"
+          },
+          {
+            "title": "GTF官方：完成BRL375m农业应收账款证券发行并投入扩张",
+            "url": "https://www.gtf.com.br/post/frigorifico-paranaense-gtf-avanca-em-nova-expansao-com-r-375-milhoes-em-cra",
+            "date": "2026-02-06"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
