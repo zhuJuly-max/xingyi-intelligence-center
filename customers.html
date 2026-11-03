@@ -51,7 +51,18 @@ h1{letter-spacing:-.04em;font-weight:750}
 .card:hover{box-shadow:0 12px 30px rgba(19,53,78,.08);transform:translateY(-2px);transition:.2s}
 footer{background:#102b49;color:#c5d6e2}
 @media(max-width:720px){header{padding:24px 18px 34px}.wrap{margin-top:18px}.stat{padding:14px}.card{padding:16px}}
-.data-freshness{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 16px;padding:11px 14px;border:1px solid #eadfdd;border-radius:10px;background:#fff;font-size:12px;color:#756b68}.data-freshness strong{color:#292626}.fresh-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:#2d8a62}.fresh-watch .fresh-dot{background:#d49a36}.fresh-old .fresh-dot{background:#c92720}.data-freshness small{color:#81716e}.insight-strip,.competitor-kpis,.reg-kpis,.event-kpis,.market-kpis{margin-top:14px}</style></head><body>
+.data-freshness{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 16px;padding:11px 14px;border:1px solid #eadfdd;border-radius:10px;background:#fff;font-size:12px;color:#756b68}.data-freshness strong{color:#292626}.fresh-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:#2d8a62}.fresh-watch .fresh-dot{background:#d49a36}.fresh-old .fresh-dot{background:#c92720}.data-freshness small{color:#81716e}.insight-strip,.competitor-kpis,.reg-kpis,.event-kpis,.market-kpis{margin-top:14px}
+/* Contrast repair: keep the original dark logo artwork readable on dark headers */
+.site-header .brand-logo{background:#fff;border:1px solid rgba(255,255,255,.75);border-radius:7px;padding:4px 8px;box-sizing:content-box;object-fit:contain}
+.site-header .brand-caption{border-left-color:rgba(255,255,255,.38)}
+.site-header .brand-caption strong{color:#fff!important}
+.site-header .brand-caption small{color:#f3d9d6!important}
+.site-header .brand{align-items:center}
+.site-header{min-height:76px}
+.site-header .global-nav a{color:#ffe8e5!important}
+.site-header .global-nav a:hover,.site-header .global-nav a:focus-visible{color:#fff!important}
+@media(max-width:720px){.site-header .brand-logo{padding:3px 6px}.site-header .brand-caption strong{font-size:11px}.site-header .brand-caption small{font-size:6px}}
+</style></head><body>
 <header><nav class="global-nav" aria-label="主导航"><a href="index.html">首页</a><a href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav><div>客户情报 / CUSTOMER INTELLIGENCE</div><h1>项目建设 · 客户线索 · 招标雷达</h1><p>从投资意向、孵化场建设到公开设备采购，汇总可追溯的公开项目动态。所有信息按来源与核实状态展示，不将项目规划误判为设备采购需求。</p></header>
 <main class="wrap"><div class="stats"><div class="stat"><strong id="projectCount">—</strong>公开企业 / 项目档案</div><div class="stat"><strong id="tenderCount">—</strong>公开招标记录</div><div class="stat"><strong id="pipelineCount">—</strong>孵化项目池记录</div><div class="stat"><strong id="countryCount">—</strong>覆盖国家 / 地区</div></div>
 <section class="insight-strip" id="customerInsights"><article><small>项目国家覆盖</small><strong id="ciCountries">—</strong><span>基于三类公开档案</span></article><article><small>采购 / 招标类记录</small><strong id="ciProcurement">—</strong><span>不代表均为孵化设备采购</span></article><article><small>竞品案例记录</small><strong id="ciCompetitor">—</strong><span>仅作市场对标</span></article><article><small>档案总量</small><strong id="ciTotal">—</strong><span>项目 + 招标 + 项目池</span></article></section><div class="notice">数据边界：仅使用公开政府公告、采购平台、企业公告及行业媒体。媒体报道和聚合平台均标注待核实；竞品已采用设备的项目仅用于市场对标。此页面不是内部CRM，不包含私人联系人、销售跟进记录或未公开商业信息。</div>
