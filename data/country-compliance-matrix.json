@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-03",
   "scope": "孵化机、出雏机、禽舍环控、饲喂饮水及养殖自动化设备",
   "methodology": "官方查询入口索引；不是型号级认证结论。HS编码、税率、许可和强制标准须按产品结构、功能、额定参数、原产地及进口商身份逐项核实。",
   "records": [
@@ -15,18 +15,20 @@
       "status": "官方入口已核实；型号适用性待核",
       "hs_status": "BTKI查询入口已核实；设备HS子目及税率待按型号确认",
       "cert_status": "不得默认孵化设备全部强制SNI；按产品目录、用途和技术参数核查",
-      "notes": "Permendag 16/2025进口框架后续有修订；Permendag 18/2026自2026-06-04生效，需合并阅读现行版本。",
+      "notes": "Permendag 16/2025自2025-08-29生效，进口商需持有效NIB作为API；其后续修订须合并阅读。印尼财政部法规库显示PMK 26/2022于2026-07-28被PMK 50/2026修改，后续又被PMK 68/2026修改，税率必须以最新合并税则核查。",
       "sources": [
         "https://www.beacukai.go.id/btki-dan-tarif",
         "https://peraturan.beacukai.go.id/index.html?page=detail%2Ftahun%2F2026%2F1557%2Fperaturan-menteri-perdagangan%2Fmdag-18-2026%2Fperaturan-menteri-perdagangan-republik-indonesia-nomor-18-tahun-2026-tentang-perubahan-kedua-atas-peraturan-menteri-perdagangan-nomor-16-tahun-2025-tentang-kebijakan-dan-pengaturan-impor.html",
-        "https://www.kemendag.go.id/faq"
+        "https://www.kemendag.go.id/faq",
+        "https://jdih.kemenkeu.go.id/dok/26-pmk-010-2022/files",
+        "https://peraturan.bpk.go.id/Details/323106/permendag-no-16-tahun-2025"
       ]
     },
     {
       "country": "印度",
       "code": "IN",
-      "customs": "CBIC / ICEGATE — Customs Tariff & Trade Guide",
-      "customs_url": "https://www.icegate.gov.in/",
+      "customs": "CBIC / ICEGATE — Trade Guide on Imports（可输入4–8位税号、商品描述及原产国查询）",
+      "customs_url": "https://www.icegate.gov.in/Webappl/Trade-Guide-on-Imports",
       "import_system": "DGFT — ITC(HS) Import Policy；按商品描述和政策条件核查",
       "import_url": "https://www.dgft.gov.in/CP/",
       "standards": "Bureau of Indian Standards (BIS)；核对强制认证QCO是否覆盖具体电气部件/设备",
@@ -34,12 +36,15 @@
       "status": "官方入口已核实；型号适用性待核",
       "hs_status": "8436.21为孵化机/育雏器相关税目候选；不得直接作为最终申报编码或税率",
       "cert_status": "BIS强制认证取决于具体产品是否列入现行QCO；整机与电气部件分别核查",
-      "notes": "已发现8436.21相关公开税则资料，但税率须回到CBIC现行税则、豁免通知和附加税规则复核。",
+      "notes": "印度8436.21.00为孵化机及育雏器候选税目；公开税则资料列示基础税率，但实际应以ICEGATE官方税费查询、豁免通知及附加税为准。BIS官方FAQ说明认证通常自愿，仅对政府QCO列入的产品强制；须核对具体设备/部件是否在现行强制清单。",
       "sources": [
         "https://www.icegate.gov.in/",
         "https://www.dgft.gov.in/CP/",
         "https://www.bis.gov.in/",
-        "https://content.dgft.gov.in/Website/General_Notes_to_Import_Policy_2025.pdf"
+        "https://content.dgft.gov.in/Website/General_Notes_to_Import_Policy_2025.pdf",
+        "https://www.icegate.gov.in/Webappl/Trade-Guide-on-Imports",
+        "https://www.bis.gov.in/fmcs/fmcs-faqs/?lang=en",
+        "https://indiacode.ecourtsindia.com/customs-tariff/8436/"
       ]
     },
     {
@@ -54,11 +59,12 @@
       "status": "官方入口已列；具体制度及型号适用性待核",
       "hs_status": "越南AHTN税则与原产地优惠需按完整商品描述确认",
       "cert_status": "不得将一般电气标准等同于所有工业孵化设备的强制认证",
-      "notes": "需由越南进口商确认产品是否属于专门检验、能效或技术法规清单。",
+      "notes": "2026-09-05发布的Circular 56/2026/TT-BKHCN针对用于越南生产活动的二手机械、设备及技术线，覆盖HS第84、85章相关货物；二手孵化设备/环控设备应由进口商核对该通函的适用条件、文件和检验程序。该规则不应套用于全新设备。",
       "sources": [
         "https://www.customs.gov.vn/",
         "https://vnsw.gov.vn/",
-        "https://tcvn.gov.vn/"
+        "https://tcvn.gov.vn/",
+        "https://asemconnectvietnam.gov.vn/law.aspx?ID1=2&MaVB_id=3182&ZID1=10"
       ]
     },
     {
@@ -154,6 +160,26 @@
         "https://fasah.sa/",
         "https://saber.sa/"
       ]
+    }
+  ],
+  "change_log": [
+    {
+      "date": "2026-11-03",
+      "country": "印度尼西亚",
+      "topic": "税则修订",
+      "detail": "PMK 26/2022已在2026年由PMK 50/2026及PMK 68/2026继续修订，税率核查须使用最新合并版本。"
+    },
+    {
+      "date": "2026-11-03",
+      "country": "印度",
+      "topic": "BIS强制认证边界",
+      "detail": "BIS官方FAQ说明通常自愿，只有纳入政府QCO的产品才强制；增加ICEGATE官方进口税费查询入口。"
+    },
+    {
+      "date": "2026-11-03",
+      "country": "越南",
+      "topic": "二手机械设备进口",
+      "detail": "Circular 56/2026/TT-BKHCN于2026-09-05发布，涉及用于生产的二手第84、85章机械设备，具体适用范围待进口商核实。"
     }
   ]
 }
