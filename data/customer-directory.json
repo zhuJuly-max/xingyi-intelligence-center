@@ -451,9 +451,169 @@
             "date": "2025-11-03"
           }
         ]
+      },
+      {
+        "name": "Suguna Foods / Suguna Group",
+        "country": "印度（并经营斯里兰卡、孟加拉国等）",
+        "region": "南亚",
+        "business": "一体化禽业：饲料、种禽、孵化、合同养殖、屠宰加工",
+        "profile_status": "IFC项目披露档案；运营数据为历史评估口径",
+        "strategy": "一体化禽业平台，持续扩展印度北部、东部及西部市场；集团亦有海外业务。",
+        "financials": [
+          {
+            "period": "IFC项目评估披露；非2026财务报告",
+            "currency": "未披露",
+            "note": "当前资料未提供最新营收、利润数据。"
+          }
+        ],
+        "operations": "IFC项目资料曾披露印度72家自有/租赁孵化场、约75家饲料厂、3家加工厂；数据为项目评估时点，不应视作当前实时数量。",
+        "projects": [
+          {
+            "name": "印度北部及东部禽业基础设施扩张",
+            "location": "北方邦、阿萨姆、旁遮普等",
+            "scope": "潜在孵化场、加工厂、环控鸡舍、预混料厂及配套资产",
+            "status": "IFC项目评估文件中的拟融资建设范围；逐项完工状态待核实"
+          }
+        ],
+        "equipment_watch": "孵化设备、环控鸡舍、饲料厂、预混料及屠宰加工设备。",
+        "sources": [
+          {
+            "title": "IFC Suguna III项目资料",
+            "url": "https://disclosures.ifc.org/project-detail/ESRS/42834/suguna-iii"
+          }
+        ]
+      },
+      {
+        "name": "Swami Feeds / Swami Group",
+        "country": "印度",
+        "region": "南亚",
+        "business": "一体化肉鸡：饲料、种禽、孵化、合同养殖及鸡肉加工",
+        "profile_status": "ICRA信用评级与2026年孵化场报道已录入",
+        "strategy": "通过种禽场、孵化及加工环节向上游和下游一体化；FY2026–FY2027规划资本开支支持扩产。",
+        "financials": [
+          {
+            "period": "FY2025",
+            "currency": "INR",
+            "revenue": "INR 1,105.9 crore operating income",
+            "note": "ICRA评级报告披露，集团口径；同比增长约7%。"
+          },
+          {
+            "period": "FY2026–FY2027规划",
+            "currency": "INR",
+            "investment": "INR 150–160 crore",
+            "note": "评级报告所述计划资本开支，主要用于3座新种禽场、加工扩容、风电及仓库。"
+          }
+        ],
+        "operations": "ICRA资料披露集团具备饲料、种禽、孵化、合同肉鸡养殖及鸡肉加工业务；旗下SFPL有3家饲料厂、3家孵化场，SCPL加工能力报告口径为每月1,200吨冷鲜及冷冻鸡肉。",
+        "projects": [
+          {
+            "name": "新建肉鸡孵化场",
+            "location": "印度泰米尔纳德邦",
+            "capacity": "每月300万只肉鸡雏",
+            "status": "2026年3月报道已启用"
+          },
+          {
+            "name": "新建3座种禽场",
+            "investment": "纳入INR 150–160 crore规划资本开支",
+            "target": "FY2026–FY2027",
+            "status": "ICRA评级报告称计划建设，具体场址/投产节点待核"
+          }
+        ],
+        "equipment_watch": "大型孵化器、出雏设备、种禽环控鸡舍、饲料加工和鸡肉加工设备。2026年新孵化场报道披露配置Pas Reform SmartSense孵化系统。",
+        "sources": [
+          {
+            "title": "ICRA Swami Group评级报告",
+            "url": "https://www.icra.in/web/viewer.html?file=%2FRating%2FShowRationalReportFilePdf%2F139526"
+          },
+          {
+            "title": "Swami Feeds新孵化场报道（2026-03-10）",
+            "url": "https://avinews.com/en/swami-feeds-launches-new-state-of-the-art-hatchery/"
+          }
+        ]
+      },
+      {
+        "name": "Sabirs’ Group / Sabroso",
+        "country": "巴基斯坦",
+        "region": "南亚",
+        "business": "种禽、孵化、肉鸡养殖、饲料及鸡肉加工",
+        "profile_status": "企业官网运营规模披露",
+        "strategy": "纵向一体化供应链，以自有种禽、孵化、肉鸡和饲料体系支持Sabroso鸡肉品牌。",
+        "financials": [
+          {
+            "period": "企业官网当前介绍；非财务报告",
+            "currency": "未披露",
+            "note": "未找到可核验的集团营收与利润数据。"
+          }
+        ],
+        "operations": "企业官网披露38个种禽场、5家孵化场、240台孵化机；年肉鸡雏产量约2.75亿只；肉鸡养殖容量约每年3,800万只。",
+        "projects": [],
+        "equipment_watch": "种禽环控鸡舍、孵化器、出雏设备、肉鸡养殖和饲料系统；采购供应商未披露。",
+        "sources": [
+          {
+            "title": "Sabroso加工厂及集团运营介绍",
+            "url": "https://shopsabroso.pk/pages/processing-plant"
+          }
+        ]
+      },
+      {
+        "name": "Amigo Farms (Pvt.) Ltd.",
+        "country": "巴基斯坦",
+        "region": "南亚",
+        "business": "蛋鸡、肉鸡、种禽、雏鸡及饲料",
+        "profile_status": "企业官网经营规模披露",
+        "strategy": "半一体化禽业网络，面向巴基斯坦市场供应鸡蛋、雏鸡及饲料。",
+        "financials": [
+          {
+            "period": "官网当前介绍；非财务报告",
+            "currency": "未披露",
+            "note": "暂无可核验营收、利润及资本开支数据。"
+          }
+        ],
+        "operations": "企业官网披露商业蛋鸡存栏超过40万只、肉鸡产能超过50万只、种用肉鸡超过50万只，饲料产出超过1,500吨/月。",
+        "projects": [],
+        "equipment_watch": "环控蛋鸡舍、种禽场、孵化设备、饲料制粒及配送系统；未披露新建项目或招标信息。",
+        "sources": [
+          {
+            "title": "Amigo Farms官网",
+            "url": "https://amigofarm.com/"
+          }
+        ]
+      },
+      {
+        "name": "Barkat Frisian Agro Limited",
+        "country": "巴基斯坦",
+        "region": "南亚",
+        "business": "蛋品加工及蛋鸡养殖后向一体化",
+        "profile_status": "PSX披露的扩建计划；投产状态待后续公告",
+        "strategy": "通过自建蛋鸡场及饲料加工设施提高鸡蛋原料自给率、稳定供应并控制成本。",
+        "financials": [
+          {
+            "period": "2025年9月董事会批准项目",
+            "currency": "PKR",
+            "investment": "PKR 690 million",
+            "note": "计划投资额；其中PKR 390 million用于农场基础设施、PKR 300 million用于购鸟。"
+          }
+        ],
+        "operations": "项目规划两座蛋鸡场合计22.5万只，目标日产蛋约20万枚；约占公司当时每日100万枚原料需求的20%。",
+        "projects": [
+          {
+            "name": "两座蛋鸡场及配套饲料加工设施",
+            "capacity": "合计22.5万只；目标日产蛋约20万枚",
+            "investment": "PKR 690 million",
+            "target": "项目启动后约15个月商业投产（原计划）",
+            "status": "董事会批准并启动规划；需以最新PSX公告核实建设/投产进度"
+          }
+        ],
+        "equipment_watch": "蛋鸡笼养/环控、集蛋清粪、饲料加工及蛋品处理设备；未见公开设备中标供应商。",
+        "sources": [
+          {
+            "title": "Barkat Frisian蛋鸡场投资报道（2025-09-15）",
+            "url": "https://profit.pakistantoday.com.pk/2025/09/15/barkat-frisian-moves-backward-into-its-poultry-farm-supply-chain"
+          }
+        ]
       }
     ],
-    "company_record_note": "首批东南亚企业档案。企业披露、年报摘录与媒体线索分级记录；项目目标完工时间不代表已竣工，未披露设备供应商或采购意向时不作推断。"
+    "company_record_note": "首批东南亚与南亚企业档案。企业披露、年报/评级报告与媒体线索分级记录；项目目标完工时间不代表已竣工，未披露设备供应商或采购意向时不作推断。"
   },
   "record_policy": [
     "区分企业事实、媒体线索和分析判断",
