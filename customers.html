@@ -19,7 +19,7 @@ a{color:#b92721}
 header a{color:#ffe0dd}
 @media(max-width:720px){header:not(.site-header){padding-left:18px!important;padding-right:18px!important}nav{row-gap:10px!important}}
 
-</style>
+.global-nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:14px 0 0;position:relative;z-index:2}.global-nav a{font-size:13px;text-decoration:none;color:#ffe0dd!important;padding:5px 0}.global-nav a:hover{color:#fff!important;text-decoration:underline}@media(max-width:720px){.global-nav{gap:10px 14px}.global-nav a{font-size:12px}}</style>
 <style>
 .insight-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0}.insight-strip article{background:linear-gradient(145deg,#fff,#fff7f5);border:1px solid #eddfdc;border-radius:12px;padding:15px 17px}.insight-strip small,.insight-strip span{display:block;color:#786d6a;font-size:11px}.insight-strip strong{display:block;color:#c92720;font-size:25px;margin:4px 0}.insight-strip span{line-height:1.5}:root{--navy:#292323;--blue:#c92720;--ink:#292626;--muted:#746b68;--line:#eadfdd;--bg:#fff8f7}
 body{background:#fff8f7;color:#292626}
@@ -52,7 +52,7 @@ h1{letter-spacing:-.04em;font-weight:750}
 footer{background:#102b49;color:#c5d6e2}
 @media(max-width:720px){header{padding:24px 18px 34px}.wrap{margin-top:18px}.stat{padding:14px}.card{padding:16px}}
 </style></head><body>
-<header><nav><a href="index.html">← 首页</a><a href="markets.html">行情成本</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav><div>客户情报 / CUSTOMER INTELLIGENCE</div><h1>项目建设 · 客户线索 · 招标雷达</h1><p>从投资意向、孵化场建设到公开设备采购，汇总可追溯的公开项目动态。所有信息按来源与核实状态展示，不将项目规划误判为设备采购需求。</p></header>
+<header><nav class="global-nav" aria-label="主导航"><a href="index.html">首页</a><a href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav><div>客户情报 / CUSTOMER INTELLIGENCE</div><h1>项目建设 · 客户线索 · 招标雷达</h1><p>从投资意向、孵化场建设到公开设备采购，汇总可追溯的公开项目动态。所有信息按来源与核实状态展示，不将项目规划误判为设备采购需求。</p></header>
 <main class="wrap"><div class="stats"><div class="stat"><strong id="projectCount">—</strong>公开企业 / 项目档案</div><div class="stat"><strong id="tenderCount">—</strong>公开招标记录</div><div class="stat"><strong id="pipelineCount">—</strong>孵化项目池记录</div><div class="stat"><strong id="countryCount">—</strong>覆盖国家 / 地区</div></div>
 <section class="insight-strip" id="customerInsights"><article><small>项目国家覆盖</small><strong id="ciCountries">—</strong><span>基于三类公开档案</span></article><article><small>采购 / 招标类记录</small><strong id="ciProcurement">—</strong><span>不代表均为孵化设备采购</span></article><article><small>竞品案例记录</small><strong id="ciCompetitor">—</strong><span>仅作市场对标</span></article><article><small>档案总量</small><strong id="ciTotal">—</strong><span>项目 + 招标 + 项目池</span></article></section><div class="notice">数据边界：仅使用公开政府公告、采购平台、企业公告及行业媒体。媒体报道和聚合平台均标注待核实；竞品已采用设备的项目仅用于市场对标。此页面不是内部CRM，不包含私人联系人、销售跟进记录或未公开商业信息。</div>
 <section class="filters" aria-label="项目筛选"><input id="q" type="search" placeholder="搜索企业、项目、编号、设备或关键词"><select id="country"><option value="">全部国家 / 地区</option></select><select id="stage"><option value="">全部阶段 / 状态</option><option value="采购">采购 / 招标</option><option value="建设">建设 / 扩建</option><option value="意向">投资意向 / 合作</option><option value="已授标">已授标 / 已签约</option><option value="竞品">竞品案例</option></select></section>
