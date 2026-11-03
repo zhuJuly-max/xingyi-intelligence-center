@@ -611,9 +611,280 @@
             "url": "https://profit.pakistantoday.com.pk/2025/09/15/barkat-frisian-moves-backward-into-its-poultry-farm-supply-chain"
           }
         ]
+      },
+      {
+        "name": "Adal Azyk LLC / Agro Kush",
+        "country": "吉尔吉斯斯坦",
+        "region": "中亚",
+        "business": "一体化肉鸡：孵化、饲料、养殖、屠宰及副产物处理",
+        "profile_status": "IFC融资项目与政府投资协议已披露",
+        "strategy": "通过母公司Adal Azyk融资扩建一体化禽业，增加吉尔吉斯本地肉鸡产能。",
+        "financials": [
+          {
+            "period": "2025年IFC项目披露",
+            "currency": "USD",
+            "investment": "IFC贷款最高USD20 million",
+            "note": "融资额度，不等同于项目总投资。"
+          }
+        ],
+        "operations": "现有体系包括饲料厂、孵化场、48栋肉鸡舍、屠宰及副产物处理设施；现有饲料厂产能10吨/小时。",
+        "projects": [
+          {
+            "name": "Kemin肉鸡场及饲料厂扩建",
+            "capacity": "新增24栋肉鸡舍；新饲料厂30吨/小时",
+            "investment": "2026年政府签署扩建投资协议，投资超过KGS 1.7 billion",
+            "status": "扩建项目；建设节点需持续跟踪"
+          },
+          {
+            "name": "Issyk-Kul西北部肉鸡场扩建",
+            "capacity": "新增24栋肉鸡舍",
+            "status": "IFC项目范围披露"
+          }
+        ],
+        "equipment_watch": "30吨/小时饲料生产线、肉鸡舍环控/喂料/饮水、孵化及屠宰配套。",
+        "sources": [
+          {
+            "title": "IFC Adal Azyk项目披露",
+            "url": "https://disclosures.ifc.org/project-detail/ESRS/49580/Adal%20Azyk"
+          },
+          {
+            "title": "吉尔吉斯国家投资署：Kemin禽业扩建",
+            "url": "https://invest.gov.kg/en/news/21003",
+            "date": "2026-05-12"
+          }
+        ]
+      },
+      {
+        "name": "Aviagen Broiler Breeding Group（乌兹别克斯坦项目）",
+        "country": "乌兹别克斯坦",
+        "region": "中亚",
+        "business": "肉鸡遗传育种、祖代/父母代种禽及种鸡供应",
+        "profile_status": "2026年企业公告及投资协议披露",
+        "strategy": "在乌兹别克斯坦建立本地种禽育种生产项目，减少对进口父母代种鸡依赖。",
+        "financials": [
+          {
+            "period": "2026年2月项目公告",
+            "currency": "USD",
+            "investment": "约USD40 million",
+            "note": "项目投资计划，不是企业年度营收。"
+          }
+        ],
+        "operations": "项目规划年产约450万只种鸡/鸡只供应能力；具体祖代、父母代构成及投产爬坡计划待进一步公告。",
+        "projects": [
+          {
+            "name": "乌兹别克斯坦种禽产业集群",
+            "capacity": "规划年产450万只",
+            "investment": "约USD40 million",
+            "target": "项目协议于2026年2月签署",
+            "status": "规划/落地实施阶段"
+          }
+        ],
+        "equipment_watch": "种禽场环控、孵化器、出雏设备、生物安全及育种管理系统；具体设备招标未披露。",
+        "sources": [
+          {
+            "title": "Aviagen：乌兹别克斯坦4000万美元禽业集群",
+            "url": "https://aviagen.com/en/news-room/press-releases/aviagen-to-create-40mn-poultry-cluster-in-uzbekistan",
+            "date": "2026-02-23"
+          }
+        ]
+      },
+      {
+        "name": "Servolux Group（乌兹别克斯坦项目）",
+        "country": "乌兹别克斯坦",
+        "region": "中亚",
+        "business": "一体化工业禽业：孵化、饲料、深加工及终端食品",
+        "profile_status": "政府会议及投资项目媒体披露",
+        "strategy": "与乌兹别克斯坦方面推进塔什干州现代禽业集群，覆盖孵化、饲料、原料深加工和成品生产。",
+        "financials": [
+          {
+            "period": "2026年7月项目进展报道",
+            "currency": "未披露",
+            "note": "公开报道未披露项目投资额、营收或利润。"
+          }
+        ],
+        "operations": "项目按一体化禽业生态系统规划，具体设计产能未披露。",
+        "projects": [
+          {
+            "name": "塔什干州现代禽业集群",
+            "status": "2026年7月讨论项目扩展及外部工程/公用设施配套；具体开工投产节点未披露"
+          }
+        ],
+        "equipment_watch": "孵化设备、饲料厂整线、禽肉深加工和成品食品生产线；未见具体采购公告。",
+        "sources": [
+          {
+            "title": "Servolux乌兹别克斯坦禽业项目扩展报道",
+            "url": "https://www.uzdaily.uz/en/servolux-to-expand-poultry-investment-project-in-uzbekistan/",
+            "date": "2026-07-03"
+          }
+        ]
+      },
+      {
+        "name": "ZA-Invest Poultry（OTP Group）",
+        "country": "乌兹别克斯坦",
+        "region": "中亚",
+        "business": "一体化肉鸡产业集群：养殖、孵化、屠宰、加工及饲料",
+        "profile_status": "乌兹别克斯坦政府投资协议披露",
+        "strategy": "由OTP Group旗下ZA-Invest Poultry实施，利用基金融资建设工业化禽业集群。",
+        "financials": [
+          {
+            "period": "2025年3月政府项目披露",
+            "currency": "未披露",
+            "note": "政府公告未给出项目投资总额。"
+          }
+        ],
+        "operations": "规划年产肉鸡1,600万只、饲料12万吨。",
+        "projects": [
+          {
+            "name": "锡尔河州一体化禽业集群",
+            "capacity": "8座禽场；年产肉鸡1,600万只；饲料12万吨",
+            "location": "130公顷项目用地",
+            "status": "2025年3月签署投资、土地租赁及基金相关协议；建设进度待核"
+          }
+        ],
+        "equipment_watch": "孵化场、肉鸡舍、屠宰加工、饲料厂、冷库制冷系统；设备供应商和招标未披露。",
+        "sources": [
+          {
+            "title": "乌兹别克斯坦政府：ZA-Invest禽业集群",
+            "url": "https://gov.uz/en/miit/news/view/40983",
+            "date": "2025-03-18"
+          }
+        ]
+      },
+      {
+        "name": "Chicken Meat Line LLC",
+        "country": "乌兹别克斯坦",
+        "region": "中亚",
+        "business": "肉鸡种禽养殖及孵化",
+        "profile_status": "设备商案例披露；历史项目，需核实当前运营",
+        "strategy": "由种禽养殖向孵化业务延伸，为自有养殖场及周边农场供应肉鸡雏。",
+        "financials": [
+          {
+            "period": "项目披露年份2020",
+            "currency": "未披露",
+            "note": "未披露财务与投资金额。"
+          }
+        ],
+        "operations": "企业孵化场设计年产能600万只肉鸡雏。",
+        "projects": [
+          {
+            "name": "Yangi Hayet现代肉鸡孵化场",
+            "capacity": "年产600万只雏鸡",
+            "status": "2020年Petersime案例披露已建成投运"
+          }
+        ],
+        "equipment_watch": "Petersime单阶段BioStreamer 8S孵化器5台、BioStreamer 4H出雏器6台及定制HVAC；这是历史已安装设备案例，不代表当前采购需求。",
+        "sources": [
+          {
+            "title": "Petersime：Chicken Meat Line乌兹别克斯坦孵化场案例",
+            "url": "https://www.petersime.com/cases/articles/2020/chicken-meat-line-builds-first-petersime-broiler-hatchery-in-uzbekistan"
+          }
+        ]
+      },
+      {
+        "name": "DanHatch Group（波兰业务）",
+        "country": "波兰",
+        "region": "东欧",
+        "business": "肉鸡孵化及雏鸡供应",
+        "profile_status": "企业集团公告披露扩建计划",
+        "strategy": "因雏鸡需求增长，集团计划扩张波兰孵化产能；2025年曾预计雏鸡销量增长5–6%。",
+        "financials": [
+          {
+            "period": "2025年企业公告",
+            "currency": "未披露",
+            "note": "该公告未提供波兰项目投资额及分部财务数据。"
+          }
+        ],
+        "operations": "集团公告称波兰市场需求增长，拟通过新增孵化场提高供应能力；未披露新场设计产能。",
+        "projects": [
+          {
+            "name": "波兰新增孵化场",
+            "status": "企业宣布拟启动建设；当前竣工/投产情况需后续核实"
+          }
+        ],
+        "equipment_watch": "孵化器、出雏设备、蛋品处理及孵化场环境控制；供应商未披露。",
+        "sources": [
+          {
+            "title": "DanHatch集团：销售增长与波兰孵化场扩建",
+            "url": "https://danhatch.com/news/danhatch-group-sets-new-sales-record"
+          }
+        ]
+      },
+      {
+        "name": "ZWD Białobrzegi",
+        "country": "波兰",
+        "region": "东欧",
+        "business": "家族型禽业及肉鸡孵化",
+        "profile_status": "设备商2026年案例披露；项目于2025年完成",
+        "strategy": "通过新一代孵化设施提升产能、雏鸡质量、能源效率和可持续性。",
+        "financials": [
+          {
+            "period": "2026年8月案例披露",
+            "currency": "未披露",
+            "note": "未披露项目投资额和公司财务数据。"
+          }
+        ],
+        "operations": "波兰家族禽业企业；新设施设计产能未在该案例摘要中披露。",
+        "projects": [
+          {
+            "name": "新一代孵化场扩建",
+            "status": "Pas Reform案例称项目于2025年完成；2026年8月发布案例"
+          }
+        ],
+        "equipment_watch": "Pas Reform新一代孵化系统；案例称强调能源效率和雏鸡质量，未列具体设备数量。",
+        "sources": [
+          {
+            "title": "Pas Reform：ZWD Białobrzegi孵化场扩建",
+            "url": "https://www.pasreform.linku.dev/en/news/589/zwd-bialobrzegi-invests-in-next-generation-hatchery-to-support-future-growth",
+            "date": "2026-08-31"
+          }
+        ]
+      },
+      {
+        "name": "Avesterra Group",
+        "country": "乌克兰",
+        "region": "东欧",
+        "business": "一体化肉鸡：养殖、屠宰加工及物流",
+        "profile_status": "2026年扩产项目媒体报道；需补充公司审计财务",
+        "strategy": "持续投资生产基础设施，计划复制标准化肉鸡养殖生产基地，并在未来发展孵化、种禽及生物甲烷设施。",
+        "financials": [
+          {
+            "period": "2026年3月项目报道",
+            "currency": "EUR",
+            "investment": "新生产基地投资EUR15 million；公司称未来扩张规划约EUR100 million",
+            "note": "媒体报道的项目投资和管理层规划，非审计财务报表。"
+          }
+        ],
+        "operations": "报道披露肉鸡业务有120栋禽舍，年饲养能力约3,510万只；屠宰加工能力13,500只/小时。",
+        "projects": [
+          {
+            "name": "Volyn新生产基地",
+            "capacity": "20栋禽舍",
+            "investment": "EUR15 million",
+            "status": "2026年3月报道已投运"
+          },
+          {
+            "name": "后续六个标准化生产基地",
+            "capacity": "每个基地20栋禽舍",
+            "investment": "规划约EUR100 million",
+            "target": "至2028年",
+            "status": "管理层规划，非已开工项目"
+          },
+          {
+            "name": "孵化场及种禽设施",
+            "status": "未来五年投资方向之一，具体地点与投资额未披露"
+          }
+        ],
+        "equipment_watch": "自动化喂料、饮水、通风及环控设备；Volyn基地报道提及Big Dutchman系统。未来孵化场设备需求尚未形成公开招标。",
+        "sources": [
+          {
+            "title": "Avesterra Volyn新建20栋禽舍项目",
+            "url": "https://inventure.com.ua/en/news/avesterra-group-invests-euro15-million-in-20-new-poultry-houses-in-volyn",
+            "date": "2026-03-05"
+          }
+        ]
       }
     ],
-    "company_record_note": "首批东南亚与南亚企业档案。企业披露、年报/评级报告与媒体线索分级记录；项目目标完工时间不代表已竣工，未披露设备供应商或采购意向时不作推断。"
+    "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
   },
   "record_policy": [
     "区分企业事实、媒体线索和分析判断",
