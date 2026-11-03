@@ -19,7 +19,7 @@ a{color:#b92721}
 header a{color:#ffe0dd}
 @media(max-width:720px){header:not(.site-header){padding-left:18px!important;padding-right:18px!important}nav{row-gap:10px!important}}
 
-</style>
+.global-nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:14px 0 0;position:relative;z-index:2}.global-nav a{font-size:13px;text-decoration:none;color:#ffe0dd!important;padding:5px 0}.global-nav a:hover{color:#fff!important;text-decoration:underline}@media(max-width:720px){.global-nav{gap:10px 14px}.global-nav a{font-size:12px}}</style>
 <style>
 :root{--navy:#292323;--blue:#c92720;--ink:#292626;--muted:#746b68;--line:#eadfdd;--bg:#fff8f7}
 body{background:#fff8f7;color:#292626}
@@ -36,7 +36,7 @@ a{color:#bd2923}
 .card a{color:#bd2923}
 footer{background:#2b2424;color:#e6d8d6}
 </style></head><body>
-<header class="site-header"><a class="brand" href="index.html"><img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪"><span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span></a><a class="contact-link" href="exhibitions.html">返回首页 ↗</a></header>
+<header class="site-header"><a class="brand" href="index.html"><img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪"><span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span></a><nav class="global-nav" aria-label="主导航"><a href="index.html">首页</a><a href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav></header>
 <section class="events-hero"><div class="eyebrow">GLOBAL POULTRY EVENTS</div><h1>全球展会日历</h1><p>聚焦家禽、孵化、养殖设备与畜牧产业链。按时间、国家和关键词查找展会，保留主办方来源与核实状态，辅助海外市场拜访和渠道开发。</p><div>日期筛选基准：<span id="eventToday"></span> · 当前收录 <span id="eventTotal"></span> 场</div></section>
 <main class="events-wrap"><section class="event-kpis" id="eventKpis"><article><small>收录展会</small><strong>—</strong><span>全部档案</span></article><article><small>即将举办</small><strong>—</strong><span>按结束日期判断</span></article><article><small>覆盖国家</small><strong>—</strong><span>当前档案范围</span></article><article><small>最近一场</small><strong>—</strong><span id="nextEventName">载入中</span></article></section><div class="section-heading"><div><div class="eyebrow dark">EVENT INTELLIGENCE</div><h2>展会档案</h2><p>日期按当地时间展示；场馆或参展信息未完全核实的项目会单独标注。</p></div></div>
 <div class="events-toolbar"><input id="eventSearch" type="search" placeholder="搜索展会 / 国家 / 城市 / 主题"><select id="eventCountry"><option value="">全部国家</option></select><select id="eventStatus"><option value="all">全部日期</option><option value="upcoming">即将举办</option><option value="past">已结束</option></select></div><div class="events-count" id="eventCount"></div><div class="event-list" id="eventList"><p>正在读取展会档案…</p></div>
