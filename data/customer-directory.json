@@ -1025,6 +1025,89 @@
             "date": "2026-10-20"
           }
         ]
+      },
+      {
+        "name": "Aviagen Latin America（巴西祖代与父母代扩产）",
+        "country": "巴西",
+        "region": "南美",
+        "business": "肉鸡遗传育种、祖代种禽、父母代种禽及孵化",
+        "profile_status": "已披露2026年扩产投资；部分项目建设中，新增产能分期释放",
+        "strategy": "通过祖代场、祖代孵化场扩建及收购升级GP场，提升巴西及南美市场种禽供应保障。",
+        "financials": [
+          {
+            "period": "2026年5月公告",
+            "currency": "USD / BRL",
+            "investment": "总投资约USD35m（BRL190m）",
+            "note": "企业公告项目投资额，非公司财报。"
+          }
+        ],
+        "operations": "业务覆盖祖代（GP）及父母代（PS）种禽供应；巴西设施服务巴西及南美客户。",
+        "projects": [
+          {
+            "name": "Sarutaiá祖代场及Santa Cruz das Palmeiras祖代孵化场扩建",
+            "status": "2026年5月公告时建设进行中",
+            "target": "新增祖代种禽约250,000只/年",
+            "investment": "约USD13m（BRL70m）"
+          },
+          {
+            "name": "Itirapina Baú GP场收购与升级",
+            "status": "收购及改造计划已公告；增量产能目标在2027年释放",
+            "target": "预计增加父母代种禽产能约1.3m只；满产目标约2m只",
+            "investment": "约USD22m（BRL120m）"
+          }
+        ],
+        "equipment_watch": "祖代种禽场、孵化场、环控、自动化物流与运输监控系统；公开公告未披露本轮项目具体孵化设备品牌或采购清单。历史设备案例：Luziânia孵化场2024年完成升级，年产潜力3.6m雏鸡，新增1.6m；采用Petersime X-Streamer HD、Re-Store及Eagle Trax软件。",
+        "sources": [
+          {
+            "title": "Aviagen：2026年在巴西投资USD35m扩充祖代与父母代供应",
+            "url": "https://aviagen.com/la/news-room/local-news/aviagen-invests-us35-million-in-to-strengthen-security-of-supply-in-brazil",
+            "date": "2026-05-13"
+          },
+          {
+            "title": "Petersime：Aviagen Luziânia孵化场现代化升级案例",
+            "url": "https://www.petersime.com/cases/articles/2026/modernizing-the-luziania-hatchery-aviagen-latin-america-invests-in-petersime-solutions",
+            "date": "2026"
+          }
+        ]
+      },
+      {
+        "name": "Cobb-Vantress Brasil（Prata种禽孵化场）",
+        "country": "巴西",
+        "region": "南美",
+        "business": "肉鸡遗传育种、父母代种禽及孵化",
+        "profile_status": "Prata新孵化场已于2025年投入运营",
+        "strategy": "以Prata新孵化场增强巴西父母代种禽供应能力，并服务国内及南美区域市场。",
+        "financials": [
+          {
+            "period": "Prata孵化场项目，2025年",
+            "currency": "BRL",
+            "investment": "BRL60 million",
+            "note": "媒体报道的单体项目投资额；非公司整体资本开支或财务数据。"
+          }
+        ],
+        "operations": "Prata设施建筑面积约5,200平方米，配置单阶段孵化器、自动输送线、自动化疫苗接种设备及配套配送中心。",
+        "projects": [
+          {
+            "name": "Prata孵化场",
+            "status": "2025年5月开始运营，已向客户交付首批父母代种禽",
+            "target": "报道指可使公司产出能力提升最高约25%；未披露该场绝对年孵化量",
+            "investment": "BRL60 million",
+            "note": "提升比例为公司产能层面的媒体报道，不应换算为孵化场绝对产能。"
+          }
+        ],
+        "equipment_watch": "已确认使用单阶段孵化器、自动输送线及自动化疫苗接种设备；具体设备品牌、型号和供应商未披露。模块化设计预留后续扩建。",
+        "sources": [
+          {
+            "title": "Forbes Brasil：Cobb-Vantress投资BRL60m启用Prata孵化场",
+            "url": "https://forbes.com.br/forbes-agro/2025/12/com-r-60-milhoes-cobb-vantress-inaugura-o-maior-incubatorio-de-aves-da-america-latina-em-mg/",
+            "date": "2025-12-18"
+          },
+          {
+            "title": "NeXus Poultry：Prata孵化场运营与设备配置报道",
+            "url": "https://nexuspoultry.com/cobb-vantress-inaugurates-the-largest-hatchery-in-latin-america-in-minas-gerais-brazil/",
+            "date": "2025-12-27"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
