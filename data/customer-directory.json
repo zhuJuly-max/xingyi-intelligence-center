@@ -1108,6 +1108,171 @@
             "date": "2025-12-27"
           }
         ]
+      },
+      {
+        "name": "Redondos S.A.（秘鲁）",
+        "country": "秘鲁",
+        "region": "南美",
+        "business": "肉鸡、火鸡及猪肉一体化生产，覆盖饲料、孵化、养殖、加工与分销",
+        "profile_status": "已签署WingScan设备合作；2026年9月确认首批设备安装投运",
+        "strategy": "持续推进孵化场自动化与产品组合升级，WingScan合作使其成为TARGAN在秘鲁落地的客户案例。",
+        "financials": [
+          {
+            "period": "公开资料截至2026年",
+            "currency": "未披露",
+            "investment": "未披露",
+            "note": "未取得可核实的公司整体财务或项目投资金额。"
+          }
+        ],
+        "operations": "秘鲁大型综合禽业生产商，业务覆盖饲料、孵化、肉鸡/火鸡养殖、加工和全国分销。",
+        "projects": [
+          {
+            "name": "WingScan自动雏鸡性别识别系统",
+            "status": "2026-09报道确认首批4台设备已安装并启动；服务由INVETSA与TARGAN共同实施",
+            "target": "单台系统处理能力及Redondos现场实际吞吐量未披露",
+            "investment": "未披露",
+            "note": "2026年3月公布合作计划，9月当地服务商披露4台已安装并投运。"
+          }
+        ],
+        "equipment_watch": "已确认设备：TARGAN WingScan自动雏鸡性别识别系统4台；INVETSA负责本地安装和技术服务。后续关注孵化线自动化、环控及加工设备。",
+        "sources": [
+          {
+            "title": "INVETSA：Redondos孵化场首批4台WingScan安装与启动",
+            "url": "https://actualidadavipecuaria.com/invetsa-y-targan-consolidan-la-automatizacion-avicola-en-el-peru-con-la-instalacion-de-la-tecnologia-wingscan-en-redondos/",
+            "date": "2026-09-15"
+          },
+          {
+            "title": "TARGAN：与Redondos签署WingScan合作",
+            "url": "https://www.targan.com/news/redondos-and-targan-drive-chick-sexing-automation-in-peru-with-wingscan",
+            "date": "2026-03-16"
+          }
+        ]
+      },
+      {
+        "name": "Avícola San Fernando S.A.（秘鲁）",
+        "country": "秘鲁",
+        "region": "南美",
+        "business": "肉鸡、火鸡、种禽、饲料、孵化、屠宰加工及食品品牌",
+        "profile_status": "2026年资本开支计划已披露；多个工厂扩能与价值增值项目推进中",
+        "strategy": "扩大Chincha和Huaral工厂能力，强化种禽与肉鸡养殖，同时提高深加工及高附加值产品占比，并探索出口市场。",
+        "financials": [
+          {
+            "period": "2026年计划",
+            "currency": "USD",
+            "investment": "年度CAPEX约USD100 million",
+            "note": "媒体专访披露的公司年度资本开支计划，主要投向工厂扩能、种禽和肉鸡养殖等，不等于单一禽场项目金额。"
+          }
+        ],
+        "operations": "秘鲁大型家禽食品企业，业务贯穿种禽、孵化、饲料、肉鸡养殖、屠宰加工及消费品牌。",
+        "projects": [
+          {
+            "name": "Chincha与Huaral工厂扩能及价值增值业务",
+            "status": "2026年执行年度CAPEX计划；各子项目具体建设节点需逐项核验",
+            "target": "未披露统一新增产能指标",
+            "investment": "纳入年度CAPEX约USD100m",
+            "note": "公司称重点扩充工厂能力，并强化价值增值产品、种禽和肉鸡养殖业务。"
+          }
+        ],
+        "equipment_watch": "潜在设备方向包括饲料加工、孵化、种禽与肉鸡场环控、屠宰分割、熟制及冷冻加工线；未在该年度CAPEX报道中披露设备品牌或招标清单。",
+        "sources": [
+          {
+            "title": "Gestión：San Fernando 2026年计划投资USD100m扩充Chincha、Huaral等业务",
+            "url": "https://gestion.pe/g-de-gestion/reportaje/san-fernando-susana-ikeda-ladrillos-fortes-y-enrique-pajuelo-las-inversiones-pese-a-la-incertidumbre-electoral-noticia/",
+            "date": "2026"
+          }
+        ]
+      },
+      {
+        "name": "Sopraval SpA / Agrosuper（智利）",
+        "country": "智利",
+        "region": "南美",
+        "business": "火鸡及鸡肉生产加工；Agrosuper旗下禽业业务",
+        "profile_status": "多个养殖场环境审批推进；La Ligua工厂转型计划披露",
+        "strategy": "将部分火鸡加工与饲料生产资源转向鸡肉业务，并通过养殖场及工厂项目调整产能结构。",
+        "financials": [
+          {
+            "period": "2026年La Ligua转型计划",
+            "currency": "USD",
+            "investment": "媒体披露约USD84 million",
+            "note": "媒体报道的工厂转型投资计划；不是Agrosuper集团年度资本开支总额。"
+          }
+        ],
+        "operations": "Sopraval为Agrosuper旗下禽业企业；项目涉及智利Valparaíso大区多个禽场及La Ligua相关生产设施。",
+        "projects": [
+          {
+            "name": "La Ligua / Planta Talanquén生产线转型",
+            "status": "2026年已启动环境许可相关程序；项目审批与实施进度待持续跟踪",
+            "target": "既有产能约100吨/小时；报道所述为维持产能并调整产品结构",
+            "investment": "约USD84m（媒体报道）",
+            "note": "拟将部分原火鸡相关业务转向鸡肉生产；不能视为已完成改造。"
+          },
+          {
+            "name": "Las Palmas禽场改造与持续生产项目",
+            "status": "2026-01提交环境影响声明，2026年10月仍在评估程序中",
+            "target": "环境文件涉及禽场持续生产；详细新增产能应以正式环境文件为准",
+            "investment": "约USD1.0m",
+            "note": "项目地点Quilpué，环境评估尚未完成。"
+          },
+          {
+            "name": "Casablanca禽场持续生产项目",
+            "status": "2026-10-30提交环境影响声明，处于受理阶段",
+            "target": "环境申报项目类型涉及约85,000只鸡的禽场",
+            "investment": "约USD1.1m",
+            "note": "为环境申报投资金额，非已完成投资。"
+          }
+        ],
+        "equipment_watch": "饲料加工、筒仓、机械化仓储、禽舍环控、养殖场水电与生物安全设施；公开环境文件可用于追踪工程范围，但未确认本批项目的具体设备供应商。",
+        "sources": [
+          {
+            "title": "SEIA项目档案：Sopraval Las Palmas禽场",
+            "url": "https://ambihub.cl/seia/proyecto/2167609791",
+            "date": "2026-10"
+          },
+          {
+            "title": "SEIA项目档案：Sopraval Casablanca禽场",
+            "url": "https://ambihub.cl/seia/proyecto/2169980205",
+            "date": "2026-10-30"
+          },
+          {
+            "title": "The Clinic：Sopraval La Ligua工厂转型计划及投资",
+            "url": "https://www.theclinic.cl/2026/07/06/sopraval-prepara-millonaria-inversion-para-transformar-su-planta-de-la-ligua-en-produccion-de-pollo-y-dejar-atras-el-pavo/",
+            "date": "2026-07-06"
+          }
+        ]
+      },
+      {
+        "name": "Empresas Ariztía（智利）",
+        "country": "智利",
+        "region": "南美",
+        "business": "禽类养殖、饲料生产、屠宰加工及食品销售",
+        "profile_status": "2026年提交饲料厂环境审批；项目仍处审批及前期阶段",
+        "strategy": "规划建设大型饲料厂，支持禽业供应链及饲料产能扩充。",
+        "financials": [
+          {
+            "period": "2026年项目申报",
+            "currency": "USD",
+            "investment": "约USD100 million",
+            "note": "媒体报道的拟建项目投资额，非已支出资本或公司财报。"
+          }
+        ],
+        "operations": "智利大型家禽企业；本次项目位于Valparaíso大区Cartagena。",
+        "projects": [
+          {
+            "name": "Cartagena FAMA饲料厂",
+            "status": "2026-09提交环境审批；当时目标2027年初开工，当前审批与开工节点待复核",
+            "target": "规划饲料产能约75,000吨/月",
+            "investment": "约USD100m",
+            "note": "产能及投资为项目规划值，不能视为当前实际产量或已完成建设。"
+          }
+        ],
+        "equipment_watch": "大型饲料厂生产线、原料筒仓、输送、配料、制粒、能源及自动化控制系统；未披露已选定的设备供应商或采购合同。",
+        "sources": [
+          {
+            "title": "Pulso / La Tercera：Ariztía计划投资USD100m建设Cartagena饲料厂",
+            "url": "https://copesa-la-tercera-prod.cdn.arcpublishing.com/pulso/noticia/empresas-ariztia-pretende-levantar-planta-de-alimentos-de-us100-millones-en-cartagena/",
+            "date": "2026-09"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
