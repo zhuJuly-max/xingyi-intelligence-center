@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-11-02T23:58:11.248014+00:00",
+  "generated_at": "2026-11-04T00:01:14.751807+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 3,
+  "new_items_count": 5,
   "items": [
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Another Minnesota turkey flock hit by avian flu - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-09-17T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaU9QZFpKNk0ySXlFNHo2c3h2aEpwTjBEd2RSVERJZE1vQUtKYTBTc2Vtd21kYTJHNmdJSGsyejlmbGZnaGdTd0dMRlkxX0l2ZnJuMHc5N01ZOTJUTEJHcHZjdmZWV2JLZktoLTNyRXhhMVZmcEhGN0xNcWhtQ2tYNDY4QXBTT0l5TFNqODhOY29yNW9pc2xGakI1aHVHZnlDVXUwb2thQzZCWXN5SVlYSDFSR0RNRnJUcUlaa1VTWGZGVF9LYVdiVzdxRFY?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "HatchSound™: Petersime introduces the world’s first sound monitoring technology in the hatcher - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUkl2TS1XZkZkeDBSdU1Dd2tlUl8zLXJZY2x4aU1FQzdmTjNuMU1WbkRUVTNDWms3Sml6cXV1ZUQ2WjhYUm5VQ2cxbkFJLWlHYkFrd1Y4S3NFTnlleTBkWVBRbC1FZWszeHFFeEJTam1DdmhrRFRrZ2RGMWw2eW9Md083OEpwNTZiVm40SHRsS3ZYRkdENGhMS2p5ODU2aVk4OTA1R1VSUmVRemZiTG1NQ25xTmltZw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
     {
       "company": "Big Dutchman",
       "region": "INTL",
@@ -21,6 +41,26 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2026-06-15T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVllMUVCM2RuWExic3JzLWdWaUN3ZTFqVjVEbVZDZDF0cDdzT3NVWnM4ZmxpUHE4WG5MVlVNYW1XcDlLZWRHTm50SnlNd2wyazEwMVBlWTNpbUd2dEZ1WjRZZ3FxWHd3SHRKX2xnMXV4U1I1MG1qMWRXQWo1V3lLdHpjSUt6eXdVbXM4bl9iQmdXdXhEcVQ2T2VaUFFZREozcVBYWmpvQW83S0JJUGFOZkVRd2VpaG52SU12ZDcxMDlFNGQxOU5pVGhZelBkS05qV0ZPTHIyTmlOUQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Arkansas has first case of HPAI in commercial poultry of 2026 - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-04-13T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNenRJaUhGWFBpVjJMUjB2N0g4NVVtT1gtdGVoRUdtYVFoXzRxdkxTRlZRREM4d0VHMXVhczUxRTR5YnU2Q1ZHQWZrMFZGSTd2S05ZUGo0QldiVjJoOTY2c0lIbUlyb1pmVHplZjR6U0pHeUJoNm5NMVF5eTdhTzJkSDQtRjFhSENmTFZHUVI0MGRHR3o3WU1mRTRRcVVhVWVqeTY2c244VjUwcDUzNVY0WnRUZ1RWQ2hLUHE0cmhZVUFjN2Zsb3JCQ29oSUVWcW8zeUJ4V0U3eGRjU0JfZzFn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "US has lost more than 1,000 commercial flocks to avian flu - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-04-03T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLVNILTFBU0pHbS1EWEsydHNucW1CSDRIeUgxN0ZUMUFmTk5KVmVGTmp6amlQaVktNmRXbmpKNDhnSG9fYXNZUjRwSU9naGJ2bmM1ZG9OUG8xWHR5czAtcHJjMklZZkJNbEEtQzN4YUFoQ3hGWmhsdFJrRUdkUHZJVktRUDR5WWY3amhMckRyVmRpRmI4SXBkY1N1R0VRU3MzY2pOb0RWZGJCMndDLUI0UG9oTWhuc0dZV1M0UmVDWF9SZmlzUWF2UmRhUUY4SGIzSFF4bk96b2J2QQ?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -51,6 +91,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2026-03-18T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUm1sMEIzeFlsZWFOd2hmM3lFbC1PcDlKQlBXS1cxQVlwZndtQi1qM0pnZEZSNC1RaE1DNndtUE05d2phWW1mNkgwYThuRk1ja1VOa09fMjB4QXdxNVB4SFVKQWNJcDhRbkxMY3ZsNnUzTl9yQjVESklyWWlQeS0zTl85OWZYRFp4Q1JoZjlxY2IzUndWZHlmRU1FeVJiTUkzcHZxaElhbkZXd0U?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Newcastle disease infects German turkeys - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2026-02-23T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc1BFTE40cUFqeW9JTzBmaTZKRFQ3NWZJNzc0OUU5MW1mUE1aUkRaOV85c1NRU1RrWnAyV3ZtZzNON2lNZVVLMEFRY0wtS1Bzb2dMNENVTzFxblp3ZFc5LU9LN0RFbm43QTVTNFFnT2xqdEIxSXdQbnNtOFFpX0tXdlg3OXJBbEVuZjk3eFlNYWpkWk1la0x2Skt1T21raXBBU0YyOE9CVmVOSDFObUJoZEZlOA?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
