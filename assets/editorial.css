@@ -82,3 +82,60 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
  .event-list,.cm-grid{grid-template-columns:1fr!important}
 }
 @media(max-width:420px){.market-kpis,.competitor-kpis,.event-kpis,.reg-kpis,.stats{grid-template-columns:1fr 1fr!important}.brand-caption small{font-size:7px}}
+
+
+/* Customer intelligence — editorial directory and project desk */
+.customer-page{background:#fff!important}
+.customer-page>header:not(.site-header){background:linear-gradient(110deg,#fff8f7 0%,#fff 72%)!important;border-bottom:1px solid var(--xy-line);padding:28px max(22px,calc((100% - 1220px)/2)) 42px!important}
+.customer-page>header:not(.site-header) .global-nav{margin-bottom:34px!important}
+.customer-page>header:not(.site-header)>div:not(.global-nav){color:var(--xy-red);font-size:11px;font-weight:800;letter-spacing:.14em}
+.customer-page>header:not(.site-header) h1{max-width:1220px!important;font-size:clamp(32px,4.5vw,54px)!important;line-height:1.15!important;margin:14px auto!important}
+.customer-page>header:not(.site-header)>p{max-width:760px!important;margin:0 auto!important;font-size:15px;line-height:1.85}
+.customer-page .wrap{max-width:1220px!important;margin:34px auto 70px!important;padding:0 clamp(18px,5vw,64px)!important}
+.customer-page .stats{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:18px}
+.customer-page .stat{position:relative;min-height:112px;padding:20px 21px!important;background:#fff!important;border:1px solid var(--xy-line)!important;border-radius:12px!important}
+.customer-page .stat:before{content:"";position:absolute;left:0;top:17px;bottom:17px;width:3px;background:var(--xy-red);border-radius:4px}
+.customer-page .stat strong{font-size:32px!important;line-height:1.2;color:var(--xy-red)!important;margin-bottom:8px}
+.customer-page .insight-strip{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:16px 0 20px}
+.customer-page .insight-strip article{background:var(--xy-soft)!important;border:1px solid var(--xy-line)!important;border-radius:12px!important;padding:17px 19px!important}
+.customer-page .insight-strip strong{font-size:27px!important;color:var(--xy-red)!important}
+.customer-page .notice{background:#fff!important;border:1px solid var(--xy-line)!important;border-radius:10px!important;color:var(--xy-muted)!important;padding:15px 18px!important;line-height:1.8}
+.customer-page .customer-directory{margin:36px 0!important}
+.customer-page .section-heading{display:flex;align-items:end;justify-content:space-between;gap:20px;border-bottom:1px solid var(--xy-line);padding-bottom:18px;margin-bottom:20px}
+.customer-page .section-heading h2{margin:7px 0!important}
+.customer-page .section-heading p{margin:6px 0 0!important}
+.customer-page .section-index{white-space:nowrap}
+.customer-page .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0!important}
+.customer-page .tabs button{border:1px solid var(--xy-line)!important;border-radius:6px!important;background:#fff!important;color:var(--xy-muted)!important;padding:10px 16px!important;font-size:13px;font-weight:650}
+.customer-page .tabs button.active{background:var(--xy-red)!important;border-color:var(--xy-red)!important;color:#fff!important}
+.customer-page .account-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:16px 0}
+.customer-page .account-grid .card{background:#fff!important;padding:20px!important;border:1px solid var(--xy-line)!important;border-radius:12px!important}
+.customer-page .account-grid .card h3{font-size:19px!important;margin:10px 0 7px!important}
+.customer-page .account-grid .card p{line-height:1.75}
+.customer-page .account-grid .card .pill{background:#fff0ee!important;color:#a9231e!important;border:1px solid #f0d3cf}
+.customer-page .account-grid .assessment{background:#fff8f7!important;border-left:3px solid #d78b84!important;color:#675d5a!important}
+.customer-page .price-context{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.customer-page .price-context article{padding:16px 18px;background:#fff;border:1px solid var(--xy-line);border-radius:10px}
+.customer-page .price-context h3{font-size:15px!important;color:var(--xy-red)!important;margin:0 0 5px}
+.customer-page .filters{display:grid;grid-template-columns:minmax(240px,2fr) repeat(2,minmax(150px,1fr));gap:10px;padding:14px!important;margin:26px 0 12px!important;background:#fff!important;border:1px solid var(--xy-line)!important;border-radius:10px!important}
+.customer-page .filters input,.customer-page .filters select{min-height:44px!important;width:100%;border:1px solid var(--xy-line)!important;border-radius:6px!important}
+.customer-page #tabs{margin:12px 0 16px!important}
+.customer-page #results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.customer-page #results .card{padding:20px!important;border:1px solid var(--xy-line)!important;border-radius:12px!important;background:#fff!important;box-shadow:0 5px 20px rgba(65,32,29,.035)!important}
+.customer-page #results .card h3{font-size:19px!important;margin:12px 0 5px!important}
+.customer-page #results .card dl{margin:15px 0!important}
+.customer-page #results .card dl div{grid-template-columns:100px minmax(0,1fr)!important;border-color:#f0e7e5!important}
+.customer-page #results .card dt{color:#8a7e7a!important}
+.customer-page #results .assessment{background:#fff8f7!important;border-left:3px solid #d78b84!important;border-radius:0 7px 7px 0}
+.customer-page #results .card>a{color:var(--xy-red)!important;font-size:13px}
+.customer-page .data-freshness{border-color:var(--xy-line)!important;background:#fff!important}
+.customer-page footer{background:#fff!important;color:var(--xy-muted)!important;border-top:1px solid var(--xy-line)!important}
+@media(max-width:760px){
+ .customer-page .stats,.customer-page .insight-strip{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .customer-page .account-grid,.customer-page #results,.customer-page .price-context{grid-template-columns:1fr!important}
+ .customer-page .filters{grid-template-columns:1fr!important}
+ .customer-page .section-heading{align-items:start;flex-direction:column}
+ .customer-page .section-index{display:none}
+ .customer-page>header:not(.site-header){padding:20px 18px 30px!important}
+ .customer-page .wrap{padding:0 18px!important;margin-top:22px!important}
+}
