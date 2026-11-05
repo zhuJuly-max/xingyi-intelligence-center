@@ -212,3 +212,13 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
  footer{padding-top:25px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+
+/* Footer contrast: match the clean white header */
+footer{background:#fff!important;color:#292626!important;border-top:1px solid #f0dfdc}
+footer .footer-brand strong{color:#292626}
+footer .footer-brand small{color:#746b68}
+footer .footer-links{color:#746b68}
+footer .footer-links a{color:#746b68}
+footer .footer-links a:hover{color:#c92720}
+footer .footer-bottom{border-color:#eadfdd;color:#8a807d}
