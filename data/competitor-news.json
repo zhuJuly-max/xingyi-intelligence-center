@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T00:01:14.751807+00:00",
+  "generated_at": "2026-11-05T00:00:47.615967+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 5,
+  "new_items_count": 4,
   "items": [
     {
       "company": "Big Dutchman",
@@ -277,6 +277,16 @@
     {
       "company": "Pas Reform",
       "region": "INTL",
+      "title": "Avicola La Guasima invests in Royal Pas Reform’s SmartPro™ technologies to develop Venezuela’s leading hatchery - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2023-05-08T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDNrR3Zic2VLWHJrWHdYR0p6UHRmQU92eFNJWERIakFldlpBOFVaOFVaUGdiSEh0R0VjOGpVb3l3Mkc1UndZZzFxV25aVkc5NDd0OGRDVEVwNWl6ZHdVQmVVRnY3SEdNdGp2WXpYTE9sWlNVY05tb2hhcWRRX0RnRUJjWk9vT2pFMDloR3FaVzM2THh3SDFld21qX05BWGRkQXVTWEh3SThGZVEtSWR5UV9oaWx4cWlYTEp6NGgtWTBjVThqZHlzYjVZU0pncUVQQ08yakhHd2ZlbTc0S0xWVy1FalZfN2c?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
       "title": "Royal Pas Reform appoints Eric Stodel as new CEO - WATTPoultry.com",
       "publisher": "WATTPoultry.com",
       "published_at": "2023-01-10T08:00:00+00:00",
@@ -545,6 +555,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic Group strengthens position with acquisition of Van Gent Laying nests - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-01-16T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT1ZpY1BwM0dLRVN6M0xFaWpSUnd4dEtIUEFjSlUyRzdOOVMzZGFKWGU0clRoWms1NnBhQnpQVVJ3Q2lyM2tLcmdZMnpoLWI0SUp2ZGxTODlrOFBZZGUtVU41LXlIaTlJZGk4ZDVzaFFiWlFEejdWS3BjX1pGNFVrRmVqelJWZXVoUDUzQlFpLUpES3FhOHNXN091b1Y1b0JFNS1wa2VPVTlFc1N6S0xGR19PRzQ1RVM4cWJzQVllZEc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Jamesway",
       "region": "INTL",
       "title": "Aviagen’s newest, largest hatchery to serve US and beyond - WATTPoultry.com",
@@ -571,6 +591,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2019-06-18T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV216TUx5RnhpSmdoVkEtdkcxUXVUOXczNmE0LXZkMENfYmdFSEx4dk5pSUhCclpSVVNMNzdIT05YWFJ1U2g3eUhTdHUyWHNBUF9ZaWtDR0lud25iUkdYREphN1BmbjB1ZHZrVUpGbHBBbWNyQm5PWTJPYkZsTE1VSk5SWTZmUTM4SklYYTVkNUJiMHM0YUE?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "VIBRA Group aims for excellent results with Petersime - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-09-02T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMi1iTWtlbFhheXdtUWgzX3BKMFBfN1Z4bUk5YThnSl9mdUFFRTRRSkJvdVItZXJKSVNYWkVlMXF2TVFFNm9tN3lYVnJpcXRsbGo2YlJkWEhYQ0NCYnJHRkYtWG54SWgzYk5USXMwWG1GdC14ZlJUaXg3MkRmd3FNZE4xQzdDdTFSRFdyM19VNEpZZERJbGlqQzJoNWp2UQ?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -811,6 +841,16 @@
       "publisher": "InvestmentNews",
       "published_at": "2012-06-20T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVnQtZGMyU2NsUTJ6b09rbjBVQjF0SV9LTzllQWRQcC05REJmYjZORFV0cmxpTFcyZk5ONTJieFo3QjFGM0FaeTE4NGJ1MnJQd25PejBxU3IwRWx2Uk9ONkdzTGhGWUQ4a0NDZmhrbFM2Qnc4cWZqWEZSZ3JwelNMb3lBWXpHWE1nUEFLdDZn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "International Appointment for Pas Reform - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2011-12-14T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWlJicTJ0bVJOend3RS1UTFl6c3k1RkRfOE9IVDc0bTN6QjNqS0ZnVlhOaExQZFQ2YUJ6OTZQME01YlVMc0dsRmhhVmwwd1VBY1g1RUQ0ZXlYdlRCNkdrU0FXMHJzcVBWbDVrY3FqMEZ1SHFHaDU1RnZmZUtCTWxGUUdKU1VhcW5TbG5iWQ?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     }
