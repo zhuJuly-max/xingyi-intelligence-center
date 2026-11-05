@@ -1423,6 +1423,40 @@
             "date": "2026-08更新"
           }
         ]
+      },
+      {
+        "name": "Alema Koudijs Feed PLC",
+        "country": "埃塞俄比亚",
+        "region": "非洲",
+        "business": "动物饲料生产与营养解决方案",
+        "profile_status": "Bishoftu饲料厂扩建获IFC投资；2026-10-07已投资",
+        "strategy": "在既有Bishoftu饲料厂扩建产能，提升本地动物饲料供应；股东为De Heus Animal Nutrition BV与Alema Farms PLC。",
+        "financials": [
+          {
+            "period": "IFC项目披露；2026-10-07已投资",
+            "currency": "USD",
+            "investment": "项目总成本约USD12.3 million；IFC贷款最高USD10 million",
+            "note": "为单体扩建项目融资口径，不是企业营业收入或利润。"
+          }
+        ],
+        "operations": "项目位于埃塞俄比亚Bishoftu既有饲料厂；公开项目摘要未披露当前工厂年产能或扩建后产能。",
+        "projects": [
+          {
+            "name": "Bishoftu既有饲料厂扩建",
+            "status": "IFC批准于2026-06-04、签约于2026-09-04、投资于2026-10-07；施工及投产节点未披露",
+            "target": "未披露新增吨/年产能",
+            "investment": "项目总成本约USD12.3m；IFC贷款最高USD10m",
+            "note": "De Heus持股51%，Alema Farms持股49%；IFC另提供环境社会管理及数字追溯咨询支持。"
+          }
+        ],
+        "equipment_watch": "潜在设备方向包括原料接收、筒仓、粉碎、配料、混合、制粒、冷却、散装发运及自动化控制；项目摘要未披露设备商或采购标。",
+        "sources": [
+          {
+            "title": "IFC：Alema Koudijs Feed PLC项目投资摘要",
+            "url": "https://disclosures.ifc.org/project-detail/SII/43214/alema-koudijs-fd",
+            "date": "2026-10-30更新"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
