@@ -1489,6 +1489,39 @@
             "date": "2026-02-02"
           }
         ]
+      },
+      {
+        "name": "Granja Pinheiros Ltda",
+        "country": "巴西",
+        "region": "南美",
+        "business": "肉鸡孵化与雏鸡处理",
+        "profile_status": "2026年新孵化场建成；Viscon确认提供自动化系统",
+        "strategy": "通过新建现代化孵化场及自动化流程提升效率与生物安全水平。",
+        "financials": [
+          {
+            "period": "2026年项目公告",
+            "currency": "未披露",
+            "note": "项目投资额及公司财务未披露。"
+          }
+        ],
+        "operations": "新孵化场位于巴西南里奥格兰德州Nova Petrópolis；设计产能未披露。",
+        "projects": [
+          {
+            "name": "Nova Petrópolis现代化孵化场",
+            "status": "Viscon于2026年公告项目建成并完成安装启动",
+            "target": "未披露",
+            "investment": "未披露",
+            "note": "包括孵化器车台自动卸载、活胚检测、选择性胚内疫苗接种、选择性转蛋、出雏筐自动堆垛、真空废弃物处理及雏鸡处理计数设备。"
+          }
+        ],
+        "equipment_watch": "已确认供应商Viscon Group Brasil；确认配置多项孵化自动化、雏鸡处理及计数系统。型号、数量和合同金额未披露。",
+        "sources": [
+          {
+            "title": "Viscon官方：Granja Pinheiros新孵化场项目",
+            "url": "https://viscongroup.eu/news/state-of-the-art-hatchery-in-brazil/",
+            "date": "2026-10"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
