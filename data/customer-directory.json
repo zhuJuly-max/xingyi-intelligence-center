@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-05",
   "scope": "公开信息客户档案框架；财务与经营数据仅在企业公告、年报及权威来源披露后录入",
   "domestic": {
     "title": "中国头部禽业企业",
@@ -222,7 +222,7 @@
         ]
       }
     ],
-    "country_count": 38,
+    "country_count": 40,
     "tracking": [
       "重点禽业企业及集团背景",
       "企业战略、投资与融资动态",
@@ -1382,6 +1382,45 @@
             "title": "巴拉圭工业和贸易部：JBS相关禽业供应链与Campo 9项目现场访问",
             "url": "https://www.mic.gov.py/inversion-avicola-impulsa-empleo-y-valor-agregado-en-campo-9/",
             "date": "2026"
+          }
+        ]
+      },
+      {
+        "name": "Higest Moçambique, Lda",
+        "country": "莫桑比克",
+        "region": "非洲",
+        "business": "一体化禽业：饲料、孵化、肉鸡养殖、屠宰加工及冻鸡销售",
+        "profile_status": "IFC二期扩建已获投资；孵化场扩能项目进入实施阶段",
+        "strategy": "通过孵化场扩建及合同养殖户升级，提高DOC供应与肉鸡加工效率。",
+        "financials": [
+          {
+            "period": "IFC项目披露；2026-05-27显示已投资",
+            "currency": "USD",
+            "investment": "项目总成本估算USD27 million；IFC贷款最高USD4.22 million",
+            "note": "项目总成本与IFC贷款分别列示；不是公司整体财务数据。"
+          }
+        ],
+        "operations": "IFC披露的年名义产能：饲料126,720吨、DOC 1,800万只、冻鸡及加工禽肉8,538吨；设施位于Maputo省Machava/Matola区域。",
+        "projects": [
+          {
+            "name": "Higest扩建二期：孵化场与合同养殖户升级",
+            "status": "IFC记录批准于2024-12-16、签约于2025-06-29、投资于2026-05-27；环评/施工进度仍需跟踪",
+            "target": "孵化场产能增加40%；为项目目标，不是已实现增量",
+            "investment": "项目总成本估算USD27m；IFC贷款最高USD4.22m",
+            "note": "配套升级合同养殖户；IFC公开摘要未披露设备采购合同。"
+          }
+        ],
+        "equipment_watch": "重点关注孵化场扩容所需孵化器、出雏设备、自动输送、疫苗接种与环控；IFC公开摘要未披露设备品牌、型号或采购合同。",
+        "sources": [
+          {
+            "title": "IFC：Higest Expansion Phase II投资摘要",
+            "url": "https://disclosures.ifc.org/project-detail/SII/41386/higest-expansion-phase-ii",
+            "date": "2026-08更新"
+          },
+          {
+            "title": "IFC：Higest项目环境与社会审查摘要",
+            "url": "https://disclosures.ifc.org/project-detail/ESRS/41386/higest-expansion-phase-ii",
+            "date": "2026-08更新"
           }
         ]
       }
