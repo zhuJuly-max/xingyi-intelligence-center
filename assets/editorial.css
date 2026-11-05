@@ -139,3 +139,43 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
  .customer-page>header:not(.site-header){padding:20px 18px 30px!important}
  .customer-page .wrap{padding:0 18px!important;margin-top:22px!important}
 }
+
+
+/* Competitor intelligence — supplier profile newsroom */
+.competitor-page{background:#fff!important}
+.competitor-page>header:not(.site-header){background:linear-gradient(110deg,#fff8f7 0%,#fff 72%)!important;border-bottom:1px solid var(--xy-line);padding:28px max(22px,calc((100% - 1220px)/2)) 42px!important}
+.competitor-page>header:not(.site-header) .global-nav{margin-bottom:34px!important}
+.competitor-page>header:not(.site-header)>div:not(.global-nav){color:var(--xy-red);font-size:11px;font-weight:800;letter-spacing:.14em}
+.competitor-page>header:not(.site-header) h1{max-width:1220px!important;font-size:clamp(32px,4.5vw,54px)!important;line-height:1.15!important;margin:14px auto!important}
+.competitor-page>header:not(.site-header)>p{max-width:790px!important;margin:0 auto!important;font-size:15px;line-height:1.85}
+.competitor-page .wrap{max-width:1220px!important;margin:34px auto 70px!important;padding:0 clamp(18px,5vw,64px)!important}
+.competitor-page .competitor-kpis{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:0 0 20px!important}
+.competitor-page .competitor-kpis article{background:#fff!important;border:1px solid var(--xy-line)!important;border-radius:12px!important;padding:19px 20px!important;box-shadow:0 5px 20px rgba(65,32,29,.035)!important}
+.competitor-page .competitor-kpis small{font-size:11px;color:var(--xy-muted)!important}
+.competitor-page .competitor-kpis strong{font-size:31px!important;color:var(--xy-red)!important;line-height:1.2}
+.competitor-page .competitor-kpis span{font-size:12px;color:var(--xy-muted)!important}
+.competitor-page .notice,.competitor-page .panel{background:#fff!important;border:1px solid var(--xy-line)!important;border-radius:10px!important;padding:16px 18px!important;color:var(--xy-muted)!important}
+.competitor-page .filters{grid-template-columns:minmax(240px,2fr) repeat(2,minmax(150px,1fr));gap:10px;padding:14px!important;margin:24px 0 12px!important;border:1px solid var(--xy-line)!important;border-radius:10px!important}
+.competitor-page .filters input,.competitor-page .filters select{min-height:44px!important;border:1px solid var(--xy-line)!important;border-radius:6px!important}
+.competitor-page .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 16px!important}
+.competitor-page .tabs button{border:1px solid var(--xy-line)!important;border-radius:6px!important;background:#fff!important;color:var(--xy-muted)!important;padding:10px 16px!important;font-size:13px;font-weight:650}
+.competitor-page .tabs button.active{background:var(--xy-red)!important;border-color:var(--xy-red)!important;color:#fff!important}
+.competitor-page #cards.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.competitor-page #cards>.card{padding:21px!important;border:1px solid var(--xy-line)!important;border-radius:12px!important;background:#fff!important;box-shadow:0 5px 20px rgba(65,32,29,.035)!important}
+.competitor-page #cards>.card h3{font-size:20px!important;margin:12px 0 7px!important}
+.competitor-page #cards>.card .pill{background:#fff0ee!important;color:#a9231e!important;border:1px solid #f0d3cf}
+.competitor-page #cards>.card .facts{background:#fff8f7!important;border-radius:7px;padding:12px!important;line-height:1.75}
+.competitor-page #cards>.card .source{border-color:var(--xy-line)!important}
+.competitor-page #cards .panel{grid-column:1/-1}
+.competitor-page #cards .news article{padding:15px 0;border-color:var(--xy-line)!important}
+.competitor-page #cards .news h4 a{color:var(--xy-ink)!important}
+.competitor-page #cards .news h4 a:hover{color:var(--xy-red)!important}
+.competitor-page .panel h2{font-size:22px!important;margin:0 0 8px!important}
+.competitor-page footer{background:#fff!important;color:var(--xy-muted)!important;border-top:1px solid var(--xy-line)!important}
+@media(max-width:760px){
+ .competitor-page .competitor-kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .competitor-page #cards.grid{grid-template-columns:1fr!important}
+ .competitor-page .filters{grid-template-columns:1fr!important}
+ .competitor-page>header:not(.site-header){padding:20px 18px 30px!important}
+ .competitor-page .wrap{padding:0 18px!important;margin-top:22px!important}
+}
