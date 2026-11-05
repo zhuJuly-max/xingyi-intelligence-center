@@ -1457,6 +1457,38 @@
             "date": "2026-10-30更新"
           }
         ]
+      },
+      {
+        "name": "Profundis Farms Limited",
+        "country": "尼日利亚",
+        "region": "非洲",
+        "business": "禽类养殖及农产品生产；拓展孵化业务",
+        "profile_status": "设备商公告确认选择EMKA孵化设备；采购规模待核实",
+        "strategy": "从既有禽类养殖向孵化环节延伸。",
+        "financials": [
+          {
+            "period": "2026-02设备商公告",
+            "currency": "未披露",
+            "note": "未披露可核验财务及项目投资金额。"
+          }
+        ],
+        "operations": "EMKA称企业业务始于2006年；当前禽群规模与孵化产能未披露。",
+        "projects": [
+          {
+            "name": "首次孵化业务设备选型",
+            "status": "2026-02-02设备商公告称Profundis选择EMKA；设备数量、型号、交付和投产时间未披露",
+            "target": "未披露",
+            "investment": "未披露"
+          }
+        ],
+        "equipment_watch": "设备商线索：EMKA Hatchery Equipment；当地代理Freshlink。采购合同与设备配置未公开。",
+        "sources": [
+          {
+            "title": "EMKA：Nigeria—Profundis chooses EMKA Incubators",
+            "url": "https://www.emka-incubators.com/en/news/nigeria-profundis-chooses-emka-incubators-n-63/",
+            "date": "2026-02-02"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
