@@ -1219,9 +1219,17 @@
             "target": "环境申报项目类型涉及约85,000只鸡的禽场",
             "investment": "约USD1.1m",
             "note": "为环境申报投资金额，非已完成投资。"
+          },
+          {
+            "name": "La Estrella饲料厂—Jesma称重与微量配料系统",
+            "location": "智利La Estrella",
+            "status": "Jesma官方案例确认已安装；安装年份未披露",
+            "target": "案例所述工厂产能约38,000吨/月（非新增产能）",
+            "investment": "未披露",
+            "note": "配置高通量称重及medi、macro、nano微量配料系统；设备型号与合同金额未披露。"
           }
         ],
-        "equipment_watch": "饲料加工、筒仓、机械化仓储、禽舍环控、养殖场水电与生物安全设施；公开环境文件可用于追踪工程范围，但未确认本批项目的具体设备供应商。",
+        "equipment_watch": "饲料加工、筒仓、机械化仓储、禽舍环控、养殖场水电与生物安全设施；公开环境文件可用于追踪工程范围，但未确认本批项目的具体设备供应商。 已确认Jesma为La Estrella饲料厂称重及微量配料系统供应商。",
         "sources": [
           {
             "title": "SEIA项目档案：Sopraval Las Palmas禽场",
@@ -1237,6 +1245,10 @@
             "title": "The Clinic：Sopraval La Ligua工厂转型计划及投资",
             "url": "https://www.theclinic.cl/2026/07/06/sopraval-prepara-millonaria-inversion-para-transformar-su-planta-de-la-ligua-en-produccion-de-pollo-y-dejar-atras-el-pavo/",
             "date": "2026-07-06"
+          },
+          {
+            "title": "Jesma官方Agrosuper案例",
+            "url": "https://jesma.com/es/cases/agrosuper/"
           }
         ]
       },
