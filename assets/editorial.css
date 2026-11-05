@@ -289,3 +289,50 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
  .exhibition-intelligence-page .event-list{grid-template-columns:1fr!important}
  .exhibition-intelligence-page .section-heading{align-items:start;flex-direction:column}
 }
+
+
+/* Regulatory intelligence — editorial market-access layout */
+.regulation-intelligence-page{background:#fff!important;color:#292626}
+.regulation-intelligence-page .compliance-hero{position:relative;overflow:hidden;max-width:1280px;margin:22px auto 0;padding:48px clamp(22px,5vw,66px)!important;background:linear-gradient(115deg,#fff 0%,#fff8f7 68%,#f8e9e6 100%)!important;color:#292626!important;border:1px solid #efdfdc;border-left:5px solid #c92720;border-radius:12px}
+.regulation-intelligence-page .compliance-hero:after{content:"MARKET ACCESS / REGULATORY WATCH";position:absolute;right:4%;bottom:18px;color:rgba(169,30,26,.08);font-size:clamp(18px,3vw,34px);font-weight:850;letter-spacing:.08em;pointer-events:none}
+.regulation-intelligence-page .compliance-hero .eyebrow{color:#c92720!important;font-size:10px;font-weight:800;letter-spacing:.16em}
+.regulation-intelligence-page .compliance-hero h1{color:#292626!important;font-size:clamp(29px,4vw,43px)!important;line-height:1.2;max-width:850px}
+.regulation-intelligence-page .compliance-hero p{color:#6e625f!important;font-size:14px;line-height:1.9;max-width:850px}
+.regulation-intelligence-page .compliance-hero>div:last-child{position:relative;z-index:1;color:#8b7772!important;font-size:11px;letter-spacing:.02em}
+.regulation-intelligence-page .compliance-wrap{max-width:1280px!important;margin:25px auto 0!important;padding:0 clamp(16px,4.5vw,58px) 64px!important}
+.regulation-intelligence-page .reg-kpis{gap:12px!important;margin:0 0 18px!important}
+.regulation-intelligence-page .reg-kpis article{position:relative;min-height:112px;padding:18px 20px!important;border:1px solid #eadfdd!important;border-radius:9px!important;box-shadow:none!important;background:#fff!important}
+.regulation-intelligence-page .reg-kpis article:before{content:"";position:absolute;left:0;top:15px;bottom:15px;width:3px;background:#c92720;border-radius:3px}
+.regulation-intelligence-page .reg-kpis small{font-size:11px!important;color:#827672!important;font-weight:650}
+.regulation-intelligence-page .reg-kpis strong{font-size:30px!important;color:#c92720!important;line-height:1.2}
+.regulation-intelligence-page .reg-kpis span{font-size:11px!important;color:#857975!important}
+.regulation-intelligence-page .compliance-alert{margin:18px 0 32px!important;padding:16px 19px!important;border:1px solid #efdfdc!important;border-left:4px solid #c92720!important;border-radius:7px!important;background:#fff8f7!important;color:#655957!important;font-size:12px!important;line-height:1.9!important}
+.regulation-intelligence-page .compliance-wrap .eyebrow.dark{color:#c92720!important;font-size:10px;font-weight:800;letter-spacing:.15em}
+.regulation-intelligence-page .compliance-wrap h2{margin:7px 0 8px!important;color:#292626!important;font-size:clamp(23px,2.8vw,30px)!important}
+.regulation-intelligence-page .reg-filters{display:grid!important;grid-template-columns:minmax(240px,2fr) repeat(2,minmax(155px,1fr));gap:10px!important;padding:13px!important;margin:18px 0 12px!important;border:1px solid #eadfdd!important;border-radius:9px!important;background:#fff!important}
+.regulation-intelligence-page .reg-filters input,.regulation-intelligence-page .reg-filters select{width:100%;min-width:0;min-height:44px;padding:10px 13px!important;border:1px solid #eadfdd!important;border-radius:6px!important;background:#fff!important;color:#292626!important;font-size:13px}
+.regulation-intelligence-page .reg-records{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:13px!important}
+.regulation-intelligence-page .reg-record{min-width:0;padding:21px!important;border:1px solid #eadfdd!important;border-radius:9px!important;box-shadow:none!important;gap:10px!important;background:#fff!important}
+.regulation-intelligence-page .reg-record h3{font-size:17px!important;line-height:1.5;color:#292626!important}
+.regulation-intelligence-page .reg-state{border-radius:4px!important;background:#fff0ee!important;color:#a9231e!important;padding:5px 9px!important;font-size:10px!important;font-weight:700}
+.regulation-intelligence-page .reg-meta{font-size:11px!important;color:#817672!important;line-height:1.8!important}
+.regulation-intelligence-page .reg-record p{font-size:12px!important;line-height:1.85!important;color:#625957!important}
+.regulation-intelligence-page .reg-record a{color:#c92720!important;font-weight:700;font-size:12px!important;border-top:1px solid #f0e7e5;padding-top:10px;margin-top:auto}
+.regulation-intelligence-page .workflow{gap:10px!important}
+.regulation-intelligence-page .workflow article{background:#fff!important;border:1px solid #eadfdd;border-radius:8px;color:#625957!important}
+.regulation-intelligence-page .workflow article:before{color:#c92720!important}
+.regulation-intelligence-page .customer-detail-link{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:18px 20px;border:1px solid #eadfdd;border-radius:9px;background:#fff8f7}
+.regulation-intelligence-page .customer-detail-link>span{font-size:11px;color:#817672}
+.regulation-intelligence-page .reg-empty{border:1px dashed #eadfdd;border-radius:8px}
+.regulation-intelligence-page>footer{max-width:1280px;margin:24px auto 0!important;padding:22px clamp(18px,4.5vw,64px)!important;background:#fff!important;border-top:1px solid #eadfdd!important;color:#817672!important}
+.regulation-intelligence-page .footer-bottom{font-size:11px;color:#817672!important}
+@media(max-width:760px){
+ .regulation-intelligence-page .compliance-hero{margin:14px 14px 0!important;padding:30px 21px!important}
+ .regulation-intelligence-page .compliance-hero:after{font-size:16px;right:4%;bottom:8px}
+ .regulation-intelligence-page .compliance-wrap{padding:0 15px 45px!important}
+ .regulation-intelligence-page .reg-kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .regulation-intelligence-page .reg-kpis article{min-height:98px;padding:14px!important}
+ .regulation-intelligence-page .reg-kpis strong{font-size:26px!important}
+ .regulation-intelligence-page .reg-filters,.regulation-intelligence-page .reg-records,.regulation-intelligence-page .workflow{grid-template-columns:1fr!important}
+ .regulation-intelligence-page .customer-detail-link{align-items:flex-start;flex-direction:column}
+}
