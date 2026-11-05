@@ -239,3 +239,53 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
  .market-intelligence-page .market-page .section-heading{align-items:start;flex-direction:column}
  .market-intelligence-page .section-index{display:none}
 }
+
+
+/* Exhibition intelligence — global event calendar newsroom */
+.exhibition-intelligence-page{background:#fff!important}
+.exhibition-intelligence-page .events-hero{position:relative;overflow:hidden;max-width:1280px;margin:30px auto 0!important;padding:clamp(30px,5vw,58px)!important;border:1px solid var(--xy-line)!important;border-radius:17px!important;background:linear-gradient(115deg,#fff8f7 0%,#fff 72%)!important;box-shadow:0 12px 36px rgba(65,32,29,.05)!important;color:var(--xy-ink)!important}
+.exhibition-intelligence-page .events-hero:after{content:"GLOBAL\A EVENTS";white-space:pre;position:absolute;right:5%;bottom:5%;font-size:clamp(36px,6vw,76px);font-weight:850;line-height:.9;letter-spacing:-.06em;text-align:right;color:rgba(201,39,32,.055);pointer-events:none}
+.exhibition-intelligence-page .events-hero .eyebrow{position:relative;z-index:1;color:var(--xy-red)!important;font-size:11px;letter-spacing:.16em;font-weight:800}
+.exhibition-intelligence-page .events-hero h1{position:relative;z-index:1;color:var(--xy-ink)!important;font-size:clamp(34px,5vw,54px)!important;line-height:1.12!important;margin:12px 0 15px!important}
+.exhibition-intelligence-page .events-hero p{position:relative;z-index:1;max-width:780px!important;color:var(--xy-muted)!important;font-size:15px;line-height:1.9}
+.exhibition-intelligence-page .events-hero>div:last-child{position:relative;z-index:1;margin-top:22px;color:#786e6a;font-size:12px}
+.exhibition-intelligence-page .events-wrap{max-width:1280px!important;margin:26px auto 70px!important;padding:0 clamp(18px,4.5vw,64px) 50px!important}
+.exhibition-intelligence-page .event-kpis{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:12px!important;margin:0 0 22px!important}
+.exhibition-intelligence-page .event-kpis article{position:relative;min-height:116px;padding:18px 19px!important;border:1px solid var(--xy-line)!important;border-radius:10px!important;background:linear-gradient(145deg,#fff8f7,#fff)!important;box-shadow:none!important}
+.exhibition-intelligence-page .event-kpis article:before{content:"";position:absolute;left:0;top:15px;bottom:15px;width:3px;border-radius:3px;background:var(--xy-red)}
+.exhibition-intelligence-page .event-kpis small{font-size:11px!important;color:#827672!important;font-weight:650}
+.exhibition-intelligence-page .event-kpis strong{font-size:30px!important;line-height:1.2;color:var(--xy-red)!important}
+.exhibition-intelligence-page .event-kpis span{font-size:11px!important;color:#857975!important}
+.exhibition-intelligence-page .data-freshness{margin:0 0 22px!important;border:1px solid var(--xy-line)!important;border-radius:7px!important;background:#fffaf9!important}
+.exhibition-intelligence-page .section-heading{display:flex;align-items:end;justify-content:space-between;gap:18px;border-bottom:1px solid var(--xy-line);padding-bottom:15px;margin-bottom:18px}
+.exhibition-intelligence-page .section-heading h2{font-size:clamp(23px,2.8vw,30px)!important;margin:7px 0 4px!important}
+.exhibition-intelligence-page .section-heading p{margin:0!important;font-size:13px}
+.exhibition-intelligence-page .events-toolbar{display:grid;grid-template-columns:minmax(240px,2fr) repeat(2,minmax(150px,1fr));gap:10px;padding:13px!important;margin:18px 0 12px!important;border:1px solid var(--xy-line)!important;border-radius:10px!important;background:#fff!important}
+.exhibition-intelligence-page .events-toolbar input,.exhibition-intelligence-page .events-toolbar select{min-width:0!important;width:100%;min-height:44px;padding:10px 13px!important;border:1px solid var(--xy-line)!important;border-radius:6px!important;color:var(--xy-ink)!important}
+.exhibition-intelligence-page .events-count{margin:12px 0;font-size:12px!important;color:#817672!important}
+.exhibition-intelligence-page .event-list{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:13px!important}
+.exhibition-intelligence-page .event-record{position:relative;min-width:0;padding:21px!important;border:1px solid var(--xy-line)!important;border-radius:11px!important;background:#fff!important;box-shadow:0 5px 20px rgba(65,32,29,.03)!important;gap:9px!important}
+.exhibition-intelligence-page .event-record.is-upcoming{border-top:3px solid var(--xy-red)!important}
+.exhibition-intelligence-page .event-record.is-past{opacity:.82}
+.exhibition-intelligence-page .event-date-flag{font-size:9px;font-weight:800;letter-spacing:.12em;color:var(--xy-red);margin-bottom:2px}
+.exhibition-intelligence-page .event-record.is-past .event-date-flag{color:#8a807d}
+.exhibition-intelligence-page .event-badge{max-width:100%;white-space:normal;font-size:10px!important;line-height:1.5!important;color:#8e2924!important;background:#fff3f1!important;border:1px solid #f0d9d6;padding:4px 8px!important;border-radius:4px!important}
+.exhibition-intelligence-page .event-record h2{font-size:19px!important;color:var(--xy-ink)!important;line-height:1.35!important;margin:2px 0 1px!important}
+.exhibition-intelligence-page .event-meta{font-size:12px!important;color:#776d69!important;line-height:1.75!important}
+.exhibition-intelligence-page .event-record p{font-size:12px!important;color:#625957!important;line-height:1.85!important;margin:2px 0 4px!important}
+.exhibition-intelligence-page .event-record a{display:inline-flex;align-items:center;gap:5px;margin-top:auto;padding-top:10px!important;border-top:1px solid #f0e7e5;color:var(--xy-red)!important;font-size:12px!important;font-weight:700}
+.exhibition-intelligence-page .event-empty{padding:34px!important;border:1px dashed var(--xy-line);border-radius:10px;color:#817672!important}
+.exhibition-intelligence-page .event-note{margin-top:22px!important;padding:15px 17px;border:1px solid var(--xy-line);border-radius:8px;background:#fffaf9;color:#756b68!important;font-size:11px!important;line-height:1.85!important}
+.exhibition-intelligence-page>footer{max-width:1280px;margin:30px auto 0!important;padding:22px clamp(18px,4.5vw,64px)!important;background:#fff!important;border-top:1px solid var(--xy-line)!important;color:#817672!important}
+.exhibition-intelligence-page .footer-bottom{font-size:11px;color:#817672!important}
+@media(max-width:760px){
+ .exhibition-intelligence-page .events-hero{margin:18px 16px 0!important;padding:28px 21px!important;border-radius:12px!important}
+ .exhibition-intelligence-page .events-hero:after{font-size:34px;right:5%;bottom:4%}
+ .exhibition-intelligence-page .events-wrap{margin:20px auto 48px!important;padding:0 16px 35px!important}
+ .exhibition-intelligence-page .event-kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .exhibition-intelligence-page .event-kpis article{min-height:100px;padding:15px!important}
+ .exhibition-intelligence-page .event-kpis strong{font-size:26px!important}
+ .exhibition-intelligence-page .events-toolbar{grid-template-columns:1fr!important}
+ .exhibition-intelligence-page .event-list{grid-template-columns:1fr!important}
+ .exhibition-intelligence-page .section-heading{align-items:start;flex-direction:column}
+}
