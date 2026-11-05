@@ -38,3 +38,47 @@ footer a,footer small{color:var(--xy-muted)!important}
 footer strong{color:var(--xy-ink)!important}
 @media(max-width:760px){header:not(.site-header){padding:18px 20px 24px!important}nav{gap:12px!important}.hero{padding:42px 22px!important}.channel-grid{grid-template-columns:1fr!important}.market-kpis,.event-kpis,.reg-kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}table{display:block;overflow-x:auto}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* Phase 2 — editorial page architecture and responsive components */
+:root{--xy-max:1220px;--xy-gutter:clamp(20px,5vw,72px)}
+body{font-size:15px;line-height:1.75;overflow-wrap:break-word}
+main{min-height:65vh}
+main>section:not(.hero){margin-left:auto;margin-right:auto}
+main>section:not(.hero){max-width:var(--xy-max);padding-left:var(--xy-gutter);padding-right:var(--xy-gutter)}
+header:not(.site-header){position:relative;max-width:none!important;padding-top:28px!important;padding-bottom:38px!important}
+header:not(.site-header)>*{max-width:var(--xy-max);margin-left:auto;margin-right:auto}
+header:not(.site-header) nav{max-width:var(--xy-max);margin:0 auto 28px!important;padding:0}
+header:not(.site-header) h1{max-width:var(--xy-max);margin:10px auto 12px!important}
+header:not(.site-header) p{max-width:var(--xy-max);margin:0 auto!important}
+header:not(.site-header) .eyebrow,header:not(.site-header) .kicker{color:var(--xy-red)!important}
+.site-header{border-bottom:1px solid var(--xy-line)!important;box-shadow:0 3px 18px rgba(50,30,28,.035)}
+.site-header nav a.active{color:var(--xy-red)!important}
+.wrap,.market-page,.events-wrap,.compliance-wrap,.cm-wrap{max-width:var(--xy-max)!important;margin:34px auto 72px!important;padding-left:var(--xy-gutter)!important;padding-right:var(--xy-gutter)!important}
+.market-page-hero,.events-hero,.compliance-hero,.cm-hero{border:1px solid var(--xy-line)!important;border-radius:16px!important;padding:42px!important;box-shadow:0 8px 28px rgba(65,32,29,.045)}
+.market-page-hero h1,.events-hero h1,.compliance-hero h1,.cm-hero h1{margin:8px 0 14px!important}
+.market-page-hero p,.events-hero p,.compliance-hero p,.cm-hero p{max-width:790px!important}
+.market-page h2,.wrap h2,.events-wrap h2,.compliance-wrap h2,.cm-wrap h2{margin-top:34px!important;margin-bottom:14px!important}
+.market-data-panel,.notice,.filters,.panel,.card,.stat,.cm-card,.event-record,.company-card,.project-card{box-shadow:0 5px 22px rgba(65,32,29,.035)!important;border-color:var(--xy-line)!important;border-radius:12px!important}
+.market-kpi,.competitor-kpis article,.event-kpis article,.reg-kpis article{background:var(--xy-soft)!important;border-color:var(--xy-line)!important}
+.market-kpi strong,.competitor-kpis strong,.event-kpis strong,.reg-kpis strong,.stat strong{color:var(--xy-red)!important}
+button,.btn,.filters button,.tabs button{transition:all .18s ease}
+button:hover,.btn:hover{filter:brightness(.97);transform:translateY(-1px)}
+.btn-primary,.tabs button.active{background:var(--xy-red)!important;border-color:var(--xy-red)!important;color:#fff!important}
+a:not(.btn):hover{color:var(--xy-red)}
+.notice,.compliance-alert,.cm-warning{border-radius:8px}
+footer{margin-top:54px!important}
+footer .footer-bottom{border-color:var(--xy-line)!important}
+@media(max-width:760px){
+ .site-header{height:auto;min-height:68px;padding:12px 18px!important;gap:12px;flex-wrap:wrap}
+ .site-header nav{width:100%;order:3;overflow-x:auto;gap:17px!important;padding:5px 0 9px}
+ .site-header nav a{font-size:12px}
+ header:not(.site-header){padding:22px 20px 28px!important}
+ header:not(.site-header) nav{gap:12px!important;flex-wrap:wrap}
+ .wrap,.market-page,.events-wrap,.compliance-wrap,.cm-wrap{margin:22px auto 48px!important;padding-left:18px!important;padding-right:18px!important}
+ .market-page-hero,.events-hero,.compliance-hero,.cm-hero{padding:26px 22px!important;border-radius:12px!important}
+ .market-kpis,.competitor-kpis,.event-kpis,.reg-kpis,.stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .filters{grid-template-columns:1fr!important}
+ .event-list,.cm-grid{grid-template-columns:1fr!important}
+}
+@media(max-width:420px){.market-kpis,.competitor-kpis,.event-kpis,.reg-kpis,.stats{grid-template-columns:1fr 1fr!important}.brand-caption small{font-size:7px}}
