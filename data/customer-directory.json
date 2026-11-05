@@ -1522,6 +1522,45 @@
             "date": "2026-10"
           }
         ]
+      },
+      {
+        "name": "Pluma Agroavícola (巴西)",
+        "country": "巴西",
+        "region": "南美",
+        "business": "肉鸡孵化、雏鸡处理与禽业一体化业务",
+        "profile_status": "2026年资料确认AI雏鸡性别鉴别系统已落地",
+        "strategy": "在Dois Vizinhos孵化场导入AI视觉识别与自动化，推进雏鸡处理流程现代化。",
+        "financials": [
+          {
+            "period": "2026年项目报道",
+            "currency": "未披露",
+            "note": "企业财务、项目投资额及设备合同金额未披露。"
+          }
+        ],
+        "operations": "设备安装地点为巴西巴拉那州西南部Dois Vizinhos孵化场；公开报道未披露该场设计产能。",
+        "projects": [
+          {
+            "name": "Dois Vizinhos孵化场ChickSorter AI自动性别鉴别项目",
+            "location": "巴拉那州Dois Vizinhos",
+            "status": "2026-06报道确认系统已安装应用",
+            "target": "未披露",
+            "investment": "未披露",
+            "note": "Smartpixel开发的ChickSorter结合AI、计算机视觉、工业自动化与光学系统。"
+          }
+        ],
+        "equipment_watch": "已确认技术供应商Smartpixel；项目名称ChickSorter，应用于孵化场雏鸡自动性别鉴别。设备数量、产线速度、合同金额及后续采购计划未披露。",
+        "sources": [
+          {
+            "title": "Smartpixel官方：Pluma Agroavícola ChickSorter项目及媒体报道汇总",
+            "url": "https://smartpixel.com.br/",
+            "date": "2026-06"
+          },
+          {
+            "title": "Tridge转载报道：Pluma Agroavícola巴西AI雏鸡性别鉴别孵化场",
+            "url": "https://www.tridge.com/news/pluma-agroavicola-has-brazils-first-hatchery-gumuysie",
+            "date": "2026-06-19"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
