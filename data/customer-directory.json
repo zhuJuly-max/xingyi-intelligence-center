@@ -1573,6 +1573,40 @@
             "date": "2026-06-19"
           }
         ]
+      },
+      {
+        "name": "Avícola Yugoslavia（秘鲁）",
+        "country": "秘鲁",
+        "region": "南美",
+        "business": "肉鸡孵化与雏鸡供应",
+        "profile_status": "历史孵化场现代化案例已确认；当前经营与扩建计划待核实",
+        "strategy": "2021年披露将特鲁希略现有多阶段孵化场分阶段改造为单阶段孵化设施；该历史项目不代表当前采购需求。",
+        "financials": [
+          {
+            "period": "2021年项目公告",
+            "currency": "未披露",
+            "note": "未披露项目投资额及企业财务数据。"
+          }
+        ],
+        "operations": "项目位于秘鲁特鲁希略。改造期间计划分阶段实施，以维持孵化场持续运营；当前产能及运营规模未披露。",
+        "projects": [
+          {
+            "name": "特鲁希略孵化场单阶段孵化改造",
+            "location": "秘鲁特鲁希略",
+            "status": "Royal Pas Reform于2021-11-10公告项目合作与技术配置；当前项目完成情况及后续扩建状态未核实",
+            "target": "未披露",
+            "investment": "未披露",
+            "note": "配置SmartSetPro NF setters、SmartHatchPro hatchers、完整HVAC系统及SmartControl孵化场环控管理系统；项目采用既有54蛋平盘平台，分阶段更换设备。"
+          }
+        ],
+        "equipment_watch": "历史已确认供应商：Royal Pas Reform。设备包括SmartSetPro NF孵化器、SmartHatchPro出雏器、HVAC及SmartControl。型号配置可作为存量设备与改造技术线索，不应推断为当前采购意向。",
+        "sources": [
+          {
+            "title": "Royal Pas Reform：Avicola Yugoslavia孵化场采用SmartPro技术",
+            "url": "https://www.pasreform.com/en/news/482/avicola-yugoslavia-broiler-hatchery-is-first-in-peru-to-adopt-smartprotm",
+            "date": "2021-11-10"
+          }
+        ]
       }
     ],
     "company_record_note": "国际企业档案持续扩展。政府公告、IFC披露、企业公告、设备商案例与媒体报道分级记录；规划产能不等于实际产量，历史设备案例不等于当前采购需求。"
