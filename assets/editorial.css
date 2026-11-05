@@ -336,3 +336,54 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
  .regulation-intelligence-page .reg-filters,.regulation-intelligence-page .reg-records,.regulation-intelligence-page .workflow{grid-template-columns:1fr!important}
  .regulation-intelligence-page .customer-detail-link{align-items:flex-start;flex-direction:column}
 }
+
+
+/* Country compliance matrix — editorial reference layout */
+.country-compliance-page{background:#fff!important;color:#292626}
+.country-compliance-page .cm-hero{position:relative;overflow:hidden;max-width:1280px;margin:22px auto 0;padding:48px clamp(22px,5vw,66px)!important;background:linear-gradient(115deg,#fff 0%,#fff8f7 68%,#f8e9e6 100%)!important;color:#292626!important;border:1px solid #efdfdc;border-left:5px solid #c92720;border-radius:12px}
+.country-compliance-page .cm-hero:after{content:"EXPORT COMPLIANCE / 08 MARKETS";position:absolute;right:4%;bottom:18px;color:rgba(169,30,26,.08);font-size:clamp(18px,3vw,34px);font-weight:850;letter-spacing:.08em;pointer-events:none}
+.country-compliance-page .cm-hero .eyebrow{color:#c92720!important;font-size:10px;font-weight:800;letter-spacing:.16em}
+.country-compliance-page .cm-hero h1{color:#292626!important;font-size:clamp(29px,4vw,43px)!important;line-height:1.2}
+.country-compliance-page .cm-hero p{color:#6e625f!important;font-size:14px;line-height:1.9}
+.country-compliance-page .cm-hero>div:last-child{position:relative;z-index:1;color:#8b7772!important;font-size:11px}
+.country-compliance-page .cm-wrap{max-width:1280px!important;margin:25px auto 0!important;padding:0 clamp(16px,4.5vw,58px) 64px!important}
+.country-compliance-page .cm-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 18px}
+.country-compliance-page .cm-kpis article{position:relative;min-height:108px;padding:18px 20px;border:1px solid #eadfdd;border-radius:9px;background:#fff}
+.country-compliance-page .cm-kpis article:before{content:"";position:absolute;left:0;top:15px;bottom:15px;width:3px;background:#c92720;border-radius:3px}
+.country-compliance-page .cm-kpis small,.country-compliance-page .cm-kpis span{display:block;color:#827672;font-size:11px}
+.country-compliance-page .cm-kpis strong{display:block;margin:6px 0;color:#c92720;font-size:28px;line-height:1.2}
+.country-compliance-page .cm-warning{margin:18px 0!important;padding:16px 19px!important;border:1px solid #efdfdc!important;border-left:4px solid #c92720!important;border-radius:7px!important;background:#fff8f7!important;color:#655957!important;font-size:12px!important;line-height:1.9!important}
+.country-compliance-page .cm-updates{margin:18px 0 30px!important;padding:18px 20px!important;border:1px solid #eadfdd!important;border-radius:9px!important;background:#fff!important}
+.country-compliance-page .cm-updates h3{font-size:15px!important;color:#292626!important}
+.country-compliance-page .cm-updates ul{font-size:12px!important;color:#625957!important;line-height:1.9!important}
+.country-compliance-page .cm-wrap .eyebrow.dark{color:#c92720!important;font-size:10px;font-weight:800;letter-spacing:.15em}
+.country-compliance-page .cm-wrap h2{margin:7px 0 8px!important;color:#292626!important;font-size:clamp(23px,2.8vw,30px)!important}
+.country-compliance-page .cm-tools{display:grid!important;grid-template-columns:minmax(240px,2fr) repeat(2,minmax(155px,1fr));gap:10px!important;padding:13px!important;margin:18px 0 12px!important;border:1px solid #eadfdd!important;border-radius:9px!important;background:#fff!important}
+.country-compliance-page .cm-tools input,.country-compliance-page .cm-tools select{width:100%;min-width:0;min-height:44px;padding:10px 13px!important;border:1px solid #eadfdd!important;border-radius:6px!important;background:#fff!important;color:#292626!important;font-size:13px}
+.country-compliance-page .cm-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:13px!important}
+.country-compliance-page .cm-card{min-width:0;padding:21px!important;border:1px solid #eadfdd!important;border-radius:9px!important;background:#fff!important;box-shadow:none!important;gap:12px!important}
+.country-compliance-page .cm-head{align-items:flex-start}
+.country-compliance-page .cm-head h2{font-size:20px!important;color:#292626!important}
+.country-compliance-page .cm-code{font-size:10px!important;color:#c92720!important;letter-spacing:.1em}
+.country-compliance-page .cm-state{white-space:normal!important;border-radius:4px!important;background:#fff0ee!important;color:#a9231e!important;font-size:10px!important;padding:5px 8px!important}
+.country-compliance-page .cm-row{border-top:1px solid #f0e7e5!important;padding-top:11px!important}
+.country-compliance-page .cm-row b,.country-compliance-page .cm-sources b{font-size:12px!important;color:#292626!important}
+.country-compliance-page .cm-row p{font-size:11px!important;color:#625957!important;line-height:1.85!important}
+.country-compliance-page .cm-row a,.country-compliance-page .cm-sources a{font-size:11px!important;color:#c92720!important;font-weight:700}
+.country-compliance-page .cm-foot{font-size:11px!important;color:#817672!important;line-height:1.85!important}
+.country-compliance-page .cm-check{gap:10px!important}
+.country-compliance-page .cm-check article{background:#fff!important;border:1px solid #eadfdd;border-radius:8px;color:#625957!important;font-size:12px!important}
+.country-compliance-page .cm-check strong{color:#c92720!important}
+.country-compliance-page .cm-empty{border:1px dashed #eadfdd;border-radius:8px}
+.country-compliance-page>footer{max-width:1280px;margin:24px auto 0!important;padding:22px clamp(18px,4.5vw,64px)!important;background:#fff!important;border-top:1px solid #eadfdd!important;color:#817672!important}
+.country-compliance-page .footer-bottom{font-size:11px;color:#817672!important}
+@media(max-width:760px){
+ .country-compliance-page .cm-hero{margin:14px 14px 0!important;padding:30px 21px!important}
+ .country-compliance-page .cm-hero:after{font-size:16px;right:4%;bottom:8px}
+ .country-compliance-page .cm-wrap{padding:0 15px 45px!important}
+ .country-compliance-page .cm-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .country-compliance-page .cm-kpis article{min-height:95px;padding:14px!important}
+ .country-compliance-page .cm-kpis strong{font-size:24px}
+ .country-compliance-page .cm-tools,.country-compliance-page .cm-grid,.country-compliance-page .cm-check{grid-template-columns:1fr!important}
+ .country-compliance-page .cm-head{flex-direction:column}
+}
