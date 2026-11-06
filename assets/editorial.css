@@ -852,3 +852,163 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
   .home-page .channel-grid{margin:0!important}
   .home-page>footer.home-footer{margin-top:auto!important;flex:0 0 48px!important}
 }
+
+/* Homepage definitive desktop layout: header / hero / channels / footer */
+@media screen and (min-width:1100px) and (min-height:700px) {
+  html, body.home-page {
+    width:100% !important;
+    height:100% !important;
+    min-height:100% !important;
+    margin:0 !important;
+  }
+  body.home-page {
+    height:100vh !important;
+    min-height:700px !important;
+    max-height:100vh !important;
+    overflow:hidden !important;
+    display:grid !important;
+    grid-template-rows:76px minmax(0,1fr) 48px !important;
+    box-sizing:border-box !important;
+  }
+  .home-page > .site-header {
+    grid-row:1 !important;
+    height:76px !important;
+    min-height:76px !important;
+    max-height:76px !important;
+  }
+  .home-page > main#home {
+    grid-row:2 !important;
+    height:100% !important;
+    min-height:0 !important;
+    max-height:none !important;
+    margin:0 !important;
+    padding:0 2.8vw !important;
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) !important;
+    grid-template-rows:350px minmax(0,1fr) !important;
+    align-content:stretch !important;
+    gap:0 !important;
+    box-sizing:border-box !important;
+    overflow:hidden !important;
+  }
+  .home-page #home > .hero {
+    grid-row:1 !important;
+    display:grid !important;
+    grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr) !important;
+    align-items:center !important;
+    gap:3vw !important;
+    width:100% !important;
+    height:350px !important;
+    min-height:350px !important;
+    max-height:350px !important;
+    margin:0 !important;
+    padding:18px 6px !important;
+    box-sizing:border-box !important;
+    position:relative !important;
+    overflow:hidden !important;
+  }
+  .home-page .hero-copy {
+    min-width:0 !important;
+    min-height:0 !important;
+    overflow:hidden !important;
+  }
+  .home-page .hero-visual {
+    position:relative !important;
+    width:100% !important;
+    height:264px !important;
+    min-height:264px !important;
+    max-height:264px !important;
+    align-self:center !important;
+    overflow:hidden !important;
+    box-sizing:border-box !important;
+  }
+  .home-page .world-map {
+    height:145px !important;
+    min-height:145px !important;
+    max-height:145px !important;
+  }
+  .home-page .world-map svg {
+    height:135px !important;
+    max-height:135px !important;
+    width:100% !important;
+  }
+  .home-page #home > .landing-channels {
+    grid-row:2 !important;
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:flex-start !important;
+    align-items:stretch !important;
+    width:100% !important;
+    height:100% !important;
+    min-height:0 !important;
+    max-height:none !important;
+    margin:0 !important;
+    padding:24px 0 12px !important;
+    box-sizing:border-box !important;
+    position:relative !important;
+    z-index:2 !important;
+    overflow:hidden !important;
+    background:#fff !important;
+  }
+  .home-page .section-heading {
+    flex:0 0 auto !important;
+    margin:0 0 12px !important;
+    padding:0 0 9px !important;
+  }
+  .home-page .channel-grid {
+    flex:0 0 auto !important;
+    display:grid !important;
+    grid-template-columns:repeat(5,minmax(0,1fr)) !important;
+    gap:12px !important;
+    width:100% !important;
+    margin:0 !important;
+  }
+  .home-page .channel-grid > .channel-card,
+  .home-page .channel-grid > .channel-card.featured,
+  .home-page .channel-grid > .channel-card:nth-child(n) {
+    grid-column:auto !important;
+    width:auto !important;
+    height:150px !important;
+    min-height:150px !important;
+    max-height:150px !important;
+    padding:13px !important;
+    box-sizing:border-box !important;
+    overflow:hidden !important;
+  }
+  .home-page .channel-card h3 {
+    margin:16px 0 6px !important;
+  }
+  .home-page .channel-card p {
+    min-height:0 !important;
+    margin:0 !important;
+  }
+  .home-page .card-arrow,
+  .home-page .note,
+  .home-page .hero-meta,
+  .home-page .ticker {
+    display:none !important;
+  }
+  .home-page > footer.home-footer {
+    grid-row:3 !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    width:100% !important;
+    height:48px !important;
+    min-height:48px !important;
+    max-height:48px !important;
+    margin:0 !important;
+    padding:0 16px !important;
+    box-sizing:border-box !important;
+    overflow:hidden !important;
+  }
+  .home-page > footer.home-footer .footer-bottom {
+    width:100% !important;
+    margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+    text-align:center !important;
+    font-size:9px !important;
+    line-height:1.4 !important;
+  }
+}
