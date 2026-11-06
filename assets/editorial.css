@@ -635,3 +635,38 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
   .home-page .channel-grid>.channel-card,.home-page .channel-grid>.channel-card.featured,.home-page .channel-grid>.channel-card:nth-child(n){height:clamp(105px,15vh,122px)!important;padding:8px!important}
   .home-page>footer{flex-basis:70px!important;height:70px!important;min-height:70px!important;padding-top:4px!important;padding-bottom:4px!important}
 }
+
+
+/* Homepage footer simplified per visual review */
+@media (min-width:1100px){
+  .home-page>footer.home-footer{
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    flex:0 0 48px!important;
+    height:48px!important;
+    min-height:48px!important;
+    padding:0 20px!important;
+    text-align:center!important;
+  }
+  .home-page>footer.home-footer .footer-bottom{
+    width:100%!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    text-align:center!important;
+    font-size:9px!important;
+    line-height:1.4!important;
+  }
+}
+@media (max-width:1099px){
+  .home-page>footer.home-footer{
+    display:flex!important;
+    justify-content:center!important;
+    text-align:center!important;
+  }
+  .home-page>footer.home-footer .footer-bottom{
+    width:100%!important;
+    text-align:center!important;
+  }
+}
