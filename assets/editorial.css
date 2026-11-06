@@ -825,3 +825,13 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
   .home-page>footer.home-footer{grid-row:3;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;height:48px!important;min-height:48px!important;max-height:48px!important;margin:0!important;padding:0 16px!important;box-sizing:border-box!important;overflow:hidden!important}
   .home-page>footer.home-footer .footer-bottom{width:100%!important;margin:0!important;padding:0!important;border:0!important;text-align:center!important;font-size:9px!important;line-height:1.4!important}
 }
+
+
+/* Homepage remove marked update strip and schedule row */
+@media screen and (min-width:1100px) and (min-height:700px){
+  .home-page main{grid-template-rows:320px minmax(0,1fr)!important}
+  .home-page .landing-channels{grid-row:2!important}
+  .home-page .hero{grid-row:1!important}
+}
+.home-page .hero-meta{display:none!important}
+.home-page .ticker{display:none!important}
