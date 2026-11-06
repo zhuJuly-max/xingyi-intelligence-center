@@ -84,8 +84,20 @@
         margin:0!important; font-size:clamp(10px,.82vw,11px)!important;
         line-height:1.55!important;
       }
-      body.home-page .note, body.home-page footer, body.home-page .site-footer,
-      body.home-page [class*="footer"] { display:none!important; }
+      body.home-page .note { display:none!important; }
+      body.home-page > footer.home-footer {
+        display:flex!important; flex:0 0 42px!important; height:42px!important;
+        min-height:42px!important; max-height:42px!important; width:100%!important;
+        align-items:center!important; justify-content:center!important;
+        margin:0!important; padding:0 16px!important; box-sizing:border-box!important;
+        background:#fff!important; border-top:1px solid #eadfdd!important;
+        overflow:hidden!important;
+      }
+      body.home-page > footer.home-footer .footer-bottom {
+        width:100%!important; margin:0!important; padding:0!important; border:0!important;
+        text-align:center!important; color:#8a807d!important;
+        font-size:9px!important; line-height:1.4!important;
+      }
     }
     /* Short desktop viewports retain natural scrolling rather than clipping content. */
     @media (min-width:901px) and (max-height:619px) {
@@ -144,6 +156,9 @@
   </section>
 
 </main>
+<footer class="home-footer" aria-label="版权信息">
+  <div class="footer-bottom">© 2026 青岛兴仪电子设备有限责任公司 · 兴仪全球禽业产业链情报中心</div>
+</footer>
 <script src="assets/app.js"></script>
 </body>
 </html>
