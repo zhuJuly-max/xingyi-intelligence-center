@@ -5,8 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="兴仪全球禽业产业链情报中心：全球行情、客户洞察、同行洞察、展会信息与法规准入。">
   <title>兴仪全球禽业产业链情报中心</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20261106h">
-  <link rel="stylesheet" href="assets/editorial.css?v=20261106h">
+  <link rel="stylesheet" href="assets/styles.css?v=20261106i">
+  <link rel="stylesheet" href="assets/editorial.css?v=20261106i">
+  <style id="homepage-layout-fix">
+    @media (min-width:1100px) and (min-height:700px) {
+      html, body.home-page { margin:0!important; width:100%!important; height:100%!important; min-height:100%!important; }
+      body.home-page { height:100vh!important; max-height:100vh!important; min-height:700px!important; overflow:hidden!important; display:flex!important; flex-direction:column!important; }
+      body.home-page > header.site-header { flex:0 0 76px!important; height:76px!important; min-height:76px!important; }
+      body.home-page > main#home { flex:1 1 auto!important; min-height:0!important; height:auto!important; max-height:none!important; margin:0!important; padding:0 2.8vw!important; display:grid!important; grid-template-columns:minmax(0,1fr)!important; grid-template-rows:350px minmax(0,1fr)!important; gap:0!important; overflow:hidden!important; box-sizing:border-box!important; }
+      body.home-page > main#home > section.hero { grid-row:1!important; display:grid!important; grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)!important; align-items:center!important; height:350px!important; min-height:350px!important; max-height:350px!important; margin:0!important; padding:18px 6px!important; overflow:hidden!important; box-sizing:border-box!important; }
+      body.home-page > main#home > section.landing-channels { grid-row:2!important; display:flex!important; flex-direction:column!important; justify-content:flex-start!important; min-height:0!important; height:100%!important; margin:0!important; padding:18px 0 0!important; overflow:hidden!important; box-sizing:border-box!important; }
+      body.home-page .hero-visual { height:264px!important; min-height:264px!important; max-height:264px!important; }
+      body.home-page .channel-grid { display:grid!important; grid-template-columns:repeat(5,minmax(0,1fr))!important; gap:12px!important; }
+      body.home-page .channel-grid > .channel-card { height:150px!important; min-height:150px!important; max-height:150px!important; }
+      body.home-page .note, body.home-page .ticker, body.home-page footer, body.home-page .site-footer, body.home-page [class*="footer"] { display:none!important; }
+    }
+  </style>
+
 </head>
 <body class="home-page">
 <header class="site-header">
