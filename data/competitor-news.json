@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T00:00:47.615967+00:00",
+  "generated_at": "2026-11-06T00:03:37.231932+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 4,
+  "new_items_count": 3,
   "items": [
     {
       "company": "Big Dutchman",
@@ -595,6 +595,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "First publicly accessible poultry farm for the UK | WATTAgNet - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2019-01-23T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUHBhcFEyZHNVMlZTdzJsZm9Ua1dKazUwdnFyNzBMNkE0anpQUHpIT0Jhb3VibzJZMXZRZDFJc0RhQ0hrdW9EYV90NDdBX2JzdWxwYmdlTG9xVnRPejl6ZDBRYnFkVUFXWjQyVzNIbUF0aHNnSGlsU3RpOUJfazBDLUwwTUlNT1RGcHgzNEhaZDNPejl6MlJQNE9aN3JKVzFQZzNlZG01YzFadUFDa0JpZTBzY0puUWs3UG1B?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Petersime",
       "region": "INTL",
       "title": "VIBRA Group aims for excellent results with Petersime - The Poultry Site",
@@ -681,6 +691,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2018-05-01T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcE5lbm0yQWV4aVJGRE1LUVh5S21MWXhhWnoyUi1RZXpUTlQ5VDYyTlVuVlhJZzR6bUxrSGpYUzFoaldxNnBMNFRBbnhzaFZCWXR3TlpjOWU5TVZfTkVpYXVfSXp4Y0lKSjhCaFMwYUhLdkNDRXVvR0NYYkd1RmhYdHBGYnB4aVhEYmNfbF9ud1FtTm5MSmcwMDdZOHRva2ZSZ1p6Y2psWEI?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "1,000,000 birds placed on the Bolegg Gallery - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2018-01-30T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVWczVmFhaXp1U1lFVHpyVTJSWkdaOTVGR2pSYlVYX0hUcmg4ZS1meTFNN1RzcG1aOU9UbktaSXlBYy1oWWZ5OV9YVW9XOUpQYllhV3c4aUxncE5KUXIxMGxCVFNYU3ZMcDF1WmlDM0huQVQ4LUNMQzBoOTc4Qld4MVd3SERyUDRPcVFWWHJvbw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -811,6 +831,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2015-04-01T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZGV0TnpfZ3BzMDVDNkFiSXZlQlJIZ2I2bnpjR0M4VW5jZF9tMHpmN3QwN0pBVnVXclJDajh1ZlpONjd5T1M1UHFQLXMxclppajVsU0hfcjRuR3c4eG9CTjZGOFdHRmVnQlF6empDRlpsSlRyc3JvWWNoa2tqbFJkaHgxSVBkQWpxZWc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Pas Reform appoints new representative for UK and Ireland - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2014-07-02T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdW02TkJCX2o4djJjWFNqemVJbW5oTXpkOF9EbDhmWW5NbnN3MXh0Z0RNUG44V1dQQlotckxXaWIzeGZSVEtsaHZrQkdnanV3WWx1WUZaU0trNWIzeWtWQmltR25qRW82YWg1dURfZUZUZ3ZhNmFzOVN2Y0VoNVl0ZTBFNWx1ZU95UEVDaXZMMWJDZWlYdGE4WGFBT1NTRXdjbC1YMTljMUYybGtpR3ZaZVVTWG16b09K?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
