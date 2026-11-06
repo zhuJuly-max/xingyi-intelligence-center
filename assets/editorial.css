@@ -469,3 +469,48 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
  .home-page .channel-card,.home-page .channel-card.featured{min-height:190px!important}
  .home-page .footer-links{gap:10px 14px}
 }
+
+/* Homepage one-screen desktop layout */
+@media (min-width:901px) and (max-height:950px){
+  .home-page .site-header{min-height:66px!important;height:66px!important;padding-top:7px!important;padding-bottom:7px!important}
+  .home-page main{padding-left:clamp(14px,3vw,36px);padding-right:clamp(14px,3vw,36px)}
+  .home-page .hero{min-height:0!important;padding:24px 8px 20px!important;gap:30px!important}
+  .home-page .hero h1{font-size:clamp(38px,4.1vw,52px)!important;line-height:1.1!important;margin:12px 0!important}
+  .home-page .hero-copy>p{font-size:13px!important;line-height:1.65!important}
+  .home-page .hero-meta{margin-top:14px!important;padding-top:10px!important}
+  .home-page .hero-visual{min-height:0!important;padding:15px!important}
+  .home-page .world-map{min-height:155px!important}
+  .home-page .world-map svg{max-height:170px!important}
+  .home-page .visual-bottom{padding-top:10px!important}
+  .home-page .visual-bottom strong{font-size:15px!important}
+  .home-page .ticker{margin:0 0 18px!important;padding:9px 14px!important;gap:12px!important}
+  .home-page .landing-channels{padding-bottom:14px!important}
+  .home-page .section-heading{padding-bottom:10px!important;margin-bottom:12px!important}
+  .home-page .section-heading h2{font-size:27px!important;margin:4px 0!important}
+  .home-page .section-heading p{font-size:11px!important}
+  .home-page .channel-grid{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:10px!important}
+  .home-page .channel-card,
+  .home-page .channel-card.featured,
+  .home-page .channel-card:nth-child(4),
+  .home-page .channel-card:nth-child(5){grid-column:auto!important;min-height:164px!important;padding:14px!important}
+  .home-page .channel-card h3{font-size:17px!important;margin:15px 0 5px!important}
+  .home-page .channel-card p{font-size:10px!important;line-height:1.55!important;margin:0!important}
+  .home-page .card-arrow{font-size:10px!important;margin-top:8px!important}
+  .home-page .channel-icon{right:13px!important;top:11px!important;font-size:19px!important}
+  .home-page .note{margin-top:10px!important;padding:7px 12px!important;font-size:10px!important}
+  .home-page>footer{padding:12px clamp(18px,4vw,54px)!important}
+  .home-page .footer-links{margin:8px 0!important;gap:14px!important}
+  .home-page .footer-bottom{padding-top:7px!important}
+}
+@media (min-width:901px) and (max-height:760px){
+  .home-page .hero{padding-top:14px!important;padding-bottom:12px!important}
+  .home-page .hero-visual{padding:11px!important}
+  .home-page .world-map{min-height:125px!important}
+  .home-page .world-map svg{max-height:138px!important}
+  .home-page .channel-card,
+  .home-page .channel-card.featured,
+  .home-page .channel-card:nth-child(4),
+  .home-page .channel-card:nth-child(5){min-height:145px!important;padding:11px!important}
+  .home-page .note{display:none}
+}
+
