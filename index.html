@@ -5,20 +5,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="兴仪全球禽业产业链情报中心：全球行情、客户洞察、同行洞察、展会信息与法规准入。">
   <title>兴仪全球禽业产业链情报中心</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20261106i">
-  <link rel="stylesheet" href="assets/editorial.css?v=20261106i">
+  <link rel="stylesheet" href="assets/styles.css?v=20261106j">
+  <link rel="stylesheet" href="assets/editorial.css?v=20261106j">
   <style id="homepage-layout-fix">
-    @media (min-width:1100px) and (min-height:700px) {
-      html, body.home-page { margin:0!important; width:100%!important; height:100%!important; min-height:100%!important; }
-      body.home-page { height:100vh!important; max-height:100vh!important; min-height:700px!important; overflow:hidden!important; display:flex!important; flex-direction:column!important; }
-      body.home-page > header.site-header { flex:0 0 76px!important; height:76px!important; min-height:76px!important; }
-      body.home-page > main#home { flex:1 1 auto!important; min-height:0!important; height:auto!important; max-height:none!important; margin:0!important; padding:0 2.8vw!important; display:grid!important; grid-template-columns:minmax(0,1fr)!important; grid-template-rows:350px minmax(0,1fr)!important; gap:0!important; overflow:hidden!important; box-sizing:border-box!important; }
-      body.home-page > main#home > section.hero { grid-row:1!important; display:grid!important; grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)!important; align-items:center!important; height:350px!important; min-height:350px!important; max-height:350px!important; margin:0!important; padding:18px 6px!important; overflow:hidden!important; box-sizing:border-box!important; }
-      body.home-page > main#home > section.landing-channels { grid-row:2!important; display:flex!important; flex-direction:column!important; justify-content:flex-start!important; min-height:0!important; height:100%!important; margin:0!important; padding:18px 0 0!important; overflow:hidden!important; box-sizing:border-box!important; }
-      body.home-page .hero-visual { height:264px!important; min-height:264px!important; max-height:264px!important; }
-      body.home-page .channel-grid { display:grid!important; grid-template-columns:repeat(5,minmax(0,1fr))!important; gap:12px!important; }
-      body.home-page .channel-grid > .channel-card { height:150px!important; min-height:150px!important; max-height:150px!important; }
-      body.home-page .note, body.home-page .ticker, body.home-page footer, body.home-page .site-footer, body.home-page [class*="footer"] { display:none!important; }
+    /* Desktop home: fit the full editorial landing page without fixed-height overlap. */
+    @media (min-width:901px) and (min-height:620px) {
+      html, body.home-page {
+        width:100%!important; height:100%!important; min-height:0!important;
+        margin:0!important; overflow:hidden!important;
+      }
+      body.home-page {
+        height:100vh!important; height:100svh!important; max-height:100svh!important;
+        display:flex!important; flex-direction:column!important;
+      }
+      body.home-page > header.site-header {
+        flex:0 0 76px!important; height:76px!important; min-height:76px!important;
+      }
+      body.home-page > main#home {
+        flex:1 1 auto!important; min-height:0!important; height:auto!important;
+        max-height:none!important; margin:0!important; padding:0 2.8vw!important;
+        display:grid!important; grid-template-columns:minmax(0,1fr)!important;
+        grid-template-rows:minmax(0,1.02fr) minmax(0,.98fr)!important;
+        gap:0!important; overflow:hidden!important; box-sizing:border-box!important;
+      }
+      body.home-page > main#home > section.hero {
+        grid-row:1!important; display:grid!important;
+        grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)!important;
+        align-items:center!important; min-height:0!important; height:100%!important;
+        max-height:none!important; margin:0!important; padding:12px 6px!important;
+        gap:clamp(18px,2.2vw,34px)!important; overflow:hidden!important;
+        box-sizing:border-box!important;
+      }
+      body.home-page .hero-copy { min-width:0!important; }
+      body.home-page .hero h1 {
+        margin:12px 0!important; font-size:clamp(30px,3.15vw,43px)!important;
+        line-height:1.18!important;
+      }
+      body.home-page .hero-copy>p {
+        max-width:560px!important; margin:0!important;
+        font-size:clamp(12px,1vw,14px)!important; line-height:1.75!important;
+      }
+      body.home-page .hero-visual {
+        width:100%!important; height:clamp(205px,31vh,270px)!important;
+        min-height:0!important; max-height:270px!important;
+        padding:clamp(12px,1.5vw,20px)!important; overflow:hidden!important;
+      }
+      body.home-page .world-map { min-height:0!important; }
+      body.home-page .world-map svg { display:block!important; max-height:100%!important; }
+      body.home-page > main#home > section.landing-channels {
+        grid-row:2!important; display:flex!important; flex-direction:column!important;
+        justify-content:flex-start!important; min-height:0!important; height:100%!important;
+        max-width:none!important; margin:0!important;
+        padding:clamp(8px,1.5vh,14px) 0 0!important;
+        overflow:hidden!important; box-sizing:border-box!important;
+      }
+      body.home-page .section-heading { margin:0 0 12px!important; }
+      body.home-page .section-heading h2 {
+        margin:0 0 4px!important; font-size:clamp(20px,1.8vw,25px)!important;
+      }
+      body.home-page .section-heading p {
+        margin:0!important; font-size:11px!important; line-height:1.5!important;
+      }
+      body.home-page .channel-grid {
+        display:grid!important; grid-template-columns:repeat(5,minmax(0,1fr))!important;
+        gap:clamp(8px,1vw,13px)!important; min-height:0!important;
+      }
+      body.home-page .channel-grid > .channel-card {
+        min-width:0!important; height:clamp(112px,17vh,142px)!important;
+        min-height:0!important; max-height:142px!important;
+        padding:clamp(11px,1.2vw,17px)!important; overflow:hidden!important;
+      }
+      body.home-page .channel-card .channel-no { font-size:10px!important; }
+      body.home-page .channel-card .channel-icon { margin-left:auto!important; }
+      body.home-page .channel-card h3 {
+        margin:9px 0 5px!important; font-size:clamp(14px,1.2vw,17px)!important;
+      }
+      body.home-page .channel-card p {
+        margin:0!important; font-size:clamp(10px,.82vw,11px)!important;
+        line-height:1.55!important;
+      }
+      body.home-page .note, body.home-page footer, body.home-page .site-footer,
+      body.home-page [class*="footer"] { display:none!important; }
+    }
+    /* Short desktop viewports retain natural scrolling rather than clipping content. */
+    @media (min-width:901px) and (max-height:619px) {
+      body.home-page { overflow:auto!important; }
+      body.home-page > main#home { display:block!important; }
+      body.home-page > main#home > section.hero { height:auto!important; max-height:none!important; }
     }
   </style>
 
