@@ -774,3 +774,28 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
   .home-page>footer.home-footer{flex:0 0 48px!important;height:48px!important;min-height:48px!important;max-height:48px!important;display:flex!important;align-items:center!important;justify-content:center!important;margin:0!important;padding:0 16px!important;overflow:hidden!important}
   .home-page>footer.home-footer .footer-bottom{width:100%!important;margin:0!important;padding:0!important;border:0!important;text-align:center!important;font-size:9px!important;line-height:1.4!important}
 }
+
+
+/* Homepage final viewport layout v20261106c */
+@media screen and (min-width:1100px) and (min-height:700px){
+  html,body.home-page{height:100%!important;min-height:100%!important}
+  body.home-page{height:100vh!important;min-height:700px!important;max-height:100vh!important;overflow:hidden!important;display:flex!important;flex-direction:column!important}
+  .home-page .site-header{position:relative!important;flex:0 0 76px!important;height:76px!important;min-height:76px!important}
+  .home-page main{flex:1 1 auto!important;min-height:0!important;height:auto!important;display:flex!important;flex-direction:column!important;justify-content:flex-start!important}
+  .home-page .hero{position:relative!important;flex:0 0 320px!important;height:320px!important;min-height:320px!important;max-height:320px!important;box-sizing:border-box!important;overflow:hidden!important;margin:0!important;padding:18px 6px!important;align-items:center!important}
+  .home-page .hero-visual{position:relative!important;height:264px!important;min-height:264px!important;max-height:264px!important;box-sizing:border-box!important;overflow:hidden!important;align-self:center!important}
+  .home-page .world-map{height:145px!important;min-height:145px!important;max-height:145px!important}
+  .home-page .world-map svg{height:135px!important;max-height:135px!important}
+  .home-page .ticker{position:relative!important;flex:0 0 46px!important;height:46px!important;min-height:46px!important;max-height:46px!important;margin:0!important;box-sizing:border-box!important;overflow:hidden!important}
+  .home-page .landing-channels{flex:1 1 auto!important;min-height:0!important;height:auto!important;max-height:none!important;display:flex!important;flex-direction:column!important;justify-content:center!important;box-sizing:border-box!important;margin:0!important;padding:12px 0!important}
+  .home-page .section-heading{margin:0 0 10px!important;padding:0 0 8px!important}
+  .home-page .section-heading .eyebrow,.home-page .section-index{display:none!important}
+  .home-page .channel-grid{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:12px!important}
+  .home-page .channel-grid>.channel-card,.home-page .channel-grid>.channel-card.featured,.home-page .channel-grid>.channel-card:nth-child(n){grid-column:auto!important;height:150px!important;min-height:150px!important;max-height:150px!important;padding:13px!important;box-sizing:border-box!important;overflow:hidden!important}
+  .home-page .channel-card h3{margin:16px 0 6px!important}
+  .home-page .channel-card p{min-height:0!important;margin:0!important}
+  .home-page .card-arrow{display:none!important}
+  .home-page .note{display:none!important}
+  .home-page>footer.home-footer{flex:0 0 48px!important;height:48px!important;min-height:48px!important;max-height:48px!important;display:flex!important;align-items:center!important;justify-content:center!important;margin:0!important;padding:0 16px!important;overflow:hidden!important}
+  .home-page>footer.home-footer .footer-bottom{width:100%!important;margin:0!important;padding:0!important;border:0!important;text-align:center!important;font-size:9px!important;line-height:1.4!important}
+}
