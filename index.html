@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="兴仪全球禽业产业链情报中心：全球行情、客户洞察、同行洞察、展会信息与法规准入。">
   <title>兴仪全球禽业产业链情报中心</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20261106j">
-  <link rel="stylesheet" href="assets/editorial.css?v=20261106j">
+  <link rel="stylesheet" href="assets/styles.css?v=20261106k">
+  <link rel="stylesheet" href="assets/editorial.css?v=20261106k">
   <style id="homepage-layout-fix">
     /* Desktop home: fit the full editorial landing page without fixed-height overlap. */
     @media (min-width:901px) and (min-height:620px) {
@@ -104,6 +104,29 @@
       body.home-page { overflow:auto!important; }
       body.home-page > main#home { display:block!important; }
       body.home-page > main#home > section.hero { height:auto!important; max-height:none!important; }
+    }
+    /* Final desktop polish: vertically balance the channel block and pin the copyright bar to the viewport edge. */
+    @media (min-width:901px) and (min-height:620px) {
+      body.home-page { min-height:100svh!important; }
+      body.home-page > main#home {
+        flex:1 1 0!important;
+        min-height:0!important;
+      }
+      body.home-page > main#home > section.landing-channels {
+        justify-content:center!important;
+        padding-top:0!important;
+        padding-bottom:0!important;
+      }
+      body.home-page .section-heading { margin-bottom:clamp(10px,1.6vh,16px)!important; }
+      body.home-page .channel-grid > .channel-card {
+        height:clamp(112px,16vh,142px)!important;
+      }
+      body.home-page > footer.home-footer {
+        flex:0 0 42px!important;
+        margin-top:auto!important;
+        position:relative!important;
+        inset:auto!important;
+      }
     }
   </style>
 
