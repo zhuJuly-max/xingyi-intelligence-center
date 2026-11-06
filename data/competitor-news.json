@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T00:03:37.231932+00:00",
+  "generated_at": "2026-11-06T23:59:30.770421+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 3,
+  "new_items_count": 1,
   "items": [
     {
       "company": "Big Dutchman",
@@ -561,6 +561,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2020-01-16T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT1ZpY1BwM0dLRVN6M0xFaWpSUnd4dEtIUEFjSlUyRzdOOVMzZGFKWGU0clRoWms1NnBhQnpQVVJ3Q2lyM2tLcmdZMnpoLWI0SUp2ZGxTODlrOFBZZGUtVU41LXlIaTlJZGk4ZDVzaFFiWlFEejdWS3BjX1pGNFVrRmVqelJWZXVoUDUzQlFpLUpES3FhOHNXN091b1Y1b0JFNS1wa2VPVTlFc1N6S0xGR19PRzQ1RVM4cWJzQVllZEc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Royal Pas Reform appoints new agent for Argentina and Uruguay - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-01-14T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaTZHMmZVVnFjV25RaThoSV9vWmk1bFFnM3FTRlJ2anBRWkF6QmZ6T2N2eHBEMDRQSFE1em50dHlkQm85LTlLSXVUWVBNSlVmeEUtMTJkNjdxWTQ1ak5uVXZZWTJleHJkelZIVGJIbkJKUHJjUFk0cWIxcFROZXZwZWNHd05BMUEtVmwwQTlaQTROOEJPYmxvY3BvS0dtQndqcjNEX1FwQ2k?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
