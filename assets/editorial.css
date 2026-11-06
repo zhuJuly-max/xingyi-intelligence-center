@@ -574,3 +574,64 @@ footer .footer-bottom{border-color:var(--xy-line)!important}
   .home-page .note{display:none!important}
 }
 
+
+
+/* Homepage single-screen composition: allocate the viewport as one page */
+@media screen and (min-width:1100px) and (min-height:650px){
+  html,body.home-page{height:100%!important;min-height:100%!important}
+  body.home-page{height:100vh!important;min-height:650px!important;overflow:hidden!important;display:flex!important;flex-direction:column!important}
+  .home-page .site-header{position:relative!important;top:auto!important;flex:0 0 60px!important;height:60px!important;min-height:60px!important;padding:4px clamp(18px,3vw,42px)!important;gap:16px!important}
+  .home-page .site-header nav{gap:clamp(9px,1.15vw,17px)!important}
+  .home-page .site-header nav a{font-size:clamp(10px,.82vw,12px)!important}
+  .home-page .brand-logo{width:clamp(112px,11vw,150px)!important;max-height:36px!important}
+  .home-page .brand-caption{padding-left:9px!important}
+  .home-page .brand-caption strong{font-size:11px!important}
+  .home-page .brand-caption small{font-size:6px!important}
+  .home-page main{flex:1 1 auto!important;min-height:0!important;height:auto!important;display:flex!important;flex-direction:column!important;padding:0 clamp(18px,3vw,42px)!important}
+  .home-page .hero{flex:0 0 clamp(215px,34vh,285px)!important;height:clamp(215px,34vh,285px)!important;min-height:0!important;max-width:none!important;width:100%!important;margin:0!important;padding:12px 6px!important;gap:clamp(20px,3vw,42px)!important;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)!important}
+  .home-page .hero-copy{min-width:0!important}
+  .home-page .hero-copy .eyebrow{font-size:9px!important}
+  .home-page .hero h1{font-size:clamp(34px,3.5vw,46px)!important;line-height:1.08!important;margin:9px 0!important}
+  .home-page .hero-copy>p{font-size:clamp(11px,.95vw,13px)!important;line-height:1.55!important;margin:7px 0!important;max-width:490px!important}
+  .home-page .hero-meta{margin-top:10px!important;padding-top:8px!important;font-size:10px!important;gap:8px!important}
+  .home-page .hero-visual{height:100%!important;min-height:0!important;padding:12px 15px!important;display:flex!important;flex-direction:column!important;justify-content:space-between!important}
+  .home-page .visual-top{font-size:8px!important}
+  .home-page .world-map{flex:1 1 auto!important;min-height:0!important;padding:3px 0!important;display:flex!important;align-items:center!important}
+  .home-page .world-map svg{width:100%!important;height:100%!important;max-height:clamp(105px,19vh,165px)!important}
+  .home-page .visual-bottom{flex:0 0 auto!important;padding-top:7px!important;gap:7px!important}
+  .home-page .visual-bottom small{font-size:8px!important}
+  .home-page .visual-bottom strong{font-size:clamp(12px,1.15vw,15px)!important;margin-top:2px!important}
+  .home-page .visual-bottom strong span{font-size:8px!important}
+  .home-page .ticker{flex:0 0 36px!important;height:36px!important;min-height:36px!important;margin:0!important;padding:5px 12px!important;gap:12px!important;flex-wrap:nowrap!important;font-size:9px!important;white-space:nowrap!important}
+  .home-page .ticker-label,.home-page .ticker-time{font-size:9px!important}
+  .home-page .landing-channels{flex:1 1 auto!important;min-height:0!important;height:auto!important;max-width:none!important;width:100%!important;margin:0!important;padding:10px 0 7px!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+  .home-page .section-heading{flex:0 0 auto!important;padding:0 0 7px!important;margin:0 0 8px!important;gap:12px!important}
+  .home-page .section-heading .eyebrow{font-size:8px!important}
+  .home-page .section-heading h2{font-size:clamp(19px,1.8vw,24px)!important;margin:2px 0!important}
+  .home-page .section-heading p{font-size:9px!important;line-height:1.4!important}
+  .home-page .section-index{font-size:8px!important}
+  .home-page .channel-grid{flex:0 0 auto!important;display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;grid-auto-flow:row!important;gap:8px!important;align-items:stretch!important}
+  .home-page .channel-grid>.channel-card,.home-page .channel-grid>.channel-card.featured,.home-page .channel-grid>.channel-card:nth-child(n){grid-column:auto!important;width:auto!important;min-width:0!important;height:clamp(118px,17vh,150px)!important;min-height:0!important;padding:10px!important;overflow:hidden!important}
+  .home-page .channel-no{font-size:8px!important}
+  .home-page .channel-icon{top:7px!important;right:9px!important;font-size:16px!important}
+  .home-page .channel-card h3{font-size:clamp(13px,1.15vw,16px)!important;margin:12px 0 4px!important}
+  .home-page .channel-card p{font-size:clamp(8px,.72vw,10px)!important;line-height:1.45!important;min-height:0!important;margin:0!important}
+  .home-page .card-arrow{font-size:8px!important;margin-top:5px!important}
+  .home-page .note{display:none!important}
+  .home-page>footer{flex:0 0 78px!important;height:78px!important;min-height:78px!important;max-width:none!important;width:100%!important;margin:0!important;padding:6px clamp(18px,3vw,42px)!important;overflow:hidden!important}
+  .home-page .footer-brand{gap:8px!important}
+  .home-page .footer-logo{width:auto!important;max-height:24px!important}
+  .home-page .footer-brand strong{font-size:9px!important}
+  .home-page .footer-brand small{font-size:8px!important}
+  .home-page .footer-links{margin:4px 0!important;gap:12px!important}
+  .home-page .footer-links a{font-size:8px!important}
+  .home-page .footer-bottom{padding-top:4px!important;font-size:7px!important;line-height:1.2!important}
+}
+@media screen and (min-width:1100px) and (max-height:700px){
+  .home-page .site-header{flex-basis:54px!important;height:54px!important;min-height:54px!important}
+  .home-page .hero{flex-basis:30vh!important;height:30vh!important;padding-top:7px!important;padding-bottom:7px!important}
+  .home-page .hero-visual{padding:8px 11px!important}
+  .home-page .world-map svg{max-height:13vh!important}
+  .home-page .channel-grid>.channel-card,.home-page .channel-grid>.channel-card.featured,.home-page .channel-grid>.channel-card:nth-child(n){height:clamp(105px,15vh,122px)!important;padding:8px!important}
+  .home-page>footer{flex-basis:70px!important;height:70px!important;min-height:70px!important;padding-top:4px!important;padding-bottom:4px!important}
+}
