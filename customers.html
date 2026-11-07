@@ -69,10 +69,11 @@ footer{background:#102b49;color:#c5d6e2}
 .customer-page{background:#fff8f7!important;color:#292626!important}
 .customer-page .site-header{height:78px;padding:0 max(calc((100% - 1220px)/2),5.2%);display:flex;align-items:center;gap:28px;background:#fff!important;border-bottom:1px solid #eadfdd;position:sticky;top:0;z-index:10}
 .customer-page .site-header .brand{display:flex;align-items:center;gap:11px;white-space:nowrap}
-.customer-page .site-header .brand-logo{width:42px;height:42px;object-fit:contain;background:#fff;border:1px solid #eadfdd;border-radius:7px;padding:3px;box-sizing:border-box}
-.customer-page .site-header .brand-caption{display:block;border-left:1px solid #eadfdd;padding-left:10px;line-height:1.35}
-.customer-page .site-header .brand-caption strong{display:block;color:#292626;font-size:14px}
-.customer-page .site-header .brand-caption small{display:block;color:#887c79;font-size:7px;letter-spacing:.1em;margin-top:2px}
+/* Match the Market page's wide logo and brand lockup exactly */
+.customer-page .site-header .brand-logo{display:block;width:166px;height:auto;max-height:48px;object-fit:contain;background:transparent;border:0;border-radius:0;padding:0;box-sizing:border-box}
+.customer-page .site-header .brand-caption{display:block;border-left:1px solid #eadfdd;padding-left:13px;line-height:1.35}
+.customer-page .site-header .brand-caption strong{display:block;color:#292626;font-size:13px;letter-spacing:.02em}
+.customer-page .site-header .brand-caption small{display:block;color:#8294a2;font-size:7px;letter-spacing:.08em;margin-top:1px}
 .customer-page .site-header nav{display:flex;align-items:center;gap:23px;margin-left:auto}
 .customer-page .site-header nav a{font-size:13px;color:#625956;white-space:nowrap;text-decoration:none}
 .customer-page .site-header nav a.active,.customer-page .site-header nav a:hover{color:#c92720}
@@ -86,7 +87,7 @@ footer{background:#102b49;color:#c5d6e2}
 .customer-page .customer-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
 .customer-page .customer-meta span{padding:6px 10px;border:1px solid #eddfdc;border-radius:20px;background:#fff;color:#756a67;font-size:11px}
 @media(max-width:900px){.customer-page .site-header{height:auto;min-height:68px;flex-wrap:wrap;padding:10px 5%;gap:10px}.customer-page .site-header nav{width:100%;order:3;overflow-x:auto;gap:17px;padding:5px 0 9px}.customer-page .site-header nav a{font-size:12px}.customer-page .site-header .header-actions{margin-left:auto}}
-@media(max-width:600px){.customer-page .site-header{padding:10px 4%}.customer-page .site-header .brand-logo{width:36px;height:36px}.customer-page .site-header .brand-caption strong{font-size:11px}.customer-page .site-header .brand-caption small{font-size:6px}.customer-page .site-header .contact-link{padding:8px 10px;font-size:10px}.customer-page .wrap{padding:24px 4% 42px!important}.customer-page .customer-hero{padding:23px 20px}}
+@media(max-width:600px){.customer-page .site-header{padding:10px 4%}.customer-page .site-header .brand-logo{width:116px;height:auto;max-height:38px}.customer-page .site-header .brand-caption{padding-left:9px}.customer-page .site-header .brand-caption strong{font-size:11px}.customer-page .site-header .brand-caption small{font-size:6px;letter-spacing:.07em}.customer-page .site-header .contact-link{padding:8px 10px;font-size:10px}.customer-page .wrap{padding:24px 4% 42px!important}.customer-page .customer-hero{padding:23px 20px}}
 </style>
 <style>
 /* Remove marked customer overview and contact action; match Market page spacing */
