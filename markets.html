@@ -1,72 +1,131 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="兴仪全球禽业产业链情报中心：中国禽肉、禽蛋、雏禽与饲料行情监测，统一人民币计价。"><title>中国行情成本｜兴仪全球禽业产业链情报中心</title><link rel="stylesheet" href="assets/styles.css"><style>
-.market-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:22px}.market-kpi{padding:17px;border:1px solid #eddfdc;border-radius:12px;background:#fff8f7}.market-kpi small,.market-kpi span{display:block;color:#766c69;font-size:11px}.market-kpi strong{display:block;color:#c92720;font-size:25px;margin:4px 0}.market-page{max-width:1220px;margin:0 auto;padding:48px 5% 72px}.market-page-hero{padding:42px;border-radius:18px;background:linear-gradient(120deg,#2b2424,#762521);color:#fff}.market-page-hero .eyebrow{color:#ffb7b1}.market-page-hero h1{font-size:clamp(30px,5vw,48px);margin:12px 0}.market-page-hero p{max-width:760px;color:#c6d7e3;line-height:1.9}.market-page-hero a{color:#9ed7e6}.market-breadcrumb{font-size:12px;color:#73889a;margin:0 0 18px}.market-page h2{color:#18364d;margin:34px 0 12px}.market-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.market-meta span{border:1px solid #47647b;border-radius:30px;padding:7px 12px;font-size:12px;color:#d9e6ee}.market-data-panel{margin-top:24px;padding:24px;border:1px solid #dce6ed;border-radius:14px;background:#fff}.market-table-wrap{overflow-x:auto}.market-table{width:100%;border-collapse:collapse;min-width:650px;font-size:13px}.market-table th,.market-table td{padding:12px 10px;border-bottom:1px solid #e8eef2;text-align:right;white-space:nowrap}.market-table th:first-child,.market-table td:first-child{text-align:left}.market-table th{color:#63798b;background:#f5f8fa}.market-table td{color:#26445a}.market-table .latest{font-weight:800;color:#087b86}.series-list{display:grid;gap:14px}.series-card{padding:18px;border:1px solid #dce6ed;border-radius:12px}.series-card h3{font-size:16px;color:#18364d;margin:0 0 5px}.series-card p{font-size:12px;color:#6f8494;margin:0 0 12px}.spark{display:flex;align-items:end;gap:8px;height:110px;padding:8px 4px 0;border-bottom:1px solid #dbe5eb}.spark-col{flex:1;display:flex;flex-direction:column;justify-content:end;align-items:center;height:100%;gap:5px}.spark-bar{width:min(100%,42px);background:linear-gradient(180deg,#e36b62,#b92520);border-radius:4px 4px 0 0;min-height:3px}.spark-col small{font-size:9px;color:#718696}.source-warning{margin:18px 0;padding:17px 20px;background:#fff8ed;border:1px solid #f0dfc5;border-radius:10px;color:#72582e;font-size:13px;line-height:1.8}.source-warning ul{margin:8px 0 0;padding-left:20px}.price-context{display:grid;grid-template-columns:1fr 1fr;gap:14px}.price-context article{padding:18px;background:#f5f8fa;border-radius:12px}.price-context h3{margin:0 0 8px;font-size:15px;color:#18364d}.price-context p{margin:0;color:#5e7485;font-size:13px;line-height:1.8}.daily-market-panel{margin:22px 0;padding:24px;border:1px solid #eadfdd;border-radius:14px;background:linear-gradient(135deg,#fff 0%,#fff8f7 100%);box-shadow:0 6px 22px rgba(90,35,30,.04)}.daily-market-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}.daily-market-head h2{margin:5px 0 4px!important;font-size:clamp(21px,2.2vw,28px)!important}.daily-market-head p{margin:0;font-size:12px}.daily-date{padding:7px 11px;border:1px solid #eddfdc;border-radius:30px;color:#a9231e;background:#fff;font-size:11px;font-weight:700}.daily-market-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}.daily-market-card{padding:17px;border:1px solid #eddfdc;border-radius:11px;background:#fff}.daily-market-card small{display:block;color:#766c69;font-size:12px}.daily-market-card strong{display:block;margin:5px 0;color:#c92720;font-size:27px;line-height:1.3}.daily-market-card span{font-size:12px;color:#746b68}.daily-market-card .down{color:#287b58}.daily-market-card .up{color:#c92720}.daily-source{margin:14px 0 0;font-size:11px;color:#81716e}.daily-source a{font-weight:700}@media(max-width:650px){.daily-market-panel{padding:17px}.daily-market-cards{grid-template-columns:1fr}}
-.market-page-footer{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:42px;padding-top:22px;border-top:1px solid #dce6ed;color:#708697;font-size:12px}.market-page-footer a{color:#1767a6;font-weight:700}@media(max-width:650px){.market-kpis{grid-template-columns:1fr}.market-page{padding:26px 5% 48px}.market-page-hero{padding:26px 22px}.market-data-panel{padding:15px}.price-context{grid-template-columns:1fr}}
-
-/* XingYi red brand and responsive page polish */
-:root{--navy:#2b2424;--blue:#c92720;--n:#2b2424;--b:#c92720;--ink:#292626;--muted:#746b68;--line:#eadfdd;--bg:#fff8f7}
-body{background:#fff8f7;color:#292626}
-header:not(.site-header){background:radial-gradient(ellipse at 88% 0%,#a9342e 0%,transparent 45%),linear-gradient(120deg,#2b2424,#762521)!important}
-header:not(.site-header) nav a{color:#ffe0dd!important}
-header:not(.site-header) nav a:hover{color:#fff!important;text-decoration:underline}
-h1,h2,h3{letter-spacing:-.015em}
-.stat strong,.metric-card strong,.latest{color:#c92720}
-.tabs button.active{background:#c92720!important;border-color:#c92720!important;color:#fff!important}
-.pill,.country-chip.selected{background:#fff0ee!important;color:#a9231e!important;border-color:#edc4bf!important}
-.filters input:focus,.filters select:focus,.events-toolbar input:focus,.events-toolbar select:focus,.reg-filters input:focus,.reg-filters select:focus,.cm-tools input:focus,.cm-tools select:focus{outline:2px solid #e9aaa4;outline-offset:1px}
-.card,.panel,.notice,.stat,.filters,.series-card,.market-data-panel,.event-card,.reg-card,.cm-card{box-shadow:0 6px 22px rgba(90,35,30,.045)}
-.card:hover,.event-card:hover{border-color:#e5aaa4;box-shadow:0 12px 28px rgba(90,35,30,.09);transform:translateY(-2px);transition:.18s ease}
-a{color:#b92721}
-header a{color:#ffe0dd}
-@media(max-width:720px){header:not(.site-header){padding-left:18px!important;padding-right:18px!important}nav{row-gap:10px!important}}
-
-</style>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="兴仪全球禽业产业链情报中心：中国禽业主要品类行情与成本趋势。">
+<title>中国行情成本｜兴仪全球禽业产业链情报中心</title>
+<link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/editorial.css">
 <style>
-:root{--navy:#292323;--blue:#c92720;--ink:#292626;--muted:#746b68;--line:#eadfdd;--bg:#fff8f7}
-body{background:#fff8f7;color:#292626}
-header{background:radial-gradient(ellipse at 85% 0%,#a9342e 0%,transparent 43%),linear-gradient(120deg,#2b2424,#762521)!important}
-header a{color:#ffe0dd}
-a{color:#bd2923}
-.stat strong{color:#c92720}
-.stat,.filters,.card,.notice,.panel{border-color:#eddfdc;box-shadow:0 5px 22px rgba(102,36,31,.045)}
-.pill{background:#fff0ee;color:#a92721}
-.tabs button{border-color:#e4c6c2;color:#8e2924}
-.tabs button.active{background:#c92720;border-color:#c92720;color:#fff}
-.filters input:focus,.filters select:focus{outline:2px solid #efb1ac;outline-offset:1px}
-.card .facts,.assessment{background:#fff6f4}
-.card a{color:#bd2923}
-footer{background:#2b2424;color:#e6d8d6}
-.data-freshness{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 16px;padding:11px 14px;border:1px solid #eadfdd;border-radius:10px;background:#fff;font-size:12px;color:#756b68}.data-freshness strong{color:#292626}.fresh-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:#2d8a62}.fresh-watch .fresh-dot{background:#d49a36}.fresh-old .fresh-dot{background:#c92720}.data-freshness small{color:#81716e}.insight-strip,.competitor-kpis,.reg-kpis,.event-kpis,.market-kpis{margin-top:14px}
-/* Contrast repair: keep the original dark logo artwork readable on dark headers */
-.site-header .brand-logo{background:#fff;border:1px solid rgba(255,255,255,.75);border-radius:7px;padding:4px 8px;box-sizing:content-box;object-fit:contain}
-.site-header .brand-caption{border-left-color:rgba(255,255,255,.38)}
-.site-header .brand-caption strong{color:#fff!important}
-.site-header .brand-caption small{color:#f3d9d6!important}
-.site-header .brand{align-items:center}
-.site-header{min-height:76px}
-.site-header .global-nav a{color:#ffe8e5!important}
-.site-header .global-nav a:hover,.site-header .global-nav a:focus-visible{color:#fff!important}
-@media(max-width:720px){.site-header .brand-logo{padding:3px 6px}.site-header .brand-caption strong{font-size:11px}.site-header .brand-caption small{font-size:6px}}
-</style>  <link rel="stylesheet" href="assets/editorial.css">
-</head><body class="market-intelligence-page">
-<header class="site-header"><a class="brand" href="index.html#home"><img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪 XingYi"><span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span></a><nav><a href="index.html#home">首页</a><a class="active" href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav><div class="header-actions"><a class="contact-link" href="index.html#contact">联系兴仪 ↗</a></div></header>
+:root{--market-red:#c92720;--market-ink:#292626;--market-muted:#786e6b;--market-line:#eddfdc}
+body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
+.market-intelligence-page .site-header{background:#fff}
+.market-page{max-width:1180px;margin:0 auto;padding:38px 5% 60px}
+.market-hero{padding:30px 34px;border:1px solid var(--market-line);border-radius:16px;background:linear-gradient(120deg,#fff 0%,#fff6f4 100%)}
+.market-eyebrow{font-size:10px;letter-spacing:.16em;font-weight:800;color:var(--market-red)}
+.market-hero h1{font-size:clamp(28px,4vw,42px);margin:9px 0;color:var(--market-ink)}
+.market-hero p{max-width:760px;margin:0;color:var(--market-muted);font-size:13px;line-height:1.8}
+.market-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.market-meta span{padding:6px 10px;border:1px solid var(--market-line);border-radius:20px;background:#fff;color:#756a67;font-size:11px}
+.market-latest{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:16px 0;padding:14px 18px;border:1px solid var(--market-line);border-radius:12px;background:#fff}
+.market-latest-title{font-size:11px;font-weight:800;color:var(--market-muted);margin-right:auto}
+.market-latest-item{display:flex;align-items:baseline;gap:8px}
+.market-latest-item span{font-size:12px;color:var(--market-muted)}
+.market-latest-item strong{font-size:21px;color:var(--market-red)}
+.market-latest-item small{font-size:10px;color:#328264}
+.market-latest-date{font-size:10px;color:var(--market-muted);white-space:nowrap}
+.market-section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:26px 0 12px}
+.market-section-head h2{margin:0;color:#292626;font-size:22px}
+.market-section-head p{margin:4px 0 0;color:var(--market-muted);font-size:11px}
+.market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.market-segment{padding:18px 20px;border:1px solid var(--market-line);border-radius:13px;background:#fff;min-width:0;box-shadow:0 5px 18px rgba(102,36,31,.035)}
+.market-segment-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.market-segment h3{margin:0;color:#292626;font-size:17px}
+.market-tag{padding:4px 8px;border-radius:20px;background:#fff1ef;color:#a9231e;font-size:10px;white-space:nowrap}
+.market-value{display:flex;align-items:baseline;gap:8px;margin:13px 0 0}
+.market-value strong{font-size:25px;color:var(--market-red)}
+.market-value span{font-size:11px;color:var(--market-muted)}
+.market-chart{width:100%;height:118px;display:block;margin-top:4px;overflow:visible}
+.market-chart .gridline{stroke:#f0e7e5;stroke-width:1}
+.market-chart .trend{fill:none;stroke:#c92720;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.market-chart .point{fill:#fff;stroke:#c92720;stroke-width:2.5}
+.market-chart-labels{display:flex;justify-content:space-between;color:#9a8d89;font-size:10px;margin-top:-2px}
+.market-footnote{margin:10px 0 0;padding-top:9px;border-top:1px solid #f2e9e7;color:#827673;font-size:10px;line-height:1.6}
+.market-empty{height:132px;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:12px;border:1px dashed #e8d8d5;border-radius:9px;background:#fffaf9;color:#827673;text-align:center}
+.market-empty strong{font-size:14px;color:#665c59;margin-bottom:5px}
+.market-empty span{font-size:11px}
+.market-source{margin-top:16px;padding:12px 15px;border-radius:10px;background:#fff4f1;color:#776b67;font-size:11px;line-height:1.8}
+.market-source a{color:#b92721;font-weight:700}
+.market-footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--market-line);color:#8b7e7a;font-size:11px}
+@media(max-width:680px){.market-page{padding:24px 4% 40px}.market-hero{padding:23px 20px}.market-grid{grid-template-columns:1fr}.market-latest{gap:10px}.market-latest-title{width:100%}.market-latest-item strong{font-size:19px}.market-section-head h2{font-size:19px}}
+</style>
+</head>
+<body class="market-intelligence-page">
+<header class="site-header">
+<a class="brand" href="index.html#home"><img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪 XingYi"><span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span></a>
+<nav><a href="index.html#home">首页</a><a class="active" href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav>
+<div class="header-actions"><a class="contact-link" href="index.html#contact">联系兴仪 ↗</a></div>
+</header>
 <main class="market-page">
-<section class="market-page-hero"><div class="eyebrow">CHINA POULTRY MARKET MONITOR</div><h1>中国禽业行情与成本</h1><p>聚焦中国市场禽肉、禽蛋、商品代雏鸡及饲料原料价格。所有价格统一以人民币显示，保留官方统计口径、采集日期和来源；未发布的数据不作估算。</p><div class="market-meta"><span>监测范围：中国全国</span><span>币种：人民币 CNY</span><span>数据频率：周度</span></div></section>
-<section class="daily-market-panel" aria-labelledby="dailyMarketTitle">
-  <div class="daily-market-head"><div><div class="eyebrow dark">DAILY WHOLESALE REFERENCE</div><h2 id="dailyMarketTitle">最新批发市场参考价</h2><p id="dailyMarketNote">农业农村部日度监测 · 与下方周度集贸市场数据分开统计</p></div><span class="daily-date" id="dailyMarketDate">更新日期 —</span></div>
-  <div class="daily-market-cards" id="dailyMarketCards"><p>正在读取日度参考数据…</p></div>
-  <p class="daily-source" id="dailyMarketSource"></p>
+<section class="market-hero">
+<div class="market-eyebrow">CHINA POULTRY MARKET MONITOR</div>
+<h1>中国禽业行情与成本</h1>
+<p>聚焦四大禽业品类价格走势。优先展示可核实的全国监测数据；品类专属数据暂缺时明确标注，不以其他品种价格代替。</p>
+<div class="market-meta"><span>中国全国</span><span>人民币 CNY</span><span id="marketPeriod">周度价格趋势</span><span id="marketUpdated">数据更新中</span></div>
 </section>
-<section class="market-data-panel"><div class="market-kpis" id="marketKpis"></div><div class="section-heading"><div><div class="eyebrow dark">CHINA · WEEKLY POULTRY & FEED PRICES</div><h2>中国禽业及饲料价格</h2><p id="marketSummary">正在读取数据…</p></div><span class="section-index">WEEKLY DATA</span></div><div class="series-list" id="seriesList"></div><h3 style="color:#18364d;margin-top:28px">三周原始数据表</h3><div class="market-table-wrap"><table class="market-table" id="marketTable"></table></div><div class="source-warning"><strong>数据质量与口径提示</strong><ul id="caveats"></ul></div><p style="font-size:12px;color:#718696">周度序列来源：<a id="marketSource" href="#" target="_blank" rel="noopener noreferrer">农业农村部畜牧兽医局 ↗</a>。采集日期：2026-10-08、2026-10-15、2026-10-22；官方发布日期：2026-10-27。</p></section>
-<section class="market-data-panel" style="margin-top:22px"><div class="section-heading"><div><div class="eyebrow dark">CHINA · FOUR POULTRY SEGMENTS</div><h2>四大禽业品种行情框架</h2><p>按养殖品种拆分指标；同一指标只有在品种口径明确时才归入对应板块。</p></div><span class="section-index">SEGMENT VIEW</span></div><div class="price-context">
-<article><h3>白羽肉鸡</h3><p>跟踪商品鸡苗（元/羽）、毛鸡棚前/屠宰收购价（元/斤）、鸡肉分割品（元/公斤）、玉米/豆粕及肉鸡料。官方全国鸡肉、商品代肉雏鸡及肉鸡料为综合口径，不等同白羽专属报价。</p></article>
-<article><h3>白羽肉鸭</h3><p>跟踪鸭苗（元/羽）、毛鸭/合同鸭（元/斤）、鸭肉分割品（元/公斤）、种蛋（元/枚）及饲料成本。当前暂无同口径官方全国白羽肉鸭序列，行业报价须注明产区、鸭型及交易条件。</p></article>
-<article><h3>蛋鸡</h3><p>跟踪鸡蛋（元/公斤）、商品代蛋雏鸡（元/只）、淘汰鸡（元/斤）、蛋鸡料及玉米/豆粕。已纳入官方全国鸡蛋、蛋雏鸡、蛋鸡料及饲料原料周度监测。</p></article>
-<article><h3>小白鸡（817）</h3><p>跟踪817鸡苗（元/羽）、毛鸡（元/斤）、屠宰产品（元/公斤）及饲料成本。全国商品代肉雏鸡和肉鸡料为综合统计，不等同817专属价格，需单列采集。</p></article>
-</div><p style="font-size:12px;color:#718696;margin-top:14px">缺少可核实的品种专属报价时标注待补充，不用其他品种或全国综合均价替代。所有数据仅限中国，统一人民币计价，并保留来源、采集日期和报价口径。</p></section>
-<h2>数据口径与市场观察</h2><div class="price-context"><article><h3>全国500县周度监测</h3><p>数据来自农业农村部畜牧兽医局对全国500个县集贸市场和采集点的定点监测，反映全国集贸市场周度均价，不等同于单一省份、单个企业的采购成交价。</p><p style="margin-top:10px"><a href="https://xmsyj.moa.gov.cn/jcyj/202610/t20261027_6488962.htm" target="_blank" rel="noopener noreferrer">查看农业农村部原始报告 ↗</a></p></article><article><h3>价格单位与数据边界</h3><p>鸡蛋、鸡肉、玉米、豆粕及配合饲料以元/公斤计；商品代蛋雏鸡和肉雏鸡以元/只计。当前只展示中国市场；白羽肉鸭及白羽肉鸡/817专属价格需另按行业报价口径采集。未覆盖孵化设备成交价。</p></article></div>
-<div class="market-page-footer"><span>兴仪全球禽业产业链情报中心 · 行情成本栏目</span><a href="markets.html">返回首页行情总览 ↑</a></div></main>
+<section class="market-latest" aria-label="最新日度批发市场参考价">
+<div class="market-latest-title">最新批发市场参考价</div>
+<div id="dailyItems" style="display:contents"><span class="market-latest-date">数据读取中…</span></div>
+<div class="market-latest-date" id="dailyDate"></div>
+</section>
+<div class="market-section-head"><div><h2>四大品类价格走势</h2><p>折线展示最近已发布的周度价格；横轴为采集日期。</p></div></div>
+<section class="market-grid" id="segmentGrid" aria-live="polite">
+<article class="market-segment">正在读取行情数据…</article>
+</section>
+<div class="market-source" id="marketSource">数据来源与统计口径读取中…</div>
+<div class="market-footer">兴仪全球禽业产业链情报中心 · 行情成本栏目</div>
+</main>
 <script>
-(async()=>{const root=document.getElementById("seriesList");try{const r=await fetch("data/market-prices-cn.json",{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);const d=await r.json();document.getElementById("marketSummary").textContent=d.scope+" · 数据日期："+d.updated_at;document.getElementById("marketSource").href=d.source_url;
-if(d.daily_snapshot){const snap=d.daily_snapshot;document.getElementById("dailyMarketDate").textContent="截至 "+snap.date;document.getElementById("dailyMarketNote").textContent=snap.scope+"。";const cards=document.getElementById("dailyMarketCards");cards.replaceChildren();snap.items.forEach(item=>{const card=document.createElement("article");card.className="daily-market-card";const name=document.createElement("small");name.textContent=item.name;const value=document.createElement("strong");value.textContent="¥"+Number(item.value).toFixed(2)+" "+item.unit;const change=document.createElement("span");change.className=item.change_pct<0?"down":item.change_pct>0?"up":"";change.textContent=(item.change_pct>0?"↑ ":item.change_pct<0?"↓ ":"→ ")+Math.abs(item.change_pct).toFixed(1)+"% · 较前一日";card.append(name,value,change);cards.append(card)});const source=document.getElementById("dailyMarketSource");source.textContent=snap.note+" 来源：";const link=document.createElement("a");link.href=snap.source_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=snap.source+" ↗";source.append(link)}const fmt=n=>"¥"+new Intl.NumberFormat("zh-CN",{minimumFractionDigits:2,maximumFractionDigits:2}).format(n);const age=Math.floor((new Date().setHours(0,0,0,0)-new Date(d.updated_at+"T00:00:00").getTime())/86400000);const freshness=document.createElement("div");freshness.className="data-freshness "+(age>7?"fresh-old":age>3?"fresh-watch":"");freshness.innerHTML='<span><i class="fresh-dot"></i><strong>数据维护状态</strong> · 最新数据日期：'+d.updated_at+'</span><small>'+(age<=3?"近期数据":age<=7?"数据有延迟，谨慎参考":"数据较旧，建议等待更新")+' · '+(d.price_level||"价格口径")+'</small>';document.querySelector('.market-kpis').before(freshness);const kpis=document.getElementById("marketKpis");d.series.forEach(series=>{const first=series.values[0],last=series.values[series.values.length-1],pct=first?(last-first)/first*100:0;const box=document.createElement("article");box.className="market-kpi";const label=document.createElement("small");label.textContent=series.name;const value=document.createElement("strong");value.textContent=fmt(last)+" "+series.unit;const trend=document.createElement("span");trend.textContent=(pct>0?"↑ ":pct<0?"↓ ":"→ ")+Math.abs(pct).toFixed(2)+"% · 三周变化";box.append(label,value,trend);kpis.append(box)});d.series.forEach(series=>{const card=document.createElement("article");card.className="series-card";const h=document.createElement("h3");h.textContent=series.name;const p=document.createElement("p");p.textContent="最新："+fmt(series.values.at(-1))+" "+series.unit+" · "+d.dates.at(-1);const chart=document.createElement("div");chart.className="spark";const min=Math.min(...series.values),max=Math.max(...series.values),range=max-min||1;series.values.forEach((v,i)=>{const col=document.createElement("div");col.className="spark-col";const bar=document.createElement("div");bar.className="spark-bar";bar.style.height=(18+(v-min)/range*68)+"px";bar.title=d.dates[i]+": "+fmt(v);const lab=document.createElement("small");lab.textContent=d.dates[i].slice(5);col.append(bar,lab);chart.append(col)});card.append(h,p,chart);root.append(card)});const table=document.getElementById("marketTable");const thead=document.createElement("thead"),hr=document.createElement("tr");["品类 / 单位",...d.dates].forEach(x=>{const th=document.createElement("th");th.textContent=x;hr.append(th)});thead.append(hr);table.append(thead);const tbody=document.createElement("tbody");d.series.forEach(series=>{const tr=document.createElement("tr");const name=document.createElement("td");name.textContent=series.name+" ("+series.unit+")";tr.append(name);series.values.forEach((v,i)=>{const td=document.createElement("td");td.textContent=fmt(v);if(i===series.values.length-1)td.className="latest";tr.append(td)});tbody.append(tr)});table.append(tbody);const ul=document.getElementById("caveats");[...(d.notes||[]),...(d.caveats||[])].filter((x,i,a)=>a.indexOf(x)===i).forEach(x=>{const li=document.createElement("li");li.textContent=x;ul.append(li)})}catch(e){document.getElementById("marketSummary").textContent="行情数据暂时无法加载，请稍后重试。";console.error(e)}})();
-</script></body></html>
+(async()=>{
+ const fmt=n=>"¥"+new Intl.NumberFormat("zh-CN",{minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
+ const el=(tag,cls,txt)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n};
+ try{
+  const response=await fetch("data/market-prices-cn.json",{cache:"no-store"});
+  if(!response.ok)throw new Error("HTTP "+response.status);
+  const d=await response.json();
+  document.getElementById("marketUpdated").textContent="周度数据截至 "+d.updated_at;
+  const daily=document.getElementById("dailyItems");daily.replaceChildren();
+  if(d.daily_snapshot){
+   const snap=d.daily_snapshot;
+   snap.items.forEach(item=>{
+    const wrap=el("div","market-latest-item");
+    wrap.append(el("span","",item.name),el("strong","",fmt(item.value)+" /公斤"),el("small","",((item.change_pct<0?"↓ ":item.change_pct>0?"↑ ":"→ ")+Math.abs(item.change_pct).toFixed(1)+"%")));
+    daily.append(wrap);
+   });
+   document.getElementById("dailyDate").textContent="日度数据 "+snap.date;
+  }else{daily.textContent="暂无日度批发参考价";}
+  const series=Object.fromEntries(d.series.map(s=>[s.id,s]));
+  const configs=[
+   {title:"白羽肉鸡",id:"chicken_meat",tag:"全国鸡肉价格参考",note:"全国鸡肉综合均价，并非白羽肉鸡专属报价。"},
+   {title:"白羽肉鸭",id:null,tag:"品种专属数据待补",note:"暂无可核实的同口径全国白羽肉鸭周度价格序列。"},
+   {title:"蛋鸡",id:"eggs",tag:"全国鸡蛋价格",note:"全国500县集贸市场鸡蛋周度均价。"},
+   {title:"小白鸡（817）",id:null,tag:"品种专属数据待补",note:"暂无可核实的817专属鸡苗、毛鸡或屠宰产品周度序列。"}
+  ];
+  const grid=document.getElementById("segmentGrid");grid.replaceChildren();
+  configs.forEach(cfg=>{
+   const card=el("article","market-segment");
+   const top=el("div","market-segment-top");top.append(el("h3","",cfg.title),el("span","market-tag",cfg.tag));card.append(top);
+   const s=cfg.id?series[cfg.id]:null;
+   if(s&&Array.isArray(s.values)&&s.values.length){
+    const last=s.values[s.values.length-1],first=s.values[0],delta=last-first,percent=first?delta/first*100:0;
+    const value=el("div","market-value");value.append(el("strong","",fmt(last)),el("span","",s.unit+" · "+d.dates[d.dates.length-1]),el("span","",((delta>0?"↑ ":delta<0?"↓ ":"→ ")+Math.abs(percent).toFixed(2)+"% / 观察区间")));card.append(value);
+    const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("viewBox","0 0 600 130");svg.setAttribute("preserveAspectRatio","none");svg.setAttribute("class","market-chart");svg.setAttribute("role","img");svg.setAttribute("aria-label",cfg.title+"价格趋势折线图");
+    [28,65,102].forEach(y=>{const line=document.createElementNS(svg.namespaceURI,"line");line.setAttribute("x1","8");line.setAttribute("x2","592");line.setAttribute("y1",y);line.setAttribute("y2",y);line.setAttribute("class","gridline");svg.append(line)});
+    const min=Math.min(...s.values),max=Math.max(...s.values),range=max-min||Math.max(Math.abs(max)*.02,.01);
+    const pts=s.values.map((v,i)=>({x:20+i*(560/Math.max(s.values.length-1,1)),y:100-((v-min)/range)*65,v}));
+    const poly=document.createElementNS(svg.namespaceURI,"polyline");poly.setAttribute("class","trend");poly.setAttribute("points",pts.map(p=>p.x+","+p.y).join(" "));svg.append(poly);
+    pts.forEach((p,i)=>{const c=document.createElementNS(svg.namespaceURI,"circle");c.setAttribute("class","point");c.setAttribute("cx",p.x);c.setAttribute("cy",p.y);c.setAttribute("r","5");const title=document.createElementNS(svg.namespaceURI,"title");title.textContent=d.dates[i]+": "+fmt(p.v)+" "+s.unit;c.append(title);svg.append(c)});
+    card.append(svg);
+    const labels=el("div","market-chart-labels");labels.append(el("span","",d.dates[0]),el("span","",d.dates[d.dates.length-1]));card.append(labels);
+   }else{
+    const empty=el("div","market-empty");empty.append(el("strong","","暂无可展示的品种专属价格曲线"),el("span","",cfg.note));card.append(empty);
+   }
+   card.append(el("p","market-footnote",cfg.note));grid.append(card);
+  });
+  const source=document.getElementById("marketSource");
+  source.replaceChildren(document.createTextNode("周度趋势来源："+d.source+"。统计口径："+d.scope+"。周度最新日期："+d.updated_at+"。日度批发参考价单独统计，不与周度集贸市场均价直接拼接比较。 "));
+  const a=el("a","","查看农业农村部周度原始报告 ↗");a.href=d.source_url;a.target="_blank";a.rel="noopener noreferrer";source.append(a);
+  if(d.daily_snapshot){source.append(document.createTextNode("；日度来源："));const da=el("a","","农业农村部批发市场日监测 ↗");da.href=d.daily_snapshot.source_url;da.target="_blank";da.rel="noopener noreferrer";source.append(da)}
+ }catch(error){document.getElementById("segmentGrid").textContent="行情数据暂时无法加载，请稍后重试。";console.error(error)}
+})();
+</script>
+</body></html>
