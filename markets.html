@@ -84,7 +84,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
  const el=(tag,cls,txt)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n};
  const NS="http://www.w3.org/2000/svg";
  const svgEl=(tag,attrs={})=>{const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));return n};
- const categoryMap={broiler_eggs:"broiler",broiler_chicks:"broiler",broiler_live:"broiler",broiler_frozen:"broiler",ducklings_cherry_valley:"duck",ducks_cherry_valley:"duck",duck_products_white:"duck",eggs:"layer",egg_feed_profit:"layer",817_chicks:"817",817_live:"817",817_products_5_7:"817"};
+ const categoryMap={broiler_eggs:"broiler",broiler_chicks:"broiler",broiler_live:"broiler",broiler_frozen:"broiler",ducklings_cherry_valley:"duck",ducks_cherry_valley:"duck",duck_products_white:"duck",eggs:"layer",egg_feed_profit:"layer","817_chicks":"817","817_live":"817","817_products_5_7":"817"};
  const categoryDefs=[{id:"broiler",title:"白羽肉鸡",note:"种蛋 · 鸡苗 · 毛鸡 · 冻品"},{id:"duck",title:"白羽肉鸭",note:"樱桃谷鸭苗 · 樱桃谷肉鸭 · 白条鸭产品"},{id:"layer",title:"蛋鸡",note:"鸡蛋/鸡苗/老母鸡 · 饲料成本与利润"},{id:"817",title:"小白鸡（817）",note:"817鸡苗 · 毛鸡 · 5-7只规格产品"}];
  const configs=[
   {id:"broiler_eggs",name:"白羽肉鸡种蛋",indicator:"种蛋成交价",unit:"元/枚",markets:"山东主产区",metrics:[{id:"value",label:"种蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
