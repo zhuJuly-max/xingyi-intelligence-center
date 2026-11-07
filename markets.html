@@ -67,7 +67,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
 <div id="dailyItems" style="display:contents"><span class="market-latest-date">数据读取中…</span></div>
 <div class="market-latest-date" id="dailyDate"></div>
 </section>
-<div class="market-section-head"><div><h2>四大品类每日价格走势</h2><p>蓝线：2025年　红线：2026年　｜　山东主产区代表价格，元/斤</p></div></div>
+<div class="market-section-head"><div><h2>白羽肉鸡细分及其他品类每日价格走势</h2><p>蓝线：2025年　红线：2026年　｜　各指标按行业惯用单位展示</p></div></div>
 <section class="market-grid" id="segmentGrid" aria-live="polite">
 <article class="market-segment">正在读取行情数据…</article>
 </section>
@@ -81,10 +81,13 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
  const NS="http://www.w3.org/2000/svg";
  const svgEl=(tag,attrs={})=>{const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));return n};
  const configs=[
-  {id:"white_broiler",name:"白羽肉鸡",indicator:"毛鸡棚前收购价",markets:"滨州、临沂"},
-  {id:"white_duck",name:"白羽肉鸭",indicator:"毛鸭棚前/到户价",markets:"潍坊、临沂"},
-  {id:"eggs",name:"蛋鸡",indicator:"褐壳鸡蛋主产区代表价",markets:"济宁、汶上"},
-  {id:"817",name:"小白鸡（817）",indicator:"817毛鸡棚前收购价",markets:"德州、聊城"}
+  {id:"broiler_eggs",name:"白羽肉鸡种蛋",indicator:"种蛋成交价",unit:"元/枚",markets:"山东主产区",metrics:[{id:"value",label:"种蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗成交价",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"鸡苗",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"broiler_live",name:"白羽肉鸡毛鸡",indicator:"社会鸡源棚前收购价",unit:"元/斤",markets:"山东滨州、临沂",metrics:[{id:"value",label:"毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"broiler_frozen",name:"国内板冻大胸及大琵琶腿",indicator:"冻品中间价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"breast",label:"板冻大胸",colors:{2025:"#267b99",2026:"#c92720"}},{id:"drumstick",label:"大琵琶腿",colors:{2025:"#55a18a",2026:"#d58a36"}}]},
+  {id:"white_duck",name:"白羽肉鸭",indicator:"毛鸭棚前/到户价",unit:"元/斤",markets:"山东潍坊、临沂",metrics:[{id:"value",label:"毛鸭",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"eggs",name:"蛋鸡",indicator:"褐壳鸡蛋主产区代表价",unit:"元/斤",markets:"山东济宁、汶上",metrics:[{id:"value",label:"鸡蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"817",name:"小白鸡（817）",indicator:"817毛鸡棚前收购价",unit:"元/斤",markets:"山东德州、聊城",metrics:[{id:"value",label:"817毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]}
  ];
  try{
   const res=await fetch("data/market-daily-shandong.json",{cache:"no-store"});
@@ -94,69 +97,34 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
   const grid=document.getElementById("segmentGrid");grid.replaceChildren();
   const months=["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
   configs.forEach(cfg=>{
-   const data=d.series.find(s=>s.id===cfg.id);
-   const records=data?.records||[];
-   const card=el("article","market-segment");
-   const top=el("div","market-segment-top");
-   top.append(el("h3","",cfg.name),el("span","market-tag",records.length?"已录入 "+records.length+" 条":"日度数据待积累"));
-   card.append(top);
-   const desc=el("div","market-value");
-   desc.append(el("strong","","元/斤"),el("span","",cfg.indicator+" · "+cfg.markets+""));
-   card.append(desc);
-   const svg=svgEl("svg",{viewBox:"0 0 720 205",preserveAspectRatio:"none",class:"market-chart",role:"img","aria-label":cfg.name+"2025年与2026年每日价格对比图"});
-   const left=38,right=706,topY=14,bottom=166,width=right-left,height=bottom-topY;
+   const data=d.series.find(s=>s.id===cfg.id),records=data?.records||[];
+   const card=el("article","market-segment"),top=el("div","market-segment-top");
+   top.append(el("h3","",cfg.name),el("span","market-tag",records.length?"已录入 "+records.length+" 条":"日度数据待积累"));card.append(top);
+   const desc=el("div","market-value");desc.append(el("strong","",cfg.unit),el("span","",cfg.indicator+" · "+cfg.markets));card.append(desc);
+   const svg=svgEl("svg",{viewBox:"0 0 720 205",preserveAspectRatio:"none",class:"market-chart",role:"img","aria-label":cfg.name+"2025年与2026年每日价格走势"});
+   const left=48,right=706,topY=14,bottom=166,width=right-left,height=bottom-topY;
    [0,1,2,3].forEach(i=>{const y=topY+i*height/3;svg.append(svgEl("line",{x1:left,x2:right,y1:y,y2:y,class:"gridline"}))});
    svg.append(svgEl("line",{x1:left,x2:right,y1:bottom,y2:bottom,class:"axis"}));
-   for(let m=0;m<12;m++){
-    const x=left+(m/11)*width;
-    svg.append(svgEl("line",{x1:x,x2:x,y1:bottom,y2:bottom+4,class:"axis"}));
-    const t=svgEl("text",{x,y:bottom+19,"text-anchor":"middle",class:"month-label"});t.textContent=months[m];svg.append(t);
-   }
+   for(let m=0;m<12;m++){const x=left+(m/11)*width;svg.append(svgEl("line",{x1:x,x2:x,y1:bottom,y2:bottom+4,class:"axis"}));const t=svgEl("text",{x,y:bottom+19,"text-anchor":"middle",class:"month-label"});t.textContent=months[m];svg.append(t)}
    const valid=records.filter(r=>[2025,2026].includes(Number(r.date?.slice(0,4)))&&Number.isFinite(Number(r.price)));
    if(valid.length){
-    const prices=valid.map(r=>Number(r.price));
-    let min=Math.min(...prices),max=Math.max(...prices);
-    if(max===min){min-=0.1;max+=0.1}
-    const pad=(max-min)*.12;min-=pad;max+=pad;
-    for(let i=0;i<4;i++){
-     const y=topY+i*height/3;
-     const v=max-i*(max-min)/3;
-     const t=svgEl("text",{x:left-7,y:y+3,"text-anchor":"end",class:"axis-label"});t.textContent=fmt(v);svg.append(t);
-    }
-    [2025,2026].forEach(year=>{
-     const yearRecords=valid.filter(r=>Number(r.date.slice(0,4))===year).sort((a,b)=>a.date.localeCompare(b.date));
-     const pts=yearRecords.map(r=>{
-      const date=new Date(r.date+"T00:00:00Z");
-      const day=(Date.UTC(year,date.getUTCMonth(),date.getUTCDate())-Date.UTC(year,0,1))/86400000;
-      return {x:left+day/365*width,y:bottom-(Number(r.price)-min)/(max-min)*height,r};
-     });
-     if(pts.length){
-      const line=svgEl("polyline",{class:year===2025?"year-2025":"year-2026",points:pts.map(p=>p.x+","+p.y).join(" ")});
-      svg.append(line);
-      pts.forEach(p=>{
-       const c=svgEl("circle",{cx:p.x,cy:p.y,r:2.8,fill:year===2025?"#267b99":"#c92720"});
-       const tip=svgEl("title");tip.textContent=p.r.date+" · "+fmt(p.r.price)+" 元/斤 · "+(p.r.market||"")+" · "+(p.r.source||"");c.append(tip);svg.append(c);
-      });
-     }
-    });
-   }else{
-    const t=svgEl("text",{x:(left+right)/2,y:86,"text-anchor":"middle",class:"axis-label"});t.textContent="等待可核实的每日价格数据";svg.append(t);
-   }
+    let min=Math.min(...valid.map(r=>Number(r.price))),max=Math.max(...valid.map(r=>Number(r.price)));if(max===min){min-=.1;max+=.1}const pad=(max-min)*.12;min-=pad;max+=pad;
+    for(let i=0;i<4;i++){const y=topY+i*height/3,v=max-i*(max-min)/3,t=svgEl("text",{x:left-7,y:y+3,"text-anchor":"end",class:"axis-label"});t.textContent=fmt(v);svg.append(t)}
+    cfg.metrics.forEach(metric=>[2025,2026].forEach(year=>{
+     const rows=valid.filter(r=>Number(r.date.slice(0,4))===year&&(r.metric||"value")===metric.id).sort((a,b)=>a.date.localeCompare(b.date));
+     const pts=rows.map(r=>{const date=new Date(r.date+"T00:00:00Z"),day=(Date.UTC(year,date.getUTCMonth(),date.getUTCDate())-Date.UTC(year,0,1))/86400000;return{x:left+day/365*width,y:bottom-(Number(r.price)-min)/(max-min)*height,r}});
+     if(pts.length){if(pts.length>1)svg.append(svgEl("polyline",{fill:"none",stroke:metric.colors[year], "stroke-width":2.8,"stroke-linecap":"round","stroke-linejoin":"round",points:pts.map(p=>p.x+","+p.y).join(" ")}));pts.forEach(p=>{const c=svgEl("circle",{cx:p.x,cy:p.y,r:3.2,fill:"#fff",stroke:metric.colors[year],"stroke-width":2.2});const tip=svgEl("title");tip.textContent=p.r.date+" · "+fmt(p.r.price)+" "+cfg.unit+" · "+(p.r.market||"")+" · "+(p.r.source||"");c.append(tip);svg.append(c)})}
+    }));
+   }else{const t=svgEl("text",{x:(left+right)/2,y:86,"text-anchor":"middle",class:"axis-label"});t.textContent="等待可核实的每日价格数据";svg.append(t)}
    card.append(svg);
    const legend=el("div","market-legend");
-   const a=el("span");a.append(el("i","blue"),document.createTextNode("2025年"));
-   const b=el("span");b.append(el("i","red"),document.createTextNode("2026年"));
-   legend.append(a,b);card.append(legend);
-   const note=records.length?"数据按实际报价日期绘制；悬停数据点可查看日期、市场及来源。":"当前已建立日度数据档案，历史报价正在逐日核验入库；空白不代表无交易，也不使用周度数据插值。";
-   card.append(el("p","market-footnote",note));
+   cfg.metrics.forEach(metric=>[2025,2026].forEach(year=>{const item=el("span");const swatch=el("i");swatch.style.background=metric.colors[year];item.append(swatch,document.createTextNode(cfg.metrics.length>1?metric.label+" · "+year+"年":year+"年"));legend.append(item)}));
+   card.append(legend);
+   card.append(el("p","market-footnote",records.length?"按实际报价日期绘制；悬停数据点可查看日期、市场及来源。":"历史报价正在逐日核验入库；空白不代表无交易，不使用周度数据插值。"));
    grid.append(card);
   });
-  const source=document.getElementById("marketSource");
-  source.textContent="统一口径：山东主产区代表市场；价格单位元/斤；2025年与2026年同品类、同交易环节逐日对比。每条记录保留报价日期、市场、来源链接及交易条件。未核实数据不展示，缺失日期不补值。";
- }catch(err){
-  document.getElementById("segmentGrid").textContent="日度行情数据暂时无法加载，请稍后重试。";
-  console.error(err);
- }
+  document.getElementById("marketSource").textContent="白羽肉鸡细分指标：种蛋（元/枚）、商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）、板冻大胸及大琵琶腿（元/公斤）；其余品类按各自行业报价单位展示。每条记录保留报价日期、市场、来源及交易条件。不同交易环节不混合，缺失日期不补值。";
+ }catch(err){document.getElementById("segmentGrid").textContent="日度行情数据暂时无法加载，请稍后重试。";console.error(err)}
 })();
 </script>
 </body></html>
