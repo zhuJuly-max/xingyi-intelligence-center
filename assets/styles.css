@@ -222,3 +222,90 @@ footer .footer-links{color:#746b68}
 footer .footer-links a{color:#746b68}
 footer .footer-links a:hover{color:#c92720}
 footer .footer-bottom{border-color:#eadfdd;color:#8a807d}
+
+/* Shared XingYi global header — one source of truth for every page */
+.site-header{
+  width:100%!important;height:78px!important;min-height:78px!important;
+  display:flex!important;flex:0 0 78px!important;align-items:center!important;
+  gap:clamp(14px,2.2vw,30px)!important;box-sizing:border-box!important;
+  padding:0 max(4.5%,calc((100% - 1240px)/2))!important;margin:0!important;
+  position:sticky!important;top:0!important;z-index:100!important;
+  background:#fff!important;color:#292626!important;
+  border-bottom:1px solid #eadfdd!important;
+  box-shadow:0 3px 16px rgba(50,30,28,.045)!important;
+}
+.site-header .brand{
+  display:flex!important;align-items:center!important;gap:11px!important;
+  flex:0 0 auto!important;min-width:0!important;white-space:nowrap!important;
+  color:#292626!important;text-decoration:none!important;
+}
+.site-header .brand-logo{
+  display:block!important;width:auto!important;height:auto!important;
+  max-width:160px!important;max-height:42px!important;object-fit:contain!important;
+  background:transparent!important;border:0!important;border-radius:0!important;
+  padding:0!important;box-sizing:border-box!important;
+}
+.site-header .brand-caption{
+  display:block!important;padding-left:11px!important;
+  border-left:1px solid #eadfdd!important;line-height:1.35!important;
+}
+.site-header .brand-caption strong{
+  display:block!important;color:#292626!important;font-size:13px!important;
+  font-weight:750!important;letter-spacing:.015em!important;
+}
+.site-header .brand-caption small{
+  display:block!important;margin-top:2px!important;color:#887c79!important;
+  font-size:7px!important;letter-spacing:.09em!important;
+}
+.site-header nav,.site-header .global-nav{
+  display:flex!important;align-items:center!important;justify-content:flex-end!important;
+  flex:1 1 auto!important;min-width:0!important;gap:clamp(12px,1.65vw,23px)!important;
+  margin:0!important;padding:0!important;flex-wrap:nowrap!important;
+  overflow:visible!important;white-space:nowrap!important;
+}
+.site-header nav a,.site-header .global-nav a{
+  display:inline-flex!important;align-items:center!important;
+  padding:8px 0!important;margin:0!important;border:0!important;
+  background:transparent!important;color:#625956!important;
+  font-size:13px!important;font-weight:650!important;line-height:1.2!important;
+  text-decoration:none!important;white-space:nowrap!important;
+}
+.site-header nav a:hover,.site-header .global-nav a:hover,
+.site-header nav a:focus-visible,.site-header .global-nav a:focus-visible,
+.site-header nav a.active,.site-header .global-nav a.active,
+.site-header nav a[aria-current="page"],.site-header .global-nav a[aria-current="page"]{
+  color:#c92720!important;text-decoration:none!important;
+}
+.site-header .menu-toggle,.site-header .header-actions{display:none!important}
+body.home-page > header.site-header{height:78px!important;min-height:78px!important;flex:0 0 78px!important}
+.competitor-hero{
+  position:relative!important;overflow:hidden!important;
+  padding:34px max(5%,calc((100% - 1180px)/2)) 40px!important;
+  margin:0!important;color:#fff!important;
+  background:radial-gradient(ellipse at 88% 0%,#a9342e 0%,transparent 45%),linear-gradient(120deg,#2b2424,#762521)!important;
+}
+.competitor-hero h1{margin:9px 0!important;color:#fff!important;font-size:clamp(27px,3.5vw,40px)!important}
+.competitor-hero p{max-width:800px!important;margin:0!important;color:#f1ddda!important;line-height:1.8!important}
+.competitor-hero .competitor-eyebrow{font-size:10px;letter-spacing:.16em;font-weight:800;color:#f3b9b3}
+@media(max-width:900px){
+  .site-header{height:auto!important;min-height:0!important;flex:0 0 auto!important;
+    padding:12px 4%!important;gap:10px!important;flex-wrap:wrap!important}
+  .site-header .brand{max-width:100%!important}
+  .site-header .brand-logo{max-width:126px!important;max-height:36px!important}
+  .site-header .brand-caption{padding-left:9px!important}
+  .site-header .brand-caption strong{font-size:11px!important}
+  .site-header .brand-caption small{font-size:6px!important;letter-spacing:.06em!important}
+  .site-header nav,.site-header .global-nav{
+    order:3!important;flex:1 0 100%!important;width:100%!important;
+    justify-content:flex-start!important;gap:18px!important;
+    overflow-x:auto!important;overflow-y:hidden!important;
+    padding:7px 0 5px!important;scrollbar-width:thin!important;
+  }
+  .site-header nav a,.site-header .global-nav a{font-size:12px!important}
+  .competitor-hero{padding:28px 5% 32px!important}
+}
+@media(max-width:420px){
+  .site-header .brand-logo{max-width:108px!important}
+  .site-header .brand-caption strong{font-size:10px!important}
+  .site-header nav,.site-header .global-nav{gap:15px!important}
+}
