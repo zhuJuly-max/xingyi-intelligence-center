@@ -63,9 +63,38 @@ footer{background:#102b49;color:#c5d6e2}
 .site-header .global-nav a:hover,.site-header .global-nav a:focus-visible{color:#fff!important}
 @media(max-width:720px){.site-header .brand-logo{padding:3px 6px}.site-header .brand-caption strong{font-size:11px}.site-header .brand-caption small{font-size:6px}}
 </style>  <link rel="stylesheet" href="assets/editorial.css">
+
+<style>
+/* Customer page header aligned with the Market Intelligence page */
+.customer-page{background:#fff8f7!important;color:#292626!important}
+.customer-page .site-header{height:78px;padding:0 max(calc((100% - 1220px)/2),5.2%);display:flex;align-items:center;gap:28px;background:#fff!important;border-bottom:1px solid #eadfdd;position:sticky;top:0;z-index:10}
+.customer-page .site-header .brand{display:flex;align-items:center;gap:11px;white-space:nowrap}
+.customer-page .site-header .brand-logo{width:42px;height:42px;object-fit:contain;background:#fff;border:1px solid #eadfdd;border-radius:7px;padding:3px;box-sizing:border-box}
+.customer-page .site-header .brand-caption{display:block;border-left:1px solid #eadfdd;padding-left:10px;line-height:1.35}
+.customer-page .site-header .brand-caption strong{display:block;color:#292626;font-size:14px}
+.customer-page .site-header .brand-caption small{display:block;color:#887c79;font-size:7px;letter-spacing:.1em;margin-top:2px}
+.customer-page .site-header nav{display:flex;align-items:center;gap:23px;margin-left:auto}
+.customer-page .site-header nav a{font-size:13px;color:#625956;white-space:nowrap;text-decoration:none}
+.customer-page .site-header nav a.active,.customer-page .site-header nav a:hover{color:#c92720}
+.customer-page .site-header .header-actions{display:flex;align-items:center}
+.customer-page .site-header .contact-link{background:#a91e1a;color:#fff;padding:10px 15px;border-radius:5px;font-size:12px;white-space:nowrap;text-decoration:none}
+.customer-page .wrap{max-width:1180px!important;margin:0 auto 70px!important;padding:38px 5% 60px!important}
+.customer-page .customer-hero{padding:30px 34px;border:1px solid #eddfdc;border-radius:16px;background:linear-gradient(120deg,#fff 0%,#fff6f4 100%);margin-bottom:20px}
+.customer-page .customer-eyebrow{font-size:10px;letter-spacing:.16em;font-weight:800;color:#c92720}
+.customer-page .customer-hero h1{font-size:clamp(28px,4vw,42px)!important;line-height:1.25;margin:9px 0 10px!important;color:#292626}
+.customer-page .customer-hero p{max-width:760px;margin:0;color:#786e6b;font-size:13px;line-height:1.8}
+.customer-page .customer-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.customer-page .customer-meta span{padding:6px 10px;border:1px solid #eddfdc;border-radius:20px;background:#fff;color:#756a67;font-size:11px}
+@media(max-width:900px){.customer-page .site-header{height:auto;min-height:68px;flex-wrap:wrap;padding:10px 5%;gap:10px}.customer-page .site-header nav{width:100%;order:3;overflow-x:auto;gap:17px;padding:5px 0 9px}.customer-page .site-header nav a{font-size:12px}.customer-page .site-header .header-actions{margin-left:auto}}
+@media(max-width:600px){.customer-page .site-header{padding:10px 4%}.customer-page .site-header .brand-logo{width:36px;height:36px}.customer-page .site-header .brand-caption strong{font-size:11px}.customer-page .site-header .brand-caption small{font-size:6px}.customer-page .site-header .contact-link{padding:8px 10px;font-size:10px}.customer-page .wrap{padding:24px 4% 42px!important}.customer-page .customer-hero{padding:23px 20px}}
+</style>
 </head><body class="customer-page">
-<header><nav class="global-nav" aria-label="主导航"><a href="index.html">首页</a><a href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav><div>客户情报 / CUSTOMER INTELLIGENCE</div><h1>项目建设 · 客户线索 · 招标雷达</h1><p>从投资意向、孵化场建设到公开设备采购，汇总可追溯的公开项目动态。所有信息按来源与核实状态展示，不将项目规划误判为设备采购需求。</p></header>
-<main class="wrap"><div class="stats"><div class="stat"><strong id="projectCount">—</strong>公开企业 / 项目档案</div><div class="stat"><strong id="tenderCount">—</strong>公开招标记录</div><div class="stat"><strong id="pipelineCount">—</strong>孵化项目池记录</div><div class="stat"><strong id="countryCount">—</strong>覆盖国家 / 地区</div></div>
+<header class="site-header">
+<a class="brand" href="index.html#home"><img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪 XingYi"><span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span></a>
+<nav><a href="index.html#home">首页</a><a href="markets.html">行情成本</a><a class="active" href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav>
+<div class="header-actions"><a class="contact-link" href="index.html#contact">联系兴仪 ↗</a></div>
+</header>
+<main class="wrap"><section class="customer-hero"><div class="customer-eyebrow">CUSTOMER & PROJECT INTELLIGENCE</div><h1>项目建设 · 客户线索 · 招标雷达</h1><p>从投资意向、孵化场建设到公开设备采购，汇总可追溯的公开项目动态。所有信息按来源与核实状态展示，不将项目规划误判为设备采购需求。</p><div class="customer-meta"><span>国内与国际客户</span><span>项目建设动态</span><span>公开招标与设备采购</span></div></section><div class="stats"><div class="stat"><strong id="projectCount">—</strong>公开企业 / 项目档案</div><div class="stat"><strong id="tenderCount">—</strong>公开招标记录</div><div class="stat"><strong id="pipelineCount">—</strong>孵化项目池记录</div><div class="stat"><strong id="countryCount">—</strong>覆盖国家 / 地区</div></div>
 <section class="insight-strip" id="customerInsights"><article><small>项目国家覆盖</small><strong id="ciCountries">—</strong><span>基于三类公开档案</span></article><article><small>采购 / 招标类记录</small><strong id="ciProcurement">—</strong><span>不代表均为孵化设备采购</span></article><article><small>竞品案例记录</small><strong id="ciCompetitor">—</strong><span>仅作市场对标</span></article><article><small>档案总量</small><strong id="ciTotal">—</strong><span>项目 + 招标 + 项目池</span></article></section><div class="notice">数据边界：仅使用公开政府公告、采购平台、企业公告及行业媒体。媒体报道和聚合平台均标注待核实；竞品已采用设备的项目仅用于市场对标。此页面不是内部CRM，不包含私人联系人、销售跟进记录或未公开商业信息。</div>
 <section class="customer-directory" style="margin:24px 0"><div class="section-heading"><div><div class="eyebrow dark">CUSTOMER STRATEGY · FINANCE · OPERATIONS</div><h2>客户企业档案｜国内与国际双板块</h2><p>覆盖企业战略、财务表现、经营管理，以及新建/扩产孵化场和养殖场项目。</p></div><span class="section-index">ACCOUNT INTELLIGENCE</span></div>
 <div class="tabs" id="customerRegionTabs"><button class="active" data-region="domestic">国内头部企业（11家）</button><button data-region="international">国际市场（40国）</button></div>
