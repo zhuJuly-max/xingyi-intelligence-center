@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T23:59:30.770421+00:00",
+  "generated_at": "2026-11-07T23:57:54.125077+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 1,
+  "new_items_count": 3,
   "items": [
     {
       "company": "Big Dutchman",
@@ -231,6 +231,16 @@
       "publisher": "aviNews",
       "published_at": "2024-04-03T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9INF9hb29TRkFzYjBUemttY1ZvMXNxVF96YTczaEkyZXBPRE1LOXFZeWVmdHUzeVpyNFh0UDN6Y1BHbDB3b2Y5amxobE0zTmM1cXFBZmxFNDM4N1l1M1BiZHVEVjdwek0?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Royal Pas Reform chosen by Silverlands for new hatchery operation in Tanzania - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2024-03-28T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONUNtVzhjdjRGUWV3SlpMOHBxXzB3c1lpX3hQWXFvSnpzRTdvWWx1NE1VX216SXBWbDAyNlBJWlBfR252cjY3dlRfTVBrV2ViWExWUEtGSmtVc1Ftd2w0YzY2YnR6eXN2VXNSbmtNTXppU3Q2UE5aYzl2SXF2Mnd6MTQtUXFNbWtxLTlwZlBmX2lwS3FBTEhtZHVUZkdrUGdYWkNPTUpGMmhVMVcxbW13cFU1SEZoWS1mQU54R1ZR?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -815,6 +825,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Jamesway rebrands Chinese incubator facility - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-02-05T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR0RrWF9jN2Y3alk2cFNrSGVLdHJYRDBwMExUVDFKWkx2dHBrMFdGRVhSaktyallvQUxXSTdDZlV0X0lhVXZ5eWJVWXN3VXo1dHNJakFtXzc1WUhFUVE0LVVQNG9xR1pzVXRBZ19PaW9fa2dRdmxvZjJTdVJPTjU1ajNkdHBtMlc0aG56eVgtUnAzN0ZEenFLQV9DQkwtREU4VG80ZGEwNDRnSkdNdV9QLVZHQWE?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Big Dutchman",
       "region": "INTL",
       "title": "Big Dutchman With Branch Office in Italy - The Poultry Site",
@@ -851,6 +871,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2014-07-02T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdW02TkJCX2o4djJjWFNqemVJbW5oTXpkOF9EbDhmWW5NbnN3MXh0Z0RNUG44V1dQQlotckxXaWIzeGZSVEtsaHZrQkdnanV3WWx1WUZaU0trNWIzeWtWQmltR25qRW82YWg1dURfZUZUZ3ZhNmFzOVN2Y0VoNVl0ZTBFNWx1ZU95UEVDaXZMMWJDZWlYdGE4WGFBT1NTRXdjbC1YMTljMUYybGtpR3ZaZVVTWG16b09K?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Theo Hoen appointed as CEO of the Vencomatic Group - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2014-01-07T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWmJoSVNkR0pUdkYxajJwR0dqemwzcHZxdzdONHNpcjNjOWU1c01KaHVNd3JLZTdCUmJVZFN6cFVGQU9tcXJwX2lLcDRHZTVLcDVzTTc5QkhjZnZUdjZxQWttNGs5TWt6U1phc2dUQmktcWNHYnNpTnF1dk1zQXFuTF9wdFoxV0pESEZjT0hiaGdvM1YxUXQzN21wRDB6TjJ4VEdhakJPRTd5R1BoZ05YX0l5MWYyRzd5Z3M2TkFmVWVDd0NBNmo3eWdXcw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
