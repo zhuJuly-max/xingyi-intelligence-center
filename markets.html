@@ -105,6 +105,23 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
   if(!res.ok)throw new Error("日度数据文件读取失败："+res.status);
   const d=await res.json();
   document.getElementById("marketUpdated").textContent=d.updated_at?"数据更新至 "+d.updated_at:"日度数据建档中";
+  const latestRows=[
+   {label:"白羽肉鸡毛鸡",value:"3.12",unit:"元/斤",market:"山东德州 · 社会鸡源棚前价",date:"11月7日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26110611/D59914848E062901.html"},
+   {label:"白羽肉鸡鸡苗",value:"2.13",unit:"元/羽",market:"山东烟台 · 大雏自提指导价",date:"11月7日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26110610/51F9EC2A716C2F23.html"},
+   {label:"白羽肉鸭",value:"3.10–3.20",unit:"元/斤",market:"山东多地 · 毛鸭报价区间",date:"11月6日",source:"鸡病专业网",url:"https://www.jbzyw.com/lists/3?_t_t_t=0.8533156025223434"},
+   {label:"鸡蛋",value:"4.20–4.45",unit:"元/斤",market:"山东多地 · 红蛋报价区间",date:"11月6日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523666"},
+   {label:"817毛鸡",value:"3.35",unit:"元/斤",market:"山东聊城 · 规格鸡棚前价",date:"11月7日",source:"中国绿色畜牧网",url:"https://www.godsky.com/2026/11/06/2026%E5%B9%B411%E6%9C%8807%E6%97%A5%E8%82%89%E9%B8%A1%E8%A1%8C%E6%83%85%E6%97%A5%E6%8A%A5-%E9%B8%A1%E8%8B%97%E8%B8%8C%E8%BA%87%E5%BE%98%E5%BE%8A%EF%BC%8C%E6%AF%9B%E9%B8%A1%E5%AE%89%E5%A6%82%E7%A3%90/"},
+   {label:"板冻大胸",value:"7.95",unit:"元/公斤",market:"辽宁 · 屠宰企业中间价",date:"11月6日",source:"Mysteel",url:"https://ncp.m.mysteel.com/a/26110611/B91431B365AEB482_abc.html"}
+  ];
+  const dailyItems=document.getElementById("dailyItems");dailyItems.replaceChildren();
+  latestRows.forEach(row=>{
+   const item=el("div","market-latest-item"),meta=el("span","",row.label+" · "+row.market);
+   const value=el("strong","",row.value),unit=el("span","",row.unit);
+   const link=el("a","",row.source+" ↗");link.href=row.url;link.target="_blank";link.rel="noopener noreferrer";link.title=row.date+" 来源："+row.source;
+   const date=el("small","",row.date);
+   item.append(meta,value,unit,link,date);dailyItems.append(item);
+  });
+  document.getElementById("dailyDate").textContent="报价日期：11月6–7日 · 各品类采用最近可核实报价";
   const categoryGrids={broiler:document.getElementById("grid-broiler"),duck:document.getElementById("grid-duck"),layer:document.getElementById("grid-layer"),817:document.getElementById("grid-817")};
   Object.values(categoryGrids).forEach(node=>node.replaceChildren());
   const months=["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
