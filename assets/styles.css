@@ -309,3 +309,5 @@ body.home-page > header.site-header{height:78px!important;min-height:78px!import
   .site-header .brand-caption strong{font-size:10px!important}
   .site-header nav,.site-header .global-nav{gap:15px!important}
 }
+
+.site-header::before,.site-header::after{display:none!important;content:none!important}
