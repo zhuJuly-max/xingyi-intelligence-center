@@ -9,12 +9,48 @@
     2025,
     2026
   ],
-  "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。",
+  "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。 白羽肉鸡板块细分为种蛋、商品代鸡苗、毛鸡棚前价及冻品板冻大胸/大琵琶腿；指标单位分别为元/枚、元/羽、元/斤、元/公斤。",
   "series": [
     {
-      "id": "white_broiler",
-      "name": "白羽肉鸡",
-      "indicator": "毛鸡棚前收购价",
+      "id": "broiler_eggs",
+      "name": "白羽肉鸡种蛋",
+      "indicator": "种蛋成交价",
+      "markets": [
+        "山东主产区"
+      ],
+      "records": [
+        {
+          "date": "2026-11-06",
+          "price": 1.43,
+          "market": "山东",
+          "source": "Mysteel日报：白羽鸡苗窄幅震荡，白羽肉鸡情绪看涨（20261106）",
+          "source_url": "https://ncp.mysteel.com/a/26110617/2195394792075DB7.html",
+          "trade_stage": "种蛋到户成交均价"
+        }
+      ]
+    },
+    {
+      "id": "broiler_chicks",
+      "name": "白羽肉鸡鸡苗",
+      "indicator": "商品代鸡苗成交价",
+      "markets": [
+        "山东主产区"
+      ],
+      "records": [
+        {
+          "date": "2026-11-06",
+          "price": 2.06,
+          "market": "山东",
+          "source": "Mysteel日报：白羽鸡苗窄幅震荡，白羽肉鸡情绪看涨（20261106）",
+          "source_url": "https://ncp.mysteel.com/a/26110617/2195394792075DB7.html",
+          "trade_stage": "山东白羽鸡苗自提成交均价"
+        }
+      ]
+    },
+    {
+      "id": "broiler_live",
+      "name": "白羽肉鸡毛鸡",
+      "indicator": "社会鸡源棚前收购价",
       "markets": [
         "滨州",
         "临沂"
@@ -27,6 +63,34 @@
           "source": "Mysteel 山东市场白羽肉鸡价格行情",
           "source_url": "https://jiye.mysteel.com/rouji/m/26110613/5E8B6379D6EDF65C.html",
           "trade_stage": "社会鸡源棚前价，4.5–6.0斤规格"
+        }
+      ]
+    },
+    {
+      "id": "broiler_frozen",
+      "name": "国内板冻大胸及大琵琶腿",
+      "indicator": "冻品中间价",
+      "markets": [
+        "辽宁屠宰企业报价参考"
+      ],
+      "records": [
+        {
+          "date": "2026-11-05",
+          "metric": "breast",
+          "price": 7.95,
+          "market": "辽宁",
+          "source": "Mysteel：辽宁屠宰企业白羽肉鸡胸类冻品最新价格维稳",
+          "source_url": "https://ncp.mysteel.com/a/26110511/752DB7915069E6EB.html",
+          "trade_stage": "板冻大胸中间价"
+        },
+        {
+          "date": "2026-11-05",
+          "metric": "drumstick",
+          "price": 11.85,
+          "market": "辽宁",
+          "source": "Mysteel：辽宁屠宰企业白羽肉鸡腿类冻品最新价格上涨",
+          "source_url": "https://m.mysteel.com/hot/1585858.html",
+          "trade_stage": "100-120规格琵琶腿中间价"
         }
       ]
     },
