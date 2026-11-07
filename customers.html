@@ -98,7 +98,38 @@ footer{background:#102b49;color:#c5d6e2}
 .customer-page .customer-directory{margin-top:0!important}
 .customer-page .customer-directory .section-heading{margin-top:0!important}
 @media(max-width:760px){.customer-page .wrap{padding:24px 4% 42px!important}}
-</style></head><body class="customer-page">
+</style>
+<style>
+/* Exact shared masthead geometry from markets.html; retain the previously requested removal of the contact action */
+.customer-page .site-header{
+ height:78px!important;min-height:78px!important;width:100%!important;
+ padding:0 max(calc((100% - 1220px)/2),5.2%)!important;
+ display:flex!important;flex-wrap:nowrap!important;align-items:center!important;
+ gap:28px!important;background:#fff!important;border-bottom:1px solid #eadfdd!important;
+ box-shadow:0 3px 18px rgba(50,30,28,.035)!important;position:sticky!important;top:0!important;z-index:10!important;
+}
+.customer-page .site-header .brand{display:flex!important;align-items:center!important;gap:11px!important;white-space:nowrap!important;flex:0 0 auto!important}
+.customer-page .site-header .brand-logo{width:auto!important;height:auto!important;max-width:none!important;max-height:42px!important;object-fit:contain!important;background:transparent!important;border:0!important;border-radius:0!important;padding:0!important;box-sizing:border-box!important}
+.customer-page .site-header .brand-caption{display:block!important;border-left:1px solid #eadfdd!important;padding-left:10px!important;line-height:1.35!important}
+.customer-page .site-header .brand-caption strong{display:block!important;color:#292626!important;font-size:14px!important;letter-spacing:.02em!important}
+.customer-page .site-header .brand-caption small{display:block!important;color:#887c79!important;font-size:8px!important;letter-spacing:.11em!important;margin-top:1px!important}
+.customer-page .site-header nav{display:flex!important;align-items:center!important;gap:23px!important;margin:0 0 0 auto!important;padding:0!important;flex-wrap:nowrap!important;position:static!important}
+.customer-page .site-header nav a{font-size:13px!important;font-weight:650!important;color:#625956!important;white-space:nowrap!important;text-decoration:none!important}
+.customer-page .site-header nav a.active,.customer-page .site-header nav a:hover{color:#c92720!important}
+.customer-page .site-header .header-actions{display:none!important}
+@media(max-width:900px){
+ .customer-page .site-header{height:auto!important;min-height:68px!important;padding:12px 5.2%!important;gap:12px!important;flex-wrap:wrap!important}
+ .customer-page .site-header nav{width:100%!important;order:3!important;margin:0!important;overflow-x:auto!important;gap:17px!important;padding:5px 0 9px!important}
+ .customer-page .site-header nav a{font-size:12px!important}
+}
+@media(max-width:600px){
+ .customer-page .site-header{padding:12px 4%!important}
+ .customer-page .site-header .brand-logo{max-height:38px!important}
+ .customer-page .site-header .brand-caption strong{font-size:11px!important}
+ .customer-page .site-header .brand-caption small{font-size:7px!important}
+}
+</style>
+</head><body class="customer-page">
 <header class="site-header">
 <a class="brand" href="index.html#home"><img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪 XingYi"><span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span></a>
 <nav><a href="index.html#home">首页</a><a href="markets.html">行情成本</a><a class="active" href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav>
