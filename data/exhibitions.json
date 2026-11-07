@@ -1,6 +1,214 @@
 {
-  "updated_at": "2026-11-02",
-  "timezone": "各展会当地时间",
-  "methodology": "优先采用主办方官网或政府/行业组织日历；企业参展页面仅用于交叉验证并标记为参展商信息；第三方目录信息不作为已确认日期。",
-  "items": []
+  "updated_at": "2026-11-07",
+  "timezone": "所有日期均为展会当地日期；开放时间以主办方最终通知为准",
+  "methodology": "展会日期和场馆优先采用主办方官网或行业组织日历；参展商及展位信息仅在企业参展日历或展会官方参展商目录明确列出时标记为已确认。未公布名单的标记为待更新。",
+  "items": [
+    {
+      "id": "eurotier-2026",
+      "name": "EuroTier 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-13",
+      "city": "汉诺威",
+      "country": "德国",
+      "venue": "Hanover Exhibition Grounds（汉诺威展览中心）",
+      "category": "国际畜牧、禽业与养殖技术",
+      "organizer": "DLG",
+      "exhibitors": [
+        {
+          "name": "LANDMECO",
+          "status": "企业参展日历已列出",
+          "booth": "展位待核",
+          "source_url": "https://landmeco.com/events/"
+        },
+        {
+          "name": "Lowland",
+          "status": "企业参展日历已列出",
+          "booth": "展位待核",
+          "source_url": "https://www.lowlandfeed.com/events/"
+        }
+      ],
+      "relevance": "禽舍设备、自动化、饲喂、环控及畜牧数字化技术；适合竞品与渠道调研。",
+      "source_url": "https://www.eurotier.com/en/"
+    },
+    {
+      "id": "ovum-2026",
+      "name": "OVUM 2026 · 拉美家禽大会",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "危地马拉城",
+      "country": "危地马拉",
+      "venue": "Guatemala City（具体场馆以主办方通知为准）",
+      "category": "拉美家禽产业会议与展览",
+      "organizer": "拉美家禽产业组织",
+      "exhibitors": [
+        {
+          "name": "BAADER",
+          "status": "企业参展日历已列出",
+          "booth": "B-31",
+          "source_url": "https://www.baader.com/events"
+        }
+      ],
+      "relevance": "拉美家禽生产商、孵化场、加工企业及设备渠道拓展；场馆信息需进一步核实。",
+      "source_url": "https://www.baader.com/events"
+    },
+    {
+      "id": "regional-livestock-philippines-2026",
+      "name": "Regional Livestock Philippines 2026",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "宿务",
+      "country": "菲律宾",
+      "venue": "Waterfront Cebu City Hotel and Casino",
+      "category": "区域畜牧与家禽产业",
+      "organizer": "展会主办方",
+      "exhibitors": [
+        {
+          "name": "LANDMECO",
+          "status": "企业参展日历已列出",
+          "booth": "展位待核",
+          "source_url": "https://landmeco.com/events/"
+        }
+      ],
+      "relevance": "菲律宾畜牧与家禽养殖市场，可关注禽舍设备、环控及养殖自动化需求。",
+      "source_url": "https://landmeco.com/events/"
+    },
+    {
+      "id": "agromek-2026",
+      "name": "Agromek 2026",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-27",
+      "city": "海宁",
+      "country": "丹麦",
+      "venue": "MCH Messecenter Herning",
+      "category": "北欧农业与畜牧技术",
+      "organizer": "MCH Messecenter Herning",
+      "exhibitors": [
+        {
+          "name": "LANDMECO",
+          "status": "企业参展日历已列出",
+          "booth": "展位待核",
+          "source_url": "https://landmeco.com/events/"
+        }
+      ],
+      "relevance": "农业与畜牧综合展，适合关注养殖设备、禽舍系统及北欧供应链；非纯家禽专业展。",
+      "source_url": "https://www.agromek.com/"
+    },
+    {
+      "id": "poultry-india-2026",
+      "name": "Poultry India Expo 2026",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-27",
+      "city": "海得拉巴",
+      "country": "印度",
+      "venue": "HITEX Exhibition Centre, Izzat Nagar",
+      "category": "家禽设备、饲料、育种与动物健康",
+      "organizer": "IPEMA",
+      "exhibitors": [
+        {
+          "name": "BAADER",
+          "status": "企业参展日历已列出",
+          "booth": "Hall 4 · S57–61",
+          "source_url": "https://www.baader.com/events"
+        }
+      ],
+      "relevance": "南亚重要家禽展会，适合接触孵化场、养殖集团、设备供应商和区域代理商。",
+      "source_url": "https://www.poultryindia.co.in/"
+    },
+    {
+      "id": "ippe-2027",
+      "name": "IPPE 2027 · International Production & Processing Expo",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-28",
+      "city": "亚特兰大",
+      "country": "美国",
+      "venue": "Georgia World Congress Center",
+      "category": "家禽、蛋品、肉类加工与饲料",
+      "organizer": "US Poultry & Egg Association 等主办机构",
+      "exhibitors": [
+        {
+          "name": "BAADER",
+          "status": "企业参展日历已列出",
+          "booth": "C31159",
+          "source_url": "https://www.baader.com/events"
+        },
+        {
+          "name": "LANDMECO",
+          "status": "企业参展日历已列出",
+          "booth": "展位待核",
+          "source_url": "https://landmeco.com/events"
+        }
+      ],
+      "relevance": "全球重要家禽与肉类加工展，适合竞品、集成商、加工厂及国际采购商开发。",
+      "source_url": "https://www.ippexpo.org/exhibitor-list/"
+    },
+    {
+      "id": "viv-asia-2027",
+      "name": "VIV Asia 2027",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-12",
+      "city": "曼谷",
+      "country": "泰国",
+      "venue": "IMPACT Exhibition Center, Nonthaburi",
+      "category": "畜牧与禽业全产业链",
+      "organizer": "VNU Asia Pacific",
+      "exhibitors": [
+        {
+          "name": "BAADER",
+          "status": "企业参展日历已列出",
+          "booth": "1-1558",
+          "source_url": "https://www.baader.com/events"
+        },
+        {
+          "name": "LANDMECO",
+          "status": "企业参展日历已列出",
+          "booth": "1-2393",
+          "source_url": "https://landmeco.com/events"
+        }
+      ],
+      "relevance": "东南亚重点展会，覆盖饲料、育种、动物健康、养殖设备、孵化、加工与食品链。",
+      "source_url": "https://asia.viv.net/visit/exhibitor-list"
+    },
+    {
+      "id": "viv-turkiye-2027",
+      "name": "VIV Select Türkiye 2027",
+      "start_date": "2027-06-09",
+      "end_date": "2027-06-11",
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "venue": "İstanbul Expo Center · Halls 2, 4, 8",
+      "category": "国际家禽技术专业展",
+      "organizer": "HKF Fuarcılık / VNU",
+      "exhibitors": [
+        {
+          "name": "BAADER",
+          "status": "企业参展日历已列出",
+          "booth": "Hall 8 · A90",
+          "source_url": "https://www.baader.com/events"
+        }
+      ],
+      "relevance": "覆盖饲料、动物健康、禽舍设备、孵化技术、自动化、加工与包装，适合中东及周边市场渠道开发。",
+      "source_url": "https://www.vivturkey.com/en/homepage"
+    },
+    {
+      "id": "ildex-indonesia-2027",
+      "name": "ILDEX Indonesia 2027",
+      "start_date": "2027-09-15",
+      "end_date": "2027-09-17",
+      "city": "雅加达",
+      "country": "印度尼西亚",
+      "venue": "Indonesia Convention Exhibition (ICE), BSD City",
+      "category": "畜牧、乳业、肉类加工与水产",
+      "organizer": "VNU Exhibitions Asia Pacific",
+      "exhibitors": [
+        {
+          "name": "BAADER",
+          "status": "企业活动日历列出该展会，2027展位待公布",
+          "booth": "待公布",
+          "source_url": "https://www.baader.com/events"
+        }
+      ],
+      "relevance": "印尼及东南亚区域重点行业展，适合接触家禽养殖企业、孵化链、加工企业与本地经销商。",
+      "source_url": "https://www.ildex-indonesia.com/"
+    }
+  ]
 }
