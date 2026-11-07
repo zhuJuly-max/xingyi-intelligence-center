@@ -67,7 +67,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
 <div id="dailyItems" style="display:contents"><span class="market-latest-date">数据读取中…</span></div>
 <div class="market-latest-date" id="dailyDate"></div>
 </section>
-<div class="market-section-head"><div><h2>白羽肉鸡、白羽肉鸭细分及其他品类每日价格走势</h2><p>蓝线：2025年　红线：2026年　｜　各指标按行业惯用单位展示</p></div></div>
+<div class="market-section-head"><div><h2>禽业行情与蛋鸡价格、成本及利润走势</h2><p>蓝线：2025年　红线：2026年　｜　各指标按行业惯用单位展示</p></div></div>
 <section class="market-grid" id="segmentGrid" aria-live="polite">
 <article class="market-segment">正在读取行情数据…</article>
 </section>
@@ -88,7 +88,8 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
   {id:"ducklings_cherry_valley",name:"国内樱桃谷肉鸭苗",indicator:"樱桃谷商品代鸭苗报价",unit:"元/只",markets:"国内主产区代表市场",metrics:[{id:"value",label:"鸭苗",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"ducks_cherry_valley",name:"国内樱桃谷肉鸭",indicator:"樱桃谷肉鸭出栏/棚前价",unit:"元/斤",markets:"国内主产区代表市场",metrics:[{id:"value",label:"肉鸭",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"duck_products_white",name:"国内白条鸭产品",indicator:"白条鸭产品批发/出厂价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"value",label:"白条鸭",colors:{2025:"#267b99",2026:"#c92720"}}]},
-  {id:"eggs",name:"蛋鸡",indicator:"褐壳鸡蛋主产区代表价",unit:"元/斤",markets:"山东济宁、汶上",metrics:[{id:"value",label:"鸡蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"eggs",name:"鸡蛋、鸡苗、老母鸡均价统计图",indicator:"鸡蛋、商品代蛋鸡苗及老母鸡代表报价",unit:"分项单位",markets:"国内主产区代表市场",metrics:[{id:"egg",label:"鸡蛋（元/斤）",colors:{2025:"#267b99",2026:"#c92720"}},{id:"chick",label:"蛋鸡苗（元/羽）",colors:{2025:"#2f7b8b",2026:"#d58a36"}},{id:"old_hen",label:"老母鸡（元/斤）",colors:{2025:"#28a7c4",2026:"#8a5aa6"}}]},
+  {id:"egg_feed_profit",name:"单斤鸡蛋饲料成本及利润走势图",indicator:"每斤鸡蛋对应饲料成本与养殖利润",unit:"元/斤",markets:"蛋鸡养殖成本模型/代表样本",metrics:[{id:"feed_cost",label:"饲料成本",colors:{2025:"#267b99",2026:"#c92720"}},{id:"profit",label:"养殖利润",colors:{2025:"#55a18a",2026:"#d58a36"}}]},
   {id:"817",name:"小白鸡（817）",indicator:"817毛鸡棚前收购价",unit:"元/斤",markets:"山东德州、聊城",metrics:[{id:"value",label:"817毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]}
  ];
  try{
@@ -125,7 +126,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
    card.append(el("p","market-footnote",records.length?"按实际报价日期绘制；悬停数据点可查看日期、市场及来源。":"历史报价正在逐日核验入库；空白不代表无交易，不使用周度数据插值。"));
    grid.append(card);
   });
-  document.getElementById("marketSource").textContent="白羽肉鸡细分指标：种蛋（元/枚）、商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）、板冻大胸及大琵琶腿（元/公斤）；白羽肉鸭细分为樱桃谷肉鸭苗（元/只）、樱桃谷肉鸭（元/斤）及白条鸭产品（元/公斤）。其余品类按各自行业报价单位展示。每条记录保留报价日期、市场、来源及交易条件。不同交易环节不混合，缺失日期不补值。";
+  document.getElementById("marketSource").textContent="白羽肉鸡细分指标：种蛋（元/枚）、商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）、板冻大胸及大琵琶腿（元/公斤）；白羽肉鸭细分为樱桃谷肉鸭苗（元/只）、樱桃谷肉鸭（元/斤）及白条鸭产品（元/公斤）。蛋鸡板块分为两图：鸡蛋、蛋鸡苗、老母鸡均价统计，以及单斤鸡蛋饲料成本与养殖利润走势。蛋鸡苗按元/羽，鸡蛋及老母鸡按元/斤；饲料成本与利润均按元/斤鸡蛋口径。每条记录保留报价日期、市场、来源及交易条件；不同指标和交易口径不混合，缺失日期不补值。";
  }catch(err){document.getElementById("segmentGrid").textContent="日度行情数据暂时无法加载，请稍后重试。";console.error(err)}
 })();
 </script>
