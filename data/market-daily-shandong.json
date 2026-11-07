@@ -1,40 +1,91 @@
 {
   "schema_version": 1,
-  "updated_at": null,
+  "updated_at": "2026-11-07",
   "frequency": "daily",
   "region": "山东主产区",
   "currency": "CNY",
   "unit": "元/斤",
-  "comparison_years": [2025, 2026],
+  "comparison_years": [
+    2025,
+    2026
+  ],
   "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。",
   "series": [
     {
       "id": "white_broiler",
       "name": "白羽肉鸡",
       "indicator": "毛鸡棚前收购价",
-      "markets": ["滨州", "临沂"],
-      "records": []
+      "markets": [
+        "滨州",
+        "临沂"
+      ],
+      "records": [
+        {
+          "date": "2026-11-06",
+          "price": 3.12,
+          "market": "滨州",
+          "source": "Mysteel 山东市场白羽肉鸡价格行情",
+          "source_url": "https://jiye.mysteel.com/rouji/m/26110613/5E8B6379D6EDF65C.html",
+          "trade_stage": "社会鸡源棚前价，4.5–6.0斤规格"
+        }
+      ]
     },
     {
       "id": "white_duck",
       "name": "白羽肉鸭",
       "indicator": "毛鸭棚前/到户价",
-      "markets": ["潍坊", "临沂"],
-      "records": []
+      "markets": [
+        "潍坊",
+        "临沂"
+      ],
+      "records": [
+        {
+          "date": "2026-11-07",
+          "price": 3.85,
+          "market": "潍坊",
+          "source": "Mysteel 山东重点市场白羽肉鸭报价",
+          "source_url": "https://www.mysteel.com/hot/1589987.html",
+          "trade_stage": "白羽肉鸭产区出栏报价；企业报价"
+        }
+      ]
     },
     {
       "id": "eggs",
       "name": "蛋鸡",
       "indicator": "褐壳鸡蛋主产区代表价",
-      "markets": ["济宁", "汶上"],
-      "records": []
+      "markets": [
+        "济宁",
+        "汶上"
+      ],
+      "records": [
+        {
+          "date": "2026-11-06",
+          "price": 4.3,
+          "market": "济宁（泗水、汶上、梁山）",
+          "source": "Mysteel 山东济宁产区鸡蛋价格",
+          "source_url": "https://ncp.m.mysteel.com/a/26110606/F0771C0D510DCD23_abc.html",
+          "trade_stage": "褐壳鸡蛋主流到户价"
+        }
+      ]
     },
     {
       "id": "817",
       "name": "小白鸡（817）",
       "indicator": "817毛鸡棚前收购价",
-      "markets": ["德州", "聊城"],
-      "records": []
+      "markets": [
+        "德州",
+        "聊城"
+      ],
+      "records": [
+        {
+          "date": "2026-11-06",
+          "price": 3.35,
+          "market": "聊城",
+          "source": "Mysteel 山东聊城817小白鸡市场毛鸡价格",
+          "source_url": "https://ncp.m.mysteel.com/a/26110610/7F95627D39B8184D_abc.html",
+          "trade_stage": "817毛鸡棚前成交价，1.3–1.7斤规格"
+        }
+      ]
     }
   ],
   "record_fields": {
