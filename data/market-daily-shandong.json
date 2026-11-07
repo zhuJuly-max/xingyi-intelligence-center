@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "updated_at": null,
+  "frequency": "daily",
+  "region": "山东主产区",
+  "currency": "CNY",
+  "unit": "元/斤",
+  "comparison_years": [2025, 2026],
+  "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。",
+  "series": [
+    {
+      "id": "white_broiler",
+      "name": "白羽肉鸡",
+      "indicator": "毛鸡棚前收购价",
+      "markets": ["滨州", "临沂"],
+      "records": []
+    },
+    {
+      "id": "white_duck",
+      "name": "白羽肉鸭",
+      "indicator": "毛鸭棚前/到户价",
+      "markets": ["潍坊", "临沂"],
+      "records": []
+    },
+    {
+      "id": "eggs",
+      "name": "蛋鸡",
+      "indicator": "褐壳鸡蛋主产区代表价",
+      "markets": ["济宁", "汶上"],
+      "records": []
+    },
+    {
+      "id": "817",
+      "name": "小白鸡（817）",
+      "indicator": "817毛鸡棚前收购价",
+      "markets": ["德州", "聊城"],
+      "records": []
+    }
+  ],
+  "record_fields": {
+    "date": "YYYY-MM-DD",
+    "price": "number, CNY per jin",
+    "market": "报价市场/地区",
+    "source": "来源机构或平台名称",
+    "source_url": "原始报价页面URL",
+    "trade_stage": "交易环节/报价条件"
+  },
+  "data_policy": [
+    "只录入有日期、价格、市场、交易环节及可追溯来源的公开报价。",
+    "不将不同地区、不同交易环节的价格直接求平均或拼接。",
+    "同一日有多个报价时，先按已确定的代表市场规则选取，不以无来源的平均值代替。",
+    "2025年历史数据与2026年数据采用相同指标和口径；口径不一致时不作年度对比。",
+    "当前 records 为空，表示尚未完成逐日核验，不代表市场没有报价。"
+  ]
+}
