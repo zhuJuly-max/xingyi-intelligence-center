@@ -26,7 +26,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
 .market-section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:26px 0 12px}
 .market-section-head h2{margin:0;color:#292626;font-size:22px}
 .market-section-head p{margin:4px 0 0;color:var(--market-muted);font-size:11px}
-.market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.market-category{margin-top:28px;padding:20px;border:1px solid var(--market-line);border-radius:16px;background:#fffdfc}.market-category-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 14px;padding-bottom:12px;border-bottom:1px solid var(--market-line)}.market-category-head h2{margin:0;font-size:21px;color:var(--market-ink)}.market-category-head span{font-size:11px;color:var(--market-muted)}.market-category .market-grid{gap:12px}.market-category .market-segment{box-shadow:none;background:#fff
 .market-segment{padding:18px 20px;border:1px solid var(--market-line);border-radius:13px;background:#fff;min-width:0;box-shadow:0 5px 18px rgba(102,36,31,.035)}
 .market-segment-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .market-segment h3{margin:0;color:#292626;font-size:17px}
@@ -67,7 +67,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
 <div id="dailyItems" style="display:contents"><span class="market-latest-date">数据读取中…</span></div>
 <div class="market-latest-date" id="dailyDate"></div>
 </section>
-<div class="market-section-head"><div><h2>禽业行情、蛋鸡成本利润及817小白鸡细分走势</h2><p>蓝线：2025年　红线：2026年　｜　各指标按行业惯用单位展示</p></div></div>
+<div class="market-section-head"><div><h2>四大品类行情模板</h2><p>按白羽肉鸡、白羽肉鸭、蛋鸡、小白鸡（817）分区呈现；蓝线：2025年，红线：2026年</p></div></div>
 <section class="market-grid" id="segmentGrid" aria-live="polite">
 <article class="market-segment">正在读取行情数据…</article>
 </section>
@@ -80,6 +80,8 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
  const el=(tag,cls,txt)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n};
  const NS="http://www.w3.org/2000/svg";
  const svgEl=(tag,attrs={})=>{const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));return n};
+ const categoryMap={broiler_eggs:"broiler",broiler_chicks:"broiler",broiler_live:"broiler",broiler_frozen:"broiler",ducklings_cherry_valley:"duck",ducks_cherry_valley:"duck",duck_products_white:"duck",eggs:"layer",egg_feed_profit:"layer",817_chicks:"817",817_live:"817",817_products_5_7:"817"};
+ const categoryDefs=[{id:"broiler",title:"白羽肉鸡",note:"种蛋 · 鸡苗 · 毛鸡 · 冻品"},{id:"duck",title:"白羽肉鸭",note:"樱桃谷鸭苗 · 樱桃谷肉鸭 · 白条鸭产品"},{id:"layer",title:"蛋鸡",note:"鸡蛋/鸡苗/老母鸡 · 饲料成本与利润"},{id:"817",title:"小白鸡（817）",note:"817鸡苗 · 毛鸡 · 5-7只规格产品"}];
  const configs=[
   {id:"broiler_eggs",name:"白羽肉鸡种蛋",indicator:"种蛋成交价",unit:"元/枚",markets:"山东主产区",metrics:[{id:"value",label:"种蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗成交价",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"鸡苗",colors:{2025:"#267b99",2026:"#c92720"}}]},
@@ -100,6 +102,8 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
   const d=await res.json();
   document.getElementById("marketUpdated").textContent=d.updated_at?"数据更新至 "+d.updated_at:"日度数据建档中";
   const grid=document.getElementById("segmentGrid");grid.replaceChildren();
+  const categoryGrids={};
+  categoryDefs.forEach(group=>{const section=el("section","market-category");const head=el("div","market-category-head");head.append(el("h2","",group.title),el("span","",group.note));section.append(head);const cards=el("div","market-grid");section.append(cards);grid.append(section);categoryGrids[group.id]=cards});
   const months=["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
   configs.forEach(cfg=>{
    const data=d.series.find(s=>s.id===cfg.id),records=data?.records||[];
@@ -126,7 +130,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
    cfg.metrics.forEach(metric=>[2025,2026].forEach(year=>{const item=el("span");const swatch=el("i");swatch.style.background=metric.colors[year];item.append(swatch,document.createTextNode(cfg.metrics.length>1?metric.label+" · "+year+"年":year+"年"));legend.append(item)}));
    card.append(legend);
    card.append(el("p","market-footnote",records.length?"按实际报价日期绘制；悬停数据点可查看日期、市场及来源。":"历史报价正在逐日核验入库；空白不代表无交易，不使用周度数据插值。"));
-   grid.append(card);
+   categoryGrids[categoryMap[cfg.id]||"broiler"].append(card);
   });
   document.getElementById("marketSource").textContent="白羽肉鸡细分指标：种蛋（元/枚）、商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）、板冻大胸及大琵琶腿（元/公斤）；白羽肉鸭细分为樱桃谷肉鸭苗（元/只）、樱桃谷肉鸭（元/斤）及白条鸭产品（元/公斤）。蛋鸡板块分为两图：鸡蛋、蛋鸡苗、老母鸡均价统计，以及单斤鸡蛋饲料成本与养殖利润走势。蛋鸡苗按元/羽，鸡蛋及老母鸡按元/斤；饲料成本与利润均按元/斤鸡蛋口径。817小白鸡分为商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）及5-7只规格产品（元/公斤）三张独立图。每条记录保留报价日期、市场、来源及交易条件；不同指标和交易口径不混合，缺失日期不补值。";
  }catch(err){document.getElementById("segmentGrid").textContent="日度行情数据暂时无法加载，请稍后重试。";console.error(err)}
