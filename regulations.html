@@ -46,7 +46,15 @@ footer{background:#2b2424;color:#e6d8d6}
 .site-header .global-nav a:hover,.site-header .global-nav a:focus-visible{color:#fff!important}
 @media(max-width:720px){.site-header .brand-logo{padding:3px 6px}.site-header .brand-caption strong{font-size:11px}.site-header .brand-caption small{font-size:6px}}
 </style>  <link rel="stylesheet" href="assets/editorial.css">
-</head><body class="regulation-intelligence-page"><header class="site-header"><a class="brand" href="index.html"><img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪"><span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span></a><nav class="global-nav" aria-label="主导航"><a href="index.html">首页</a><a href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html">法规准入</a></nav><div class="header-actions"><a class="contact-link" href="country-compliance.html">8国合规矩阵 ↗</a></div></header>
+<link rel="stylesheet" href="assets/styles.css?v=20261107header">
+</head><body class="regulation-intelligence-page"><header class="site-header">
+  <a class="brand" href="index.html#home" aria-label="兴仪情报中心首页">
+    <img class="brand-logo" src="assets/xingyi-logo.png" alt="兴仪 XingYi 品牌标志">
+    <span class="brand-caption"><strong>全球禽业产业链情报中心</strong><small>GLOBAL POULTRY INDUSTRY INTELLIGENCE</small></span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" type="button" aria-label="打开导航">☰</button>
+  <nav class="global-nav" id="mainNav" aria-label="主导航"><a href="index.html#home">首页</a><a href="markets.html">行情成本</a><a href="customers.html">客户洞察</a><a href="competitors.html">同行洞察</a><a href="exhibitions.html">展会信息</a><a href="regulations.html" class="active" aria-current="page">法规准入</a></nav>
+</header>
 <section class="compliance-hero"><div class="eyebrow">GLOBAL MARKET ACCESS</div><h1>法规准入与产品合规档案</h1><p>围绕孵化机、出雏机、禽舍环控、饲喂饮水和养殖自动化设备，持续跟踪目标市场进口条件、电气安全、强制标准、认证、HS编码与关税。当前优先建立印尼市场法规样本，再逐步扩展40个重点覆盖国家。</p><div>档案更新：2026-11-02 · 6 条公开法规与官方查询记录 · 重点市场持续扩展</div></section>
 <main class="compliance-wrap"><section class="reg-kpis" aria-live="polite"><article><small>法规 / 查询档案</small><strong id="rkTotal">—</strong><span>已收录记录</span></article><article><small>覆盖国家 / 地区</small><strong id="rkCountries">—</strong><span>当前档案范围</span></article><article><small>主题类别</small><strong id="rkTopics">—</strong><span>进口、认证、税则等</span></article><article><small>适用性待核</small><strong id="rkPending">—</strong><span>需按型号进一步确认</span></article></section><div class="compliance-alert"><b>重要口径：</b>“家禽/孵化蛋进口卫生准入”与“孵化设备产品合规”是两类不同规则；某国存在SNI/CE/电气安全制度，不代表所有孵化设备自动适用。必须按具体型号、HS编码、额定参数和目的国官方目录判断。</div>
 <section><div class="eyebrow dark">REGULATORY WATCH</div><h2>法规与官方查询档案</h2><p class="reg-meta">可按国家、主题或关键词筛选。法规状态和适用范围以官方原文及最新修订为准。</p><div class="reg-filters"><input id="regSearch" type="search" placeholder="搜索法规、设备、HS编码或关键词"><select id="regCountry"><option value="">全部国家/地区</option></select><select id="regTopic"><option value="">全部主题</option></select></div><div id="regCount" class="reg-meta"></div><div class="reg-records" id="regRecords"><p>正在读取法规档案…</p></div></section>
