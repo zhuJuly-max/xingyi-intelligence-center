@@ -88,7 +88,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
   {id:"ducklings_cherry_valley",name:"国内樱桃谷肉鸭苗",indicator:"樱桃谷商品代鸭苗报价",unit:"元/只",markets:"国内主产区代表市场",metrics:[{id:"value",label:"鸭苗",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"ducks_cherry_valley",name:"国内樱桃谷肉鸭",indicator:"樱桃谷肉鸭出栏/棚前价",unit:"元/斤",markets:"国内主产区代表市场",metrics:[{id:"value",label:"肉鸭",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"duck_products_white",name:"国内白条鸭产品",indicator:"白条鸭产品批发/出厂价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"value",label:"白条鸭",colors:{2025:"#267b99",2026:"#c92720"}}]},
-  {id:"eggs",name:"鸡蛋、鸡苗、老母鸡均价统计图",indicator:"鸡蛋、商品代蛋鸡苗及老母鸡代表报价",unit:"分项单位",markets:"国内主产区代表市场",metrics:[{id:"egg",label:"鸡蛋（元/斤）",colors:{2025:"#267b99",2026:"#c92720"}},{id:"chick",label:"蛋鸡苗（元/羽）",colors:{2025:"#2f7b8b",2026:"#d58a36"}},{id:"old_hen",label:"老母鸡（元/斤）",colors:{2025:"#28a7c4",2026:"#8a5aa6"}}]},
+  {id:"eggs",name:"鸡蛋、鸡苗、老母鸡均价统计图",indicator:"鸡蛋、商品代蛋鸡苗及老母鸡代表报价",unit:"多指标",markets:"国内主产区代表市场",metrics:[{id:"egg",unit:"元/斤",label:"鸡蛋（元/斤）",colors:{2025:"#267b99",2026:"#c92720"}},{id:"chick",unit:"元/羽",label:"蛋鸡苗（元/羽）",colors:{2025:"#2f7b8b",2026:"#d58a36"}},{id:"old_hen",unit:"元/斤",label:"老母鸡（元/斤）",colors:{2025:"#28a7c4",2026:"#8a5aa6"}}]},
   {id:"egg_feed_profit",name:"单斤鸡蛋饲料成本及利润走势图",indicator:"每斤鸡蛋对应饲料成本与养殖利润",unit:"元/斤",markets:"蛋鸡养殖成本模型/代表样本",metrics:[{id:"feed_cost",label:"饲料成本",colors:{2025:"#267b99",2026:"#c92720"}},{id:"profit",label:"养殖利润",colors:{2025:"#55a18a",2026:"#d58a36"}}]},
   {id:"817",name:"小白鸡（817）",indicator:"817毛鸡棚前收购价",unit:"元/斤",markets:"山东德州、聊城",metrics:[{id:"value",label:"817毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]}
  ];
@@ -116,7 +116,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
     cfg.metrics.forEach(metric=>[2025,2026].forEach(year=>{
      const rows=valid.filter(r=>Number(r.date.slice(0,4))===year&&(r.metric||"value")===metric.id).sort((a,b)=>a.date.localeCompare(b.date));
      const pts=rows.map(r=>{const date=new Date(r.date+"T00:00:00Z"),day=(Date.UTC(year,date.getUTCMonth(),date.getUTCDate())-Date.UTC(year,0,1))/86400000;return{x:left+day/365*width,y:bottom-(Number(r.price)-min)/(max-min)*height,r}});
-     if(pts.length){if(pts.length>1)svg.append(svgEl("polyline",{fill:"none",stroke:metric.colors[year], "stroke-width":2.8,"stroke-linecap":"round","stroke-linejoin":"round",points:pts.map(p=>p.x+","+p.y).join(" ")}));pts.forEach(p=>{const c=svgEl("circle",{cx:p.x,cy:p.y,r:3.2,fill:"#fff",stroke:metric.colors[year],"stroke-width":2.2});const tip=svgEl("title");tip.textContent=p.r.date+" · "+fmt(p.r.price)+" "+cfg.unit+" · "+(p.r.market||"")+" · "+(p.r.source||"");c.append(tip);svg.append(c)})}
+     if(pts.length){if(pts.length>1)svg.append(svgEl("polyline",{fill:"none",stroke:metric.colors[year], "stroke-width":2.8,"stroke-linecap":"round","stroke-linejoin":"round",points:pts.map(p=>p.x+","+p.y).join(" ")}));pts.forEach(p=>{const c=svgEl("circle",{cx:p.x,cy:p.y,r:3.2,fill:"#fff",stroke:metric.colors[year],"stroke-width":2.2});const tip=svgEl("title");tip.textContent=p.r.date+" · "+fmt(p.r.price)+" "+(metric.unit||cfg.unit)+" · "+(p.r.market||"")+" · "+(p.r.source||"");c.append(tip);svg.append(c)})}
     }));
    }else{const t=svgEl("text",{x:(left+right)/2,y:86,"text-anchor":"middle",class:"axis-label"});t.textContent="等待可核实的每日价格数据";svg.append(t)}
    card.append(svg);
