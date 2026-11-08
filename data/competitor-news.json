@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T23:57:54.125077+00:00",
+  "generated_at": "2026-11-08T23:58:41.497048+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 3,
+  "new_items_count": 2,
   "items": [
     {
       "company": "Big Dutchman",
@@ -235,6 +235,16 @@
       "verification": "待核实"
     },
     {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTech acquires diagnostics company NYtor to enable cheaper in-ovo sexing - Poultry News",
+      "publisher": "Poultry News",
+      "published_at": "2024-04-02T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc2w3NThKdWZQZjQ1dkNsTzhYbHctMDA4YzBGTko4UVU3aXdEdnc2NDRyVFhFRncyMVBINEtvakJUaTJDWWRTc3BxcXhNOXlfVGszVVdHM01vNHhaVWtWa3k4NEg3ejN2cXJ5SE1EZkFiOGtyOVN3T3djV2tGOTAwNU1PeXNnRHNuS2JGajBwMGpHeWhoaDhOaDQ0VmJ4Mk84NTZiaTJRa3owMWRWV3l3eXJ2ZlRQcEJ2WGZtSzJlUQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Pas Reform",
       "region": "INTL",
       "title": "Royal Pas Reform chosen by Silverlands for new hatchery operation in Tanzania - The Poultry Site",
@@ -401,6 +411,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2022-02-28T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUDVMZUtXdFFyV3Mtd1VodVhRcmlicHZ3UFFJbE5TckRxckY4OWg5VlJDWU9DOUEyZ2FRbzB0MEZOeWo2djVaSGd6SFRyQ09Mc0p2UmVBZmlRc3hLNWFBZGtaWGJiakVBTFpmaXNpdjJuaEdScXZoZjFzRkx0YjJxT1dYb080ZUt4eGd3a3g0cDFUdDBZaU85cEdLQjg2WnM?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman partners with leading high-tech greenhouse supplier - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2022-02-09T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVTZxVkxqODFpbUtoTTI0aEVJWHFaLW12Q3F3ZTB0eXI3bHdKcEUxRzJTZUJxMlZFQUJZVUVxYzA5bU9OblFnM0F0UWtlRG8yOWpfRm5GU1NGT3FhR3ZnVHVQQjN0emRaSER0SXdHa0xaSnVnaEkwdFJFb3IybHVZdHpIX1Rha0p2aGpEck01Yy00cVJLQ2lHRFRHY0RvU3JoTi01NWg1dXFtampp?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
