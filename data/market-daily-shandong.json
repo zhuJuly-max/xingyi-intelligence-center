@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-10",
   "frequency": "daily",
   "region": "山东主产区",
   "currency": "CNY",
@@ -63,6 +63,14 @@
           "source": "Mysteel 山东市场白羽肉鸡价格行情",
           "source_url": "https://jiye.mysteel.com/rouji/m/26110613/5E8B6379D6EDF65C.html",
           "trade_stage": "社会鸡源棚前价，4.5–6.0斤规格"
+        },
+        {
+          "date": "2026-11-10",
+          "price": 3.18,
+          "market": "滨州",
+          "source": "Mysteel：全国白羽肉鸡价格汇总表（20261109）",
+          "source_url": "https://ncp.mysteel.com/a/26110909/88DC19CCFCF41371.html",
+          "trade_stage": "社会棚前收购价；11月10日表列报价"
         }
       ]
     },
@@ -161,6 +169,15 @@
           "source_url": "https://ncp.m.mysteel.com/a/26110606/F0771C0D510DCD23_abc.html",
           "trade_stage": "褐壳鸡蛋主流到户价",
           "metric": "egg"
+        },
+        {
+          "date": "2026-11-07",
+          "price": 4.3,
+          "market": "济宁（泗水、汶上、梁山）",
+          "source": "Mysteel：济宁鸡蛋价格行情（2026-11-07）",
+          "source_url": "https://www.mysteel.com/hot/1535308.html",
+          "trade_stage": "褐壳鸡蛋主流到户价；市场快讯报价",
+          "metric": "egg"
         }
       ],
       "unit": "分项单位"
@@ -181,6 +198,14 @@
           "source": "Mysteel 山东聊城817小白鸡市场毛鸡价格",
           "source_url": "https://ncp.m.mysteel.com/a/26110610/7F95627D39B8184D_abc.html",
           "trade_stage": "817毛鸡棚前成交价，1.3–1.7斤规格"
+        },
+        {
+          "date": "2026-11-09",
+          "price": 3.35,
+          "market": "聊城",
+          "source": "Mysteel：山东聊城817小白鸡市场毛鸡价格稳定（2026-11-09）",
+          "source_url": "https://ncp.mysteel.com/a/26110914/D59C611DD199669D.html",
+          "trade_stage": "817毛鸡棚前价，1.3–1.7斤规格"
         }
       ]
     },
@@ -203,7 +228,16 @@
       "markets": [
         "国内主产区代表市场"
       ],
-      "records": []
+      "records": [
+        {
+          "date": "2026-11-06",
+          "price": 0.7,
+          "market": "聊城莘县",
+          "source": "Mysteel早报：817小白鸡市场报价窄幅调整（20261106）",
+          "source_url": "https://ncp.mysteel.com/a/26110609/0A1B81E031EEDB74.html",
+          "trade_stage": "817鸡苗参考报价；实际成交以单谈为主"
+        }
+      ]
     },
     {
       "id": "817_products_5_7",
@@ -215,6 +249,26 @@
       ],
       "records": [],
       "methodology": "仅录入规格明确为5-7只的817小白鸡产品报价；需保留产品形态、规格说明、报价单位及出厂/批发环节。"
+    },
+    {
+      "id": "white_ducklings_general_legacy",
+      "name": "白羽鸭苗（品种未细分历史报价，留档）",
+      "indicator": "白羽鸭苗预报价",
+      "unit": "元/羽",
+      "markets": [
+        "山东主产区"
+      ],
+      "records": [
+        {
+          "date": "2026-11-09",
+          "price": 1.5,
+          "market": "山东",
+          "source": "Mysteel：山东市场白羽鸭苗预报价暂稳（20261109）",
+          "source_url": "https://ncp.mysteel.com/a/26110909/4043462A591055D2.html",
+          "trade_stage": "11月8–9日预报价；未核实为樱桃谷专属"
+        }
+      ],
+      "archived_note": "品种未核实，不并入樱桃谷肉鸭苗走势图。"
     }
   ],
   "record_fields": {
