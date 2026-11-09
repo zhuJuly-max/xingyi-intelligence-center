@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-10",
   "note": "企业资料仅收录可由企业官网、官方公告或可信行业来源支持的公开信息。未列出的产品参数、价格、市场份额、渠道和财务数据均不推断；新闻聚合条目为待核实线索。",
   "watchlist": [
     {
@@ -261,6 +261,18 @@
       "source_type": "中国证券报 / 中证网报道",
       "source_url": "https://www.cs.com.cn/ssgs/01/2026/11/02/detail_2026110210049167.html",
       "checked": "2026-11-02"
+    },
+    {
+      "name": "Big Dutchman",
+      "region": "国际",
+      "type": "养殖设备",
+      "website": "https://www.bigdutchman.com/",
+      "products": "肉鸡及蛋鸡养殖系统、自动喂料与饮水、禽舍环控、舍内监测、换热与空气处理设备。",
+      "verified_facts": "企业官网2026-08-07案例披露，德国Hürup一座新建肉鸡舍采用Big Dutchman提供的饲喂、供水、环控和鸡舍监测解决方案；该案例未披露设备型号、合同金额及单栋容量。",
+      "technology": "官网产品资料列有FLUXX肉鸡料盘、饮水系统、ViperTouch禽舍气候与生产控制器及Earny 2热交换器。具体配置需按项目需求核对。",
+      "source_type": "企业官网产品资料与项目案例",
+      "source_url": "https://www.bigdutchman.com/en/news-stories/article/smart-broiler-production-in-huerup-germany/",
+      "checked": "2026-11-10"
     }
   ]
 }
