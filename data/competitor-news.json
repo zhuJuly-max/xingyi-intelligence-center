@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-08T23:58:41.497048+00:00",
+  "generated_at": "2026-11-10T07:50:00+08:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
   "new_items_count": 2,
   "items": [
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Smart broiler production in Hürup (Germany)",
+      "publisher": "Big Dutchman",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "url": "https://www.bigdutchman.com/en/news-stories/article/smart-broiler-production-in-huerup-germany/",
+      "source_type": "企业官网案例",
+      "verification": "企业官方已核实",
+      "summary": "Big Dutchman披露德国Hürup新建肉鸡舍采用其饲喂、供水、环控和鸡舍监测解决方案；未披露设备型号、合同金额及单栋容量。"
+    },
     {
       "company": "Big Dutchman",
       "region": "INTL",
