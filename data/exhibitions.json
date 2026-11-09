@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-10",
   "timezone": "所有日期均为展会当地日期；开放时间以主办方最终通知为准",
   "methodology": "展会日期和场馆优先采用主办方官网或行业组织日历；参展商及展位信息仅在企业参展日历或展会官方参展商目录明确列出时标记为已确认。未公布名单的标记为待更新。",
   "items": [
@@ -28,7 +28,9 @@
         }
       ],
       "relevance": "禽舍设备、自动化、饲喂、环控及畜牧数字化技术；适合竞品与渠道调研。",
-      "source_url": "https://www.eurotier.com/en/"
+      "source_url": "https://www.eurotier.com/en/",
+      "opening_hours": "2026-11-10至13日，每日09:00–18:00（主办方公布）",
+      "official_note": "主办方访客页面列示2,193家参展商、来自51个国家；该数字按主办方页面口径记录。"
     },
     {
       "id": "ovum-2026",
@@ -37,7 +39,7 @@
       "end_date": "2026-11-13",
       "city": "危地马拉城",
       "country": "危地马拉",
-      "venue": "Guatemala City（具体场馆以主办方通知为准）",
+      "venue": "Parque de la Industria · Halls 8 & 9及相邻室外展区",
       "category": "拉美家禽产业会议与展览",
       "organizer": "拉美家禽产业组织",
       "exhibitors": [
@@ -46,9 +48,15 @@
           "status": "企业参展日历已列出",
           "booth": "B-31",
           "source_url": "https://www.baader.com/events"
+        },
+        {
+          "name": "JBT Marel",
+          "status": "企业官方活动页确认参展",
+          "booth": "D-80/81",
+          "source_url": "https://cms.jbtmarel.com/en/events/ovum-2026/"
         }
       ],
-      "relevance": "拉美家禽生产商、孵化场、加工企业及设备渠道拓展；场馆信息需进一步核实。",
+      "relevance": "拉美家禽生产商、孵化场、加工企业及设备渠道拓展；官方FAQ已明确展览区域位于Parque de la Industria 8、9号馆及相邻室外广场。",
       "source_url": "https://www.baader.com/events"
     },
     {
@@ -60,17 +68,17 @@
       "country": "菲律宾",
       "venue": "Waterfront Cebu City Hotel and Casino",
       "category": "区域畜牧与家禽产业",
-      "organizer": "展会主办方",
+      "organizer": "Informa Markets",
       "exhibitors": [
         {
           "name": "LANDMECO",
-          "status": "企业参展日历已列出",
-          "booth": "展位待核",
-          "source_url": "https://landmeco.com/events/"
+          "status": "企业官方活动页确认人员到场拜访（非展位参展）",
+          "booth": "无公开展位",
+          "source_url": "https://landmeco.com/begivenhed/regional-livestock-philippines-2026/"
         }
       ],
       "relevance": "菲律宾畜牧与家禽养殖市场，可关注禽舍设备、环控及养殖自动化需求。",
-      "source_url": "https://landmeco.com/events/"
+      "source_url": "https://www.livestockphilippines.com/"
     },
     {
       "id": "agromek-2026",
