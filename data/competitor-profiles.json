@@ -268,8 +268,8 @@
       "type": "养殖设备",
       "website": "https://www.bigdutchman.com/",
       "products": "肉鸡及蛋鸡养殖系统、自动喂料与饮水、禽舍环控、舍内监测、换热与空气处理设备。",
-      "verified_facts": "企业官网2026-08-07案例披露，德国Hürup一座新建肉鸡舍采用Big Dutchman提供的饲喂、供水、环控和鸡舍监测解决方案；该案例未披露设备型号、合同金额及单栋容量。",
-      "technology": "官网产品资料列有FLUXX肉鸡料盘、饮水系统、ViperTouch禽舍气候与生产控制器及Earny 2热交换器。具体配置需按项目需求核对。",
+      "verified_facts": "企业官网案例于2026-08-07披露：德国Hürup一座新建肉鸡舍采用Big Dutchman整套方案，公开配置包括FLUXX330料盘、EasyCheck移动称重、3×40立方米GRP料塔及供料称重系统、变频排风、CL-3-1911侧墙进风窗、JetMaster DXC100暖风炉、喷雾降温、Aurora LED照明、ViperTouch环控与生产电脑、AC Touch报警及BFN Fusion远程访问。该项目未披露合同金额和单栋饲养容量。",
+      "technology": "该项目展示了从饲喂、料塔与供料计量、通风进风、供暖降温、照明、称重、报警到远程管理的整舍集成能力；具体型号为案例配置，不应视为所有项目的标准配置。",
       "source_type": "企业官网产品资料与项目案例",
       "source_url": "https://www.bigdutchman.com/en/news-stories/article/smart-broiler-production-in-huerup-germany/",
       "checked": "2026-11-10"
