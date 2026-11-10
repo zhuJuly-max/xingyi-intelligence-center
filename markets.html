@@ -88,34 +88,37 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
  const el=(tag,cls,txt)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n};
  const NS="http://www.w3.org/2000/svg";
  const svgEl=(tag,attrs={})=>{const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));return n};
- const categoryMap={broiler_eggs:"broiler",broiler_chicks:"broiler",broiler_live:"broiler",broiler_frozen:"broiler",ducklings_cherry_valley:"duck",ducks_cherry_valley:"duck",duck_products_white:"duck",eggs:"layer",egg_feed_profit:"layer","817_chicks":"817","817_live":"817","817_products_5_7":"817"};
+ const categoryMap={broiler_eggs:"broiler",broiler_chicks:"broiler",broiler_live:"broiler",broiler_frozen:"broiler",ducklings_cherry_valley:"duck",ducks_cherry_valley:"duck",duck_products_white:"duck",eggs:"layer",eggs_wholesale:"layer",egg_feed_profit:"layer","817_chicks":"817","817_live":"817","817_products_5_7":"817"};
  const categoryDefs=[{id:"broiler",title:"白羽肉鸡",note:"种蛋 · 鸡苗 · 毛鸡 · 冻品"},{id:"duck",title:"白羽肉鸭",note:"樱桃谷鸭苗 · 樱桃谷肉鸭 · 白条鸭产品"},{id:"layer",title:"蛋鸡",note:"鸡蛋/鸡苗/老母鸡 · 饲料成本与利润"},{id:"817",title:"小白鸡（817）",note:"817鸡苗 · 毛鸡 · 5-7只规格产品"}];
  const configs=[
   {id:"broiler_eggs",name:"白羽肉鸡种蛋",indicator:"种蛋成交价",unit:"元/枚",markets:"山东主产区",metrics:[{id:"value",label:"种蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
-  {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗成交价",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"鸡苗",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗报价；自提成交均价与开票区间分列",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"自提成交均价",colors:{2025:"#267b99",2026:"#c92720"}},{id:"invoice_range",label:"青岛开票价区间",colors:{2025:"#2f7b8b",2026:"#d58a36"}}]},
   {id:"broiler_live",name:"白羽肉鸡毛鸡",indicator:"社会鸡源棚前收购价",unit:"元/斤",markets:"山东滨州、临沂",metrics:[{id:"value",label:"毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"broiler_frozen",name:"国内板冻大胸及大琵琶腿",indicator:"冻品中间价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"breast",label:"板冻大胸",colors:{2025:"#267b99",2026:"#c92720"}},{id:"drumstick",label:"大琵琶腿",colors:{2025:"#55a18a",2026:"#d58a36"}}]},
   {id:"ducklings_cherry_valley",name:"国内樱桃谷肉鸭苗",indicator:"樱桃谷商品代鸭苗报价",unit:"元/只",markets:"国内主产区代表市场",metrics:[{id:"value",label:"鸭苗",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"ducks_cherry_valley",name:"国内樱桃谷肉鸭",indicator:"樱桃谷肉鸭出栏/棚前价",unit:"元/斤",markets:"国内主产区代表市场",metrics:[{id:"value",label:"肉鸭",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"duck_products_white",name:"国内白条鸭产品",indicator:"白条鸭产品批发/出厂价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"value",label:"白条鸭",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"eggs",name:"鸡蛋、鸡苗、老母鸡均价统计图",indicator:"鸡蛋、商品代蛋鸡苗及老母鸡代表报价",unit:"多指标",markets:"国内主产区代表市场",metrics:[{id:"egg",unit:"元/斤",label:"鸡蛋（元/斤）",colors:{2025:"#267b99",2026:"#c92720"}},{id:"chick",unit:"元/羽",label:"蛋鸡苗（元/羽）",colors:{2025:"#2f7b8b",2026:"#d58a36"}},{id:"old_hen",unit:"元/斤",label:"老母鸡（元/斤）",colors:{2025:"#28a7c4",2026:"#8a5aa6"}}]},
+  {id:"eggs_wholesale",name:"全国批发市场鸡蛋日度均价",indicator:"农业农村部全国批发市场均价（独立交易层级）",unit:"元/公斤",markets:"全国农产品批发市场",metrics:[{id:"value",label:"全国批发均价",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"egg_feed_profit",name:"单斤鸡蛋饲料成本及利润走势图",indicator:"每斤鸡蛋对应饲料成本与养殖利润",unit:"元/斤",markets:"蛋鸡养殖成本模型/代表样本",metrics:[{id:"feed_cost",label:"饲料成本",colors:{2025:"#267b99",2026:"#c92720"}},{id:"profit",label:"养殖利润",colors:{2025:"#55a18a",2026:"#d58a36"}}]},
-  {id:"817_chicks",name:"国内817小白鸡苗价格走势图",indicator:"817商品代鸡苗报价",unit:"元/羽",markets:"国内主产区代表市场",metrics:[{id:"value",label:"817鸡苗",colors:{2025:"#267b99",2026:"#c92720"}}]},
-  {id:"817_live",name:"国内817小白鸡价格走势图",indicator:"817毛鸡棚前收购价",unit:"元/斤",markets:"山东德州、聊城等主产区",metrics:[{id:"value",label:"817毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]},
+  {id:"817_chicks",name:"国内817小白鸡苗价格走势图",indicator:"817商品代鸡苗报价；市场单点与开票区间分列",unit:"元/羽",markets:"国内主产区代表市场",metrics:[{id:"value",label:"市场参考单价",colors:{2025:"#267b99",2026:"#c92720"}},{id:"invoice_range",label:"开票价区间",colors:{2025:"#2f7b8b",2026:"#d58a36"}}]},
+  {id:"817_live",name:"国内817小白鸡价格走势图",indicator:"817毛鸡棚前收购价；规格不同分列",unit:"元/斤",markets:"山东德州、聊城等主产区",metrics:[{id:"value",label:"1.3–1.7斤规格",colors:{2025:"#267b99",2026:"#c92720"}},{id:"small_range",label:"1.5–1.7斤小规格区间",colors:{2025:"#2f7b8b",2026:"#d58a36"}}]},
   {id:"817_products_5_7",name:"国内817小白鸡产品（5-7只）价格走势图",indicator:"817小白鸡产品5-7只规格报价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"value",label:"5-7只规格产品",colors:{2025:"#267b99",2026:"#c92720"}}]}
  ];
  try{
   const res=await fetch("data/market-daily-shandong.json",{cache:"no-store"});
   if(!res.ok)throw new Error("日度数据文件读取失败："+res.status);
   const d=await res.json();
-  document.getElementById("marketUpdated").textContent="数据文件核验至 2026-11-10 · 各指标日期见报价与图表";
+  document.getElementById("marketUpdated").textContent="数据文件核验至 "+(d.updated_at||"日期待核")+" · 各指标日期见报价与图表";
   const latestRows=[
-   {label:"白羽肉鸡毛鸡",value:"3.18",unit:"元/斤",market:"山东滨州 · 社会棚前收购价",date:"11月10日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26110909/88DC19CCFCF41371.html"},
-   {label:"白羽肉鸡鸡苗",value:"2.70",unit:"元/羽",market:"山东大型种禽企业报价（非市场均价）",date:"11月10日",source:"Mysteel",url:"https://ncp.m.mysteel.com/a/26110819/50CE94BB39F072FC_abc.html"},
-   {label:"白羽鸭苗",value:"1.50",unit:"元/羽",market:"山东白羽鸭苗预报价 · 品种未细分",date:"11月9日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26110909/4043462A591055D2.html"},
-   {label:"鸡蛋",value:"4.18",unit:"元/斤",market:"全国主产区均价",date:"11月9日",source:"市场资讯",url:"https://finance.sina.com.cn/money/future/wemedia/2026-11-09/doc-iniyears6382015.shtml"},
-   {label:"817鸡苗",value:"0.70",unit:"元/羽",market:"山东聊城莘县 · 参考报价",date:"11月6日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26110609/0A1B81E031EEDB74.html"},
-   {label:"817毛鸡",value:"3.35",unit:"元/斤",market:"山东聊城 · 1.3–1.7斤规格棚前价",date:"11月9日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26110914/D59C611DD199669D.html"},
+   {label:"白羽肉鸡毛鸡",value:"3.15–3.25",unit:"元/斤",market:"山东滨州 · 棚前收购价区间",date:"11月11日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523807"},
+   {label:"白羽肉鸡鸡苗",value:"1.50–2.10",unit:"元/羽",market:"山东青岛 · 开票价区间",date:"11月11日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523806"},
+   {label:"白羽鸭苗",value:"1.50",unit:"元/羽",market:"山东 · 品种未细分",date:"11月10日",source:"鸡病专业网/博亚和讯",url:"https://www.jbzyw.com/view/523823"},
+   {label:"毛鸭（品种未细分）",value:"3.20",unit:"元/斤",market:"山东潍坊 · 毛鸭报价",date:"11月10日",source:"鸡病专业网/博亚和讯",url:"https://www.jbzyw.com/view/523823"},
+   {label:"鸡蛋（全国批发市场）",value:"9.53",unit:"元/公斤",market:"农业农村部全国农产品批发市场均价",date:"11月10日",source:"农业农村部市场与信息化司",url:"https://scs.moa.gov.cn/jcyj/202611/t20261110_6489329.htm"},
+   {label:"817鸡苗",value:"0.63–0.73",unit:"元/羽",market:"山东聊城 · 开票价区间",date:"11月11日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523806"},
+   {label:"817毛鸡（1.3–1.7斤）",value:"3.35",unit:"元/斤",market:"山东聊城 · 棚前价",date:"11月10日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26111010/26226F7B9B119D1D.html"},
+   {label:"817小规格毛鸡（1.5–1.7斤）",value:"3.25–3.35",unit:"元/斤",market:"山东 · 棚前收购价区间",date:"11月11日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523807"},
    {label:"板冻大胸",value:"7.95",unit:"元/公斤",market:"辽宁 · 屠宰企业中间价",date:"11月5日",source:"Mysteel",url:"https://ncp.mysteel.com/a/26110511/752DB7915069E6EB.html"}
   ];
   const dailyItems=document.getElementById("dailyItems");dailyItems.replaceChildren();
@@ -140,14 +143,24 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
    [0,1,2,3].forEach(i=>{const y=topY+i*height/3;svg.append(svgEl("line",{x1:left,x2:right,y1:y,y2:y,class:"gridline"}))});
    svg.append(svgEl("line",{x1:left,x2:right,y1:bottom,y2:bottom,class:"axis"}));
    for(let m=0;m<12;m++){const x=left+(m/11)*width;svg.append(svgEl("line",{x1:x,x2:x,y1:bottom,y2:bottom+4,class:"axis"}));const t=svgEl("text",{x,y:bottom+19,"text-anchor":"middle",class:"month-label"});t.textContent=months[m];svg.append(t)}
-   const valid=records.filter(r=>[2025,2026].includes(Number(r.date?.slice(0,4)))&&Number.isFinite(Number(r.price)));
+   const valid=records.filter(r=>[2025,2026].includes(Number(r.date?.slice(0,4)))&&(Number.isFinite(Number(r.price))||(Number.isFinite(Number(r.price_low))&&Number.isFinite(Number(r.price_high)))));
    if(valid.length){
-    let min=Math.min(...valid.map(r=>Number(r.price))),max=Math.max(...valid.map(r=>Number(r.price)));if(max===min){min-=.1;max+=.1}const pad=(max-min)*.12;min-=pad;max+=pad;
+    const lowOf=r=>Number.isFinite(Number(r.price_low))?Number(r.price_low):Number(r.price);
+    const highOf=r=>Number.isFinite(Number(r.price_high))?Number(r.price_high):Number(r.price);
+    let min=Math.min(...valid.map(lowOf)),max=Math.max(...valid.map(highOf));if(max===min){min-=.1;max+=.1}const pad=(max-min)*.12;min-=pad;max+=pad;
     for(let i=0;i<4;i++){const y=topY+i*height/3,v=max-i*(max-min)/3,t=svgEl("text",{x:left-7,y:y+3,"text-anchor":"end",class:"axis-label"});t.textContent=fmt(v);svg.append(t)}
     cfg.metrics.forEach(metric=>[2025,2026].forEach(year=>{
      const rows=valid.filter(r=>Number(r.date.slice(0,4))===year&&(r.metric||"value")===metric.id).sort((a,b)=>a.date.localeCompare(b.date));
-     const pts=rows.map(r=>{const date=new Date(r.date+"T00:00:00Z"),day=(Date.UTC(year,date.getUTCMonth(),date.getUTCDate())-Date.UTC(year,0,1))/86400000;return{x:left+day/365*width,y:bottom-(Number(r.price)-min)/(max-min)*height,r}});
-     if(pts.length){if(pts.length>1)svg.append(svgEl("polyline",{fill:"none",stroke:metric.colors[year], "stroke-width":2.8,"stroke-linecap":"round","stroke-linejoin":"round",points:pts.map(p=>p.x+","+p.y).join(" ")}));pts.forEach(p=>{const c=svgEl("circle",{cx:p.x,cy:p.y,r:3.2,fill:"#fff",stroke:metric.colors[year],"stroke-width":2.2});const tip=svgEl("title");tip.textContent=p.r.date+" · "+fmt(p.r.price)+" "+(metric.unit||cfg.unit)+" · "+(p.r.market||"")+" · "+(p.r.source||"");c.append(tip);svg.append(c)})}
+     const pts=rows.filter(r=>Number.isFinite(Number(r.price))).map(r=>{const date=new Date(r.date+"T00:00:00Z"),day=(Date.UTC(year,date.getUTCMonth(),date.getUTCDate())-Date.UTC(year,0,1))/86400000;return{x:left+day/365*width,y:bottom-(Number(r.price)-min)/(max-min)*height,r}});
+     if(pts.length){if(pts.length>1)svg.append(svgEl("polyline",{fill:"none",stroke:metric.colors[year], "stroke-width":2.8,"stroke-linecap":"round","stroke-linejoin":"round",points:pts.map(p=>p.x+","+p.y).join(" ")}));pts.forEach(p=>{const c=svgEl("circle",{cx:p.x,cy:p.y,r:3.2,fill:"#fff",stroke:metric.colors[year],"stroke-width":2.2});const tip=svgEl("title");tip.textContent=p.r.date+" · "+fmt(p.r.price)+" "+(metric.unit||cfg.unit)+" · "+(p.r.market||"")+" · "+(p.r.trade_stage||"")+" · "+(p.r.source||"");c.append(tip);svg.append(c)})}
+     rows.filter(r=>!Number.isFinite(Number(r.price))&&Number.isFinite(Number(r.price_low))&&Number.isFinite(Number(r.price_high))).forEach(r=>{
+      const date=new Date(r.date+"T00:00:00Z"),day=(Date.UTC(year,date.getUTCMonth(),date.getUTCDate())-Date.UTC(year,0,1))/86400000,x=left+day/365*width,yTop=bottom-(Number(r.price_high)-min)/(max-min)*height,yBottom=bottom-(Number(r.price_low)-min)/(max-min)*height;
+      svg.append(svgEl("line",{x1:x,x2:x,y1:yTop,y2:yBottom,stroke:metric.colors[year],"stroke-width":4,"stroke-linecap":"round"}));
+      svg.append(svgEl("line",{x1:x-5,x2:x+5,y1:yTop,y2:yTop,stroke:metric.colors[year],"stroke-width":2}));
+      svg.append(svgEl("line",{x1:x-5,x2:x+5,y1:yBottom,y2:yBottom,stroke:metric.colors[year],"stroke-width":2}));
+      const tip=svgEl("title");tip.textContent=r.date+" · 区间 "+fmt(r.price_low)+"–"+fmt(r.price_high)+" "+(metric.unit||cfg.unit)+" · "+(r.market||"")+" · "+(r.trade_stage||"")+" · "+(r.source||"");
+      const hit=svgEl("circle",{cx:x,cy:(yTop+yBottom)/2,r:5,fill:"transparent",stroke:"transparent"});hit.append(tip);svg.append(hit);
+     });
     }));
    }else{const t=svgEl("text",{x:(left+right)/2,y:86,"text-anchor":"middle",class:"axis-label"});t.textContent="等待可核实的每日价格数据";svg.append(t)}
    card.append(svg);
@@ -157,7 +170,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
    card.append(el("p","market-footnote",records.length?"按实际报价日期绘制；悬停数据点可查看日期、市场及来源。":"历史报价正在逐日核验入库；空白不代表无交易，不使用周度数据插值。"));
    categoryGrids[categoryMap[cfg.id]||"broiler"].append(card);
   });
-  document.getElementById("marketSource").textContent="白羽肉鸡细分指标：种蛋（元/枚）、商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）、板冻大胸及大琵琶腿（元/公斤）；白羽肉鸭细分为樱桃谷肉鸭苗（元/只）、樱桃谷肉鸭（元/斤）及白条鸭产品（元/公斤）。蛋鸡板块分为两图：鸡蛋、蛋鸡苗、老母鸡均价统计，以及单斤鸡蛋饲料成本与养殖利润走势。蛋鸡苗按元/羽，鸡蛋及老母鸡按元/斤；饲料成本与利润均按元/斤鸡蛋口径。817小白鸡分为商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）及5-7只规格产品（元/公斤）三张独立图。每条记录保留报价日期、市场、来源及交易条件；不同指标和交易口径不混合，缺失日期不补值。";
+  document.getElementById("marketSource").textContent="白羽肉鸡细分指标：种蛋（元/枚）、商品代鸡苗（元/羽）、毛鸡棚前价（元/斤）、冻品（元/公斤）；白羽肉鸭图区仅纳入已核实为樱桃谷品种或白条鸭产品的报价，未细分品种的毛鸭/鸭苗只留档、不并入曲线。蛋鸡图表分别展示产区到户报价、全国批发市场鸡蛋均价、蛋鸡苗/老母鸡及成本利润模型；全国批发市场与产区到户价分开建序列。817小白鸡分为鸡苗、不同规格毛鸡及5–7只规格产品。单值报价以点线显示，原始区间报价以竖向区间标记显示，不取中点；每条记录保留日期、市场、单位、交易条件和来源，缺失日期不补值。";
  }catch(err){const note=el("p","market-footnote","日度行情数据暂时无法加载，请稍后重试；四大品类模板已显示。");document.getElementById("segmentGrid").prepend(note);console.error(err)}
 })();
 </script>
