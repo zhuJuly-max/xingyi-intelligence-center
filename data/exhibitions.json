@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "timezone": "所有日期均为展会当地日期；开放时间以主办方最终通知为准",
   "methodology": "展会日期和场馆优先采用主办方官网或行业组织日历；参展商及展位信息仅在企业参展日历或展会官方参展商目录明确列出时标记为已确认。未公布名单的标记为待更新。",
   "items": [
@@ -16,21 +16,33 @@
       "exhibitors": [
         {
           "name": "LANDMECO",
-          "status": "企业参展日历已列出",
-          "booth": "展位待核",
-          "source_url": "https://landmeco.com/events/"
+          "status": "企业官方活动页已确认展位",
+          "booth": "Hall 17 · A51",
+          "source_url": "https://landmeco.com/begivenhed/eurotier-2026/"
         },
         {
           "name": "Lowland",
           "status": "企业参展日历已列出",
           "booth": "展位待核",
           "source_url": "https://www.lowlandfeed.com/events/"
+        },
+        {
+          "name": "UKKÖ Robotics",
+          "status": "DLG Innovation Award 2026银奖产品获奖企业",
+          "booth": "Hall 17 · D45",
+          "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026"
+        },
+        {
+          "name": "Hühnerbaron",
+          "status": "企业官方页面确认参展并发布RANGER FLEX移动鸡舍",
+          "booth": "Hall 17 · F41",
+          "source_url": "https://www.huehnerbaron.de/pages/eurotier-2026"
         }
       ],
       "relevance": "禽舍设备、自动化、饲喂、环控及畜牧数字化技术；适合竞品与渠道调研。",
       "source_url": "https://www.eurotier.com/en/",
       "opening_hours": "2026-11-10至13日，每日09:00–18:00（主办方公布）",
-      "official_note": "主办方访客页面列示2,193家参展商、来自51个国家；该数字按主办方页面口径记录。"
+      "official_note": "主办方访客页面列示2,193家参展商、来自51个国家；DLG创新奖官方页面列示175项认可创新、4项金奖及26项银奖。UKKÖ Robotics的ROVABARN SE获银奖，Hall 17 · D45；LANDMECO Hall 17 · A51；Hühnerbaron Hall 17 · F41。"
     },
     {
       "id": "ovum-2026",
