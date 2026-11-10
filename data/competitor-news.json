@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-10T00:00:18.711006+00:00",
-  "collector": "Google News RSS search; media leads require verification",
+  "generated_at": "2026-11-10T23:15:50+00:00",
+  "collector": "Google News RSS search plus manually verified primary-source updates; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 2,
+  "new_items_count": 3,
   "items": [
+    {
+      "company": "UKKÖ Robotics",
+      "region": "INTL",
+      "title": "ROVABARN SE获EuroTier 2026创新奖银奖：自主移动禽舍整合喂料、饮水与温控",
+      "publisher": "DLG / EuroTier",
+      "published_at": "2026-11-11T07:15:00+08:00",
+      "url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "source_type": "DLG官方创新奖页面（日期为本次核验日期，原页面未标独立发布日期）",
+      "verification": "DLG官方获奖页面确认ROVABARN SE获银奖并列出Hall 17 · D45；未披露价格、销量及商业项目规模",
+      "summary": "官方资料显示ROVABARN SE通过App监测水料消耗，可每日自主移动最多20次，配有自动折叠侧墙温控、集成供料饮水系统及防捕食者设施。产品属于移动放牧鸡舍自动化，不应等同于大型封闭式肉鸡舍或孵化场整套系统。"
+    },
     {
       "company": "Big Dutchman",
       "region": "INTL",
