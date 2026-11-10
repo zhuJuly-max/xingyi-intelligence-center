@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "note": "企业资料仅收录可由企业官网、官方公告或可信行业来源支持的公开信息。未列出的产品参数、价格、市场份额、渠道和财务数据均不推断；新闻聚合条目为待核实线索。",
   "watchlist": [
     {
@@ -175,6 +175,12 @@
       "region": "国际",
       "type": "养殖设备",
       "website": "https://www.choretime.com/"
+    },
+    {
+      "name": "UKKÖ Robotics",
+      "region": "国际",
+      "type": "禽舍自动化 / 移动鸡舍",
+      "website": "https://www.ukkorobotics.com/"
     }
   ],
   "profiles": [
@@ -273,6 +279,19 @@
       "source_type": "企业官网产品资料与项目案例",
       "source_url": "https://www.bigdutchman.com/en/news-stories/article/smart-broiler-production-in-huerup-germany/",
       "checked": "2026-11-10"
+    },
+    {
+      "name": "UKKÖ Robotics",
+      "region": "加拿大 / 国际",
+      "type": "禽舍自动化与移动鸡舍系统",
+      "website": "https://www.ukkorobotics.com/",
+      "products": "ROVA|BARN系列自主移动牧场鸡舍；ROVA|FSK自动喂鸡系统；ROVA|CSK育雏附件；ROVA|BULK便携加压供水拖车；ROVA|GATE太阳能农场门机。",
+      "verified_facts": "DLG EuroTier 2026创新奖官方获奖页面将ROVABARN SE列为银奖产品，展位Hall 17 · D45。DLG披露该系统通过App监测水料消耗，可每日自主移动最多20次，配有自动折叠侧墙用于温度控制、集成供料饮水系统及防捕食者设施；奖项页面未披露销售数量、价格或商业项目规模。",
+      "technology": "移动鸡舍、App调度、自主移动、饲料与饮水消耗监测、自动侧墙温控及数据化禽群管理；官网产品页另列自动喂鸡和育雏附件。该系统定位为移动放牧鸡舍，不等同于大型封闭式肉鸡舍或孵化场整套设备。",
+      "source_type": "DLG创新奖官方页面与企业官网",
+      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "checked": "2026-11-11"
     }
-  ]
+  ],
+  "watchlist_count": 33
 }
