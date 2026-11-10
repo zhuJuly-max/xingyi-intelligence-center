@@ -1,20 +1,9 @@
 {
-  "generated_at": "2026-11-10T07:50:00+08:00",
+  "generated_at": "2026-11-10T00:00:18.711006+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
   "new_items_count": 2,
   "items": [
-    {
-      "company": "Big Dutchman",
-      "region": "INTL",
-      "title": "Smart broiler production in Hürup (Germany)",
-      "publisher": "Big Dutchman",
-      "published_at": "2026-08-07T00:00:00+00:00",
-      "url": "https://www.bigdutchman.com/en/news-stories/article/smart-broiler-production-in-huerup-germany/",
-      "source_type": "企业官网案例",
-      "verification": "企业官方已核实",
-      "summary": "Big Dutchman披露德国Hürup新建肉鸡舍整合FLUXX330料盘、EasyCheck称重、3×40m³料塔、变频排风、进风窗、暖风炉、喷雾降温、LED照明、ViperTouch环控、AC Touch报警及BFN Fusion远程访问；未披露合同金额与单栋容量。"
-    },
     {
       "company": "Big Dutchman",
       "region": "INTL",
@@ -34,6 +23,17 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUkl2TS1XZkZkeDBSdU1Dd2tlUl8zLXJZY2x4aU1FQzdmTjNuMU1WbkRUVTNDWms3Sml6cXV1ZUQ2WjhYUm5VQ2cxbkFJLWlHYkFrd1Y4S3NFTnlleTBkWVBRbC1FZWszeHFFeEJTam1DdmhrRFRrZ2RGMWw2eW9Md083OEpwNTZiVm40SHRsS3ZYRkdENGhMS2p5ODU2aVk4OTA1R1VSUmVRemZiTG1NQ25xTmltZw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Smart broiler production in Hürup (Germany)",
+      "publisher": "Big Dutchman",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "url": "https://www.bigdutchman.com/en/news-stories/article/smart-broiler-production-in-huerup-germany/",
+      "source_type": "企业官网案例",
+      "verification": "企业官方已核实",
+      "summary": "Big Dutchman披露德国Hürup新建肉鸡舍整合FLUXX330料盘、EasyCheck称重、3×40m³料塔、变频排风、进风窗、暖风炉、喷雾降温、LED照明、ViperTouch环控、AC Touch报警及BFN Fusion远程访问；未披露合同金额与单栋容量。"
     },
     {
       "company": "Big Dutchman",
@@ -198,6 +198,16 @@
     {
       "company": "Petersime",
       "region": "INTL",
+      "title": "Elevate Hatchery Performance with Petersime’s New Data-Driven Incubation Support Service - aviNews",
+      "publisher": "aviNews",
+      "published_at": "2025-06-21T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbi1ya2V2SlZMZUhuU3A0eUpMR1l4djhLNWFDX3l1NExqaGJqWnFOYVVzdU56UzhwS3FodDBURlVkdkJqMW9KU0ViVlhJalhyM2gwMTdlMTR4R25XaVE2ZzF5b3R0NlpUUGg3WUdCaGV3d0NpTjVHek9IbzdrY2ZzMm8tVQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
       "title": "Driving hatchery excellence: Petersime introduces new Eagle Trax™ modules - aviNews",
       "publisher": "aviNews",
       "published_at": "2025-03-25T07:00:00+00:00",
@@ -232,6 +242,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2024-10-30T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnBuN0hUa2JwNUoyOUFKV2FHeDE5a2V4LXFMejZkRzQxQURIODhuRFg5Y1ZtR1RHbTlaSDQ4aE9BRVdQNzlObXlaNGQ0bHNENU1nV3FGSllWbDYtcVQ5bWZTTkhkVWdrUUhMXzhwb2NxNENyS1JLSlFxenBHU05yYUdEbjluMWNuMXpDSkZrdU9lZ3F1em40VU1mbw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic Group: Prinzen - Ovoclear - YouTube",
+      "publisher": "YouTube",
+      "published_at": "2024-09-23T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ILTUwdFA2SzFqV0J6RzQyT0pGOGdwMkFsWWFfTDFQbDEyWDYzNm14NUJIT05JTHoxNmtXamhNR180MzdFSlFzWHU3aWc3RWFncmE0MlNzY2tTcGpt?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
