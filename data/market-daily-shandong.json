@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "frequency": "daily",
   "region": "山东主产区",
   "currency": "CNY",
@@ -9,7 +9,7 @@
     2025,
     2026
   ],
-  "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。 白羽肉鸡板块细分为种蛋、商品代鸡苗、毛鸡棚前价及冻品板冻大胸/大琵琶腿；指标单位分别为元/枚、元/羽、元/斤、元/公斤。 白羽肉鸭进一步拆分为樱桃谷肉鸭苗、樱桃谷肉鸭及白条鸭产品三个独立指标；品种、产品形态及交易环节未经核实的旧报价不并入新序列。 蛋鸡板块拆分为鸡蛋/蛋鸡苗/老母鸡均价统计图，以及单斤鸡蛋饲料成本与养殖利润图。蛋鸡苗单位元/羽，鸡蛋与老母鸡单位元/斤；饲料成本与利润均按元/斤鸡蛋核算，必须注明成本模型及核算口径。 817小白鸡拆分为817商品代鸡苗、817毛鸡棚前价及5-7只规格产品三个独立序列，单位分别为元/羽、元/斤及元/公斤；规格或交易环节不匹配的报价不得并入。 2025年度可比历史点目前仍为稀疏样本，只有找到相同品种、市场与交易条件的原始报价才纳入，不将稀疏点连线解释为完整年度走势。",
+  "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。 白羽肉鸡板块细分为种蛋、商品代鸡苗、毛鸡棚前价及冻品板冻大胸/大琵琶腿；指标单位分别为元/枚、元/羽、元/斤、元/公斤。 白羽肉鸭进一步拆分为樱桃谷肉鸭苗、樱桃谷肉鸭及白条鸭产品三个独立指标；品种、产品形态及交易环节未经核实的旧报价不并入新序列。 蛋鸡板块拆分为鸡蛋/蛋鸡苗/老母鸡均价统计图，以及单斤鸡蛋饲料成本与养殖利润图。蛋鸡苗单位元/羽，鸡蛋与老母鸡单位元/斤；饲料成本与利润均按元/斤鸡蛋核算，必须注明成本模型及核算口径。 817小白鸡拆分为817商品代鸡苗、817毛鸡棚前价及5-7只规格产品三个独立序列，单位分别为元/羽、元/斤及元/公斤；规格或交易环节不匹配的报价不得并入。 2025年度可比历史点目前仍为稀疏样本，只有找到相同品种、市场与交易条件的原始报价才纳入，不将稀疏点连线解释为完整年度走势。 2026-11-11补充说明：价格区间以price_low/price_high保存并在走势图显示区间竖线，不取中点；只有明确单值报价才使用price并连线。全国批发市场鸡蛋单列为独立序列，不与济宁到户价拼接。",
   "series": [
     {
       "id": "broiler_eggs",
@@ -44,6 +44,17 @@
           "source": "Mysteel日报：白羽鸡苗窄幅震荡，白羽肉鸡情绪看涨（20261106）",
           "source_url": "https://ncp.mysteel.com/a/26110617/2195394792075DB7.html",
           "trade_stage": "山东白羽鸡苗自提成交均价"
+        },
+        {
+          "date": "2026-11-11",
+          "price_low": 1.5,
+          "price_high": 2.1,
+          "market": "青岛",
+          "source": "鸡病专业网：11月11日鸡苗行情分析：毛鸡回涨，见势提价",
+          "source_url": "https://www.jbzyw.com/view/523806",
+          "trade_stage": "商品代苗鸡开票价区间；不含运输及疫苗费用",
+          "metric": "invoice_range",
+          "quote_type": "range"
         }
       ]
     },
@@ -71,6 +82,17 @@
           "source": "Mysteel：全国白羽肉鸡价格汇总表（20261109）",
           "source_url": "https://ncp.mysteel.com/a/26110909/88DC19CCFCF41371.html",
           "trade_stage": "社会棚前收购价；11月10日表列报价"
+        },
+        {
+          "date": "2026-11-11",
+          "price_low": 3.15,
+          "price_high": 3.25,
+          "market": "滨州",
+          "source": "鸡病专业网：11月11日肉鸡行情分析：涨势开启，循光比价",
+          "source_url": "https://www.jbzyw.com/view/523807",
+          "trade_stage": "肉毛鸡棚前收购价区间；与11月10日持平",
+          "metric": "value",
+          "quote_type": "range"
         }
       ]
     },
@@ -148,6 +170,14 @@
           "source": "Mysteel 山东重点市场白羽肉鸭报价",
           "source_url": "https://www.mysteel.com/hot/1589987.html",
           "trade_stage": "白羽肉鸭产区出栏报价；企业报价"
+        },
+        {
+          "date": "2026-11-10",
+          "price": 3.2,
+          "market": "潍坊",
+          "source": "鸡病专业网/博亚和讯：2026年11月10日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/523823",
+          "trade_stage": "毛鸭报价；品种/合同类型未细分，留档不并入樱桃谷肉鸭图"
         }
       ],
       "archived_note": "此条报价未核实为樱桃谷品种专属，不用于以下三个樱桃谷/白条鸭走势图。"
@@ -206,6 +236,26 @@
           "source": "Mysteel：山东聊城817小白鸡市场毛鸡价格稳定（2026-11-09）",
           "source_url": "https://ncp.mysteel.com/a/26110914/D59C611DD199669D.html",
           "trade_stage": "817毛鸡棚前价，1.3–1.7斤规格"
+        },
+        {
+          "date": "2026-11-10",
+          "price": 3.35,
+          "market": "聊城",
+          "source": "Mysteel：山东聊城817小白鸡市场毛鸡价格不变（2026-11-10）",
+          "source_url": "https://ncp.mysteel.com/a/26111010/26226F7B9B119D1D.html",
+          "trade_stage": "817毛鸡棚前价，1.3–1.7斤规格",
+          "metric": "value"
+        },
+        {
+          "date": "2026-11-11",
+          "price_low": 3.25,
+          "price_high": 3.35,
+          "market": "山东聊城/德州",
+          "source": "鸡病专业网：11月11日肉鸡行情分析：涨势开启，循光比价",
+          "source_url": "https://www.jbzyw.com/view/523807",
+          "trade_stage": "817小规格1.50–1.70斤棚前收购价区间；独立于1.3–1.7斤Mysteel单点",
+          "metric": "small_range",
+          "quote_type": "range"
         }
       ]
     },
@@ -244,6 +294,26 @@
           "source": "Mysteel早报：817小白鸡市场报价窄幅调整（20261106）",
           "source_url": "https://ncp.mysteel.com/a/26110609/0A1B81E031EEDB74.html",
           "trade_stage": "817鸡苗参考报价；实际成交以单谈为主"
+        },
+        {
+          "date": "2026-11-10",
+          "price": 0.65,
+          "market": "聊城莘县",
+          "source": "Mysteel：山东817鸡苗最新报价持稳（2026-11-10）",
+          "source_url": "https://ncp.mysteel.com/a/26111008/BF731FAAEB4F890B.html",
+          "trade_stage": "817鸡苗市场参考报价；实际成交以单谈为主",
+          "metric": "value"
+        },
+        {
+          "date": "2026-11-11",
+          "price_low": 0.63,
+          "price_high": 0.73,
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月11日鸡苗行情分析：毛鸡回涨，见势提价",
+          "source_url": "https://www.jbzyw.com/view/523806",
+          "trade_stage": "817苗鸡开票价区间；与11月10日持平",
+          "metric": "invoice_range",
+          "quote_type": "range"
         }
       ]
     },
@@ -274,18 +344,49 @@
           "source": "Mysteel：山东市场白羽鸭苗预报价暂稳（20261109）",
           "source_url": "https://ncp.mysteel.com/a/26110909/4043462A591055D2.html",
           "trade_stage": "11月8–9日预报价；未核实为樱桃谷专属"
+        },
+        {
+          "date": "2026-11-10",
+          "price": 1.5,
+          "market": "山东",
+          "source": "鸡病专业网/博亚和讯：2026年11月10日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/523823",
+          "trade_stage": "鸭苗报价；品种未细分，留档不并入樱桃谷肉鸭苗图"
         }
       ],
       "archived_note": "品种未核实，不并入樱桃谷肉鸭苗走势图。"
+    },
+    {
+      "id": "eggs_wholesale",
+      "name": "全国批发市场鸡蛋日度均价",
+      "indicator": "农业农村部全国农产品批发市场鸡蛋日度均价",
+      "unit": "元/公斤",
+      "markets": [
+        "全国农产品批发市场"
+      ],
+      "records": [
+        {
+          "date": "2026-11-10",
+          "price": 9.53,
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：11月10日农产品批发价格200指数监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202611/t20261110_6489329.htm",
+          "trade_stage": "截至14:00全国批发市场均价；独立于济宁褐壳鸡蛋到户价"
+        }
+      ]
     }
   ],
   "record_fields": {
     "date": "YYYY-MM-DD",
-    "price": "number, CNY per jin",
+    "price": "number, CNY per unit defined by series",
     "market": "报价市场/地区",
     "source": "来源机构或平台名称",
     "source_url": "原始报价页面URL",
-    "trade_stage": "交易环节/报价条件"
+    "trade_stage": "交易环节/报价条件",
+    "price_low": "optional number, lower bound of a quoted range",
+    "price_high": "optional number, upper bound of a quoted range",
+    "metric": "optional chart metric key; default value",
+    "quote_type": "optional point or range"
   },
   "data_policy": [
     "只录入有日期、价格、市场、交易环节及可追溯来源的公开报价。",
@@ -294,6 +395,8 @@
     "2025年历史数据与2026年数据采用相同指标和口径；口径不一致时不作年度对比。",
     "当前 records 为空，表示尚未完成逐日核验，不代表市场没有报价。",
     "蛋鸡多指标序列必须使用metric字段区分egg、chick、old_hen、feed_cost、profit，不同单位不得共用同一数值序列。",
-    "817小白鸡苗、毛鸡及5-7只规格产品分别建档，不能将毛鸡价格移入鸡苗或产品序列；产品报价须核对5-7只规格与元/公斤口径。"
+    "817小白鸡苗、毛鸡及5-7只规格产品分别建档，不能将毛鸡价格移入鸡苗或产品序列；产品报价须核对5-7只规格与元/公斤口径。",
+    "报价为区间时必须保留price_low与price_high，不得取中点或均值代替原报价；图表按区间标记显示。",
+    "全国批发市场鸡蛋均价与产区到户报价为不同交易层级，必须使用独立series，不得拼接。"
   ]
 }
