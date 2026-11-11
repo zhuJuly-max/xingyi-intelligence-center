@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "note": "企业资料仅收录可由企业官网、官方公告或可信行业来源支持的公开信息。未列出的产品参数、价格、市场份额、渠道和财务数据均不推断；新闻聚合条目为待核实线索。",
   "watchlist": [
     {
@@ -181,6 +181,35 @@
       "region": "国际",
       "type": "禽舍自动化 / 移动鸡舍",
       "website": "https://www.ukkorobotics.com/"
+    },
+    {
+      "name": "Bröring Technology",
+      "region": "国际",
+      "type": "蛋品输送监测与破损预警",
+      "website": "https://broeringtech.com/wp-tech/"
+    },
+    {
+      "name": "VetVise",
+      "region": "国际",
+      "type": "AI禽群监测与鸡舍管理",
+      "website": "https://www.vetvise.com/en"
+    },
+    {
+      "name": "Constantec",
+      "region": "国际",
+      "type": "料塔余量与饲料环境监测",
+      "website": "https://www.constantec.com/constantec_en.html"
+    },
+    {
+      "name": "GrainProteinTech",
+      "region": "国际",
+      "type": "肉鸡舍废气净化与环境控制"
+    },
+    {
+      "name": "Munters Reventa",
+      "region": "国际",
+      "type": "蛋鸡/育成鸡舍废气净化",
+      "website": "https://www.munters.com/en/"
     }
   ],
   "profiles": [
@@ -291,6 +320,65 @@
       "source_type": "DLG创新奖官方页面与企业官网",
       "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
       "checked": "2026-11-11"
+    },
+    {
+      "name": "Bröring Technology GmbH",
+      "region": "德国 / 国际",
+      "type": "蛋品输送监测与破损预警（周边自动化设备）",
+      "website": "https://broeringtech.com/wp-tech/",
+      "products": "Electronic Egg电子冲击记录器；在集蛋输送过程中记录鸡蛋受到的冲击强度，通过不同颜色LED直接指示冲击程度，可选Wi‑Fi连接手机、平板或PC进行记录。",
+      "verified_facts": "DLG EuroTier 2026官方创新奖页面列出Hall 14 · C44，并将Bröring Electronic Egg列为银奖产品。官方说明其用于定位蛋品输送系统中的冲击点，帮助识别并改善破损环节；不是完整集蛋输送线或分级包装系统。",
+      "technology": "以可移动电子蛋作为冲击传感器，现场LED提示冲击强度；可选Wi‑Fi用于数据记录。对兴仪的相关性在蛋鸡场集蛋、输送和蛋品处理自动化的周边设备，而非孵化设备直接竞品。",
+      "source_type": "DLG EuroTier 2026官方创新奖页面与企业官网",
+      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "checked": "2026-11-12"
+    },
+    {
+      "name": "VetVise GmbH",
+      "region": "德国 / 国际",
+      "type": "AI禽群监测与鸡舍管理（数字化周边方案）",
+      "website": "https://www.vetvise.com/en",
+      "products": "BarnBuddy摄像头与AI驱动的禽群健康和鸡舍管理系统，面向猪、家禽和牛；分析采食行为、活动量及群体分布，并可连接鸡舍控制电脑。",
+      "verified_facts": "DLG EuroTier 2026官方创新奖页面列出Hall 16 · D23，并将BarnBuddy列为银奖产品。官方说明系统分析动物采食行为、活动和分布，辅助提前识别疾病与环境问题；生成式AI助手支持35种语言，并可直接向鸡舍电脑下达控制指令。",
+      "technology": "摄像头行为识别、禽群健康监测、环境异常提示及鸡舍控制联动。属于数字化监测与管理方案，不等同于环控硬件本体。",
+      "source_type": "DLG EuroTier 2026官方创新奖页面与企业官网",
+      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "checked": "2026-11-12"
+    },
+    {
+      "name": "Constantec Co., Ltd.",
+      "region": "韩国 / 国际",
+      "type": "饲料料塔监测与库存数字化（周边设备）",
+      "website": "https://www.constantec.com/constantec_en.html",
+      "products": "FEED CHECK料塔监测设备，采用LiDAR测量料堆表面和剩余体积，同时采集温度与湿度；官方说明每日测量三次，可更换电池寿命超过五年。",
+      "verified_facts": "DLG EuroTier 2026官方创新奖页面列出Hall 12 · B03，并将FEED CHECK列于银奖产品名单。官方说明LiDAR用于精确测量料塔剩余饲料体积，温湿度传感器用于监测储料质量；不是自动输料或饲喂系统。",
+      "technology": "料塔余量与储料环境监测，可辅助补料计划及饲料质量风险管理。对兴仪的相关性在养殖场饲料仓储数字化配套。",
+      "source_type": "DLG EuroTier 2026官方创新奖页面与企业官网",
+      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "checked": "2026-11-12"
+    },
+    {
+      "name": "GrainProteinTech Climate Control & Air Treatment Germany GmbH",
+      "region": "德国 / 国际",
+      "type": "肉鸡舍废气净化与环境控制（相关设备）",
+      "products": "Munters Reventa Lavamatic单级湿式化学废气洗涤系统，用于肉鸡舍排风中的粉尘和氨减排。",
+      "verified_facts": "DLG官方测试报告7561确认Lavamatic在肉鸡场进行部分气流处理测试，测试机型Lavamatic XL处理风量110,000 m³/h；另有55,000和27,500 m³/h规格。DLG报告列示总粉尘最低去除率冬季88.9%、夏季81.1%；PM10冬季74.0%、夏季72.3%；氨冬季83.0%、夏季77.4%。测量期为2023年8月至2024年8月，部分粉尘测量在2025年补测。",
+      "technology": "单级湿式化学洗涤，依赖洗涤水pH≤3、导电率≤170 mS/cm等运行条件；报告是在单场、部分气流处理条件下取得，不能直接外推为所有鸡舍的整舍去除率或投资回报。",
+      "source_type": "DLG官方测试报告7561（测试时间早于本次核验日）",
+      "source_url": "https://www.dlg.org/en/tests/agricultural-technology-and-farm-inputs/test-reports/test-grainproteintech-exhaust-air-treatment-system-munters-reventa-lavamatic",
+      "checked": "2026-11-12"
+    },
+    {
+      "name": "Munters Reventa GmbH",
+      "region": "德国 / 国际",
+      "type": "蛋鸡与育成鸡舍废气净化及环境控制",
+      "website": "https://www.munters.com/en/",
+      "products": "Lavamatic两级废气净化系统：前置干式除尘，后接化学洗涤滚筒；用于带笼外系统的蛋鸡舍及育成鸡舍排风处理。",
+      "verified_facts": "DLG官方测试报告7521确认Lavamatic在蛋鸡场以部分气流方式测试，参考机型处理风量110,000 m³/h，另有55,000和27,500 m³/h规格。总粉尘最低去除率冬季74.3%、夏季80.3%；PM10冬季72.5%、夏季72.8%；氨冬季85.1%、夏季80.5%；氮去除率冬季83.2%、夏季两次平衡结果84.8%和83.5%。",
+      "technology": "两级干式预除尘+湿式化学洗涤，报告列明洗涤水pH≤3、导电率≤230 mS/cm等运行条件；试验采用部分气流处理，能耗和耗材数据不可直接与全舍系统横向比较。",
+      "source_type": "DLG官方测试报告7521",
+      "source_url": "https://www.dlg.org/tests/landtechnik-betriebsmittel/pruefberichte/test-munters-reventa-abluftreinigungsanlage-lavamatic",
+      "checked": "2026-11-12"
     }
   ],
   "watchlist_count": 33
