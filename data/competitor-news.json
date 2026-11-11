@@ -1,9 +1,64 @@
 {
-  "generated_at": "2026-11-10T23:58:20.670634+00:00",
-  "collector": "Google News RSS search; media leads require verification",
-  "watchlist_count": 32,
-  "new_items_count": 0,
+  "generated_at": "2026-11-12T07:35:00+08:00",
+  "collector": "Google News RSS + DLG官方创新奖页面、DLG官方测试报告及企业官网；手工核验的官方技术情报与媒体线索分开标注。",
+  "watchlist_count": 38,
+  "new_items_count": 5,
   "items": [
+    {
+      "company": "Bröring Technology GmbH",
+      "region": "INTL",
+      "title": "Bröring Electronic Egg获EuroTier 2026银奖：用冲击记录器定位集蛋输送破损点",
+      "publisher": "DLG / EuroTier",
+      "published_at": "2026-11-12T07:35:00+08:00",
+      "url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "source_type": "DLG官方创新奖页面（本次核验日，页面未标独立发布日期）",
+      "verification": "DLG官方页面列出Hall 14 · C44并将Electronic Egg列为银奖产品；未披露售价、销量或商业项目规模。",
+      "summary": "Electronic Egg在集蛋输送过程中记录鸡蛋受到的冲击强度，通过不同颜色LED直接提示冲击点；可选Wi‑Fi连接手机、平板或PC留存记录。其价值在于帮助鸡场定位输送线破损环节，不是完整集蛋线。"
+    },
+    {
+      "company": "VetVise GmbH",
+      "region": "INTL",
+      "title": "VetVise BarnBuddy获EuroTier 2026银奖：AI摄像头分析禽群行为并联动鸡舍电脑",
+      "publisher": "DLG / EuroTier",
+      "published_at": "2026-11-12T07:35:00+08:00",
+      "url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "source_type": "DLG官方创新奖页面（本次核验日，页面未标独立发布日期）",
+      "verification": "DLG官方页面列出Hall 16 · D23并将BarnBuddy列为银奖产品；产品适用猪、家禽和牛，未披露商业部署量及售价。",
+      "summary": "BarnBuddy以摄像头和AI分析禽群采食行为、活动量及分布，辅助早期识别疾病或鸡舍环境问题；生成式AI助手支持35种语言，并可直接向鸡舍电脑下达控制指令。属于数字监测与管理层，不是环控硬件本体。"
+    },
+    {
+      "company": "Constantec Co., Ltd.",
+      "region": "INTL",
+      "title": "Constantec FEED CHECK获EuroTier 2026银奖：LiDAR料塔余量与温湿度监测",
+      "publisher": "DLG / EuroTier",
+      "published_at": "2026-11-12T07:35:00+08:00",
+      "url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "source_type": "DLG官方创新奖页面（本次核验日，页面未标独立发布日期）",
+      "verification": "DLG官方页面列出Hall 12 · B03并将FEED CHECK列为银奖产品；未披露售价和商业项目规模。",
+      "summary": "FEED CHECK采用LiDAR测量料塔内饲料堆表面并估算剩余体积，同时监测温度和湿度。官方说明每日测量三次、可更换电池寿命超过五年。属于料塔库存与储料质量监测，不是自动输料系统。"
+    },
+    {
+      "company": "GrainProteinTech Climate Control & Air Treatment Germany GmbH",
+      "region": "INTL",
+      "title": "DLG测试报告：GrainProteinTech Lavamatic肉鸡舍废气净化系统达到粉尘与氨减排测试门槛",
+      "publisher": "DLG",
+      "published_at": "2026-11-12T07:35:00+08:00",
+      "url": "https://www.dlg.org/en/tests/agricultural-technology-and-farm-inputs/test-reports/test-grainproteintech-exhaust-air-treatment-system-munters-reventa-lavamatic",
+      "source_type": "DLG官方测试报告7561（本次核验日；测试测量期为2023年8月至2024年8月，部分粉尘测量于2025年补测）",
+      "verification": "DLG报告确认Lavamatic XL 110,000 m³/h在单个肉鸡场部分气流处理条件下通过测试；结果仅适用于报告测试配置与运行参数，不代表全舍或所有项目保证值。",
+      "summary": "报告列示总粉尘最低去除率冬季88.9%、夏季81.1%；PM10冬季74.0%、夏季72.3%；氨冬季83.0%、夏季77.4%。系统为单级湿式化学洗涤，要求洗涤水pH≤3、导电率≤170 mS/cm。该报告测量期早于本次核验日，不应误称为11月新产品发布。"
+    },
+    {
+      "company": "Munters Reventa GmbH",
+      "region": "INTL",
+      "title": "DLG测试报告：Munters Reventa Lavamatic适用于蛋鸡与育成鸡舍废气处理",
+      "publisher": "DLG",
+      "published_at": "2026-11-12T07:35:00+08:00",
+      "url": "https://www.dlg.org/tests/landtechnik-betriebsmittel/pruefberichte/test-munters-reventa-abluftreinigungsanlage-lavamatic",
+      "source_type": "DLG官方测试报告7521（本次核验日，页面未标独立发布日期）",
+      "verification": "DLG报告确认Lavamatic在蛋鸡场采用部分气流处理方式通过测试；报告数据受参考场、处理风量和运行参数约束。",
+      "summary": "报告描述两级系统：前置干式除尘，后接化学洗涤滚筒；参考处理风量110,000 m³/h。总粉尘最低去除率冬季74.3%、夏季80.3%；PM10冬季72.5%、夏季72.8%；氨冬季85.1%、夏季80.5%。报告指出也可用于育成鸡场；部分气流处理数据不可直接外推为整舍处理表现。"
+    },
     {
       "company": "UKKÖ Robotics",
       "region": "INTL",
