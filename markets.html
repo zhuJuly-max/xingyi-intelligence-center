@@ -92,7 +92,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
  const categoryDefs=[{id:"broiler",title:"白羽肉鸡",note:"种蛋 · 鸡苗 · 毛鸡 · 冻品"},{id:"duck",title:"白羽肉鸭",note:"樱桃谷鸭苗 · 樱桃谷肉鸭 · 白条鸭产品"},{id:"layer",title:"蛋鸡",note:"鸡蛋/鸡苗/老母鸡 · 饲料成本与利润"},{id:"817",title:"小白鸡（817）",note:"817鸡苗 · 毛鸡 · 5-7只规格产品"}];
  const configs=[
   {id:"broiler_eggs",name:"白羽肉鸡种蛋",indicator:"种蛋成交价",unit:"元/枚",markets:"山东主产区",metrics:[{id:"value",label:"种蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
-  {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗报价；自提成交均价与开票区间分列",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"自提成交均价",colors:{2025:"#267b99",2026:"#c92720"}},{id:"invoice_range",label:"开票价区间（按市场标注）",colors:{2025:"#2f7b8b",2026:"#d58a36"}}]},
+  {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗报价；自提成交均价与开票区间分列",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"自提成交均价",colors:{2025:"#267b99",2026:"#c92720"}},{id:"invoice_range",label:"开票价区间（按市场标注）",colors:{2025:"#2f7b8b",2026:"#d58a36"}},{id:"company_quote",unit:"元/只",label:"益生企业官方报价（非市场均价）",colors:{2025:"#28a7c4",2026:"#8a5aa6"}}]},
   {id:"broiler_live",name:"白羽肉鸡毛鸡",indicator:"社会鸡源棚前收购价",unit:"元/斤",markets:"山东滨州、临沂",metrics:[{id:"value",label:"毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"broiler_frozen",name:"国内板冻大胸及大琵琶腿",indicator:"冻品中间价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"breast",label:"板冻大胸",colors:{2025:"#267b99",2026:"#c92720"}},{id:"drumstick",label:"大琵琶腿",colors:{2025:"#55a18a",2026:"#d58a36"}}]},
   {id:"broiler_frozen_shandong",name:"山东板冻大胸成交价区间",indicator:"11月12–13日行业动态区间；与辽宁系列分开",unit:"元/公斤",markets:"山东市场",metrics:[{id:"breast_range",label:"板冻大胸",colors:{2025:"#267b99",2026:"#c92720"}}]},
@@ -115,12 +115,13 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
   const latestRows=[
    {label:"白羽肉鸡毛鸡",value:"3.20–3.30",unit:"元/斤",market:"山东滨州 · 棚前收购价区间",date:"11月12日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523865"},
    {label:"白羽肉鸡鸡苗",value:"1.70–2.40",unit:"元/羽",market:"山东滨州 · 开票价区间（大小孵化场综合）",date:"11月12日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523864"},
+   {label:"白羽肉鸡鸡苗（益生企业报价）",value:"2.70",unit:"元/只",market:"山东益生官方报价 · 企业报价，非市场均价",date:"11月13日",source:"山东益生种畜禽股份有限公司",url:"https://www.yishenggufen.com/xwzx/jjxq/index.html"},
    {label:"白羽肉鸡种蛋",value:"1.40",unit:"元/枚",market:"青岛平度 · 肉种蛋报价",date:"11月11日",source:"鸡病专业网/博亚和讯",url:"https://www.jbzyw.com/view/523869"},
    {label:"板冻大胸",value:"8.12–8.73",unit:"元/公斤",market:"山东市场 · 11月12–13日行业动态区间",date:"11月11日发布",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523914"},
    {label:"毛鸭（品种未细分）",value:"3.10–3.20",unit:"元/斤",market:"山东多地 · 城市报价跨度",date:"11月11日",source:"鸡病专业网/博亚和讯",url:"https://www.jbzyw.com/view/523871"},
    {label:"鸭苗企业报价（品种未细分）",value:"六和1.50 / 益客1.57",unit:"元/羽",market:"山东企业报价，非单一市场区间",date:"11月11日",source:"鸡病专业网/博亚和讯",url:"https://www.jbzyw.com/view/523871"},
-   {label:"鸡蛋（全国批发市场）",value:"9.57",unit:"元/公斤",market:"农业农村部全国农产品批发市场均价",date:"11月11日",source:"农业农村部市场与信息化司",url:"https://scs.moa.gov.cn/jcyj/202611/t20261111_6489372.htm"},
-   {label:"白条鸡（全国批发市场）",value:"17.18",unit:"元/公斤",market:"农业农村部全国农产品批发市场均价",date:"11月11日",source:"农业农村部市场与信息化司",url:"https://scs.moa.gov.cn/jcyj/202611/t20261111_6489372.htm"},
+   {label:"鸡蛋（全国批发市场）",value:"9.51",unit:"元/公斤",market:"农业农村部全国农产品批发市场均价",date:"11月12日",source:"农业农村部市场与信息化司",url:"https://scs.moa.gov.cn/jcyj/202611/t20261112_6489405.htm"},
+   {label:"白条鸡（全国批发市场）",value:"17.05",unit:"元/公斤",market:"农业农村部全国农产品批发市场均价",date:"11月12日",source:"农业农村部市场与信息化司",url:"https://scs.moa.gov.cn/jcyj/202611/t20261112_6489405.htm"},
    {label:"鸡蛋（山东滨州产区）",value:"3.90–4.07",unit:"元/斤",market:"红蛋散筐大码产区报价",date:"11月11日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523915"},
    {label:"淘汰鸡",value:"4.70",unit:"元/斤",market:"山东滨州产区参考价",date:"11月11日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523915"},
    {label:"817鸡苗",value:"0.63–0.73",unit:"元/羽",market:"山东聊城 · 开票价区间",date:"11月12日",source:"鸡病专业网",url:"https://www.jbzyw.com/view/523864"},
@@ -136,7 +137,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
    const date=el("small","",row.date);
    item.append(meta,value,unit,link,date);dailyItems.append(item);
   });
-  document.getElementById("dailyDate").textContent="产区行情最新核验至11月12日；农业农村部全国批发市场日度快照最新为11月11日。报价日期按来源分别列示，企业报价、区域报价与全国批发均价不混作同口径数据。走势图仅追加可比口径历史记录。";
+  document.getElementById("dailyDate").textContent="产区行情最新核验至11月12日；益生企业鸡苗报价最新至11月13日；农业农村部全国批发市场日度快照最新至11月12日。报价日期按来源分别列示，企业报价、区域报价与全国批发均价不混作同口径数据。走势图仅追加可比口径历史记录。";
   const categoryGrids={broiler:document.getElementById("grid-broiler"),duck:document.getElementById("grid-duck"),layer:document.getElementById("grid-layer"),817:document.getElementById("grid-817")};
   Object.values(categoryGrids).forEach(node=>node.replaceChildren());
   const months=["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
