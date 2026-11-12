@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-13",
   "frequency": "daily",
   "region": "山东主产区",
   "currency": "CNY",
@@ -85,6 +85,16 @@
           "trade_stage": "商品代苗鸡开票价区间；大小孵化场综合；不含运输及疫苗费用",
           "metric": "invoice_range",
           "quote_type": "range"
+        },
+        {
+          "date": "2026-11-13",
+          "price": 2.7,
+          "market": "山东益生（企业报价）",
+          "source": "山东益生种畜禽股份有限公司官方行情资讯",
+          "source_url": "https://www.yishenggufen.com/xwzx/jjxq/index.html",
+          "trade_stage": "企业官方鸡苗报价；元/只；非山东市场成交均价",
+          "metric": "company_quote",
+          "quote_type": "point"
         }
       ]
     },
@@ -513,6 +523,14 @@
       ],
       "records": [
         {
+          "date": "2025-11-11",
+          "price": 7.43,
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：2025年11月11日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202511/t20251111_6478820.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；独立于500县集贸市场周度均价"
+        },
+        {
           "date": "2025-11-12",
           "price": 7.46,
           "market": "全国农产品批发市场",
@@ -534,6 +552,14 @@
           "market": "全国农产品批发市场",
           "source": "农业农村部市场与信息化司：2026年11月11日农产品批发价格200指数日监测",
           "source_url": "https://scs.moa.gov.cn/jcyj/202611/t20261111_6489372.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；独立于500县集贸市场周度均价"
+        },
+        {
+          "date": "2026-11-12",
+          "price": 9.51,
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：2026年11月12日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202611/t20261112_6489405.htm",
           "trade_stage": "截至14:00全国批发市场均价；元/公斤；独立于500县集贸市场周度均价"
         }
       ]
@@ -560,6 +586,14 @@
       "name": "全国批发市场白条鸡日度均价",
       "records": [
         {
+          "date": "2025-11-11",
+          "price": 17.76,
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：2025年11月11日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202511/t20251111_6478820.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；与产区毛鸡棚前价分开"
+        },
+        {
           "date": "2025-11-12",
           "price": 17.71,
           "market": "全国农产品批发市场",
@@ -573,6 +607,14 @@
           "market": "全国农产品批发市场",
           "source": "农业农村部市场与信息化司：2026年11月11日农产品批发价格200指数日监测",
           "source_url": "https://scs.moa.gov.cn/jcyj/202611/t20261111_6489372.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；与产区毛鸡棚前价分开"
+        },
+        {
+          "date": "2026-11-12",
+          "price": 17.05,
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：2026年11月12日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202611/t20261112_6489405.htm",
           "trade_stage": "截至14:00全国批发市场均价；元/公斤；与产区毛鸡棚前价分开"
         }
       ]
