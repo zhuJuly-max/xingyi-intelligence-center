@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T07:35:00+08:00",
-  "collector": "Google News RSS + DLG官方创新奖页面、DLG官方测试报告及企业官网；手工核验的官方技术情报与媒体线索分开标注。",
-  "watchlist_count": 38,
-  "new_items_count": 5,
+  "generated_at": "2026-11-12T00:10:35.945943+00:00",
+  "collector": "Google News RSS search; media leads require verification",
+  "watchlist_count": 32,
+  "new_items_count": 3,
   "items": [
     {
       "company": "Bröring Technology GmbH",
@@ -604,6 +604,16 @@
     {
       "company": "Petersime",
       "region": "INTL",
+      "title": "Petersime marks a milestone: 10.000th OvoScan™ technology project - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-27T00:11:16+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNDhITEZzcVhhRWF6cGxvUUhVSHlrM0V5NGg3VER5LWM1OXJmeGxVSnBKMDdqYTl1T0pWdmphNDBlVlpaV1pqRWM2TFhMS05nYm1YaG1NUW9tTnZTbGpaaUJ0dGdZa2ljNFpQRkZGMy1WZnhmUGl4QVVwU1RBcnZuNUF4VjItZnpNQWVYRExmZWdMd2dEMGFmb3FxWDFyaWg1cGFFcURTbmJ6QQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
       "title": "Petersime at Indonesia's Top Livestock Trade Fair - The Poultry Site",
       "publisher": "The Poultry Site",
       "published_at": "2020-09-25T13:03:06+00:00",
@@ -764,6 +774,16 @@
     {
       "company": "HatchTech",
       "region": "INTL",
+      "title": "First HatchCare chicks hatched in the United Kingdom - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2018-08-02T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQm1zYkU0Ml91a21ac2xFYTJYdEJJRk1Ub1B1SlF1TVBWQ0plNVcyQURUTHBjRlRCZ0RoRmVUNGh6SlVZb2R0WW1Da3NaSmozUTlfUnd3Y0ZyVHljX243NjB2NWV4QlpIYmx4dGo0ZzRzdzRwNldBeElKbnlDVkY1U3BQQkxkZ2VpeldDbmpfbmI3VHozSThJTFp4clpKbGhiNTRTRV94VlVhSkIxcEJlUGJIeU1uNEc2SmJxa0RRMA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
       "title": "Annyalla Chicks’ new hatchery opens its doors - foodagribusiness.world",
       "publisher": "foodagribusiness.world",
       "published_at": "2018-07-30T07:00:00+00:00",
@@ -898,6 +918,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2017-05-19T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLWVuRjN1cEZ6dUlCd3pPNEtCYXlFTkZGQUZoVnhjMTJYMXRSLVdaUTluSVZLUHV2b1RMNFV1SGM5VmhsUWhOZktxVE90SXFkN092QUdQaWdGQlF2ZnlDRXFVakIyZTZEcmRqVFpKcEtjVlRtZXRDR3dHdkxsOU5GVm1EOEgwNkxKd25nN204cDVFRVdsbGllOXF2LWdmU05xbENqTGFnWTEzRmFRbjB6NlJoc3UyT25TanRmSkxB?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "FACCO poultry",
+      "region": "INTL",
+      "title": "Latest cage-free ventilation, lighting and litter tactics - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2017-05-08T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQTBXa0xOcG0tcEVDckFTd0NmYVgzN09jMGJhTUlscUpZbzhxaEVwcXdCbWhRVWRyVVk2TW1qZ2FJaFRiSXhIQU1IWHd4SFB3SXlJaGdfM1NQaXJMejJvS2dxRVhZaXlNSU1QNDN4c2h3VmxhZXYxM2U3TkdBQm5oejFFU2lWVVd2UWtJaHVGQTZKX3IxY1FmZ184WTZGbGZVOVlIX3l6MmpDU0NxLVhUNUpkblpvUHUyNHZ1NFdOWV9IQllfc1hN?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
