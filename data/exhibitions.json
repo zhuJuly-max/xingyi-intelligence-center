@@ -1,8 +1,36 @@
 {
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-14",
   "timezone": "所有日期均为展会当地日期；开放时间以主办方最终通知为准",
   "methodology": "展会日期和场馆优先采用主办方官网或行业组织日历；参展商及展位信息仅在企业参展日历或展会官方参展商目录明确列出时标记为已确认。未公布名单的标记为待更新。",
   "items": [
+    {
+      "id": "nlp-expo-2026",
+      "name": "Nusantara Livestock & Poultry Expo 2026",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-07",
+      "city": "Tangerang（BSD City）",
+      "country": "印度尼西亚",
+      "venue": "Hall 5 · Indonesia Convention Exhibition (ICE) BSD City",
+      "category": "家禽与畜牧产业、养殖设备及生产技术",
+      "organizer": "PT Debindo Global Expo / Debindo Group",
+      "exhibitors": [
+        {
+          "name": "BAUER",
+          "status": "主办方会后报道确认参展",
+          "booth": "未公开",
+          "source_url": "https://nusantaralivestock.com/nlp-expo-2026-sukses-diselenggarakan-hadirkan-inovasi-forum-bisnis-dan-kolaborasi-pelaku-industri-peternakan/"
+        },
+        {
+          "name": "Widodo Makmur Unggas",
+          "status": "主办方会后报道确认参展",
+          "booth": "未公开",
+          "source_url": "https://nusantaralivestock.com/nlp-expo-2026-sukses-diselenggarakan-hadirkan-inovasi-forum-bisnis-dan-kolaborasi-pelaku-industri-peternakan/"
+        }
+      ],
+      "relevance": "主办方会后报道确认展会于4–7 November 2026在Hall 5举行，展会覆盖家禽养殖、孵化、禽舍通风与环控、喂料饮水、蛋品处理及自动化等领域；BAUER与Widodo Makmur Unggas列于参展品牌。适合回看印尼本地设备与渠道生态。",
+      "source_url": "https://nusantaralivestock.com/nlp-expo-2026-sukses-diselenggarakan-hadirkan-inovasi-forum-bisnis-dan-kolaborasi-pelaku-industri-peternakan/",
+      "official_note": "主办方2026-11-08会后报道确认展期为11月4–7日、场馆为ICE BSD City Hall 5，并列出BAUER、Widodo Makmur Unggas等参展品牌；未披露展位，故不补写展位号。"
+    },
     {
       "id": "eurotier-2026",
       "name": "EuroTier 2026",
@@ -130,6 +158,21 @@
       ],
       "relevance": "农业与畜牧综合展，适合关注养殖设备、禽舍系统及北欧供应链；非纯家禽专业展。",
       "source_url": "https://www.agromek.com/"
+    },
+    {
+      "id": "poultry-tech-2026",
+      "name": "Poultry Tech 2026 · 家禽养殖与蛋品生产展",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-26",
+      "city": "Nadarzyn（华沙近郊）",
+      "country": "波兰",
+      "venue": "Ptak Warsaw Expo · Al. Katowicka 62, 05-830 Nadarzyn",
+      "category": "家禽养殖、蛋品生产与设备技术",
+      "organizer": "Ptak Warsaw Expo",
+      "exhibitors": [],
+      "relevance": "主办方介绍覆盖家禽养殖技术、蛋品生产、喂料饮水系统、饲料与营养添加剂、群体管理、动物福利及环境监测，适合孵化、禽舍环控和养殖自动化设备渠道调研。",
+      "source_url": "https://warsawexpo.eu/en/fair-calendar/poultry-tech/",
+      "official_note": "主办方官方展会日历列示2026年11月24–26日；本次未从官方页面核实具体展位及完整参展商名单，暂不添加。"
     },
     {
       "id": "poultry-india-2026",
