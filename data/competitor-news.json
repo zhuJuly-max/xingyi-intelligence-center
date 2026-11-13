@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-11-13T00:06:35.502672+00:00",
+  "generated_at": "2026-11-13T23:59:42.823083+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
   "new_items_count": 3,
   "items": [
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic opens new UK poultry showroom in Thirsk - Poultry News",
+      "publisher": "Poultry News",
+      "published_at": "2026-11-13T13:09:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeHJkbGcyUEJqSFdyY1BjcEZ1ZWt6MkNPT0Q4VHhTNUQzVUIxVUN2VTdndTBlQ3VPUjB0b0djMkc2cFk2ZjFLRHN0Q0c1U192c1NlN091M0JZelE2VzNyZXVDVzRVNFlzMFp1ZFpWSUFRODZobHZtVlB5eVNoejJ4WVpxYzJISU9qWkE5TVh6LTk3TmlZ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
     {
       "company": "Bröring Technology GmbH",
       "region": "INTL",
@@ -118,6 +128,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2026-06-15T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVllMUVCM2RuWExic3JzLWdWaUN3ZTFqVjVEbVZDZDF0cDdzT3NVWnM4ZmxpUHE4WG5MVlVNYW1XcDlLZWRHTm50SnlNd2wyazEwMVBlWTNpbUd2dEZ1WjRZZ3FxWHd3SHRKX2xnMXV4U1I1MG1qMWRXQWo1V3lLdHpjSUt6eXdVbXM4bl9iQmdXdXhEcVQ2T2VaUFFZREozcVBYWmpvQW83S0JJUGFOZkVRd2VpaG52SU12ZDcxMDlFNGQxOU5pVGhZelBkS05qV0ZPTHIyTmlOUQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "FACCO poultry",
+      "region": "INTL",
+      "title": "Poultry Keeping Machinery Market - Future Market Insights",
+      "publisher": "Future Market Insights",
+      "published_at": "2026-05-06T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObXEtODFPWndGSXVNUlMzOWdaa29LT0hKanpTUHFUU3BJclNjZ2FlX0E0R3ExTjZzZVlmMm4zVHNvbTVpNFB4cEM0MF9qc214b3JsclotNkFoNE5zczlvVUswOXdTYVNBdENqeHBBTFBXTklxZjdudVVkVU1aMG1wckR6RQ?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -718,6 +738,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2020-09-16T20:19:36+00:00",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdE9ZSnIwM0xvNmpLYlhnc0lDY1JNeGZ0d0hwcU5SbTJmQUxNWmx3VTV5YjlEcV93dEVLSF9wN3hNX1VNOWhSU0QwQkk0NXN3NG43M0NfV0x4eDRRVUlPWjJVTWRxamZkNkFScXZnV0ZnNm9zYV9EeEZ5T3RGUHFLU1dKaXI4UExLMFIxYnloLWZXejkwVXhIRGh3?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "MaleChain completes the wide range of Big Dutchman products for broiler breeder management - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-04-09T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ2F6VU15b1Nha2Vibm5KM2NpU21XMm94ZXZvUW9mRVFYYUZyUFJzQUxMejRGdmttXy1ibksyeTdZWjFoN3VmNlU0NmR3MHRJZzE1NWQyVjA5MzJVMGxfdGh6dW5xSWNOeHhta0JOQW1nOFEtRVkxTGpPZlRKZVpmemRtc2x1bHJjelppVlgzZzd5bzdtalpBT1lPSkJMbjYzQTU2LTZubVdUbzQ3RFRhamJjTVNHZlI1N1Z4cTFTdFkxLURFcHdqVVRqVFlQM1k?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
