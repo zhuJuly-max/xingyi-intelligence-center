@@ -67,8 +67,8 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
 <p>聚焦山东主产区四大禽业品类每日代表价格。按相同指标对比2025年与2026年走势；只展示可追溯报价，不对缺失日期进行估算。</p>
 <div class="market-meta"><span>中国全国</span><span>人民币 CNY</span><span id="marketPeriod">每日更新</span><span id="marketUpdated">数据更新中</span></div>
 </section>
-<section class="market-latest" aria-label="最新日度批发市场参考价">
-<div class="market-latest-title">最新批发市场参考价</div>
+<section class="market-latest" aria-label="最新日度行情与企业报价参考">
+<div class="market-latest-title">最新日度行情参考价</div>
 <div id="dailyItems" style="display:contents"><span class="market-latest-date">数据读取中…</span></div>
 <div class="market-latest-date" id="dailyDate"></div>
 </section>
@@ -92,7 +92,7 @@ body.market-intelligence-page{background:#fff8f7;color:var(--market-ink)}
  const categoryDefs=[{id:"broiler",title:"白羽肉鸡",note:"种蛋 · 鸡苗 · 毛鸡 · 冻品"},{id:"duck",title:"白羽肉鸭",note:"樱桃谷鸭苗 · 樱桃谷肉鸭 · 白条鸭产品"},{id:"layer",title:"蛋鸡",note:"鸡蛋/鸡苗/老母鸡 · 饲料成本与利润"},{id:"817",title:"小白鸡（817）",note:"817鸡苗 · 毛鸡 · 5-7只规格产品"}];
  const configs=[
   {id:"broiler_eggs",name:"白羽肉鸡种蛋",indicator:"种蛋成交价",unit:"元/枚",markets:"山东主产区",metrics:[{id:"value",label:"种蛋",colors:{2025:"#267b99",2026:"#c92720"}}]},
-  {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗报价；自提成交均价与开票区间分列",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"自提成交均价",colors:{2025:"#267b99",2026:"#c92720"}},{id:"invoice_range",label:"开票价区间（按市场标注）",colors:{2025:"#2f7b8b",2026:"#d58a36"}},{id:"company_quote",unit:"元/只",label:"益生企业官方报价（非市场均价）",colors:{2025:"#28a7c4",2026:"#8a5aa6"}}]},
+  {id:"broiler_chicks",name:"白羽肉鸡鸡苗",indicator:"商品代鸡苗报价；自提成交均价、开票区间与企业官方报价分列",unit:"元/羽",markets:"山东主产区",metrics:[{id:"value",label:"自提成交均价",colors:{2025:"#267b99",2026:"#c92720"}},{id:"invoice_range",label:"开票价区间（按市场标注）",colors:{2025:"#2f7b8b",2026:"#d58a36"}},{id:"company_quote",unit:"元/只",label:"益生企业官方报价（非市场均价）",colors:{2025:"#28a7c4",2026:"#8a5aa6"}}]},
   {id:"broiler_live",name:"白羽肉鸡毛鸡",indicator:"社会鸡源棚前收购价",unit:"元/斤",markets:"山东滨州、临沂",metrics:[{id:"value",label:"毛鸡",colors:{2025:"#267b99",2026:"#c92720"}}]},
   {id:"broiler_frozen",name:"国内板冻大胸及大琵琶腿",indicator:"冻品中间价",unit:"元/公斤",markets:"国内重点屠宰企业报价参考",metrics:[{id:"breast",label:"板冻大胸",colors:{2025:"#267b99",2026:"#c92720"}},{id:"drumstick",label:"大琵琶腿",colors:{2025:"#55a18a",2026:"#d58a36"}}]},
   {id:"broiler_frozen_shandong",name:"山东板冻大胸成交价区间",indicator:"11月12–13日行业动态区间；与辽宁系列分开",unit:"元/公斤",markets:"山东市场",metrics:[{id:"breast_range",label:"板冻大胸",colors:{2025:"#267b99",2026:"#c92720"}}]},
