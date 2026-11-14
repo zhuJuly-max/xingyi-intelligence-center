@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T23:59:42.823083+00:00",
+  "generated_at": "2026-11-14T23:58:42.693108+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 3,
+  "new_items_count": 4,
   "items": [
     {
       "company": "Vencomatic Group",
@@ -742,6 +742,16 @@
       "verification": "待核实"
     },
     {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTech, Willmar Poultry enter distribution partnership - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2020-09-08T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR0g4UUszVlM2N2JwVlVNaTdjRjhsZ1AwTVFFOHk2b1Z3Y0hzY0xPSmFPOHlJRHFZbjltRTBER1RkWGpWSGdwZzYteWJOZ0ExNkR0RVZlZE9KSnJZQWhVMDF4Q0luWFNianpBN0VhX3RHeXZfS2VlblRaWFBvZzRRa3VNMkpOY042X2syRDlIN0tETUFRRzJGSjFvSWJKTDIzMjA1WmVRdWlBYW1kSWE2UkVyQ1owbm5GVVI3dmdvUzFCRFBC?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Big Dutchman",
       "region": "INTL",
       "title": "MaleChain completes the wide range of Big Dutchman products for broiler breeder management - The Poultry Site",
@@ -778,6 +788,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2019-12-05T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSmFPbTRibzVNUy1LUndlZVUwaWhtTmthUlRvZmZFbXhrMW8waF9BcFZ6dHVDX2NoZnJQNjF0TEsxeHdnSVlnRmduellPc0RxSU9YNHZUcnRuUk1zeDRxc09VNnUzeG1MS0I5anJ2ckpYRFVCQ0p2NUEyRjJleHhUZVo3MGVBYkwtQWQ0RE83ODhfYzdRaDVib1pHME1SY1Nyd3BtOFVRVGdRRkhVc2UzRGRncFM4bzEtU2VGT2tYczlPWUZmMXZub1Fpb0JVMC1hVTZFWE0taEcyODg?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "CP Vietnam plans hatchery with Jamesway machines - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2019-06-24T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFZJdjhVMklvYXliNEFnVy1kS3kyYVlZYUJ2U3Q1Vm1EajVOMEVTTjllc3R1OFgyQXRiY2JQbUNVSVl1alBGbTNyb3k5TUF2NkxXY2hZTDlrbDRNeVpadF9DdVFmdkM4enB6V0VJRGZNRmt2d285ajZMVWtOUURvS3M2WmxMZVp0OHc2RTJ0cGVYTXpCclhF?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -1012,6 +1032,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Hatchery expansion delivers major boost for Moyer’s Chicks - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-10-26T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0RleU5qTmhueTFMSkVfdGNrYlR4enNwQllkY2U2RHVVa0VxX1NxYTBkMVg5TDFhbkswRzExSjg0TWJJTkFORXV1V092X204a3VQSEZVOUhBa3hIZ3BLRzVCNkxndEFPVWFZbFVHMVBKSTBickcxQlUzbnVESVRDVTRucXlpQ1dkQ19rMExjdExVOHVWdHlKZ1RlZzZpbGhmekFfSFZBOGxJdzFtbFFPQUQzaG9tRE9IdTlkSGpwYzl6RU5VNVE?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Vencomatic Group",
       "region": "INTL",
       "title": "Cage-free floor systems trade density for freedom - WATTPoultry.com",
@@ -1068,6 +1098,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2015-04-01T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZGV0TnpfZ3BzMDVDNkFiSXZlQlJIZ2I2bnpjR0M4VW5jZF9tMHpmN3QwN0pBVnVXclJDajh1ZlpONjd5T1M1UHFQLXMxclppajVsU0hfcjRuR3c4eG9CTjZGOFdHRmVnQlF6empDRlpsSlRyc3JvWWNoa2tqbFJkaHgxSVBkQWpxZWc?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Nortura Extends Hatchery with Petersime Incubators - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2014-12-04T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQjkzQ0Z5WGJKelJSeHJ5X05qZl9pdUxFc0I3amdKY0ZrWEJqRHdxYnZvWk9tOFg1TEJnN1diSnJ6U2VaM3ktcG1vY1JMdEw0Z0VjTWEwcmZiZTUwZU82SlpUZlNfWTJhMXh6YVNTbTBQMXFORVR4d04yUmVKOXBaa1NMRFpuYXUwZjhYM2Zzcy1MS2luWEtrcE5B?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
