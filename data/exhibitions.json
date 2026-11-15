@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "timezone": "所有日期均为展会当地日期；开放时间以主办方最终通知为准",
   "methodology": "展会日期和场馆优先采用主办方官网或行业组织日历；参展商及展位信息仅在企业参展日历或展会官方参展商目录明确列出时标记为已确认。未公布名单的标记为待更新。",
   "items": [
@@ -186,14 +186,77 @@
       "organizer": "IPEMA",
       "exhibitors": [
         {
-          "name": "BAADER",
-          "status": "企业参展日历已列出",
-          "booth": "Hall 4 · S57–61",
-          "source_url": "https://www.baader.com/events"
+          "name": "A P POULTRY EQUIPMENTS",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 3 · N6–N10",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "AP INCUBATORS",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 3 · Q1–Q4",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "ASIAN POULTRY EQUIPMENTS",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 3 · M21–M24",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "BAADER AISA PTE LTD",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 4 · S57–S61",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "CHAK RADER FARM EQUIPMENTS PVT LTD",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 3 · N1–N5",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "DUTCH POULTRY TECH",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 4 · Z14–Z16",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "EMKA HATCHERY EQUIPMENT",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 7 · NN39",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "GARTECH EQUIPMENTS PVT. LTD.",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 4 · U1–U18、T68–T76",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "MUNTERS INDIA HUMIDITY CONTROL PRIVATE LIMITED",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 5 · CC40–CC43",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "SKOV ASIA",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 4 · S11–S14",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "GLOBAL INCUBATORS",
+          "status": "主办方官方参展商目录列示",
+          "booth": "Hall 3 · N22–N23",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
         }
       ],
-      "relevance": "南亚重要家禽展会，适合接触孵化场、养殖集团、设备供应商和区域代理商。",
-      "source_url": "https://www.poultryindia.co.in/"
+      "relevance": "南亚重要家禽设备与养殖技术展；官方目录已列出孵化、环控、养殖设备及屠宰加工相关企业，适合考察印度本地设备供应链与渠道。目录列名不等于已确认采购或合作。",
+      "source_url": "https://www.poultryindia.co.in/",
+      "knowledge_day": "2026-11-24",
+      "exhibitor_directory_url": "https://www.poultryindia.co.in/Exhibitors",
+      "official_note": "主办方官网确认第18届展会于2026-11-25至27日在HITEX举行，Knowledge Day为11月24日。官方参展商目录截至2026-11-16显示490家已确认企业（页面显示490/490）；参展商预订及展商证、家具、电力等服务申请截止2026-11-15。下列企业名称和展位按官方目录摘录，展位以主办方实时目录及最终现场图为准。"
     },
     {
       "id": "india-international-poultry-tech-expo-2026-chandigarh",
