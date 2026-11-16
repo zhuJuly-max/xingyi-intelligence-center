@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-17",
   "note": "企业资料仅收录可由企业官网、官方公告或可信行业来源支持的公开信息。未列出的产品参数、价格、市场份额、渠道和财务数据均不推断；新闻聚合条目为待核实线索。",
   "watchlist": [
     {
@@ -267,11 +267,12 @@
       "type": "家禽养殖设备及环控",
       "website": "https://www.kaleter.com/index.html",
       "products": "种禽、肉禽、蛋禽饲养系统；农牧环保、环控、农牧机器人及雏禽运输车",
-      "verified_facts": "官网披露研发制造、设备安装与售后服务业务；2026-10-23新闻包含金莱种鸡EPC中标、海外项目投产等企业动态，细节需逐条查看公告。",
+      "verified_facts": "官网披露研发制造、设备安装与售后服务业务；2026-10-03公司新闻列表列出“中裕机电携手大连绿雪，多期非笼养蛋鸡项目冲刺投产”。2026-11-16行业媒体称大连绿雪新一期项目施工调试完成，但官网尚未独立确认该完工状态，待企业进一步核验。",
       "technology": "环控系统、NEF节能鸡舍及农牧机器人产品线。",
-      "source_type": "企业官网",
-      "source_url": "https://www.kaleter.com/index.html",
-      "checked": "2026-11-02"
+      "source_type": "企业官网项目动态 + 行业媒体线索（完工待核）",
+      "source_url": "https://www.kaleter.com/news_106.html",
+      "checked": "2026-11-17",
+      "secondary_source_url": "https://m.jbzyw.com/view/524120"
     },
     {
       "name": "小巨人",
