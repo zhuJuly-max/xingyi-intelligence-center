@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T23:58:42.693108+00:00",
+  "generated_at": "2026-11-16T00:05:47.575660+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 4,
+  "new_items_count": 5,
   "items": [
     {
       "company": "Vencomatic Group",
@@ -87,6 +87,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2026-09-17T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaU9QZFpKNk0ySXlFNHo2c3h2aEpwTjBEd2RSVERJZE1vQUtKYTBTc2Vtd21kYTJHNmdJSGsyejlmbGZnaGdTd0dMRlkxX0l2ZnJuMHc5N01ZOTJUTEJHcHZjdmZWV2JLZktoLTNyRXhhMVZmcEhGN0xNcWhtQ2tYNDY4QXBTT0l5TFNqODhOY29yNW9pc2xGakI1aHVHZnlDVXUwb2thQzZCWXN5SVlYSDFSR0RNRnJUcUlaa1VTWGZGVF9LYVdiVzdxRFY?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Petersime launches sound monitoring technology for hatchers - Poultry News",
+      "publisher": "Poultry News",
+      "published_at": "2026-09-01T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaVdCa1Roc3NDYlRZamlXY2VEaDAtZ2NEbWdweUxaN0NId1ZpbDhHQndPcEI1U1ZmWUwxVVpyZExLbGhNNHV4cElUNWdrZ2xPOVhCMHZKWDM2cUZST2FxOEZpUFdsNThjbEsyUUYxQUFOX1FINkF4QzNpRW5YVVFhV3RXbUdreWQtRXRxQlpBdHM1VFFPT0laUENROEo1aWJ3Z2N4ZmJEeVk?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -892,6 +902,16 @@
       "verification": "待核实"
     },
     {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "ModernHatch, HatchTech sign agreement for HatchCare hatchery in Poland - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2018-06-21T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR3FvR0tld21aNk1SX1J1emdHV3c4cjJYZUEyRXUzend0TElzQUQ2a2hhVTNoeEQzM3pxanF4LTIzSWcteHdHMU4wSS1vYTNhc0RhQ1VXZTBWbDMyYllqam43R2h2OGlBbE9yREI5OVFBSlg3cFptemUzeWNGRTJvUnhldWxQWDc1UUZkZklMYUE4R2VHZ0JBMklPWXZfdTk3bk1RMzltTWtheTdaejVSV05pMVduVHBWTmEzMVc3MXdaeEpLZ2o5bVlYb0d1d0I0dDByRUNR?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Jamesway",
       "region": "INTL",
       "title": "Jamesway’s launches online parts website - The Poultry Site",
@@ -938,6 +958,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2018-01-30T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVWczVmFhaXp1U1lFVHpyVTJSWkdaOTVGR2pSYlVYX0hUcmg4ZS1meTFNN1RzcG1aOU9UbktaSXlBYy1oWWZ5OV9YVW9XOUpQYllhV3c4aUxncE5KUXIxMGxCVFNYU3ZMcDF1WmlDM0huQVQ4LUNMQzBoOTc4Qld4MVd3SERyUDRPcVFWWHJvbw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Miller Poultry renovating hatchery - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2018-01-04T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQl95M3VXbGVMTVF2X0MzMHlXSldCYldGeHZMaFBIQXNwYS1MdjRlcmc2dFlGQUt5UUs5LUdkMmx5MEdVNXBtNjNlTTd0V3gzMnBzZTBKMk9OTmpnbVo4SXBLWFBldkU3NGhTR0o1LTRCNmJxWmdPaXNhRi0yZUVRZkVWOHRGSXNheFpIQWZROS1uUkUyanJLVHVBOXFxcl9sZTZuTnBYVQ?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -1082,6 +1112,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Poland’s JDA Gets Future-ready with New Smart Hatchery - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2015-12-08T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeFB0aWh0OThMWXNQN0p3ZF9fakQ5emFoaGc4ZG5QUXdFeVFpblJ6S2ZHbWV5SFQ4T1RwN1FQbkR4TG9BbEVoZEdOY1VPZlV4ZEczdWFjNnhSTk5tX0NEMllYSkNqYnVkXzBnaHhSWVpWZ3Y2Um4ya3ZNYzlzQzd3dEpvVk5mWU93bmo2T2t5Q3h4Q2NtbUIzLTc4U0c?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Chore-Time poultry",
       "region": "INTL",
       "title": "SKOV Combi-Tunnel Ventilation Poultry - YouTube",
@@ -1118,6 +1158,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2014-07-02T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdW02TkJCX2o4djJjWFNqemVJbW5oTXpkOF9EbDhmWW5NbnN3MXh0Z0RNUG44V1dQQlotckxXaWIzeGZSVEtsaHZrQkdnanV3WWx1WUZaU0trNWIzeWtWQmltR25qRW82YWg1dURfZUZUZ3ZhNmFzOVN2Y0VoNVl0ZTBFNWx1ZU95UEVDaXZMMWJDZWlYdGE4WGFBT1NTRXdjbC1YMTljMUYybGtpR3ZaZVVTWG16b09K?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Al Ajban Poultry Farms picks Big Dutchman for expansion project - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2014-06-30T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUkg4Qk5fR1QwOWZtV25WWWNJeGhLYk9VTjl5LTczcXhNM1kxWHhHTXpwN2c5bjJ2X2s1Q0V6RXprZ09sV2ZwZlZaLXktZ3J1NGJvWG1JVmJsb2hobDJSWlNIdDVyUUlEV2kyaDNFTUo4TEs3Ti1mZ0U3UHl2WjZlVXNtVUhuT2lzZHBpUnZ5M2lRQWRHdkc5dmJtSWlFYTZtcFY2dUJQNzlyVTl0RU9DUjdDV0hBUDd5R2dWOWJQUHZuQzJXcGp5aWphb1I?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
