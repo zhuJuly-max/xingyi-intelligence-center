@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-16T00:05:47.575660+00:00",
+  "generated_at": "2026-11-17T07:11:11+08:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 5,
+  "new_items_count": 6,
   "items": [
+    {
+      "company": "中裕机电",
+      "region": "CN",
+      "title": "中裕机电承建大连绿雪新一期非笼养蛋鸡项目：媒体称施工调试完成，待企业确认",
+      "publisher": "蛋品世界WECD / 鸡病专业网转载",
+      "published_at": "2026-11-16T00:00:00+08:00",
+      "url": "https://m.jbzyw.com/view/524120",
+      "source_type": "行业媒体报道（转载蛋品世界WECD）；企业官网同项目进度页交叉关联",
+      "verification": "2026-11-16行业媒体报道指新一期项目施工调试完成，并披露智能环控、自动饲喂和粪污处理系统；中裕机电官网2026-10-03公司新闻列表曾列同一大连绿雪多期非笼养项目冲刺投产，但尚未找到企业官网对11月16日完工状态的独立确认。完工状态标注待企业确认。",
+      "summary": "报道提到项目配套栖架、产蛋箱、觅食区、智能环控、自动饲喂及粪污处理；大连绿雪此前公开五年约30万羽非笼养转型计划。设备品牌、合同金额、采购清单和项目验收文件未披露。"
+    },
     {
       "company": "Vencomatic Group",
       "region": "INTL",
