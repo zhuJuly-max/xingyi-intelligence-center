@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T07:11:11+08:00",
+  "generated_at": "2026-11-17T00:06:47.104412+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 6,
+  "new_items_count": 2,
   "items": [
     {
       "company": "中裕机电",
@@ -803,6 +803,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic Group acquires Van Gent Laying Nests - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2020-01-13T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOHVoakFxcEludHAwdHJhYWloNndyaU9SRFNmUDQtcXQ0SHhFWXRURWRyajc5a1NaSldBVUI2ZlRJSUZFOVEyeHp0d0xXNkhIVm5zN0dkUzktOHlNY25kanAtdm9HbTdjQ0puV3JwMUo5ZGFIUkNsRHRwM3YxUXFDWVRfTmpxYU1hMkl0V3hMZEdjNkkxcm9NLXYzcVJkZEE3UFZLbUJneS1GaGlvbVJyX2hXT19ZMVJS?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Jamesway",
       "region": "INTL",
       "title": "Aviagen’s newest, largest hatchery to serve US and beyond - WATTPoultry.com",
@@ -879,6 +889,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2018-08-02T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQm1zYkU0Ml91a21ac2xFYTJYdEJJRk1Ub1B1SlF1TVBWQ0plNVcyQURUTHBjRlRCZ0RoRmVUNGh6SlVZb2R0WW1Da3NaSmozUTlfUnd3Y0ZyVHljX243NjB2NWV4QlpIYmx4dGo0ZzRzdzRwNldBeElKbnlDVkY1U3BQQkxkZ2VpeldDbmpfbmI3VHozSThJTFp4clpKbGhiNTRTRV94VlVhSkIxcEJlUGJIeU1uNEc2SmJxa0RRMA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "Annyalla Chicks’ new hatchery opens its doors - Farmers Weekly",
+      "publisher": "Farmers Weekly",
+      "published_at": "2018-07-30T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbElZZXFtMmpoTjR0OTFOdXpmcnhwOTVSVVlzNzI4LTlMTUUtei1WdXhTV3hYOWRqMXp0WFRod3VwcGNpX0VjY3RHc3pmOGRlSDlKbERUa1RTN3VZVWhZanVrcVp5UnpjZ2ZCVy1PR2tpc0phMjZoc1VHX3kzTENSZGE0Njd6VlZHTWhFZg?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
