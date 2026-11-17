@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "note": "企业资料仅收录可由企业官网、官方公告或可信行业来源支持的公开信息。未列出的产品参数、价格、市场份额、渠道和财务数据均不推断；新闻聚合条目为待核实线索。",
   "watchlist": [
     {
@@ -214,91 +214,6 @@
   ],
   "profiles": [
     {
-      "name": "Petersime",
-      "region": "比利时 / 国际",
-      "type": "孵化设备与整场方案",
-      "website": "https://www.petersime.com/",
-      "products": "孵化设备、孵化场软件、环控、整场交钥匙方案、数据记录器",
-      "verified_facts": "官网展示孵化设备、孵化场软件、环控及整场方案；案例包括中国福建圣农项目（年入孵1.2亿枚）及山东益生项目（年入孵1.4亿枚）。",
-      "technology": "官网近期展示UniStreamer智能孵化机，强调雏鸡均匀度与可追溯；另有Eagle Trax孵化场追溯方案。",
-      "source_type": "企业官网",
-      "source_url": "https://www.petersime.com/",
-      "checked": "2026-11-02"
-    },
-    {
-      "name": "Pas Reform",
-      "region": "荷兰 / 国际",
-      "type": "孵化设备与整场方案",
-      "website": "https://www.pasreform.com/en/",
-      "products": "Smart系列入孵机/出雏机、SmartSense、孵化场方案及服务",
-      "verified_facts": "官网公开SmartSetPro容量系列；SmartSetPro单机容量由22,032枚至132,192枚（按型号）。2026年8月发布波兰ZWD Białobrzegi项目案例。",
-      "technology": "SmartPro系列、区域温度控制及孵化场数据方案；具体配置以项目规格为准。",
-      "source_type": "企业官网",
-      "source_url": "https://www.pasreform.com/en/solutions/2/incubation/12/smartsetprotm-setter",
-      "checked": "2026-11-02"
-    },
-    {
-      "name": "HatchTech",
-      "region": "荷兰 / 国际",
-      "type": "孵化设备与雏鸡早期护理",
-      "website": "https://hatchtech.com/",
-      "products": "setter、hatcher、HatchCare、SetCare",
-      "verified_facts": "官网2026-10-23披露挪威Norsk Kylling在此前扩建后新增6台SetCare设备；官网亦列出2027年IPPE参展信息。",
-      "technology": "HatchCare雏鸡早期护理；SetCare孵化设备。",
-      "source_type": "企业官网新闻",
-      "source_url": "https://hatchtech.com/articles/",
-      "checked": "2026-11-02"
-    },
-    {
-      "name": "广兴",
-      "region": "中国",
-      "type": "自动化养殖设备",
-      "website": "https://www.cnguangxing.com/",
-      "products": "蛋鸡、育雏育成、种鸡、肉鸡成套设备；自动集蛋、输料及喂料系统",
-      "verified_facts": "官网披露集团1988年成立、产品覆盖多类自动化养殖系统，并介绍研发制造及出口业务。",
-      "technology": "成套自动化养鸡设备；未从本轮公开页面核实具体型号参数。",
-      "source_type": "企业官网",
-      "source_url": "https://www.cnguangxing.com/",
-      "checked": "2026-11-02"
-    },
-    {
-      "name": "中裕",
-      "region": "中国",
-      "type": "家禽养殖设备及环控",
-      "website": "https://www.kaleter.com/index.html",
-      "products": "种禽、肉禽、蛋禽饲养系统；农牧环保、环控、农牧机器人及雏禽运输车",
-      "verified_facts": "官网披露研发制造、设备安装与售后服务业务；2026-10-03公司新闻列表列出“中裕机电携手大连绿雪，多期非笼养蛋鸡项目冲刺投产”。2026-11-16行业媒体称大连绿雪新一期项目施工调试完成，但官网尚未独立确认该完工状态，待企业进一步核验。",
-      "technology": "环控系统、NEF节能鸡舍及农牧机器人产品线。",
-      "source_type": "企业官网项目动态 + 行业媒体线索（完工待核）",
-      "source_url": "https://www.kaleter.com/news_106.html",
-      "checked": "2026-11-17",
-      "secondary_source_url": "https://m.jbzyw.com/view/524120"
-    },
-    {
-      "name": "小巨人",
-      "region": "中国",
-      "type": "养殖设备与EPC",
-      "website": "https://www.cdxjr.com/",
-      "products": "智慧养殖整体解决方案、环境控制系统及EPC交钥匙服务",
-      "verified_facts": "官网2026-09-01披露安徽百万只母鸡项目一期竣工、泰国40万只蛋鸡项目环控培训、江西200万只蛋鸡项目育雏设备交付。",
-      "technology": "ECS环境控制系统；项目交付与培训能力为公开报道重点。",
-      "source_type": "企业官网新闻",
-      "source_url": "https://www.cdxjr.com/News/index_6.html",
-      "checked": "2026-11-02"
-    },
-    {
-      "name": "晓鸣股份（产业技术观察）",
-      "region": "中国",
-      "type": "禽业客户 / 技术应用标杆",
-      "website": "https://www.xmqy.com.cn/",
-      "products": "蛋鸡种业、孵化与雏鸡供应；非设备制造商竞品，作为技术与客户侧观察对象",
-      "verified_facts": "2026-11-02发布卵内胚胎性别鉴定AI技术规模化商业应用消息，报道准确率98%以上，并披露2027年规划落地6000万羽数字孵化厅。",
-      "technology": "高光谱成像、AI模型解析与自动化分拣；新闻称孵化第13天无损检测。",
-      "source_type": "中国证券报 / 中证网报道",
-      "source_url": "https://www.cs.com.cn/ssgs/01/2026/11/02/detail_2026110210049167.html",
-      "checked": "2026-11-02"
-    },
-    {
       "name": "Big Dutchman",
       "region": "国际",
       "type": "养殖设备",
@@ -311,18 +226,6 @@
       "checked": "2026-11-10"
     },
     {
-      "name": "UKKÖ Robotics",
-      "region": "加拿大 / 国际",
-      "type": "禽舍自动化与移动鸡舍系统",
-      "website": "https://www.ukkorobotics.com/",
-      "products": "ROVA|BARN系列自主移动牧场鸡舍；ROVA|FSK自动喂鸡系统；ROVA|CSK育雏附件；ROVA|BULK便携加压供水拖车；ROVA|GATE太阳能农场门机。",
-      "verified_facts": "DLG EuroTier 2026创新奖官方获奖页面将ROVABARN SE列为银奖产品，展位Hall 17 · D45。DLG披露该系统通过App监测水料消耗，可每日自主移动最多20次，配有自动折叠侧墙用于温度控制、集成供料饮水系统及防捕食者设施；奖项页面未披露销售数量、价格或商业项目规模。",
-      "technology": "移动鸡舍、App调度、自主移动、饲料与饮水消耗监测、自动侧墙温控及数据化禽群管理；官网产品页另列自动喂鸡和育雏附件。该系统定位为移动放牧鸡舍，不等同于大型封闭式肉鸡舍或孵化场整套设备。",
-      "source_type": "DLG创新奖官方页面与企业官网",
-      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
-      "checked": "2026-11-11"
-    },
-    {
       "name": "Bröring Technology GmbH",
       "region": "德国 / 国际",
       "type": "蛋品输送监测与破损预警（周边自动化设备）",
@@ -330,18 +233,6 @@
       "products": "Electronic Egg电子冲击记录器；在集蛋输送过程中记录鸡蛋受到的冲击强度，通过不同颜色LED直接指示冲击程度，可选Wi‑Fi连接手机、平板或PC进行记录。",
       "verified_facts": "DLG EuroTier 2026官方创新奖页面列出Hall 14 · C44，并将Bröring Electronic Egg列为银奖产品。官方说明其用于定位蛋品输送系统中的冲击点，帮助识别并改善破损环节；不是完整集蛋输送线或分级包装系统。",
       "technology": "以可移动电子蛋作为冲击传感器，现场LED提示冲击强度；可选Wi‑Fi用于数据记录。对兴仪的相关性在蛋鸡场集蛋、输送和蛋品处理自动化的周边设备，而非孵化设备直接竞品。",
-      "source_type": "DLG EuroTier 2026官方创新奖页面与企业官网",
-      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
-      "checked": "2026-11-12"
-    },
-    {
-      "name": "VetVise GmbH",
-      "region": "德国 / 国际",
-      "type": "AI禽群监测与鸡舍管理（数字化周边方案）",
-      "website": "https://www.vetvise.com/en",
-      "products": "BarnBuddy摄像头与AI驱动的禽群健康和鸡舍管理系统，面向猪、家禽和牛；分析采食行为、活动量及群体分布，并可连接鸡舍控制电脑。",
-      "verified_facts": "DLG EuroTier 2026官方创新奖页面列出Hall 16 · D23，并将BarnBuddy列为银奖产品。官方说明系统分析动物采食行为、活动和分布，辅助提前识别疾病与环境问题；生成式AI助手支持35种语言，并可直接向鸡舍电脑下达控制指令。",
-      "technology": "摄像头行为识别、禽群健康监测、环境异常提示及鸡舍控制联动。属于数字化监测与管理方案，不等同于环控硬件本体。",
       "source_type": "DLG EuroTier 2026官方创新奖页面与企业官网",
       "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
       "checked": "2026-11-12"
@@ -370,6 +261,18 @@
       "checked": "2026-11-12"
     },
     {
+      "name": "HatchTech",
+      "region": "荷兰 / 国际",
+      "type": "孵化设备与雏鸡早期护理",
+      "website": "https://hatchtech.com/",
+      "products": "setter、hatcher、HatchCare、SetCare",
+      "verified_facts": "官网2026-10-23披露挪威Norsk Kylling在此前扩建后新增6台SetCare设备；官网亦列出2027年IPPE参展信息。",
+      "technology": "HatchCare雏鸡早期护理；SetCare孵化设备。",
+      "source_type": "企业官网新闻",
+      "source_url": "https://hatchtech.com/articles/",
+      "checked": "2026-11-02"
+    },
+    {
       "name": "Munters Reventa GmbH",
       "region": "德国 / 国际",
       "type": "蛋鸡与育成鸡舍废气净化及环境控制",
@@ -380,6 +283,115 @@
       "source_type": "DLG官方测试报告7521",
       "source_url": "https://www.dlg.org/tests/landtechnik-betriebsmittel/pruefberichte/test-munters-reventa-abluftreinigungsanlage-lavamatic",
       "checked": "2026-11-12"
+    },
+    {
+      "name": "Pas Reform",
+      "region": "荷兰 / 国际",
+      "type": "孵化设备与整场方案",
+      "website": "https://www.pasreform.com/en/",
+      "products": "Smart系列入孵机/出雏机、SmartSense、孵化场方案及服务",
+      "verified_facts": "官网公开SmartSetPro容量系列；SmartSetPro单机容量由22,032枚至132,192枚（按型号）。2026年8月发布波兰ZWD Białobrzegi项目案例。",
+      "technology": "SmartPro系列、区域温度控制及孵化场数据方案；具体配置以项目规格为准。",
+      "source_type": "企业官网",
+      "source_url": "https://www.pasreform.com/en/solutions/2/incubation/12/smartsetprotm-setter",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "Petersime",
+      "region": "比利时 / 国际",
+      "type": "孵化设备与整场方案",
+      "website": "https://www.petersime.com/",
+      "products": "孵化设备、孵化场软件、环控、整场交钥匙方案、数据记录器",
+      "verified_facts": "官网展示孵化设备、孵化场软件、环控及整场方案；案例包括中国福建圣农项目（年入孵1.2亿枚）及山东益生项目（年入孵1.4亿枚）。",
+      "technology": "官网近期展示UniStreamer智能孵化机，强调雏鸡均匀度与可追溯；另有Eagle Trax孵化场追溯方案。",
+      "source_type": "企业官网",
+      "source_url": "https://www.petersime.com/",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "UKKÖ Robotics",
+      "region": "加拿大 / 国际",
+      "type": "禽舍自动化与移动鸡舍系统",
+      "website": "https://www.ukkorobotics.com/",
+      "products": "ROVA|BARN系列自主移动牧场鸡舍；ROVA|FSK自动喂鸡系统；ROVA|CSK育雏附件；ROVA|BULK便携加压供水拖车；ROVA|GATE太阳能农场门机。",
+      "verified_facts": "DLG EuroTier 2026创新奖官方获奖页面将ROVABARN SE列为银奖产品，展位Hall 17 · D45。DLG披露该系统通过App监测水料消耗，可每日自主移动最多20次，配有自动折叠侧墙用于温度控制、集成供料饮水系统及防捕食者设施；奖项页面未披露销售数量、价格或商业项目规模。",
+      "technology": "移动鸡舍、App调度、自主移动、饲料与饮水消耗监测、自动侧墙温控及数据化禽群管理；官网产品页另列自动喂鸡和育雏附件。该系统定位为移动放牧鸡舍，不等同于大型封闭式肉鸡舍或孵化场整套设备。",
+      "source_type": "DLG创新奖官方页面与企业官网",
+      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "checked": "2026-11-11"
+    },
+    {
+      "name": "Vencomatic Group",
+      "region": "荷兰 / 国际",
+      "type": "禽舍系统、蛋品收集与处理、孵化场自动化、气候控制及精准养殖",
+      "website": "https://www.vencomaticgroup.com/",
+      "products": "Vencomatic/Van Gent禽舍系统；Prinzen蛋品收集与孵化场上蛋自动化；Agro Supply气候解决方案；Meggsius精准养殖与蛋流监测；Genus Focus蛋内性别鉴定（与Orbem合作）。",
+      "verified_facts": "企业官网将业务覆盖禽舍设备、蛋品收集与处理、气候解决方案、精准养殖及孵化场自动化。2026-11-09官方客户案例披露土耳其Orallar Kandıra Hatchery周入孵能力约212万枚，已安装Destacker、System Loader、Ovoset Pro、Trolley Loader。2026-11-16官方公告称意大利Chick Farm Europe计划于2026年12月下旬启用Genus Focus。",
+      "technology": "Genus Focus由Orbem的MRI与AI分类能力和Vencomatic的蛋品处理自动化整合，采用非侵入式蛋内性别识别，通常在孵化第11–12天进行；供应商产品页披露单模块处理能力超过3,100枚/小时、单人可并行管理最多六个模块，具体产能取决于配置。Orallar案例展示Destacker、System Loader、Ovoset Pro、Trolley Loader的自动化蛋品流转。",
+      "source_type": "企业官网产品页、客户案例及公告",
+      "source_url": "https://www.vencomaticgroup.com/",
+      "checked": "2026-11-18"
+    },
+    {
+      "name": "VetVise GmbH",
+      "region": "德国 / 国际",
+      "type": "AI禽群监测与鸡舍管理（数字化周边方案）",
+      "website": "https://www.vetvise.com/en",
+      "products": "BarnBuddy摄像头与AI驱动的禽群健康和鸡舍管理系统，面向猪、家禽和牛；分析采食行为、活动量及群体分布，并可连接鸡舍控制电脑。",
+      "verified_facts": "DLG EuroTier 2026官方创新奖页面列出Hall 16 · D23，并将BarnBuddy列为银奖产品。官方说明系统分析动物采食行为、活动和分布，辅助提前识别疾病与环境问题；生成式AI助手支持35种语言，并可直接向鸡舍电脑下达控制指令。",
+      "technology": "摄像头行为识别、禽群健康监测、环境异常提示及鸡舍控制联动。属于数字化监测与管理方案，不等同于环控硬件本体。",
+      "source_type": "DLG EuroTier 2026官方创新奖页面与企业官网",
+      "source_url": "https://eurotier.com/en/awards/innovation-award/winners-2026",
+      "checked": "2026-11-12"
+    },
+    {
+      "name": "中裕",
+      "region": "中国",
+      "type": "家禽养殖设备及环控",
+      "website": "https://www.kaleter.com/index.html",
+      "products": "种禽、肉禽、蛋禽饲养系统；农牧环保、环控、农牧机器人及雏禽运输车",
+      "verified_facts": "官网披露研发制造、设备安装与售后服务业务；2026-10-03公司新闻列表列出“中裕机电携手大连绿雪，多期非笼养蛋鸡项目冲刺投产”。2026-11-16行业媒体称大连绿雪新一期项目施工调试完成，但官网尚未独立确认该完工状态，待企业进一步核验。",
+      "technology": "环控系统、NEF节能鸡舍及农牧机器人产品线。",
+      "source_type": "企业官网项目动态 + 行业媒体线索（完工待核）",
+      "source_url": "https://www.kaleter.com/news_106.html",
+      "checked": "2026-11-17",
+      "secondary_source_url": "https://m.jbzyw.com/view/524120"
+    },
+    {
+      "name": "小巨人",
+      "region": "中国",
+      "type": "养殖设备与EPC",
+      "website": "https://www.cdxjr.com/",
+      "products": "智慧养殖整体解决方案、环境控制系统及EPC交钥匙服务",
+      "verified_facts": "官网2026-09-01披露安徽百万只母鸡项目一期竣工、泰国40万只蛋鸡项目环控培训、江西200万只蛋鸡项目育雏设备交付。",
+      "technology": "ECS环境控制系统；项目交付与培训能力为公开报道重点。",
+      "source_type": "企业官网新闻",
+      "source_url": "https://www.cdxjr.com/News/index_6.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "广兴",
+      "region": "中国",
+      "type": "自动化养殖设备",
+      "website": "https://www.cnguangxing.com/",
+      "products": "蛋鸡、育雏育成、种鸡、肉鸡成套设备；自动集蛋、输料及喂料系统",
+      "verified_facts": "官网披露集团1988年成立、产品覆盖多类自动化养殖系统，并介绍研发制造及出口业务。",
+      "technology": "成套自动化养鸡设备；未从本轮公开页面核实具体型号参数。",
+      "source_type": "企业官网",
+      "source_url": "https://www.cnguangxing.com/",
+      "checked": "2026-11-02"
+    },
+    {
+      "name": "晓鸣股份（产业技术观察）",
+      "region": "中国",
+      "type": "禽业客户 / 技术应用标杆",
+      "website": "https://www.xmqy.com.cn/",
+      "products": "蛋鸡种业、孵化与雏鸡供应；非设备制造商竞品，作为技术与客户侧观察对象",
+      "verified_facts": "2026-11-02发布卵内胚胎性别鉴定AI技术规模化商业应用消息，报道准确率98%以上，并披露2027年规划落地6000万羽数字孵化厅。",
+      "technology": "高光谱成像、AI模型解析与自动化分拣；新闻称孵化第13天无损检测。",
+      "source_type": "中国证券报 / 中证网报道",
+      "source_url": "https://www.cs.com.cn/ssgs/01/2026/11/02/detail_2026110210049167.html",
+      "checked": "2026-11-02"
     }
   ],
   "watchlist_count": 33

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "frequency": "daily",
   "region": "山东主产区",
   "currency": "CNY",
@@ -9,7 +9,7 @@
     2025,
     2026
   ],
-  "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。 白羽肉鸡板块细分为种蛋、商品代鸡苗、毛鸡棚前价及冻品板冻大胸/大琵琶腿；指标单位分别为元/枚、元/羽、元/斤、元/公斤。 白羽肉鸭进一步拆分为樱桃谷肉鸭苗、樱桃谷肉鸭及白条鸭产品三个独立指标；品种、产品形态及交易环节未经核实的旧报价不并入新序列。 蛋鸡板块拆分为鸡蛋/蛋鸡苗/老母鸡均价统计图，以及单斤鸡蛋饲料成本与养殖利润图。蛋鸡苗单位元/羽，鸡蛋与老母鸡单位元/斤；饲料成本与利润均按元/斤鸡蛋核算，必须注明成本模型及核算口径。 817小白鸡拆分为817商品代鸡苗、817毛鸡棚前价及5-7只规格产品三个独立序列，单位分别为元/羽、元/斤及元/公斤；规格或交易环节不匹配的报价不得并入。 2025年度可比历史点目前仍为稀疏样本，只有找到相同品种、市场与交易条件的原始报价才纳入，不将稀疏点连线解释为完整年度走势。 2026-11-11补充说明：价格区间以price_low/price_high保存并在走势图显示区间竖线，不取中点；只有明确单值报价才使用price并连线。全国批发市场鸡蛋单列为独立序列，不与济宁到户价拼接。 2026-11-12：新增2025年同日可核验的817毛鸡、817鸡苗、白羽肉鸡鸡苗和全国批发市场鸡蛋/白条鸡历史点；新增2026年11月11–12日可核验的白羽肉鸡、鸭苗/毛鸭通用留档、蛋鸡、817及全国批发市场日度快照。817毛鸡按1.3–1.7斤、1.5–1.7斤、2.8–3.2斤和3.2–3.5斤规格分列；山东与辽宁冻品、产区毛鸡与全国白条鸡批发均价分开，不混合统计口径。 2026-11-15补充：新增11月15日白羽肉鸡鸡苗与毛鸡、817鸡苗及按体重规格拆分的817毛鸡报价；新增11月14日山东济宁鸡蛋与淘汰鸡报价；新增11月15–16日山东板冻大胸动态区间。所有新增记录保留市场、单位、币种、交易条件及原始来源链接；区间按原值显示，不取中点。",
+  "methodology": "四个品类统一采用山东主产区代表性市场每日价格；仅录入可核实的原始报价。不同交易环节不得混合，缺失日期留空，不插值、不估算。 白羽肉鸡板块细分为种蛋、商品代鸡苗、毛鸡棚前价及冻品板冻大胸/大琵琶腿；指标单位分别为元/枚、元/羽、元/斤、元/公斤。 白羽肉鸭进一步拆分为樱桃谷肉鸭苗、樱桃谷肉鸭及白条鸭产品三个独立指标；品种、产品形态及交易环节未经核实的旧报价不并入新序列。 蛋鸡板块拆分为鸡蛋/蛋鸡苗/老母鸡均价统计图，以及单斤鸡蛋饲料成本与养殖利润图。蛋鸡苗单位元/羽，鸡蛋与老母鸡单位元/斤；饲料成本与利润均按元/斤鸡蛋核算，必须注明成本模型及核算口径。 817小白鸡拆分为817商品代鸡苗、817毛鸡棚前价及5-7只规格产品三个独立序列，单位分别为元/羽、元/斤及元/公斤；规格或交易环节不匹配的报价不得并入。 2025年度可比历史点目前仍为稀疏样本，只有找到相同品种、市场与交易条件的原始报价才纳入，不将稀疏点连线解释为完整年度走势。 2026-11-11补充说明：价格区间以price_low/price_high保存并在走势图显示区间竖线，不取中点；只有明确单值报价才使用price并连线。全国批发市场鸡蛋单列为独立序列，不与济宁到户价拼接。 2026-11-12：新增2025年同日可核验的817毛鸡、817鸡苗、白羽肉鸡鸡苗和全国批发市场鸡蛋/白条鸡历史点；新增2026年11月11–12日可核验的白羽肉鸡、鸭苗/毛鸭通用留档、蛋鸡、817及全国批发市场日度快照。817毛鸡按1.3–1.7斤、1.5–1.7斤、2.8–3.2斤和3.2–3.5斤规格分列；山东与辽宁冻品、产区毛鸡与全国白条鸡批发均价分开，不混合统计口径。 2026-11-15补充：新增11月15日白羽肉鸡鸡苗与毛鸡、817鸡苗及按体重规格拆分的817毛鸡报价；新增11月14日山东济宁鸡蛋与淘汰鸡报价；新增11月15–16日山东板冻大胸动态区间。所有新增记录保留市场、单位、币种、交易条件及原始来源链接；区间按原值显示，不取中点。 2026-11-18维护：补录2026-11-18白羽肉鸡毛鸡/鸡苗、肉种蛋及山东板冻大胸、817鸡苗/毛鸡；补录2026-11-17蛋鸡产区报价与全国批发市场日度快照；补录2025-11-18同日可核验的肉种蛋、白羽肉鸡鸡苗、817鸡苗/毛鸡、全国批发市场及品种未细分肉鸭/鸭苗记录。种蛋按山东、青岛平度、辽宁、黑龙江分序列；817未注明体重成鸡及自提鸡苗分别设独立指标；通用鸭报价仅留档，不并入樱桃谷专属曲线。无同口径报价的系列继续留空。",
   "series": [
     {
       "id": "broiler_eggs",
@@ -20,12 +20,25 @@
       ],
       "records": [
         {
+          "date": "2025-11-18",
+          "market": "山东青岛平度",
+          "source": "鸡病专业网：2025年11月18日肉种蛋价格早报",
+          "source_url": "https://www.jbzyw.com/view/475465",
+          "trade_stage": "肉种蛋报价；青岛平度；非商品代鸡蛋；与其他地区分序列",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "qingdao_pingdu",
+          "quote_type": "point",
+          "price": 2
+        },
+        {
           "date": "2026-11-06",
           "price": 1.43,
           "market": "山东",
           "source": "Mysteel日报：白羽鸡苗窄幅震荡，白羽肉鸡情绪看涨（20261106）",
           "source_url": "https://ncp.mysteel.com/a/26110617/2195394792075DB7.html",
-          "trade_stage": "种蛋到户成交均价"
+          "trade_stage": "种蛋到户成交均价",
+          "metric": "shandong"
         },
         {
           "date": "2026-11-11",
@@ -33,7 +46,8 @@
           "market": "青岛平度",
           "source": "鸡病专业网/博亚和讯：2026年11月11日肉种蛋价格早报",
           "source_url": "https://www.jbzyw.com/view/523869",
-          "trade_stage": "肉种蛋报价；青岛平度；非商品代鸡蛋"
+          "trade_stage": "肉种蛋报价；青岛平度；非商品代鸡蛋",
+          "metric": "qingdao_pingdu"
         },
         {
           "date": "2026-11-17",
@@ -43,7 +57,7 @@
           "source": "鸡病专业网：山东地区17-18日鸡苗-肉鸡冻品市场动态速览",
           "source_url": "https://m.jbzyw.com/view/524142",
           "trade_stage": "肉种蛋主流交投区间；原文列示辽宁地区；11月17–18日动态参考",
-          "metric": "value",
+          "metric": "liaoning",
           "quote_type": "range",
           "unit": "元/枚",
           "currency": "CNY"
@@ -56,10 +70,36 @@
           "source": "鸡病专业网：山东地区17-18日鸡苗-肉鸡冻品市场动态速览",
           "source_url": "https://m.jbzyw.com/view/524142",
           "trade_stage": "肉种蛋主流交易区间；原文列示黑龙江地区；11月17–18日动态参考",
-          "metric": "value",
+          "metric": "heilongjiang",
           "quote_type": "range",
           "unit": "元/枚",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-18",
+          "market": "辽宁地区",
+          "source": "鸡病专业网：山东地区18–19日鸡苗-肉鸡冻品市场动态速览",
+          "source_url": "https://www.jbzyw.com/view/524221",
+          "trade_stage": "肉种蛋主流交易区间；11月18–19日动态参考，非单笔成交",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "liaoning",
+          "quote_type": "range",
+          "price_low": 1.2,
+          "price_high": 1.4
+        },
+        {
+          "date": "2026-11-18",
+          "market": "黑龙江地区",
+          "source": "鸡病专业网：山东地区18–19日鸡苗-肉鸡冻品市场动态速览",
+          "source_url": "https://www.jbzyw.com/view/524221",
+          "trade_stage": "肉种蛋主流交易区间；11月18–19日动态参考，非单笔成交",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "heilongjiang",
+          "quote_type": "range",
+          "price_low": 1.6,
+          "price_high": 1.8
         }
       ]
     },
@@ -81,6 +121,19 @@
           "trade_stage": "商品代苗鸡开票价区间；大小孵化场综合；不含运输及疫苗费用",
           "metric": "invoice_range",
           "quote_type": "range"
+        },
+        {
+          "date": "2025-11-18",
+          "market": "滨州",
+          "source": "鸡病专业网：11月18日苗鸡行情分析：短线回力，同姿躁动",
+          "source_url": "https://www.jbzyw.com/view/475238",
+          "trade_stage": "商品代苗鸡开票价区间；滨州；大小孵化场综合；不含运输及疫苗费用",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "invoice_range",
+          "quote_type": "range",
+          "price_low": 3.2,
+          "price_high": 3.8
         },
         {
           "date": "2026-11-06",
@@ -171,6 +224,19 @@
           "quote_type": "range",
           "unit": "元/羽",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-18",
+          "market": "滨州",
+          "source": "鸡病专业网：11月18日鸡苗行情分析：供需双弱，延宕破位",
+          "source_url": "https://www.jbzyw.com/view/524159",
+          "trade_stage": "商品代苗鸡开票价区间；滨州；大小孵化场综合；不含运输及疫苗费用；与11月17日持平",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "invoice_range",
+          "quote_type": "range",
+          "price_low": 1.8,
+          "price_high": 2.4
         }
       ]
     },
@@ -270,6 +336,19 @@
           "quote_type": "range",
           "unit": "元/斤",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-18",
+          "market": "滨州",
+          "source": "鸡病专业网：11月18日肉鸡行情分析：强卷作妖，交替竞合",
+          "source_url": "https://www.jbzyw.com/view/524170",
+          "trade_stage": "白羽肉毛鸡棚前收购价区间；滨州；与11月17日持平",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "range",
+          "price_low": 3.25,
+          "price_high": 3.35
         }
       ]
     },
@@ -381,6 +460,18 @@
       ],
       "records": [
         {
+          "date": "2025-11-18",
+          "market": "潍坊",
+          "source": "鸡病专业网/博亚和讯：2025年11月18日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/475466",
+          "trade_stage": "毛鸭产区报价；品种/合同类型未细分；仅通用留档，不并入樱桃谷肉鸭曲线",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 3.35
+        },
+        {
           "date": "2026-11-07",
           "price": 3.85,
           "market": "潍坊",
@@ -403,6 +494,18 @@
           "source": "鸡病专业网/博亚和讯：2026年11月11日肉鸭市场价格",
           "source_url": "https://www.jbzyw.com/view/523871",
           "trade_stage": "毛鸭报价；品种/合同类型未细分；仅作通用留档，不并入樱桃谷专属曲线"
+        },
+        {
+          "date": "2026-11-17",
+          "market": "潍坊",
+          "source": "鸡病专业网/博亚和讯：2026年11月17日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/524176",
+          "trade_stage": "毛鸭产区报价；品种/合同类型未细分；仅通用留档，不并入樱桃谷肉鸭曲线",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 3.3
         }
       ],
       "archived_note": "此条报价未核实为樱桃谷品种专属，不用于以下三个樱桃谷/白条鸭走势图。"
@@ -549,6 +652,31 @@
           "quote_type": "point",
           "unit": "元/斤",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-17",
+          "market": "山东济宁",
+          "source": "鸡病专业网：11月17日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524219",
+          "trade_stage": "红蛋散筐大码产区报价区间；元/斤；与11月16日持平",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "egg",
+          "quote_type": "range",
+          "price_low": 4.1,
+          "price_high": 4.13
+        },
+        {
+          "date": "2026-11-17",
+          "market": "山东济宁",
+          "source": "鸡病专业网：11月17日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524219",
+          "trade_stage": "淘汰鸡产区报价；元/斤；与11月16日持平",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "old_hen",
+          "quote_type": "point",
+          "price": 4.7
         }
       ],
       "unit": "分项单位"
@@ -570,6 +698,32 @@
           "source_url": "https://ncp.mysteel.com/a/25111208/9B3BE7CF3510C93D.html",
           "trade_stage": "棚前价；1.3–1.7斤规格；元/斤",
           "metric": "value"
+        },
+        {
+          "date": "2025-11-18",
+          "market": "安徽皖北",
+          "source": "鸡病专业网：11月18日817、麻鸡成鸡、鸡苗价格行情汇总",
+          "source_url": "https://www.jbzyw.com/view/475445",
+          "trade_stage": "817成鸡棚前价格；体重规格未注明；安徽皖北；不与分规格曲线混合",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "unclassified_adult",
+          "quote_type": "range",
+          "price_low": 3.9,
+          "price_high": 4
+        },
+        {
+          "date": "2025-11-18",
+          "market": "安徽皖南",
+          "source": "鸡病专业网：11月18日817、麻鸡成鸡、鸡苗价格行情汇总",
+          "source_url": "https://www.jbzyw.com/view/475445",
+          "trade_stage": "817成鸡棚前价格；体重规格未注明；安徽皖南；不与分规格曲线混合",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "unclassified_adult",
+          "quote_type": "range",
+          "price_low": 3.9,
+          "price_high": 4
         },
         {
           "date": "2026-11-06",
@@ -609,17 +763,6 @@
         },
         {
           "date": "2026-11-12",
-          "price_low": 3.4,
-          "price_high": 3.5,
-          "market": "山东聊城",
-          "source": "鸡病专业网：11月12日部分地区肉杂817棚前价格行情",
-          "source_url": "https://www.jbzyw.com/view/523910",
-          "trade_stage": "大规格2.80–3.20斤棚前收购价区间；元/斤",
-          "metric": "large_range",
-          "quote_type": "range"
-        },
-        {
-          "date": "2026-11-12",
           "price_low": 3.35,
           "price_high": 3.45,
           "market": "山东德州",
@@ -627,6 +770,17 @@
           "source_url": "https://www.jbzyw.com/view/523910",
           "trade_stage": "中规格3.20–3.50斤棚前收购价区间；元/斤",
           "metric": "medium_range",
+          "quote_type": "range"
+        },
+        {
+          "date": "2026-11-12",
+          "price_low": 3.4,
+          "price_high": 3.5,
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月12日部分地区肉杂817棚前价格行情",
+          "source_url": "https://www.jbzyw.com/view/523910",
+          "trade_stage": "大规格2.80–3.20斤棚前收购价区间；元/斤",
+          "metric": "large_range",
           "quote_type": "range"
         },
         {
@@ -642,17 +796,6 @@
         },
         {
           "date": "2026-11-14",
-          "price_low": 3.3,
-          "price_high": 3.4,
-          "market": "山东聊城",
-          "source": "鸡病专业网：11月14日肉鸡行情分析：阳线飘飘，又双叒叕",
-          "source_url": "https://www.jbzyw.com/view/523981",
-          "trade_stage": "2.8–3.2斤规格棚前收购价区间；元/斤",
-          "metric": "large_range",
-          "quote_type": "range"
-        },
-        {
-          "date": "2026-11-14",
           "price_low": 3.25,
           "price_high": 3.35,
           "market": "山东德州",
@@ -660,6 +803,17 @@
           "source_url": "https://www.jbzyw.com/view/523981",
           "trade_stage": "3.2–3.5斤规格棚前价区间；元/斤",
           "metric": "medium_range",
+          "quote_type": "range"
+        },
+        {
+          "date": "2026-11-14",
+          "price_low": 3.3,
+          "price_high": 3.4,
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月14日肉鸡行情分析：阳线飘飘，又双叒叕",
+          "source_url": "https://www.jbzyw.com/view/523981",
+          "trade_stage": "2.8–3.2斤规格棚前收购价区间；元/斤",
+          "metric": "large_range",
           "quote_type": "range"
         },
         {
@@ -675,19 +829,6 @@
         },
         {
           "date": "2026-11-15",
-          "price_low": 3.3,
-          "price_high": 3.4,
-          "market": "山东聊城",
-          "source": "鸡病专业网：11月15日肉鸡行情分析：强化连涨，春华秋实",
-          "source_url": "https://www.jbzyw.com/view/524033",
-          "trade_stage": "2.8–3.2斤大规格毛鸡棚前收购价区间；与11月14日持平",
-          "metric": "large_range",
-          "quote_type": "range",
-          "unit": "元/斤",
-          "currency": "CNY"
-        },
-        {
-          "date": "2026-11-15",
           "price_low": 3.25,
           "price_high": 3.35,
           "market": "山东德州",
@@ -695,6 +836,19 @@
           "source_url": "https://www.jbzyw.com/view/524033",
           "trade_stage": "3.2–3.5斤中规格毛鸡棚前价区间；与11月14日持平",
           "metric": "medium_range",
+          "quote_type": "range",
+          "unit": "元/斤",
+          "currency": "CNY"
+        },
+        {
+          "date": "2026-11-15",
+          "price_low": 3.3,
+          "price_high": 3.4,
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月15日肉鸡行情分析：强化连涨，春华秋实",
+          "source_url": "https://www.jbzyw.com/view/524033",
+          "trade_stage": "2.8–3.2斤大规格毛鸡棚前收购价区间；与11月14日持平",
+          "metric": "large_range",
           "quote_type": "range",
           "unit": "元/斤",
           "currency": "CNY"
@@ -714,19 +868,6 @@
         },
         {
           "date": "2026-11-16",
-          "price_low": 3.3,
-          "price_high": 3.4,
-          "market": "山东聊城",
-          "source": "鸡病专业网：11月16日肉鸡行情分析：破局而生，比价至上",
-          "source_url": "https://www.jbzyw.com/view/524052",
-          "trade_stage": "2.8–3.2斤规格毛鸡棚前收购价区间；与11月15日持平",
-          "metric": "large_range",
-          "quote_type": "range",
-          "unit": "元/斤",
-          "currency": "CNY"
-        },
-        {
-          "date": "2026-11-16",
           "price_low": 3.25,
           "price_high": 3.35,
           "market": "山东德州",
@@ -740,25 +881,25 @@
         },
         {
           "date": "2026-11-16",
+          "price_low": 3.3,
+          "price_high": 3.4,
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月16日肉鸡行情分析：破局而生，比价至上",
+          "source_url": "https://www.jbzyw.com/view/524052",
+          "trade_stage": "2.8–3.2斤规格毛鸡棚前收购价区间；与11月15日持平",
+          "metric": "large_range",
+          "quote_type": "range",
+          "unit": "元/斤",
+          "currency": "CNY"
+        },
+        {
+          "date": "2026-11-16",
           "price_low": 3.2,
           "price_high": 3.3,
           "market": "未单列地区",
           "source": "鸡病专业网：11月16日肉鸡行情分析：破局而生，比价至上",
           "source_url": "https://www.jbzyw.com/view/524052",
           "trade_stage": "1.50–1.70斤小规格棚前收购价区间；来源未单列地区；较11月15日上涨0.05元/斤",
-          "metric": "small_range",
-          "quote_type": "range",
-          "unit": "元/斤",
-          "currency": "CNY"
-        },
-        {
-          "date": "2026-11-17",
-          "price_low": 3.2,
-          "price_high": 3.3,
-          "market": "未单列地区",
-          "source": "鸡病专业网：11月17日肉鸡行情分析：空方锁价，围堵拦截",
-          "source_url": "https://m.jbzyw.com/view/524087",
-          "trade_stage": "1.50–1.70斤小规格棚前收购价区间；来源未单列地区；与11月16日持平",
           "metric": "small_range",
           "quote_type": "range",
           "unit": "元/斤",
@@ -789,6 +930,58 @@
           "quote_type": "range",
           "unit": "元/斤",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-17",
+          "price_low": 3.2,
+          "price_high": 3.3,
+          "market": "未单列地区",
+          "source": "鸡病专业网：11月17日肉鸡行情分析：空方锁价，围堵拦截",
+          "source_url": "https://m.jbzyw.com/view/524087",
+          "trade_stage": "1.50–1.70斤小规格棚前收购价区间；来源未单列地区；与11月16日持平",
+          "metric": "small_range",
+          "quote_type": "range",
+          "unit": "元/斤",
+          "currency": "CNY"
+        },
+        {
+          "date": "2026-11-18",
+          "market": "山东德州",
+          "source": "鸡病专业网：11月18日部分地区肉杂817棚前价格行情",
+          "source_url": "https://www.jbzyw.com/view/524188",
+          "trade_stage": "3.2–3.5斤中规格毛鸡棚前价区间；山东德州；与11月17日持平",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "medium_range",
+          "quote_type": "range",
+          "price_low": 3.25,
+          "price_high": 3.35
+        },
+        {
+          "date": "2026-11-18",
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月18日部分地区肉杂817棚前价格行情",
+          "source_url": "https://www.jbzyw.com/view/524188",
+          "trade_stage": "2.8–3.2斤大规格毛鸡棚前收购价区间；山东聊城；与11月17日持平",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "large_range",
+          "quote_type": "range",
+          "price_low": 3.3,
+          "price_high": 3.4
+        },
+        {
+          "date": "2026-11-18",
+          "market": "未单列地区",
+          "source": "鸡病专业网：11月18日部分地区肉杂817棚前价格行情",
+          "source_url": "https://www.jbzyw.com/view/524188",
+          "trade_stage": "1.50–1.70斤小规格棚前收购价区间；来源未单列地区；与11月17日持平",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "small_range",
+          "quote_type": "range",
+          "price_low": 3.2,
+          "price_high": 3.3
         }
       ]
     },
@@ -828,6 +1021,44 @@
           "source_url": "https://ncp.mysteel.com/a/25111208/946E206C96D48406.html",
           "trade_stage": "817鸡苗市场报价；实际成交以单谈为主；元/羽",
           "metric": "value"
+        },
+        {
+          "date": "2025-11-18",
+          "market": "山东德州",
+          "source": "鸡病专业网：11月18日苗鸡行情分析：短线回力，同姿躁动",
+          "source_url": "https://www.jbzyw.com/view/475238",
+          "trade_stage": "817商品代苗鸡开票价区间；山东德州；不含运输及疫苗费用",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "invoice_range",
+          "quote_type": "range",
+          "price_low": 0.55,
+          "price_high": 0.65
+        },
+        {
+          "date": "2025-11-18",
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月18日苗鸡行情分析：短线回力，同姿躁动",
+          "source_url": "https://www.jbzyw.com/view/475238",
+          "trade_stage": "817商品代苗鸡开票价区间；山东聊城；不含运输及疫苗费用",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "invoice_range",
+          "quote_type": "range",
+          "price_low": 0.5,
+          "price_high": 0.6
+        },
+        {
+          "date": "2025-11-18",
+          "market": "山东莘县",
+          "source": "鸡病专业网：11月18日817、麻鸡成鸡、鸡苗价格行情汇总",
+          "source_url": "https://www.jbzyw.com/view/475445",
+          "trade_stage": "817鸡苗混合苗自提报价；莘县；非开票区间价，与德州/聊城开票价分列",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "self_pickup",
+          "quote_type": "point",
+          "price": 0.6
         },
         {
           "date": "2026-11-06",
@@ -918,9 +1149,9 @@
         },
         {
           "date": "2026-11-16",
-          "price_low": 0.63,
-          "price_high": 0.73,
-          "market": "山东聊城",
+          "price_low": 0.65,
+          "price_high": 0.75,
+          "market": "山东德州",
           "source": "鸡病专业网：11月16日鸡苗行情分析：同姿转弱，大开大合",
           "source_url": "https://www.jbzyw.com/view/524051",
           "trade_stage": "817商品代苗鸡开票价区间；不含运输及疫苗费用；与11月15日持平",
@@ -931,12 +1162,25 @@
         },
         {
           "date": "2026-11-16",
-          "price_low": 0.65,
-          "price_high": 0.75,
-          "market": "山东德州",
+          "price_low": 0.63,
+          "price_high": 0.73,
+          "market": "山东聊城",
           "source": "鸡病专业网：11月16日鸡苗行情分析：同姿转弱，大开大合",
           "source_url": "https://www.jbzyw.com/view/524051",
           "trade_stage": "817商品代苗鸡开票价区间；不含运输及疫苗费用；与11月15日持平",
+          "metric": "invoice_range",
+          "quote_type": "range",
+          "unit": "元/羽",
+          "currency": "CNY"
+        },
+        {
+          "date": "2026-11-17",
+          "price_low": 0.65,
+          "price_high": 0.75,
+          "market": "山东德州",
+          "source": "鸡病专业网：11月17日鸡苗行情分析：失时背势，脱虚向实",
+          "source_url": "https://m.jbzyw.com/view/524085",
+          "trade_stage": "817商品代苗鸡开票价区间；不含运输及疫苗费用；与11月16日持平",
           "metric": "invoice_range",
           "quote_type": "range",
           "unit": "元/羽",
@@ -956,17 +1200,30 @@
           "currency": "CNY"
         },
         {
-          "date": "2026-11-17",
-          "price_low": 0.65,
-          "price_high": 0.75,
+          "date": "2026-11-18",
           "market": "山东德州",
-          "source": "鸡病专业网：11月17日鸡苗行情分析：失时背势，脱虚向实",
-          "source_url": "https://m.jbzyw.com/view/524085",
-          "trade_stage": "817商品代苗鸡开票价区间；不含运输及疫苗费用；与11月16日持平",
+          "source": "鸡病专业网：11月18日鸡苗行情分析：供需双弱，延宕破位",
+          "source_url": "https://www.jbzyw.com/view/524159",
+          "trade_stage": "817商品代苗鸡开票价区间；山东德州；不含运输及疫苗费用；与11月17日持平",
+          "unit": "元/羽",
+          "currency": "CNY",
           "metric": "invoice_range",
           "quote_type": "range",
+          "price_low": 0.65,
+          "price_high": 0.75
+        },
+        {
+          "date": "2026-11-18",
+          "market": "山东聊城",
+          "source": "鸡病专业网：11月18日鸡苗行情分析：供需双弱，延宕破位",
+          "source_url": "https://www.jbzyw.com/view/524159",
+          "trade_stage": "817商品代苗鸡开票价区间；山东聊城；不含运输及疫苗费用；与11月17日持平",
           "unit": "元/羽",
-          "currency": "CNY"
+          "currency": "CNY",
+          "metric": "invoice_range",
+          "quote_type": "range",
+          "price_low": 0.63,
+          "price_high": 0.73
         }
       ]
     },
@@ -990,6 +1247,30 @@
         "山东主产区"
       ],
       "records": [
+        {
+          "date": "2025-11-18",
+          "market": "山东六和",
+          "source": "鸡病专业网/博亚和讯：2025年11月18日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/475466",
+          "trade_stage": "企业鸭苗报价；品种未细分；仅通用留档，不并入樱桃谷鸭苗曲线",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 3
+        },
+        {
+          "date": "2025-11-18",
+          "market": "山东益客",
+          "source": "鸡病专业网/博亚和讯：2025年11月18日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/475466",
+          "trade_stage": "企业鸭苗报价；品种未细分；仅通用留档，不并入樱桃谷鸭苗曲线",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 3.07
+        },
         {
           "date": "2026-11-09",
           "price": 1.5,
@@ -1021,6 +1302,30 @@
           "source": "鸡病专业网/博亚和讯：2026年11月11日肉鸭市场价格",
           "source_url": "https://www.jbzyw.com/view/523871",
           "trade_stage": "企业鸭苗报价；品种未细分；不并入樱桃谷鸭苗曲线"
+        },
+        {
+          "date": "2026-11-17",
+          "market": "山东六和",
+          "source": "鸡病专业网/博亚和讯：2026年11月17日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/524176",
+          "trade_stage": "企业鸭苗报价；品种未细分；仅通用留档，不并入樱桃谷鸭苗曲线",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 1.7
+        },
+        {
+          "date": "2026-11-17",
+          "market": "山东益客",
+          "source": "鸡病专业网/博亚和讯：2026年11月17日肉鸭市场价格",
+          "source_url": "https://www.jbzyw.com/view/524176",
+          "trade_stage": "企业鸭苗报价；品种未细分；仅通用留档，不并入樱桃谷鸭苗曲线",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 1.77
         }
       ],
       "archived_note": "品种未核实，不并入樱桃谷肉鸭苗走势图。"
@@ -1049,6 +1354,18 @@
           "source": "农业农村部市场与信息化司：2025年11月12日农产品批发价格200指数日监测",
           "source_url": "https://scs.moa.gov.cn/jcyj/202511/t20251112_6478863.htm",
           "trade_stage": "截至14:00全国批发市场均价；元/公斤；独立于500县集贸市场周度均价"
+        },
+        {
+          "date": "2025-11-18",
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：2025年11月18日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202511/t20251118_6478990.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；与500县周度集贸市场均价分开",
+          "unit": "元/公斤",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 7.35
         },
         {
           "date": "2026-11-10",
@@ -1093,6 +1410,18 @@
           "quote_type": "point",
           "unit": "元/公斤",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-17",
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：11月17日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202611/t20261117_6489510.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；独立于500县集贸市场周度均价",
+          "unit": "元/公斤",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 9.47
         }
       ]
     },
@@ -1149,6 +1478,19 @@
           "quote_type": "range",
           "unit": "元/公斤",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-18",
+          "market": "山东市场",
+          "source": "鸡病专业网：山东地区18–19日鸡苗-肉鸡冻品市场动态速览",
+          "source_url": "https://www.jbzyw.com/view/524221",
+          "trade_stage": "板冻大胸主流成交价区间；11月18–19日动态参考，非单日单笔成交",
+          "unit": "元/公斤",
+          "currency": "CNY",
+          "metric": "breast_range",
+          "quote_type": "range",
+          "price_low": 8.32,
+          "price_high": 9.03
         }
       ]
     },
@@ -1171,6 +1513,18 @@
           "source": "农业农村部市场与信息化司：2025年11月12日农产品批发价格200指数日监测",
           "source_url": "https://scs.moa.gov.cn/jcyj/202511/t20251112_6478863.htm",
           "trade_stage": "截至14:00全国批发市场均价；元/公斤；与产区毛鸡棚前价分开"
+        },
+        {
+          "date": "2025-11-18",
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：2025年11月18日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202511/t20251118_6478990.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；与产区棚前毛鸡报价分开",
+          "unit": "元/公斤",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 17.57
         },
         {
           "date": "2026-11-11",
@@ -1207,6 +1561,18 @@
           "quote_type": "point",
           "unit": "元/公斤",
           "currency": "CNY"
+        },
+        {
+          "date": "2026-11-17",
+          "market": "全国农产品批发市场",
+          "source": "农业农村部市场与信息化司：11月17日农产品批发价格200指数日监测",
+          "source_url": "https://scs.moa.gov.cn/jcyj/202611/t20261117_6489510.htm",
+          "trade_stage": "截至14:00全国批发市场均价；元/公斤；与产区棚前毛鸡价分开",
+          "unit": "元/公斤",
+          "currency": "CNY",
+          "metric": "value",
+          "quote_type": "point",
+          "price": 16.98
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T00:06:47.104412+00:00",
+  "generated_at": "2026-11-17T23:24:09.000Z",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
   "new_items_count": 2,
@@ -14,6 +14,16 @@
       "source_type": "行业媒体报道（转载蛋品世界WECD）；企业官网同项目进度页交叉关联",
       "verification": "2026-11-16行业媒体报道指新一期项目施工调试完成，并披露智能环控、自动饲喂和粪污处理系统；中裕机电官网2026-10-03公司新闻列表曾列同一大连绿雪多期非笼养项目冲刺投产，但尚未找到企业官网对11月16日完工状态的独立确认。完工状态标注待企业确认。",
       "summary": "报道提到项目配套栖架、产蛋箱、觅食区、智能环控、自动饲喂及粪污处理；大连绿雪此前公开五年约30万羽非笼养转型计划。设备品牌、合同金额、采购清单和项目验收文件未披露。"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Chick Farm Europe宣布引入Genus Focus蛋内性别鉴定系统，计划12月下旬投运",
+      "publisher": "Vencomatic Group",
+      "published_at": "2026-11-16",
+      "url": "https://www.vencomaticgroup.com/blog/chick-farm-europe-is-first-in-italy-to-adopt-genus-focus-for-in-ovo-sexing",
+      "source_type": "企业官网公告",
+      "verification": "Vencomatic Group于2026-11-16公告：Chick Farm Europe将成为意大利首家引入Genus Focus的企业，计划2026年12月下旬启用。系统由Vencomatic Group与Orbem合作开发，采用MRI+AI非侵入式识别，通常在孵化第11–12天进行；公告未披露项目模块数、合同金额及实际投运结果。"
     },
     {
       "company": "Vencomatic Group",
@@ -90,6 +100,16 @@
       "source_type": "DLG官方创新奖页面（日期为本次核验日期，原页面未标独立发布日期）",
       "verification": "DLG官方获奖页面确认ROVABARN SE获银奖并列出Hall 17 · D45；未披露价格、销量及商业项目规模",
       "summary": "官方资料显示ROVABARN SE通过App监测水料消耗，可每日自主移动最多20次，配有自动折叠侧墙温控、集成供料饮水系统及防捕食者设施。产品属于移动放牧鸡舍自动化，不应等同于大型封闭式肉鸡舍或孵化场整套系统。"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Orallar Kandıra孵化场已安装Destacker、System Loader、Ovoset Pro与Trolley Loader自动化蛋品处理线",
+      "publisher": "Vencomatic Group",
+      "published_at": "2026-11-09",
+      "url": "https://www.vencomaticgroup.com/blog/improving-egg-handling-efficiency-at-orallar-kand%C4%B1ra-hatchery",
+      "source_type": "企业官网客户案例",
+      "verification": "Vencomatic Group于2026-11-09发布客户案例：土耳其Orallar Kandıra Hatchery周入孵能力约212万枚，已安装四套蛋品处理系统；供应商称设备已交付并提供售后支持。项目金额、单机产能及招标过程未披露。"
     },
     {
       "company": "Big Dutchman",
