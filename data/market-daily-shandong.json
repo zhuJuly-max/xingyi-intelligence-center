@@ -234,6 +234,19 @@
           "quote_type": "range"
         },
         {
+          "date": "2026-11-12",
+          "market": "全国500个县集贸市场和采集点",
+          "source": "农业农村部畜牧兽医局：11月第2周畜产品和饲料集贸市场价格情况",
+          "source_url": "https://xmsyj.moa.gov.cn/jcyj/202611/t20261118_6489557.htm",
+          "published_at": "2026-11-18",
+          "trade_stage": "全国500县集贸市场和采集点周度监测均价；采集日2026-11-12；与企业报价及地方日度开票价分开",
+          "currency": "CNY",
+          "unit": "元/只",
+          "metric": "national_weekly",
+          "quote_type": "point",
+          "price": 3.18
+        },
+        {
           "date": "2026-11-13",
           "price": 2.7,
           "market": "山东益生（企业报价）",
@@ -721,6 +734,32 @@
           "source_url": "https://www.jbzyw.com/view/523915",
           "trade_stage": "淘汰鸡报价；元/斤；按产区记录",
           "metric": "binzhou_old_hen"
+        },
+        {
+          "date": "2026-11-12",
+          "market": "全国500个县集贸市场和采集点",
+          "source": "农业农村部畜牧兽医局：11月第2周畜产品和饲料集贸市场价格情况",
+          "source_url": "https://xmsyj.moa.gov.cn/jcyj/202611/t20261118_6489557.htm",
+          "published_at": "2026-11-18",
+          "trade_stage": "全国500县集贸市场和采集点周度监测均价；采集日2026-11-12；与企业报价及地方日度开票价分开",
+          "currency": "CNY",
+          "unit": "元/只",
+          "metric": "chick_weekly",
+          "quote_type": "point",
+          "price": 3.81
+        },
+        {
+          "date": "2026-11-12",
+          "market": "全国500个县集贸市场和采集点",
+          "source": "农业农村部畜牧兽医局：11月第2周畜产品和饲料集贸市场价格情况",
+          "source_url": "https://xmsyj.moa.gov.cn/jcyj/202611/t20261118_6489557.htm",
+          "published_at": "2026-11-18",
+          "trade_stage": "全国500县鸡蛋周度均价；采集日2026-11-12；与农业农村部全国批发市场日度均价及地方产区报价分开",
+          "currency": "CNY",
+          "unit": "元/公斤",
+          "metric": "eggs_500county_weekly",
+          "quote_type": "point",
+          "price": 10.43
         },
         {
           "date": "2026-11-13",
