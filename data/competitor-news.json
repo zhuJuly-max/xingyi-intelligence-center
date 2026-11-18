@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T00:13:48.424354+00:00",
-  "collector": "Google News RSS search; media leads require verification",
+  "generated_at": "2026-11-18T23:10:56.000Z",
+  "collector": "Google News RSS search; publication dates checked; stale/duplicate leads excluded; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 3,
+  "new_items_count": 0,
   "items": [
     {
       "company": "中裕机电",
@@ -1115,16 +1115,6 @@
     {
       "company": "Pas Reform",
       "region": "INTL",
-      "title": "Archer’s Poultry building new hatchery in Ontario - WATTPoultry.com",
-      "publisher": "WATTPoultry.com",
-      "published_at": "2016-11-09T08:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd21uNFR0YkNkNmJqX1UzRlJCZVF3ZU43UG9pTkFCYVdsa1N2V3dUaFR4Uk1RYXlyQVgtLXVCWkRzODViTFVUY0x2anZkaTdmQno4ZkhJOTFwS0tZUm52VjlLUGtxcVcxME9hR0xNTFdTZ0ZGbXRFNjdMQkxXdE1XdjVrbnM3QThRVHB2T0hQTXVKRUtQRWJOVWo5RUE5SXg3Nm1rTFZZWE1QSll1bFpteWJFMDdoQXBiZVVyTWVXX05lcS1CdjBjMTlkTQ?oc=5",
-      "source_type": "媒体检索聚合",
-      "verification": "待核实"
-    },
-    {
-      "company": "Pas Reform",
-      "region": "INTL",
       "title": "Hatchery expansion delivers major boost for Moyer’s Chicks - WATTPoultry.com",
       "publisher": "WATTPoultry.com",
       "published_at": "2016-10-26T07:00:00+00:00",
@@ -1209,26 +1199,6 @@
       "publisher": "The Poultry Site",
       "published_at": "2014-12-04T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQjkzQ0Z5WGJKelJSeHJ5X05qZl9pdUxFc0I3amdKY0ZrWEJqRHdxYnZvWk9tOFg1TEJnN1diSnJ6U2VaM3ktcG1vY1JMdEw0Z0VjTWEwcmZiZTUwZU82SlpUZlNfWTJhMXh6YVNTbTBQMXFORVR4d04yUmVKOXBaa1NMRFpuYXUwZjhYM2Zzcy1MS2luWEtrcE5B?oc=5",
-      "source_type": "媒体检索聚合",
-      "verification": "待核实"
-    },
-    {
-      "company": "Big Dutchman",
-      "region": "INTL",
-      "title": "Big Dutchman expanding US headquarters - WATTPoultry.com",
-      "publisher": "WATTPoultry.com",
-      "published_at": "2014-10-20T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObkxBUjhTSnNkUFlBMTg4M0FxUHlJejNUVGU2YmZZb1lyMGVpNS1ydmQ1VTRjRzJ6NVBVWTNKYmNodnZTRG5JX2QxajFobG0tU3FwNFg4NFhUV1VWYzhKaHJzcEY2SkJkV1M5UE1Tb1VUZGE5YlRUUndDemhDbDhoN2c2WlF3RjV2cFdGbGF3bUw4RDBtOW4zZ1hSNjEzMkc1Tmk5dTgwV1RUUHkwaE1BbXRGcWNNbDFhZHRJUEpWdE0wazJ1NkloSlppbU9nY2FHYVFZMlBNMF9aaHUxLUYtNm1iQTViQQ?oc=5",
-      "source_type": "媒体检索聚合",
-      "verification": "待核实"
-    },
-    {
-      "company": "Pas Reform",
-      "region": "INTL",
-      "title": "Pas Reform Delivers Growth for Sarawak’s Poultry Integrations - The Poultry Site",
-      "publisher": "The Poultry Site",
-      "published_at": "2014-07-23T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd1VNRUlYUHJmbXFXbk1ZNjJGZlluVDJKYkxZemtnLTZUYXlyLUROaURWYXQ0a0VHb0ZGZUExT0tRbGxqSFdPZmg0OG81LXdTNUdoVGlqUl9HTWhhYWZWeEFKMkczbG1vTTNhc2FJSFU3NTNGeGl1Z3p3N0xLamU2NGo0QnVQdHRHRE5QRy1tSXdFb2lFblVCSVpPeWQyUTVrdGhBYkROZw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
