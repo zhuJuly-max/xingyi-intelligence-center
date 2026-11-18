@@ -1943,6 +1943,27 @@
           "price": 16.97
         }
       ]
+    },
+    {
+      "id": "817_eggs_general_legacy",
+      "name": "817种蛋（通用留档，未配置走势图）",
+      "unit": "元/枚",
+      "records": [
+        {
+          "date": "2026-11-19",
+          "market": "山东德州",
+          "source": "鸡病专业网：11月19日鸡苗行情分析：短线低走，比价破防",
+          "source_url": "https://www.jbzyw.com/view/524226",
+          "published_at": "2026-11-18",
+          "trade_stage": "817种蛋自提参考价；与白羽肉鸡肉种蛋分列；该指标当前未配置独立走势图",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "dezhou_self_pickup",
+          "quote_type": "range",
+          "price_low": 0.5,
+          "price_high": 0.52
+        }
+      ]
     }
   ],
   "record_fields": {
