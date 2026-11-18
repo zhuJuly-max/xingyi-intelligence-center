@@ -855,6 +855,60 @@
           "metric": "qingdao_egg",
           "quote_type": "point",
           "price": 4.1
+        },
+        {
+          "date": "2026-11-18",
+          "source": "鸡病专业网：11月18日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524283",
+          "published_at": "2026-11-18",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "market": "山东济宁",
+          "trade_stage": "红蛋散筐大码产区报价；山东济宁；原文口径直接为元/斤",
+          "metric": "jining_egg",
+          "quote_type": "range",
+          "price_low": 4,
+          "price_high": 4.07
+        },
+        {
+          "date": "2026-11-18",
+          "source": "鸡病专业网：11月18日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524283",
+          "published_at": "2026-11-18",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "market": "山东滨州",
+          "trade_stage": "红蛋散筐大码产区报价；山东滨州；原文口径直接为元/斤",
+          "metric": "binzhou_egg",
+          "quote_type": "range",
+          "price_low": 3.9,
+          "price_high": 3.97
+        },
+        {
+          "date": "2026-11-18",
+          "source": "鸡病专业网：11月18日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524283",
+          "published_at": "2026-11-18",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "market": "山东济宁",
+          "trade_stage": "淘汰鸡产区报价；山东济宁；未披露体重规格",
+          "metric": "jining_old_hen",
+          "quote_type": "point",
+          "price": 4.7
+        },
+        {
+          "date": "2026-11-18",
+          "source": "鸡病专业网：11月18日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524283",
+          "published_at": "2026-11-18",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "market": "山东滨州",
+          "trade_stage": "淘汰鸡产区报价；山东滨州；未披露体重规格",
+          "metric": "binzhou_old_hen",
+          "quote_type": "point",
+          "price": 4.7
         }
       ],
       "unit": "分项单位"
