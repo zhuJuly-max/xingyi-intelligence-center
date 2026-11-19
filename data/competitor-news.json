@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T23:10:56.000Z",
-  "collector": "Google News RSS search; publication dates checked; stale/duplicate leads excluded; media leads require verification",
+  "generated_at": "2026-11-19T00:15:46.023249+00:00",
+  "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 0,
+  "new_items_count": 8,
   "items": [
     {
       "company": "中裕机电",
@@ -389,6 +389,16 @@
       "publisher": "YouTube",
       "published_at": "2024-09-23T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ILTUwdFA2SzFqV0J6RzQyT0pGOGdwMkFsWWFfTDFQbDEyWDYzNm14NUJIT05JTHoxNmtXamhNR180MzdFSlFzWHU3aWc3RWFncmE0MlNzY2tTcGpt?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Unlock the potential of data analytics in poultry farming - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2024-04-30T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc29MYXBDRjNQVHl3S2VUMElFSkVmbXMtTG9HOEJJZ0xTY1VtUkowNzZUQW5mM2o3S0w3MDRVbDdGM3loX3FVRnY2bEt3ZWx6NV9kTWY2N29PT3N1RkRvQ1VGejM4RFFlZUpuaUMyTXdIbnJqbEVxb3BkamhzLVhZWi1VWnFabTh5NEJjaDhIUTVsYkJlR0stZldwdjNKT0FLZG5ncHpjdXJrZkZxSFBwYi1fLXNCaXh5Um11SmZ4ZkVyc0hyZVUwcmgtMWE?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -873,6 +883,16 @@
       "verification": "待核实"
     },
     {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "Fukuda Breeders selects HatchTech to build hatchery in Japan - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2019-06-12T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOREJ1by1zT0M3MnZ6Tm9CT0g3dnh0TmVxN1FiMjZhYXJkUGJmV01SWDFEUHFWeGFPTUVSdl9heWI0U2JOczYwVkttRWxTblBQM190WGppQXhsV0pRU1FOZGh3QXVQanRrck9ldGFzQjgyNzFJQ3hyX0VXOUpuLVdWRkp5VFJfMEpLMTVXcGY3TWJleWZrektJc1ExQk1vMkxjUEVuWEdIQ1FtUGF4VnpXdU9pMF9wbVJ6UTFJUjFfS1NqNWM0Szg3dGZn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Vencomatic Group",
       "region": "INTL",
       "title": "First publicly accessible poultry farm for the UK | WATTAgNet - WATTPoultry.com",
@@ -939,6 +959,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2018-07-18T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS0dqZE5qQmZteXFsTEpRY3h4Z3E3NF92dWpMWXlfMVRkZjE0RGNkTW1sLTNXSkNZSVlXczZlQ1B1NDYzVF8ydU9YWGNUVzJmYUlXZFNvZHpUWjhiT0V1d2RYczRjUE40NUZ5QUJVdTFfQWE3cDV2bHlQX1dkeUd2b0VLVjdsMkMxQ3MyajFaMktoR183clV6aXp5NDlZVDE1ZXlnUlpCYlR5YXVHVE45aE8xRQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Jamesway Incubator Company appoints Kan as president | WATTAgNet - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2018-07-11T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdlRpdm43VmxrX3JQRlZ5eVpLc1pvdUZ1MjhLZUNXcDVfZEljZkJlMy1OaTIxcVZPYk5qa1NtWUpKdHJaM3ZxYjVTTkpWaE04bUtOZUVBbzdhVk1XQVY4T3NjVGRHdC1paFlVZXA2aUFDbENtNDNtOE43dGZubXVPVXRNZXFlLW9zM2p0SHlycTU1T1JqakdSTjlRRThURnliLV9YejFRcDZOX2tnaUd4YjNod05Wd2M1c2hKY3VGQQ?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -1115,6 +1145,16 @@
     {
       "company": "Pas Reform",
       "region": "INTL",
+      "title": "Archer’s Poultry building new hatchery in Ontario - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-11-09T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd21uNFR0YkNkNmJqX1UzRlJCZVF3ZU43UG9pTkFCYVdsa1N2V3dUaFR4Uk1RYXlyQVgtLXVCWkRzODViTFVUY0x2anZkaTdmQno4ZkhJOTFwS0tZUm52VjlLUGtxcVcxME9hR0xNTFdTZ0ZGbXRFNjdMQkxXdE1XdjVrbnM3QThRVHB2T0hQTXVKRUtQRWJOVWo5RUE5SXg3Nm1rTFZZWE1QSll1bFpteWJFMDdoQXBiZVVyTWVXX05lcS1CdjBjMTlkTQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
       "title": "Hatchery expansion delivers major boost for Moyer’s Chicks - WATTPoultry.com",
       "publisher": "WATTPoultry.com",
       "published_at": "2016-10-26T07:00:00+00:00",
@@ -1163,6 +1203,26 @@
       "verification": "待核实"
     },
     {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "Bell & Evans adding humane hatchery in Pennsylvania - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-01-25T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUDZGY3Z1V243S1VRY25hUFctZnhtSVlIZndEWW54Qlh1YkdVXzdCRHJhVVFRSDc4d0FRVDd0UlNqYS1QTFNOcEZMNzE1d01LczJMSGJxaHk3b0lqODJLbDhGZ3hkSDRqVVVPTkJWODQtT0E3dkdNZWFzRmN2Y253N3BrYXp3aVRJdFpWVFhaVzlxTUU3amhEYURSZjRla2dVN3YyZUI4RlEtYW1ybU9UeEhCaHhyQ2JIU2t0amsyYk9keDlOU25aakVTb1FVUjd1M0d0ZTFkOA?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Jamesway names Chris Omiecinski president - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-01-21T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUHVLR1M1b2dxRWRmNmZwaXVhLXZiM1l4OFE2T2x1VkpxVXhDTXA1MDRpNDExQXZHQ0pycmF3YzZfaDh5RmNwSVJmY1doTEozRzQ5VVJNcEtHcFUzRmxaTjNQd0VxWXBPVkROYUJKUG8tWmFRREF5ZXRaYWxIcFUwbDYyLUg2SERJVnE0aGU1eXhJSjNXa0pGdHBwc2RWb3NaUHI3MFRndDExcEYxT21JYg?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Pas Reform",
       "region": "INTL",
       "title": "Poland’s JDA Gets Future-ready with New Smart Hatchery - The Poultry Site",
@@ -1199,6 +1259,26 @@
       "publisher": "The Poultry Site",
       "published_at": "2014-12-04T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQjkzQ0Z5WGJKelJSeHJ5X05qZl9pdUxFc0I3amdKY0ZrWEJqRHdxYnZvWk9tOFg1TEJnN1diSnJ6U2VaM3ktcG1vY1JMdEw0Z0VjTWEwcmZiZTUwZU82SlpUZlNfWTJhMXh6YVNTbTBQMXFORVR4d04yUmVKOXBaa1NMRFpuYXUwZjhYM2Zzcy1MS2luWEtrcE5B?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman expanding US headquarters - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2014-10-20T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObkxBUjhTSnNkUFlBMTg4M0FxUHlJejNUVGU2YmZZb1lyMGVpNS1ydmQ1VTRjRzJ6NVBVWTNKYmNodnZTRG5JX2QxajFobG0tU3FwNFg4NFhUV1VWYzhKaHJzcEY2SkJkV1M5UE1Tb1VUZGE5YlRUUndDemhDbDhoN2c2WlF3RjV2cFdGbGF3bUw4RDBtOW4zZ1hSNjEzMkc1Tmk5dTgwV1RUUHkwaE1BbXRGcWNNbDFhZHRJUEpWdE0wazJ1NkloSlppbU9nY2FHYVFZMlBNMF9aaHUxLUYtNm1iQTViQQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Pas Reform Delivers Growth for Sarawak’s Poultry Integrations - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2014-07-23T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd1VNRUlYUHJmbXFXbk1ZNjJGZlluVDJKYkxZemtnLTZUYXlyLUROaURWYXQ0a0VHb0ZGZUExT0tRbGxqSFdPZmg0OG81LXdTNUdoVGlqUl9HTWhhYWZWeEFKMkczbG1vTTNhc2FJSFU3NTNGeGl1Z3p3N0xLamU2NGo0QnVQdHRHRE5QRy1tSXdFb2lFblVCSVpPeWQyUTVrdGhBYkROZw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
