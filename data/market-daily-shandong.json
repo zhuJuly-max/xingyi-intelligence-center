@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-21",
   "frequency": "daily",
   "region": "山东主产区",
   "currency": "CNY",
@@ -43,6 +43,32 @@
           "metric": "qingdao_pingdu",
           "quote_type": "point",
           "price": 2
+        },
+        {
+          "date": "2025-11-21",
+          "published_at": "2025-11-21",
+          "market": "山东青岛平度",
+          "source": "博亚和讯：2025年11月21日肉种蛋价格早报",
+          "source_url": "https://www.jbzyw.com/view/476002",
+          "trade_stage": "肉种蛋报价；山东青岛平度；非商品代鸡蛋；与其他地区分序列",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "qingdao_pingdu",
+          "quote_type": "point",
+          "price": 2
+        },
+        {
+          "date": "2025-11-21",
+          "published_at": "2025-11-21",
+          "market": "辽宁辽阳太子河",
+          "source": "博亚和讯：2025年11月21日肉种蛋价格早报",
+          "source_url": "https://www.jbzyw.com/view/476002",
+          "trade_stage": "肉种蛋报价；辽宁辽阳太子河；非商品代鸡蛋；与其他地区分序列",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "liaoning",
+          "quote_type": "point",
+          "price": 1.7
         },
         {
           "date": "2026-11-06",
@@ -230,6 +256,34 @@
           "quote_type": "range",
           "price_low": 3.2,
           "price_high": 3.8
+        },
+        {
+          "date": "2025-11-21",
+          "published_at": "2025-11-20",
+          "market": "滨州",
+          "source": "鸡病专业网：11月21日苗鸡行情分析",
+          "source_url": "https://www.jbzyw.com/view/475780",
+          "trade_stage": "白羽商品代鸡苗开票价区间；滨州；不含运输及疫苗费用",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "binzhou_invoice_range",
+          "quote_type": "range",
+          "price_low": 3.2,
+          "price_high": 3.8
+        },
+        {
+          "date": "2025-11-21",
+          "published_at": "2025-11-20",
+          "market": "青岛",
+          "source": "鸡病专业网：11月21日苗鸡行情分析",
+          "source_url": "https://www.jbzyw.com/view/475780",
+          "trade_stage": "白羽商品代鸡苗开票价区间；青岛；不含运输及疫苗费用",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "qingdao_invoice_range",
+          "quote_type": "range",
+          "price_low": 2.9,
+          "price_high": 3.6
         },
         {
           "date": "2026-11-06",
@@ -613,6 +667,20 @@
           "quote_type": "range",
           "price_low": 3.23,
           "price_high": 3.33
+        },
+        {
+          "date": "2026-11-21",
+          "published_at": "2026-11-20",
+          "market": "滨州",
+          "source": "鸡病专业网：11月21日肉鸡行情分析",
+          "source_url": "https://www.jbzyw.com/view/524380",
+          "trade_stage": "白羽肉毛鸡棚前收购价区间；山东滨州；与11月20日持平",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "binzhou_value",
+          "quote_type": "range",
+          "price_low": 3.2,
+          "price_high": 3.3
         }
       ]
     },
