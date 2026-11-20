@@ -47,19 +47,6 @@
         {
           "date": "2025-11-21",
           "published_at": "2025-11-21",
-          "market": "山东青岛平度",
-          "source": "博亚和讯：2025年11月21日肉种蛋价格早报",
-          "source_url": "https://www.jbzyw.com/view/476002",
-          "trade_stage": "肉种蛋报价；山东青岛平度；非商品代鸡蛋；与其他地区分序列",
-          "unit": "元/枚",
-          "currency": "CNY",
-          "metric": "qingdao_pingdu",
-          "quote_type": "point",
-          "price": 2
-        },
-        {
-          "date": "2025-11-21",
-          "published_at": "2025-11-21",
           "market": "辽宁辽阳太子河",
           "source": "博亚和讯：2025年11月21日肉种蛋价格早报",
           "source_url": "https://www.jbzyw.com/view/476002",
@@ -69,6 +56,19 @@
           "metric": "liaoning",
           "quote_type": "point",
           "price": 1.7
+        },
+        {
+          "date": "2025-11-21",
+          "published_at": "2025-11-21",
+          "market": "山东青岛平度",
+          "source": "博亚和讯：2025年11月21日肉种蛋价格早报",
+          "source_url": "https://www.jbzyw.com/view/476002",
+          "trade_stage": "肉种蛋报价；山东青岛平度；非商品代鸡蛋；与其他地区分序列",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "qingdao_pingdu",
+          "quote_type": "point",
+          "price": 2
         },
         {
           "date": "2026-11-06",
@@ -197,6 +197,34 @@
           "quote_type": "range",
           "price_low": 1,
           "price_high": 1.2
+        },
+        {
+          "date": "2026-11-21",
+          "published_at": "2026-11-20",
+          "market": "黑龙江市场",
+          "source": "鸡病专业网：山东地区21-22日鸡苗-肉鸡冻品市场动态速览",
+          "source_url": "https://www.jbzyw.com/view/524428",
+          "trade_stage": "白羽肉鸡产业链动态中的种蛋主流交易区间；黑龙江地区；未注明具体孵化场/交易方式",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "heilongjiang",
+          "quote_type": "range",
+          "price_low": 1.5,
+          "price_high": 1.7
+        },
+        {
+          "date": "2026-11-21",
+          "published_at": "2026-11-20",
+          "market": "辽宁地区",
+          "source": "鸡病专业网：山东地区21-22日鸡苗-肉鸡冻品市场动态速览",
+          "source_url": "https://www.jbzyw.com/view/524428",
+          "trade_stage": "白羽肉鸡产业链动态中的种蛋主流交易区间；辽宁地区；未注明具体孵化场/交易方式",
+          "unit": "元/枚",
+          "currency": "CNY",
+          "metric": "liaoning",
+          "quote_type": "range",
+          "price_low": 0.9,
+          "price_high": 1.1
         }
       ]
     },
