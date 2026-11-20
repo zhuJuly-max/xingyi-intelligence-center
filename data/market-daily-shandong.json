@@ -469,6 +469,34 @@
           "metric": "shandong_large_hatchery_quote",
           "quote_type": "point",
           "price": 2.7
+        },
+        {
+          "date": "2026-11-21",
+          "published_at": "2026-11-20",
+          "market": "滨州",
+          "source": "鸡病专业网：11月21日鸡苗行情分析：形劫势禁，斗转星移",
+          "source_url": "https://www.jbzyw.com/view/524377",
+          "trade_stage": "商品代苗鸡开票价区间；大小孵化场综合；不含运输及疫苗费用；较11月20日下滑0.05元/羽",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "binzhou_invoice_range",
+          "quote_type": "range",
+          "price_low": 1.6,
+          "price_high": 2.3
+        },
+        {
+          "date": "2026-11-21",
+          "published_at": "2026-11-20",
+          "market": "青岛",
+          "source": "鸡病专业网：11月21日鸡苗行情分析：形劫势禁，斗转星移",
+          "source_url": "https://www.jbzyw.com/view/524377",
+          "trade_stage": "商品代苗鸡开票价区间；大小孵化场综合；不含运输及疫苗费用；与11月20日持平",
+          "unit": "元/羽",
+          "currency": "CNY",
+          "metric": "qingdao_invoice_range",
+          "quote_type": "range",
+          "price_low": 1.35,
+          "price_high": 2.05
         }
       ]
     },
@@ -681,6 +709,20 @@
           "quote_type": "range",
           "price_low": 3.2,
           "price_high": 3.3
+        },
+        {
+          "date": "2026-11-21",
+          "published_at": "2026-11-20",
+          "market": "临沂",
+          "source": "鸡病专业网：11月21日肉鸡行情分析：劫点竞合，比价易跌",
+          "source_url": "https://www.jbzyw.com/view/524380",
+          "trade_stage": "白羽肉毛鸡棚前收购价区间；山东临沂；较11月20日下滑0.01元/斤",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "linyi_value",
+          "quote_type": "range",
+          "price_low": 3.22,
+          "price_high": 3.32
         }
       ]
     },
@@ -2410,6 +2452,20 @@
           "source": "鸡病专业网：山东地区20-21日鸡苗-肉鸡冻品市场动态速览",
           "source_url": "https://www.jbzyw.com/view/524349",
           "trade_stage": "板冻大胸主流成交价区间；11月20–21日动态参考，非单日单笔成交",
+          "unit": "元/公斤",
+          "currency": "CNY",
+          "metric": "breast_range",
+          "quote_type": "range",
+          "price_low": 8.32,
+          "price_high": 9.03
+        },
+        {
+          "date": "2026-11-21",
+          "published_at": "2026-11-20",
+          "market": "山东市场",
+          "source": "鸡病专业网：山东地区21-22日鸡苗-肉鸡冻品市场动态速览",
+          "source_url": "https://www.jbzyw.com/view/524428",
+          "trade_stage": "板冻大胸主流成交价区间；11月21–22日动态参考，非单日单笔成交",
           "unit": "元/公斤",
           "currency": "CNY",
           "metric": "breast_range",
