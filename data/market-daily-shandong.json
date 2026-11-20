@@ -1321,6 +1321,33 @@
         },
         {
           "date": "2026-11-20",
+          "published_at": "2026-11-20",
+          "market": "山东青岛",
+          "source": "鸡病专业网：11月20日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524429",
+          "trade_stage": "红蛋散筐大码产区报价；山东青岛；与其他包装、等级及批发市场价格分列",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "qingdao_egg",
+          "quote_type": "range",
+          "price_low": 3.95,
+          "price_high": 4.1
+        },
+        {
+          "date": "2026-11-20",
+          "published_at": "2026-11-20",
+          "market": "山东青岛",
+          "source": "鸡病专业网：11月20日我国部分地区鸡蛋、淘汰鸡价格汇总",
+          "source_url": "https://www.jbzyw.com/view/524429",
+          "trade_stage": "淘汰鸡产区报价；山东青岛；体重规格未披露",
+          "unit": "元/斤",
+          "currency": "CNY",
+          "metric": "qingdao_old_hen",
+          "quote_type": "point",
+          "price": 4.7
+        },
+        {
+          "date": "2026-11-20",
           "published_at": "2026-11-19",
           "market": "上海爱格集团",
           "source": "鸡病专业网：11月20日上海部分地区蛋价快报",
