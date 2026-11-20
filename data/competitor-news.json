@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T00:08:58.274869+00:00",
+  "generated_at": "2026-11-20T23:14:32.000000+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 1,
+  "new_items_count": 0,
   "items": [
     {
       "company": "中裕机电",
@@ -1349,16 +1349,6 @@
       "publisher": "The Poultry Site",
       "published_at": "2011-12-14T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWlJicTJ0bVJOend3RS1UTFl6c3k1RkRfOE9IVDc0bTN6QjNqS0ZnVlhOaExQZFQ2YUJ6OTZQME01YlVMc0dsRmhhVmwwd1VBY1g1RUQ0ZXlYdlRCNkdrU0FXMHJzcVBWbDVrY3FqMEZ1SHFHaDU1RnZmZUtCTWxGUUdKU1VhcW5TbG5iWQ?oc=5",
-      "source_type": "媒体检索聚合",
-      "verification": "待核实"
-    },
-    {
-      "company": "Chore-Time poultry",
-      "region": "INTL",
-      "title": "A. Boyce Obituary (2009) - Delaware State News - Legacy | Obituary",
-      "publisher": "Legacy | Obituary",
-      "published_at": "2009-10-15T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdV9Ja0dkb0dhYkZWR09Yc01DVlI0ZW1xVWw2NDRHZGFWeWcxa01obWh6Q1pXVkxsQ21YYUpTT243SEduTG1JeVprb1VKQjdYRGpMa3RQV2ZxY1hYdExFbm1MOFBYcmlzMXFLT1V3WlNSbEwwSmJJb1cxTDN6dGV3SWRzM2pJZXZQdkJoUmxudw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     }
