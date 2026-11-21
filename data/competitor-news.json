@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-21T00:12:03.797823+00:00",
+  "generated_at": "2026-11-22T07:22:12+08:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 4,
+  "new_items_count": 5,
   "items": [
+    {
+      "company": "Vencomatic Group",
+      "region": "INTL",
+      "title": "Vencomatic发布荷兰Geffen种鸡场长期运行案例：约2.7万只种鸡、四栋鸡舍及Prinzen PSPC 5蛋品包装作业",
+      "publisher": "Vencomatic Group",
+      "published_at": "2026-11-20",
+      "url": "https://www.vencomaticgroup.com/de/blog/gefl%C3%BCgelz%C3%BCchter-jos-van-uden-einfach-gute-leistungen",
+      "source_type": "企业官网客户案例",
+      "verification": "Vencomatic官网2026-11-20案例披露：荷兰Geffen种鸡场约27,000只种鸡、分布于4栋鸡舍，并展示Prinzen PSPC 5蛋品包装作业。该集团2026-11-06荷兰语客户故事进一步说明Van Gent巢箱使用超过20年、Prinzen PSPC 5自2005年运行、2010年鸡舍配备Agro Supply Clima Unit。未披露合同金额、设备数量、吞吐量、能耗或产出量化数据；垫料较干/减少补热仅为客户定性反馈。",
+      "summary": "可作为种鸡场巢箱耐久性、蛋品包装设备维护及舍内气候系统的竞品案例；不构成新产品发布或新增采购项目。"
+    },
     {
       "company": "中裕机电",
       "region": "CN",
