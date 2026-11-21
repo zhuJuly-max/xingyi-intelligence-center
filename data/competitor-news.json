@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T23:14:32.000000+00:00",
+  "generated_at": "2026-11-21T00:12:03.797823+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 0,
+  "new_items_count": 4,
   "items": [
     {
       "company": "中裕机电",
@@ -151,6 +151,16 @@
       "source_type": "企业官网案例",
       "verification": "企业官方已核实",
       "summary": "Big Dutchman披露德国Hürup新建肉鸡舍整合FLUXX330料盘、EasyCheck称重、3×40m³料塔、变频排风、进风窗、暖风炉、喷雾降温、LED照明、ViperTouch环控、AC Touch报警及BFN Fusion远程访问；未披露合同金额与单栋容量。"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTech aims to transform incubation with three-phase concept - foodagribusiness.world",
+      "publisher": "foodagribusiness.world",
+      "published_at": "2026-07-14T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ0wxcFItUUw3WFlnT2JZX0JweXBUQzBHVl96ZjlnOXBvbjFyVXBiR2d6X014T0pVcWE4bnR1b09RUVVhdWxGM2ExbEJNTlI4NUd4aGNxempjeFByaDFMVjJMNW5wYTg5WGJxUERSOW9sSEo2VVJ3QjBDRkxrYzdJSjhLdGw3ZXYyVHF6WTNKZEJWQ0Z5SkVsTTdvdFFXeUJ5MlFMNzl6X21fYWR0X0ZqRTZn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
     },
     {
       "company": "Big Dutchman",
@@ -469,6 +479,16 @@
       "publisher": "The Holland Sentinel",
       "published_at": "2023-10-22T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZEstWGwzWnJja285dDFnSk9RWkRiWU5OQUFLTlpvZU5tRTktYVNjbHpjXzNBbDVFaG4ydkxXTHNqdzdJTGxTR0hDQ1JqaGZieXdNaS1KTVp0NUtjVGUwaF93Z0txVVFTS2s5QldsZkFTYmROMWtfVXcwd2RQZC1VTS1hSkhTbk8zYUMtaDBvNHR6R2hsZV9ET0lmZEt0OXJlc2VyR094XzFCWWVJZFJZSHRHNlB5Y05lYTF3eTN1Q2RmRi1DV1ZiZmlSdzRQZm5LN3B5d0FUSGJFa3VRTkFYeWs2MnEtU2xF?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "HatchTech, WPI enter into strategic distribution partnership - Feedstuffs",
+      "publisher": "Feedstuffs",
+      "published_at": "2023-08-19T00:07:52+00:00",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT2lyY19RcUdxYS1lMHVYZmNDZHNZQ283dFprNTNCcHFOckJKaDhwZVhSYV83aWJiOGhyM3J5OFBuenFkMkk0ZGdHazNFZGswSm5EQW1kbk5sLVB3RjdLbDV6akRlUTVzeVBuZllrckQwNzdTSXVxQy1sSkpITURqZlRZQ1VkaU9lT3BkWnFlWUJtR0pYclFWM2FnOURwX2d6?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -1253,6 +1273,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Saudi giant Al-Watania selects Pas Reform for new hatchery - www.foodagribusiness.world",
+      "publisher": "www.foodagribusiness.world",
+      "published_at": "2014-12-17T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOVdiaE5VRGF6Qjh5ZUwtVnRsbGlqVklLZ3hHSDRNMWxJMWVnUi1GQ2wzcElVSC1mT1RsUW1JdGk4NHo0UVd3Mmt2bTZaY3lGMDRDOHpGdWRqbGczRHBHMVNncXFveHQ1M1JUX1ZVcFAzaTVDMEM5VXNVRUJoc19Edy1mYnRJNng2aVBza0Fla0VJeFNfUjQyUXozRWNlSC1Pd2FZ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Petersime",
       "region": "INTL",
       "title": "Nortura Extends Hatchery with Petersime Incubators - The Poultry Site",
@@ -1349,6 +1379,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2011-12-14T08:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWlJicTJ0bVJOend3RS1UTFl6c3k1RkRfOE9IVDc0bTN6QjNqS0ZnVlhOaExQZFQ2YUJ6OTZQME01YlVMc0dsRmhhVmwwd1VBY1g1RUQ0ZXlYdlRCNkdrU0FXMHJzcVBWbDVrY3FqMEZ1SHFHaDU1RnZmZUtCTWxGUUdKU1VhcW5TbG5iWQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Chore-Time poultry",
+      "region": "INTL",
+      "title": "A. Boyce Obituary (2009) - Delaware State News - Legacy | Obituary",
+      "publisher": "Legacy | Obituary",
+      "published_at": "2009-10-15T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdV9Ja0dkb0dhYkZWR09Yc01DVlI0ZW1xVWw2NDRHZGFWeWcxa01obWh6Q1pXVkxsQ21YYUpTT243SEduTG1JeVprb1VKQjdYRGpMa3RQV2ZxY1hYdExFbm1MOFBYcmlzMXFLT1V3WlNSbEwwSmJJb1cxTDN6dGV3SWRzM2pJZXZQdkJoUmxudw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     }
