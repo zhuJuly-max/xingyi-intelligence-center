@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-22",
   "timezone": "所有日期均为展会当地日期；开放时间以主办方最终通知为准",
   "methodology": "展会日期和场馆优先采用主办方官网或行业组织日历；参展商及展位信息仅在企业参展日历或展会官方参展商目录明确列出时标记为已确认。未公布名单的标记为待更新。",
   "items": [
@@ -192,6 +192,12 @@
           "source_url": "https://www.poultryindia.co.in/Exhibitors"
         },
         {
+          "name": "ACI AUTOMATION PRIVATE LTD",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 3 · N21",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
           "name": "AP INCUBATORS",
           "status": "主办方官方参展商目录列示",
           "booth": "Hall 3 · Q1–Q4",
@@ -204,6 +210,12 @@
           "source_url": "https://www.poultryindia.co.in/Exhibitors"
         },
         {
+          "name": "AZRA POULTRY EQUIPMENTS",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 3 · O22–O26",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
           "name": "BAADER AISA PTE LTD",
           "status": "主办方官方参展商目录列示",
           "booth": "Hall 4 · S57–S61",
@@ -213,6 +225,18 @@
           "name": "CHAK RADER FARM EQUIPMENTS PVT LTD",
           "status": "主办方官方参展商目录列示",
           "booth": "Hall 3 · N1–N5",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "DAYAL POULTRY APPLIANCES",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 3 · N19–N20",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "DECCAN AUTOMATION TECHNOLOGY",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 5 · FF7–FF8",
           "source_url": "https://www.poultryindia.co.in/Exhibitors"
         },
         {
@@ -246,6 +270,12 @@
           "source_url": "https://www.poultryindia.co.in/Exhibitors"
         },
         {
+          "name": "KP POULTRY EQUIPMENTS",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 3 · Q10–Q12",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
           "name": "LUBING INDIA PVT LTD",
           "status": "主办方官方参展商目录列示",
           "booth": "Hall 4 · Y11–Y18",
@@ -276,9 +306,21 @@
           "source_url": "https://www.poultryindia.co.in/Exhibitors"
         },
         {
+          "name": "POLLEX EQUIPMENTS PRIVATE LIMITED",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 4 · T55–T62",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
           "name": "SANOVO TECHNOLOGY ASIA SDN BHD",
           "status": "主办方官方参展商目录列示",
           "booth": "Hall 5 · AA13",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "SKA S.R.L. ITALY",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 7 · OO21–OO24",
           "source_url": "https://www.poultryindia.co.in/Exhibitors"
         },
         {
@@ -286,13 +328,31 @@
           "status": "主办方官方参展商目录列示",
           "booth": "Hall 4 · S11–S14",
           "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "SKYLARK EQUIPMENTS",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 4 · T7–T13",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "VAL PRODUCTS INDIA PRIVATE COMPANY",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 3 · P21–P27",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
+        },
+        {
+          "name": "VIJAYRAJ POULTRY EQUIPMENTS PVT LTD",
+          "status": "主办方官方参展商目录列示；具体产品范围待企业资料核实",
+          "booth": "Hall 3 · O1–O21",
+          "source_url": "https://www.poultryindia.co.in/Exhibitors"
         }
       ],
-      "relevance": "南亚重要家禽设备与养殖技术展；本档案收录主办方目录中17家与孵化、环控、饮水、蛋品处理及屠宰加工相关的设备企业。目录列名不等于已确认采购或合作。",
+      "relevance": "南亚重要家禽设备与养殖技术展；本档案收录主办方目录中27家名称/定位与孵化、家禽设备、自动化、环控、饮水、蛋品处理及加工相关的参展企业。目录列名与展位仅表示参展信息，不等于其具体产品范围、采购意向或合作关系；产品信息待企业资料核实。",
       "source_url": "https://www.poultryindia.co.in/",
       "knowledge_day": "2026-11-24",
       "exhibitor_directory_url": "https://www.poultryindia.co.in/Exhibitors",
-      "official_note": "2026-11-19复核：IPEMA主办方官网确认展览为2026-11-25至27日（HITEX），Knowledge Day为11月24日（HICC/Novotel）。官方展商目录页面标题为“550+ Companies”，但目录正文当前明确显示“490 companies confirmed / Showing 490 of 490 exhibitors”；以正文当前已确认名单490家为准，保留标题宣传口径作注，不将二者混为同一统计数。七个展馆当前标注展位数43、45、43、60、92、95、112。现有17家设备相关企业档案未发现需新增的已核验企业；展位以主办方实时目录及最终现场图为准。"
+      "official_note": "2026-11-22复核：IPEMA主办方官网确认展览为2026-11-25至27日（HITEX），Knowledge Day为11月24日（HICC/Novotel）。官方展商目录正文当前显示“490 companies confirmed / Showing 490 of 490 exhibitors”；目录页标题及展会宣传页另用“550+ Companies/Exhibitors”，分别保留已确认名单490家与宣传预期550+的口径，不混为一项。新增核实10家与家禽设备、自动化、孵化/养殖系统相关的参展商及展位；本档案现收录27家相关企业。七个展馆当前标注展位数43、45、43、60、92、95、112。企业名称与展位以主办方实时目录为准；目录列名不证明其具体产品、采购需求或合作意向。"
     },
     {
       "id": "india-international-poultry-tech-expo-2026-chandigarh",
