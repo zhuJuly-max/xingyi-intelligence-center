@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:22:12+08:00",
+  "generated_at": "2026-11-22T00:01:02.668788+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
   "new_items_count": 5,
@@ -786,6 +786,16 @@
     {
       "company": "Petersime",
       "region": "INTL",
+      "title": "Morocco's Groupe Casa Grains Chooses Petersime - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-17T13:49:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdFpsYnZRM0c2WHNRVFVVYmszOVpmZEVKaG9NM0dvVU1nX2hDWmczSW0wblE2WXk0Yk9yTTNsSHM2M2RGWkozbEFiX284Q0FxNFdNaHVJOFctMjk1WGhRem9TQWxzb1VzWU1YQnFMVTVjZnhhM1hvV1lvQm5HaFZlVmxaWnBvc0thSENPeVVnN2R2c1E?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
       "title": "Is chick yield still a valid reference? - The Poultry Site",
       "publisher": "The Poultry Site",
       "published_at": "2020-09-17T06:41:35+00:00",
@@ -1064,6 +1074,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "India’s Royal Agro Farm entering poultry sector - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2018-04-20T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ1hLaUtzWGh5T0NhaWZJSXJScmk0VmhoTWYyZW5KYVQ3bFpoVTUxc1NSSTF5dVFYbEM4SGJzbmhTcjRKdlRlNGVHM3BPc2tCcXFUdEtHMGRMbktFaWVHOEd6dnhuYzBhbHM1VS0tNnR1OFBuV3dFZ01Pbi1qV3RHUUxxM0ZUZnhNaGFOYVE4ai1ubzlQVy14Nk9zR08zMWszaDhBcUMyQ2o2ckhiSHRHeUhJMHVTZ01yZ3UwM2FCRXpQaVhIakZuWGFwRDdaTlk?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Vencomatic Group",
       "region": "INTL",
       "title": "1,000,000 birds placed on the Bolegg Gallery - The Poultry Site",
@@ -1306,6 +1326,16 @@
     {
       "company": "Big Dutchman",
       "region": "INTL",
+      "title": "Big Dutchman expanding US headquarters - Feed Strategy",
+      "publisher": "Feed Strategy",
+      "published_at": "2014-10-20T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXN6RUdvQ2J4ZzlTVURESFh3WklJNE1rUjVqNTZXR1FZMHR4MVpMb08td3V4azBGS0QyRThPb19RbEpONzVPUEcxNTFlRVJ4RjNKMnVRUzlmdFRwdDZ6d2h6bFZkNWhTaUhsV25LN3U0RUpBbXBGdXVGdWtkTjAtVmM4MG9Pb2pWV3FueU9XSndUa1J3OG4yNlBHSU1RbTN5VmdxejNVbV80a0RXLVJPLXZuUWs?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
       "title": "Big Dutchman expanding US headquarters - WATTPoultry.com",
       "publisher": "WATTPoultry.com",
       "published_at": "2014-10-20T07:00:00+00:00",
@@ -1400,6 +1430,26 @@
       "publisher": "Legacy | Obituary",
       "published_at": "2009-10-15T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdV9Ja0dkb0dhYkZWR09Yc01DVlI0ZW1xVWw2NDRHZGFWeWcxa01obWh6Q1pXVkxsQ21YYUpTT243SEduTG1JeVprb1VKQjdYRGpMa3RQV2ZxY1hYdExFbm1MOFBYcmlzMXFLT1V3WlNSbEwwSmJJb1cxTDN6dGV3SWRzM2pJZXZQdkJoUmxudw?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman Welcomes New Family Member - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2009-08-27T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGRqZXhCU25rd052MVhIRldSM1BFZ1lOalkzdmFoLUZvMGROU1N5Y2t6LVBIZVAzM3pYZ2U0eFpnLXNvREJnU043SkoyUUFpU3hSNVBpbW5rS1pSTGk2aGR0aHBiNFlwMGdUWkhCdjh5T3BncXhQUFo4NjY2a2N4eDh6TFVacmpDQm5n?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman Acquires Poultry Management Systems - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2009-05-21T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2Y1SG5iMTBZUTB6N0ZDdExaM00zMUdXWExuZmNmVjJpdEhFbE1McWVHMVVlVnpwdHUwc3B6SjBKOUw2cWNWWkdOQVB0dDdVWnRDSGRnaFJ3c21aN1NXOXdVWXRsc0lYS1RldVF5eGtDRlNFbnBEdWhvWVBVRVFYMm94aWVraF9DV2t6Z3V0b25UYUhadmxB?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     }
