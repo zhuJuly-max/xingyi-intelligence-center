@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T00:01:02.668788+00:00",
+  "generated_at": "2026-11-23T00:07:55.531990+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 5,
+  "new_items_count": 2,
   "items": [
     {
       "company": "Vencomatic Group",
@@ -734,6 +734,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "Big Dutchman Acquires Controlling Interest in Proline Group - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-09-29T03:58:41+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMjltTHFaYnh0VDh5VldMdnhTQUxPM2NjazdLTVBOMUZsaVBhSEVGemlYU0FBa0k1SFB3NEN5ZEJsWlBhTWxWMmJHVXJtN2dTdTd1dVI2dVNiOHVLWEFWeXZwbFpXVUNQd2dwMGhFQXBGRnYxUzdtdFp5SnhSQTlUZXhDZVotblNyRFRrc3QwZ19pTVVlck4xQkgtbG96Z05ITktCWTRn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Petersime",
       "region": "INTL",
       "title": "Petersime marks a milestone: 10.000th OvoScan™ technology project - The Poultry Site",
@@ -1220,6 +1230,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2016-07-06T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMEZJcEoyTGdKNC0tMTNwYkR6RDBTeGVxS0ZyZ21UVzl5RF9STlZyRlNoa1E0LWwyZlpsNmN4WXh1MkpRcEFoZmZTUkQ0WDBzZzFyU2IyTV91YlJJUFFfM2d2eC1oeUhNQnNxTUNWUUI1b0tCcGhHejNHTGVzazc5S1Y0M3Axd2ZiSkZYWGlKYnlqdGg2YVNjS2lyOVhCMTdzeEJ0WVVqQUlUOWtGSnZ0dzlqMWVoRFA4YjlBMkRoWDlwWmEz?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "HatchTech",
+      "region": "INTL",
+      "title": "How to safely cut antibiotic use in poultry production - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2016-06-15T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbTAwWWl4Q1MzNF9kS2ROenFhWWdvdUVhRndWb0RBTlBsVlF0Y1R0Xzd6akVMTHpyNjl5T3g2ZlNhWURzYk1ZTUNsQ25kX1dCajZaM21meTlKYkRpZm9KQ2xzVG9pZGUzOUZBTEhZVTBEa1dhem9Ddy1qb3g3MWtub2N5Rjg2VDM5OTBpdjBGd0cxblJ5YTdIV2JROWMtQnhtNEUwUEZ2NUVhcjNGd3lOZDdSTUhXNWQ3bkRPbHNWTDE2dw?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
