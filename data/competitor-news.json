@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:07:55.531990+00:00",
+  "generated_at": "2026-11-24T00:14:18.154496+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
   "new_items_count": 2,
@@ -674,6 +674,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Jamesway Webinar Wednesdays: Your hatchery now…and in the future - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2021-06-11T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQktmaXNvSlhRQk1UaEI2MkhLM0hTSzB4YTl2bTNsY3dqellPUVczSXpOcXhvdUdNVVB5c0ZfcGpvMHl0V1J6OFN1Qkx2UFV3Tmo1YzY2cE1Uem9vcGZ5UlpCNHZaSm5yZFJROHdQWl9Ga3ZrLUdmTkswWFh3SUYyTFpQMFdnV3poeThlbWg5b1h5WHdkZzhfb3FzQkVURnlPQmRYV01B?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Pas Reform",
       "region": "INTL",
       "title": "Kasturi Poultry Farms chooses SmartPro™ from Royal Pas Reform for its new hatchery in Tamil Nadu - The Poultry Site",
@@ -940,6 +950,16 @@
       "publisher": "WATTPoultry.com",
       "published_at": "2019-06-12T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOREJ1by1zT0M3MnZ6Tm9CT0g3dnh0TmVxN1FiMjZhYXJkUGJmV01SWDFEUHFWeGFPTUVSdl9heWI0U2JOczYwVkttRWxTblBQM190WGppQXhsV0pRU1FOZGh3QXVQanRrck9ldGFzQjgyNzFJQ3hyX0VXOUpuLVdWRkp5VFJfMEpLMTVXcGY3TWJleWZrektJc1ExQk1vMkxjUEVuWEdIQ1FtUGF4VnpXdU9pMF9wbVJ6UTFJUjFfS1NqNWM0Szg3dGZn?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "VIV Asia 2019: The smart World of Big Dutchman - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2019-03-07T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV1YyNU95Q01JTVhEVGRrRHZRaE1HOUtrQmVJRlludXE2YnF0YUFLTmJGc3JMN01zbVN3RmlBUTNLYjFZWFl3X3Y1TEZpVkdsTHg3cV9WUFZKRVZIMUMzWjNXMldiZjZPLXV3amszcDZKeVNRU1RVOGhuQzMyYTZZVGFwcTBEMDAwSlhPbGFGb1RMYWl0Nnc?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
