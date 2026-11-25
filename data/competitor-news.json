@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T00:14:18.154496+00:00",
+  "generated_at": "2026-11-25T00:11:29.087496+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 2,
+  "new_items_count": 4,
   "items": [
     {
       "company": "Vencomatic Group",
@@ -674,6 +674,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Big Dutchman",
+      "region": "INTL",
+      "title": "CAHE show 2021: innovative livestock technology attracts widespread attention - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2021-07-09T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktBNUFSLWRXd0txUUxKQWkzVGhyc1RJODY4YzNhYVd2UVdtUmJGTXJ5Sm5DaVZXTlJBSzJ4ckxfOVhKeUpaX1M3dERTcElSdkFOTlJHTDFpWWtqa2ZzdUFOVWtXOXZtdzl2YmF0Yl95WTA4UHRzTTlRUjN0MlBxa29kc1RmdEx5TkQtbDlIRHFoOHg0T3VLaml0S0RvR3BkdjNKdnFsRjN6Ym1FYURLWHpueEhBRmt2aURZSQ?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Jamesway",
       "region": "INTL",
       "title": "Jamesway Webinar Wednesdays: Your hatchery now…and in the future - The Poultry Site",
@@ -720,6 +730,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2020-10-09T07:29:35+00:00",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQWFyUWhqS2pyWGRxTGNONlpSZHdRa3ZRWlV3bzlhUjNTbF9oeGZBRzJCa1o2V0NDYm1zVkNxSDM3OFZaNU9pSGVRTXpqZzZ3UjFGU1pfdk9qOUxPck5EOGp5QkhRMkFjajFvYndMc1VHREZWelo3NkdLTGU5WDRNT1RVMEUzWTZiT2UtY2Ywb3pDdkho?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Petersime",
+      "region": "INTL",
+      "title": "Transavia Affirms Strong Market Position with Petersime - The Poultry Site",
+      "publisher": "The Poultry Site",
+      "published_at": "2020-10-01T06:21:53+00:00",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU1gwN282UEk2M2pLUUhFVFk4b0ZONkR4UWdhQ0hhUFgzTTd0YjJTcGdUVXJYeUlGWUh6RFZEMTVKRDJOUlJBamI1Y2o4bDdJQnZmMEFJV1pwMEZ5QmNnOVhQZjdfUEQxUTZuSS12WkRGLVZOd0k2SjdTd1ZKU2VHQV9zOWVDNEtaMHF0RmhFOWtQd0gwQmZfRWx1NUlFTFFS?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
@@ -964,6 +984,16 @@
       "verification": "待核实"
     },
     {
+      "company": "Pas Reform",
+      "region": "INTL",
+      "title": "Tyson Foods invests in SmartPro hatchery technology - WATTPoultry.com",
+      "publisher": "WATTPoultry.com",
+      "published_at": "2019-02-11T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSXI2Uk5EZUFNa25UUFY3Uzd1SWRfcnRHSHVvM20ydi0yQ3Z1Y0dvWl9yY2FrVFNUTTZoU3pONzFVa3ZveXY1NlZHMXhyMUUtcFhTeWFLcVdscTNzd2FpYXB6UThPOUtZa214UHFFMmppM2ZDS2M5aUFaOVhKeU9CVlFUNXdHWE43YzlQM2F3aXVrVkdzazc4T1U1RlM5c3Z3VWJLTWZ2S2dZNlRqbkF5aTVvZFduUHB1aXJZbGk4ekxIRjA4U0ZobHNFSGVJZEloT05JbGNR?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
       "company": "Vencomatic Group",
       "region": "INTL",
       "title": "First publicly accessible poultry farm for the UK | WATTAgNet - WATTPoultry.com",
@@ -1100,6 +1130,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2018-05-01T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcE5lbm0yQWV4aVJGRE1LUVh5S21MWXhhWnoyUi1RZXpUTlQ5VDYyTlVuVlhJZzR6bUxrSGpYUzFoaldxNnBMNFRBbnhzaFZCWXR3TlpjOWU5TVZfTkVpYXVfSXp4Y0lKSjhCaFMwYUhLdkNDRXVvR0NYYkd1RmhYdHBGYnB4aVhEYmNfbF9ud1FtTm5MSmcwMDdZOHRva2ZSZ1p6Y2psWEI?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "Jamesway",
+      "region": "INTL",
+      "title": "Tunisia: poultry company Miamys chooses Canadian Jamesway - African Manager",
+      "publisher": "African Manager",
+      "published_at": "2018-04-25T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWFlVYV82Z09pSHpoamozY1JEdzZfOVVCaUNjc0Y3N29Wb3lqbDJnaUdaazl5ZkJjMFVDZXlNSFBwa2Vlcld2Tk12cVFWLWc3QW5oVWMycXdkWHl5UWo3eE9mbVU2c3ZqYTQ4bUlqZUNKMVNzRTNGNnIwRW9wenZGVDE2eTZvRkpwZ1VTZUR2eUk?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
