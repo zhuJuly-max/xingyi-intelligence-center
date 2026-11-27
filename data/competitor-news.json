@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T00:15:04.075779+00:00",
+  "generated_at": "2026-11-27T00:22:00.536145+00:00",
   "collector": "Google News RSS search; media leads require verification",
   "watchlist_count": 32,
-  "new_items_count": 0,
+  "new_items_count": 1,
   "items": [
     {
       "company": "Vencomatic Group",
@@ -520,6 +520,16 @@
       "publisher": "The Poultry Site",
       "published_at": "2023-05-08T07:00:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDNrR3Zic2VLWHJrWHdYR0p6UHRmQU92eFNJWERIakFldlpBOFVaOFVaUGdiSEh0R0VjOGpVb3l3Mkc1UndZZzFxV25aVkc5NDd0OGRDVEVwNWl6ZHdVQmVVRnY3SEdNdGp2WXpYTE9sWlNVY05tb2hhcWRRX0RnRUJjWk9vT2pFMDloR3FaVzM2THh3SDFld21qX05BWGRkQXVTWEh3SThGZVEtSWR5UV9oaWx4cWlYTEp6NGgtWTBjVThqZHlzYjVZU0pncUVQQ08yakhHd2ZlbTc0S0xWVy1FalZfN2c?oc=5",
+      "source_type": "媒体检索聚合",
+      "verification": "待核实"
+    },
+    {
+      "company": "FACCO poultry",
+      "region": "INTL",
+      "title": "FACCO poultry equipment now available in the UK - Poultry News",
+      "publisher": "Poultry News",
+      "published_at": "2023-01-31T08:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZnVRSHFZNTRHdG1zeHJBUUJTenI2S25kbXJHempjcUs1Yk9UaU43NFplWGJ0Rl9iMFpadUpwTHdLRktYczFBUTdUYmhKcGxUWXJzLU9ZN3plVWZiS25Zc3BoUkxUdXNvUW9XdjFjUWFlR0hnWTVEM2VjOXYwVUgyWVJrem44V1BsS01oUlVLMzU?oc=5",
       "source_type": "媒体检索聚合",
       "verification": "待核实"
     },
